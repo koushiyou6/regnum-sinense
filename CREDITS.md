@@ -2,7 +2,7 @@
 
 **Regnum Sinense** is edited by Kou Shiyou, Atrium Concordiae (宣和府).
 
-The chronology and the selection of sources follow the year-table of 无骨者伊瓦尔 (Ivar the Boneless), whose commentary and analyses appear under his name.
+无骨者伊瓦尔 (Ivar the Boneless) is a collaborator on the project; the commentary and analyses that accompany each year's sources are his. He has also contributed to other historical works, among them Histodome.
 
 **Page structure and stylesheet** are adapted from the [Parlamentos](https://parlamentos.pitt.edu/) project of the University of Pittsburgh at Greensburg (web design by the Center for the Digital Text; [source](https://github.com/haggis78/parla)), used under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 licence (CC BY-NC-SA 4.0). The adapted stylesheet (`css/style.css`) and page templates (`XSLT/`) remain under the same licence.
 
