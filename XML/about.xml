@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The About page. Each <section> becomes a heading and its paragraphs; <zh> marks Chinese text,
+     <a> links, <i> italics. Edit freely and rebuild. -->
+<about>
+   <section>
+      <head>Regnum Sinense</head>
+      <p>Regnum Sinense is the companion to the historical atlases of <a href="https://www.youtube.com/@AtriumConcordiae">Atrium Concordiae</a>. Every map the studio animates is drawn from the written record, and this site is where that record is laid open: year by year, the passages the maps are built on, in the original Chinese and in English translation, set side by side paragraph for paragraph, with notes on the terms, the persons and the places they name.</p>
+      <p>The reading begins in <zh>周赧王五十九年</zh> (256 BC), the year Qin extinguished Western Zhou, and continues forward through the Qin unification and beyond, keeping pace with the videos.</p>
+      <p>Translations are made and checked one bracket at a time against a shared glossary, so that a term is rendered the same way wherever it occurs. Names are given in pinyin with the Chinese beside them; dates are given by regnal year and converted from the sexagenary cycle to the day of the month.</p>
+   </section>
+   <section>
+      <head>Atrium Concordiae <zh>宣和府</zh></head>
+      <p>Atrium Concordiae is a cartography studio. Its work takes the form of animated historical atlases of China and videomaps.</p>
+      <p>Regnum Sinense is edited by Kou Shiyou, head of the studio. New years are added as the videos they accompany are released.</p>
+      <ul class="links">
+         <li><a href="https://www.youtube.com/@AtriumConcordiae">YouTube</a></li>
+         <li><a href="https://space.bilibili.com/3546780023131053">Bilibili</a></li>
+         <li><a href="https://patreon.com/AtriumConcordiae">Patreon</a></li>
+      </ul>
+   </section>
+   <section>
+      <head>Design and credits</head>
+      <p>The page structure and stylesheet are adapted from the <a href="https://parlamentos.pitt.edu/">Parlamentos</a> project of the University of Pittsburgh at Greensburg (code under CC BY-NC-SA 4.0). Chinese text is set in a subset of Noto Serif CJK (SIL Open Font License) built for the characters the site uses; the Latin text is set in Ysabeau Office.</p>
+   </section>
+</about>

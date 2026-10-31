@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+  Personography. One <person n="ID"> per individual; <persName><name> is the display form.
+  Biographies marked await review.
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Regnum Sinense Personography</title>
+            <respStmt><resp>Biographical research</resp><persName>Kou Shiyou</persName></respStmt>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><p/></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+
+            <person n="1">
+               <persName><name>King Zhaoxiang of Qin 秦昭襄王</name><roleName>King of Qin</roleName><forename/><nameLink/><surname/><addName>秦昭王</addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>King of Qin, reigned 306–251 BC; personal name Ji 稷. Called King Zhao in the Basic Annals of Zhou and King Zhaoxiang in the Basic Annals of Qin.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="2">
+               <persName><name>Jiu 摎</name><roleName>General</roleName><forename/><nameLink/><surname/><addName/><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>Qin general; his surname is not recorded in these passages.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="3">
+               <persName><name>Duke Wu of Western Zhou 西周武公</name><roleName>Lord of Western Zhou</roleName><forename/><nameLink/><surname/><addName>西周君; 周君</addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>Ruler of the Western Zhou domain, the fief centred on Wangcheng (modern Luoyang) into which the royal house had been divided. He is the 西周君 of 256 BC who turned against Qin, fled to Qin when General Jiu attacked, and surrendered his thirty-six settlements, and the 周君 who died in the same year as King Nan: Song Zhong (in the Jijie) gives his posthumous title as Duke Wu of Western Zhou, and the Suoyin notes that Duke Wu and King Nan died at this time and are therefore named together.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="5">
+               <persName><name>Duke Wen of Western Zhou 西周文公</name><roleName>Lord of Western Zhou</roleName><forename/><nameLink/><surname/><addName>西周公; 咎</addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>Son and successor of Duke Wu of Western Zhou, personal name Jiu 咎. The Suoyin identifies him as the 西周公 whom Qin moved to Danhu after Duke Wu's death, and this is the identification followed here.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="4">
+               <persName><name>King Nan of Zhou 周赧王</name><roleName>King of Zhou</roleName><forename/><nameLink/><surname/><addName>王赧</addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>The last king of Zhou, reigned 314–256 BC; personal name Yan 延. He resided in the Western Zhou domain.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="6">
+               <persName><name>Jing Yang 景阳</name><roleName>General</roleName><forename/><nameLink/><surname/><addName/><genName/></persName>
+               <nationality>Chu</nationality>
+               <note xml:lang="eng"><p>Chu general.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="7">
+               <persName><name>Yue Cheng 乐乘</name><roleName>General</roleName><forename/><nameLink/><surname/><addName/><genName/></persName>
+               <nationality>Zhao</nationality>
+               <note xml:lang="eng"><p>Zhao general.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="8">
+               <persName><name>Qing She 庆舍</name><roleName>General</roleName><forename/><nameLink/><surname/><addName/><genName/></persName>
+               <nationality>Zhao</nationality>
+               <note xml:lang="eng"><p>Zhao general.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="9">
+               <persName><name>Xinliang 信梁</name><roleName>General</roleName><forename/><nameLink/><surname/><addName/><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>A Qin general (Suoyin); the Zhengyi takes 信梁 to be the title of Wang He 王龁. Xu Guang notes that the Table has 新中军, the army at Xinzhong.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="10">
+               <persName><name>Tufu Qi 徒父祺</name><roleName/><forename/><nameLink/><surname/><addName/><genName/></persName>
+               <nationality>Zhao</nationality>
+               <note xml:lang="eng"><p>A Zhao grandee (大夫), personal name Qi (Suoyin).</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="11">
+               <persName><name>Prince Wuji of Wei 魏公子无忌</name><roleName>Prince of Wei</roleName><forename/><nameLink/><surname/><addName>信陵君; 公子</addName><genName/></persName>
+               <nationality>Wei</nationality>
+               <note xml:lang="eng"><p>Youngest son of King Zhao of Wei, enfeoffed as Lord Xinling 信陵君; called the Prince (公子) throughout his biography.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="12">
+               <persName><name>King Zhao of Wei 魏昭王</name><roleName>King of Wei</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Wei</nationality>
+               <note xml:lang="eng"><p>King of Wei, reigned 295–277 BC.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="13">
+               <persName><name>King Anxi of Wei 魏安釐王</name><roleName>King of Wei</roleName><forename/><nameLink/><surname/><addName>魏安僖王</addName><genName/></persName>
+               <nationality>Wei</nationality>
+               <note xml:lang="eng"><p>King of Wei, reigned 276–243 BC; written 安釐王 in the Shiji and 安僖王 in the commentary.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="14">
+               <persName><name>Fan Ju 范睢</name><roleName>Chancellor of Qin</roleName><forename/><nameLink/><surname/><addName>范雎; 应侯</addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>Chancellor of Qin, Marquis of Ying 应侯. Written 范睢 in the Biography of the Prince of Wei and 范雎 in the title of his own.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="15">
+               <persName><name>Wei Qi 魏齐</name><roleName>Chancellor of Wei</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Wei</nationality>
+               <note xml:lang="eng"><p>Chancellor of Wei.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="16">
+               <persName><name>Mang Mao 芒卯</name><roleName>General</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Wei</nationality>
+               <note xml:lang="eng"><p>Wei general.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="17">
+               <persName><name>Hou Ying 侯嬴</name><roleName></roleName><forename/><nameLink/><surname/><addName>侯生</addName><genName/></persName>
+               <nationality>Wei</nationality>
+               <note xml:lang="eng"><p>Keeper of the Yi Gate of Daliang; called Master Hou (侯生).</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="18">
+               <persName><name>Zhu Hai 朱亥</name><roleName></roleName><forename/><nameLink/><surname/><addName>硃亥</addName><genName/></persName>
+               <nationality>Wei</nationality>
+               <note xml:lang="eng"><p>A butcher of Daliang; written 硃亥 after the first occurrence.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="19">
+               <persName><name>Lord Pingyuan 平原君</name><roleName></roleName><forename/><nameLink/><surname/><addName>赵胜; 胜</addName><genName/></persName>
+               <nationality>Zhao</nationality>
+               <note xml:lang="eng"><p>Zhao Sheng 赵胜, younger brother of King Huiwen of Zhao; he names himself Sheng in his message.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="20">
+               <persName><name>King Huiwen of Zhao 赵惠文王</name><roleName>King of Zhao</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhao</nationality>
+               <note xml:lang="eng"><p>King of Zhao, reigned 298–266 BC.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="21">
+               <persName><name>Jin Bi 晋鄙</name><roleName>General</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Wei</nationality>
+               <note xml:lang="eng"><p>Wei general.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="22">
+               <persName><name>Lady Ru 如姬</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Wei</nationality>
+               <note xml:lang="eng"><p>A consort of King Anxi of Wei.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="23">
+               <persName><name>King Xiaocheng of Zhao 赵孝成王</name><roleName>King of Zhao</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhao</nationality>
+               <note xml:lang="eng"><p>King of Zhao, reigned 265–245 BC.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="24">
+               <persName><name>Master Mao 毛公</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhao</nationality>
+               <note xml:lang="eng"><p>A gentleman in retirement of Zhao.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="25">
+               <persName><name>Master Xue 薛公</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhao</nationality>
+               <note xml:lang="eng"><p>A gentleman in retirement of Zhao.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="26">
+               <persName><name>Meng Ao 蒙骜</name><roleName>General</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>Qin general.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="27">
+               <persName><name>Gaozu 高祖</name><roleName>Emperor of Han</roleName><forename/><nameLink/><surname/><addName>刘邦</addName><genName/></persName>
+               <nationality>Han</nationality>
+               <note xml:lang="eng"><p>Liu Bang 刘邦, founding emperor of Han, reigned 202–195 BC.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="28">
+               <persName><name>Qing Bu 黥布</name><roleName>King of Huainan</roleName><forename/><nameLink/><surname/><addName>英布</addName><genName/></persName>
+               <nationality>Han</nationality>
+               <note xml:lang="eng"><p>Ying Bu 英布, King of Huainan under the Han.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="29">
+               <persName><name>Cai Ze 蔡泽</name><roleName>Chancellor of Qin</roleName><forename/><nameLink/><surname/><addName>纲成君</addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>Chancellor of Qin after Fan Ju; styled Lord Gangcheng 纲成君.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="30">
+               <persName><name>King Xiaowen of Qin 秦孝文王</name><roleName>King of Qin</roleName><forename/><nameLink/><surname/><addName>孝文王</addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>King of Qin, reigned 250 BC.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="31">
+               <persName><name>King Zhuangxiang of Qin 秦庄襄王</name><roleName>King of Qin</roleName><forename/><nameLink/><surname/><addName>庄襄王; 子楚</addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>King of Qin, reigned 249–247 BC; called Zichu 子楚 before his accession, the name under which the Biography of Lü Buwei has him at Handan.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="32">
+               <persName><name>the First Emperor of Qin 秦始皇帝</name><roleName>King of Qin; Emperor</roleName><forename/><nameLink/><surname/><addName>始皇帝</addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>Ying Zheng 嬴政, King of Qin from 246 BC and First Emperor from 221 BC.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="33">
+               <persName><name>Heir Apparent Dan of Yan 燕太子丹</name><roleName>Heir Apparent of Yan</roleName><forename/><nameLink/><surname/><addName>太子丹</addName><genName/></persName>
+               <nationality>Yan</nationality>
+               <note xml:lang="eng"><p>Dan, Heir Apparent of Yan.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="34">
+               <persName><name>Kuo's mother 括母</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhao</nationality>
+               <note xml:lang="eng"><p>The mother of the Zhao general Zhao Kuo 赵括.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="35">
+               <persName><name>Wang Yi 王齮</name><roleName>General</roleName><forename/><nameLink/><surname/><addName/><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>Qin general. The Basic Annals of Qin name the general at Handan 王龁.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="36">
+               <persName><name>Lü Buwei 吕不韦</name><roleName>Chancellor of Qin</roleName><forename/><nameLink/><surname/><addName>文信侯</addName><genName/></persName>
+               <nationality>Wei</nationality>
+               <note xml:lang="eng"><p>A merchant of Yangdi, later Chancellor of Qin and Marquis Wenxin 文信侯, the name under which the Zhanguo zonghengjia shu has him.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="37">
+               <persName><name>Zichu's wife 子楚夫人</name><roleName/><forename/><nameLink/><surname/><addName/><genName/></persName>
+               <nationality>Zhao</nationality>
+               <note xml:lang="eng"><p>A daughter of a great house of Zhao; the mother of the First Emperor.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="38">
+               <persName><name>King Xiao of Yan 燕孝王</name><roleName>King of Yan</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Yan</nationality>
+               <note xml:lang="eng"><p>King of Yan, reigned 257–255 BC.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="39">
+               <persName><name>Lord Huai of Wey 卫怀君</name><roleName>Lord of Wey</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Wey</nationality>
+               <note xml:lang="eng"><p>Ruler of Wey, reigned from 282 BC.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="40">
+               <persName><name>Li Yuan 李园</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Chu</nationality>
+               <note xml:lang="eng"><p>A man of Zhao in the service of Chu; later Chief Minister of Chu.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="41">
+               <persName><name>Xin Wu 辛梧</name><roleName>General</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>Qin general.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="42">
+               <persName><name>Jing Ji 井忌</name><roleName>General</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>Qin general, stationed in Zhao.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="43">
+               <persName><name>Cai Niao 蔡鸟</name><roleName>Envoy</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Yan</nationality>
+               <note xml:lang="eng"><p>Yan envoy.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="44">
+               <persName><name>King Huanhui of Han 韩桓惠王</name><roleName>King of Han</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Han</nationality>
+               <note xml:lang="eng"><p>King of Han, reigned 272–239 BC.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="45">
+               <persName><name>Lord Yuan of Wey 卫元君</name><roleName>Lord of Wey</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Wey</nationality>
+               <note xml:lang="eng"><p>Ruler of Wey from 252 BC; son-in-law of the King of Wei.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="46">
+               <persName><name>Li Mu 李牧</name><roleName>General</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhao</nationality>
+               <note xml:lang="eng"><p>Zhao general.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="47">
+               <persName><name>Lord Chunshen 春申君</name><roleName>Chancellor of Chu</roleName><forename/><nameLink/><surname/><addName>黄歇</addName><genName/></persName>
+               <nationality>Chu</nationality>
+               <note xml:lang="eng"><p>Huang Xie 黄歇, Chancellor of Chu, enfeoffed as Lord Chunshen.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="48">
+               <persName><name>Teng 腾</name><roleName>Acting Magistrate</roleName><forename/><nameLink/><surname/><addName>騰</addName><genName/></persName>
+               <nationality>Han</nationality>
+               <note xml:lang="eng"><p>Acting Magistrate of Han's Nanyang in the Basic Annals of the First Emperor of Qin.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="49">
+               <persName><name>Queen Dowager Xia 夏太后</name><roleName>Queen Dowager of Qin</roleName><forename/><nameLink/><surname/><addName>夏姬</addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>Consort of King Xiaowen of Qin, mother of King Zhuangxiang and grandmother of the First Emperor; styled Lady Xia 夏姬.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+            <person n="50">
+               <persName><name>Queen Dowager Huayang 华阳太后</name><roleName>Queen Dowager of Qin</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>Queen of King Xiaowen of Qin.</p></note>
+               <listEvent><event><p>256 BC</p></event></listEvent>
+            </person>
+
+         </listPerson>
+      </body>
+   </text>
+</TEI>

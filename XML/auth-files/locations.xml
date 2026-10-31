@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+  Gazetteer. One <place n="ID"> per place. Display name = <placeName>/<geogName>, then
+  <region>, then <country>, skipping empty parts. <geo> holds "lat, lon" for a pin; left
+  empty for states and regions. Identifications marked await review.
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Regnum Sinense Gazetteer</title>
+            <respStmt><resp>Geographical research</resp><persName>Kou Shiyou</persName></respStmt>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><p/></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace type="human-geography">
+
+            <place n="1">
+               <placeName><region type="state">Qin 秦</region></placeName>
+               <country/><region/>
+               <location><geo/></location>
+               <note xml:lang="eng">the state of Qin, with its capital at Xianyang, Shaanxi.</note>
+            </place>
+
+            <place n="2">
+               <placeName><region type="state">Han 韩</region></placeName>
+               <country/><region/>
+               <location><geo/></location>
+               <note xml:lang="eng">the state of Han, with its capital at Zheng (modern Xinzheng, Henan).</note>
+            </place>
+
+            <place n="3">
+               <placeName><settlement type="town">Yangcheng 阳城</settlement></placeName>
+               <country/><region>Han; modern Dengfeng, Henan</region>
+               <location><geo>34.45, 113.03</geo></location>
+               <note xml:lang="eng">a Han town south-east of Luoyang, at modern Gaocheng, Dengfeng, Henan.</note>
+            </place>
+
+            <place n="4">
+               <placeName><settlement type="town">Fushu 负黍</settlement></placeName>
+               <country/><region>Han; modern Dengfeng, Henan</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Han town near Yangcheng, south-west of modern Dengfeng, Henan.</note>
+            </place>
+
+            <place n="5">
+               <placeName><region type="state">Western Zhou 西周</region></placeName>
+               <country/><region>modern Luoyang, Henan</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the Western Zhou domain, the western of the two fiefs into which the Zhou royal house was divided, centred on Wangcheng at modern Luoyang, where King Nan resided.</note>
+            </place>
+
+            <place n="6">
+               <placeName><settlement type="pass">Yique 伊阙</settlement></placeName>
+               <country/><region>modern Luoyang, Henan</region>
+               <location><geo>34.56, 112.47</geo></location>
+               <note xml:lang="eng">the gorge of the Yi River south of Luoyang, the Longmen of later times.</note>
+            </place>
+
+            <place n="7">
+               <placeName><region type="state">Zhou 周</region></placeName>
+               <country/><region/>
+               <location><geo/></location>
+               <note xml:lang="eng">the Zhou royal domain around Luoyang; here the remnant to which the Lord of Western Zhou was sent back.</note>
+            </place>
+
+            <place n="8">
+               <placeName><settlement type="town">Danhu 惮狐</settlement></placeName>
+               <country/><region>modern Ruzhou, Henan</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the place to which Qin moved the Duke of Western Zhou in 256 BC; placed by the commentaries in the Liang County of the time, in the area of modern Ruzhou, Henan. The edition writes the first character with 单 over 心; 憚狐 / 惮狐 in other editions.</note>
+            </place>
+
+            <place n="9">
+               <placeName><region type="state">Zhao 赵</region></placeName>
+               <country/><region/>
+               <location><geo/></location>
+               <note xml:lang="eng">the state of Zhao, with its capital at Handan, Hebei; one of the three states formed from Jin.</note>
+            </place>
+
+            <place n="10">
+               <placeName><region type="state">Wei 魏</region></placeName>
+               <country/><region/>
+               <location><geo/></location>
+               <note xml:lang="eng">the state of Wei, with its capital at Daliang (modern Kaifeng, Henan); one of the three states formed from Jin.</note>
+            </place>
+
+            <place n="11">
+               <placeName><region type="state">Chu 楚</region></placeName>
+               <country/><region/>
+               <location><geo/></location>
+               <note xml:lang="eng">the state of Chu, at this date with its capital at Chen (modern Huaiyang, Henan).</note>
+            </place>
+
+            <place n="12">
+               <placeName><settlement type="town">Xinzhong 新中</settlement></placeName>
+               <country/><region>Wei</region>
+               <location><geo/></location>
+               <note xml:lang="eng">Ningxinzhong 宁新中, a town on the Wei–Zhao border; modern Anyang, Henan.</note>
+            </place>
+
+            <place n="13">
+               <placeName><settlement type="city">Handan 邯郸</settlement></placeName>
+               <country/><region>Zhao</region>
+               <location><geo>36.6, 114.5</geo></location>
+               <note xml:lang="eng">the capital of Zhao; modern Handan, Hebei.</note>
+            </place>
+
+            <place n="14">
+               <placeName><region type="state">Yan 燕</region></placeName>
+               <country/><region/>
+               <location><geo/></location>
+               <note xml:lang="eng">the state of Yan, with its capital at Ji (modern Beijing).</note>
+            </place>
+
+            <place n="15">
+               <placeName><settlement type="town">Changzhuang 昌壮</settlement></placeName>
+               <country/><region>Zhao</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Zhao town. Xu Guang records a reading 昌社; the Zhengyi takes 壮 as an error for 城, Changcheng 昌城, which it places north-west of Xindu County in Jizhou, modern Jizhou, Hebei.</note>
+            </place>
+
+            <place n="16">
+               <placeName><settlement type="city">Daliang 大梁</settlement></placeName>
+               <country/><region>Wei</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the capital of Wei; modern Kaifeng, Henan.</note>
+            </place>
+
+            <place n="17">
+               <placeName><settlement type="town">Huayang 华阳</settlement></placeName>
+               <country/><region>Wei</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a place in Wei, north of modern Xinzheng, Henan.</note>
+            </place>
+
+            <place n="18">
+               <placeName><settlement type="town">Changping 长平</settlement></placeName>
+               <country/><region>Zhao</region>
+               <location><geo/></location>
+               <note xml:lang="eng">in the Shangdang region; modern Gaoping, Shanxi.</note>
+            </place>
+
+            <place n="19">
+               <placeName><settlement type="town">Ye 鄴</settlement></placeName>
+               <country/><region>Wei</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Wei town on the Zhang River; modern Linzhang, Hebei.</note>
+            </place>
+
+            <place n="20">
+               <placeName type="gate">Yi Gate 夷门</placeName>
+               <country/><region>Wei</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the eastern gate of Daliang.</note>
+            </place>
+
+            <place n="21">
+               <placeName><settlement type="town">Hao 鄗</settlement></placeName>
+               <country/><region>Zhao</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Zhao town; modern Gaoyi, Hebei.</note>
+            </place>
+
+            <place n="22">
+               <placeName><settlement type="town">Xinling 信陵</settlement></placeName>
+               <country/><region>Wei</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the Prince's fief in Wei; near modern Ningling, Henan.</note>
+            </place>
+
+            <place n="23">
+               <placeName><region type="region">Hewai 河外</region></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">"beyond the River": the region south of the Yellow River on the Wei–Qin frontier.</note>
+            </place>
+
+            <place n="24">
+               <placeName type="pass">Hangu Pass 函谷关</placeName>
+               <country/><region>Qin</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the pass into Qin from the east; modern Lingbao, Henan.</note>
+            </place>
+
+            <place n="25">
+               <placeName><region type="commandery">Dong Commandery 东郡</region></placeName>
+               <country/><region>Qin</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Qin commandery with its seat at Puyang; modern Puyang, Henan.</note>
+            </place>
+
+            <place n="26">
+               <placeName><region type="region">Hejian 河间</region></placeName>
+               <country/><region>Zhao</region>
+               <location><geo/></location>
+               <note xml:lang="eng">"between the rivers": the Zhao territory around modern Hejian and Xian County, Hebei.</note>
+            </place>
+
+            <place n="27">
+               <placeName><region type="state">Liang 梁</region></placeName>
+               <country/><region/>
+               <location><geo/></location>
+               <note xml:lang="eng">the state of Wei, so called from its capital Daliang.</note>
+            </place>
+
+            <place n="28">
+               <placeName><region type="state">Wey 卫</region></placeName>
+               <country/><region/>
+               <location><geo/></location>
+               <note xml:lang="eng">the state of Wey 卫 (distinguished from Wei 魏), by this date confined to Puyang; modern Puyang, Henan.</note>
+            </place>
+
+            <place n="29">
+               <placeName><region type="region">Runan 汝南</region></placeName>
+               <country/><region>Han</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the region south of the Ru River, in modern central Henan.</note>
+            </place>
+
+            <place n="30">
+               <placeName><settlement type="town">Ying 应</settlement></placeName>
+               <country/><region>Han</region>
+               <location><geo/></location>
+               <note xml:lang="eng">Fan Ju's fief; east of modern Lushan County, Henan.</note>
+            </place>
+
+            <place n="31">
+               <placeName><settlement type="town">Xiangcheng 襄城</settlement></placeName>
+               <country/><region>Han</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Han town; modern Xiangcheng County, Henan.</note>
+            </place>
+
+            <place n="32">
+               <placeName><region type="commandery">Nanyang 南阳</region></placeName>
+               <country/><region>Han</region>
+               <location><geo/></location>
+               <note xml:lang="eng">Han's territory south of the Taihang mountains and north of the Yellow River; around modern Qinyang and Jiyuan, Henan.</note>
+            </place>
+
+            <place n="33">
+               <placeName><settlement type="town">Tao 陶</settlement></placeName>
+               <country/><region>Qin</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Qin possession east of Wei; modern Dingtao, Shandong.</note>
+            </place>
+
+            <place n="34">
+               <placeName><settlement type="city">Puyang 濮阳</settlement></placeName>
+               <country/><region>Wey</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the seat of Wey; modern Puyang, Henan.</note>
+            </place>
+
+            <place n="35">
+               <placeName><region type="commandery">Dai 代</region></placeName>
+               <country/><region>Zhao</region>
+               <location><geo/></location>
+               <note xml:lang="eng">Zhao's northern commandery; around modern Yu County, Hebei.</note>
+            </place>
+
+            <place n="36">
+               <placeName><region type="commandery">Yanmen 雁门</region></placeName>
+               <country/><region>Zhao</region>
+               <location><geo/></location>
+               <note xml:lang="eng">Zhao's north-western commandery; around modern Dai County, Shanxi.</note>
+            </place>
+
+            <place n="37">
+               <placeName><region type="state">Lu 鲁</region></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the state of Lu, with its capital at Qufu, Shandong.</note>
+            </place>
+
+            <place n="38">
+               <placeName><geogName type="terrace">Shenheyuan 神禾原</geogName></placeName>
+               <country/><region>Qin</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a loess terrace south of Xi'an, in Chang'an District, Shaanxi.</note>
+            </place>
+
+            <place n="39">
+               <placeName><settlement type="city">Xianyang 咸阳</settlement></placeName>
+               <country/><region>Qin</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the capital of Qin; north-east of modern Xianyang, Shaanxi.</note>
+            </place>
+
+            <place n="40">
+               <placeName><settlement type="county">Du County 杜县</settlement></placeName>
+               <country/><region>Qin</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Qin County south of Xianyang; around Duchengcun in Chang'an District, Xi'an.</note>
+            </place>
+
+            <place n="41">
+               <placeName><settlement type="town">Zhiyang 芷阳</settlement></placeName>
+               <country/><region>Qin</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the Qin royal mausoleum area east of Xianyang; in modern Lintong District, Xi'an.</note>
+            </place>
+
+            <place n="42">
+               <placeName type="tomb">Shouling 寿陵</placeName>
+               <country/><region>Qin</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the tomb of King Xiaowen of Qin.</note>
+            </place>
+
+            <place n="43">
+               <placeName><region type="state">Song 宋</region></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the state of Song, in modern eastern Henan.</note>
+            </place>
+
+            <place n="44">
+               <placeName><settlement type="town">Taiqiu 太丘</settlement></placeName>
+               <country/><region>Song</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Song town; modern Yongcheng, Henan.</note>
+            </place>
+
+            <place n="45">
+               <placeName><geogName type="river">Si River 泗水</geogName></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a river flowing south past Pengcheng into the Huai.</note>
+            </place>
+
+            <place n="46">
+               <placeName><settlement type="city">Pengcheng 彭城</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">modern Xuzhou, Jiangsu.</note>
+            </place>
+
+         </listPlace>
+      </body>
+   </text>
+</TEI>

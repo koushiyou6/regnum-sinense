@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- 256 BC, Shiji — introductions. One <div n="N"> per bracket, shown above that bracket's text;
+     <div n="0"> would be a whole-source introduction. Notes for these go in <div n="0"> of notes.xml. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title>Shiji 史记 · 周赧王五十九年: introductions</title></titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><p>Original.</p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1">
+            <p>The Basic Annals for 256 BC, the year in which <placeName n="1">Qin</placeName> extinguished <placeName n="5">Western Zhou</placeName>: the entry of the Basic Annals of Zhou under the fifty-ninth year of King Nan, and the entry of the Basic Annals of Qin under the fifty-first year of King Zhaoxiang, which record the same events from the two sides.</p>
+         </div>
+         <div n="2">
+            <p>The row of the Table of the Six States for this year. The Table runs the states in parallel columns, one line to a state; only the states with an entry for the year appear.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

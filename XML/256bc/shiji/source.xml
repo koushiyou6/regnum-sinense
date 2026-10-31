@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+  256 BC (周赧王五十九年) — the Shiji tab of the chronology spreadsheet.
+  One <div n="N"> per bracket (one spreadsheet cell), in column order. <head> is the
+  column heading; each paragraph of the cell is a <p>. Text is kept as it stands in the
+  spreadsheet; paragraph-indent spaces are dropped. The rare character of 惮狐 (单 over 心
+  in the edition) is written 惮, the form used on the site.
+  Conventions: <term n="ID">, <persName n="ID">, <placeName n="ID">, <title> for a chapter name.
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Shiji 史记 · 周赧王五十九年</title>
+            <respStmt><resp>Compiled</resp><persName>无骨者伊瓦尔</persName></respStmt>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <bibl xml:id="S"><title>无骨者伊瓦尔《战国历史地图·年表》</title><note xml:lang="eng">Chronology spreadsheet 疆域变化年表 (draft 3, patch 2), Shiji tab; the Shiji text follows the edition used by the compiler.</note></bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div n="1">
+            <head>史记（一：本纪）</head>
+            <p><title>周本纪</title>：五十九年，<placeName n="1">秦</placeName>取<placeName n="2">韩</placeName><placeName n="3">阳城</placeName><placeName n="4">负黍</placeName>，<placeName n="5">西周</placeName>恐，倍秦，与<term n="1">诸侯</term><term n="2">约从</term>，将天下<term n="3">锐师</term>出<placeName n="6">伊阙</placeName>攻秦，令秦无得通阳城。<persName n="1">秦昭王</persName>怒，使<term n="4">将军</term><persName n="2">摎</persName>攻西周。<persName n="3">西周君</persName>饹秦，<term n="5">顿首</term>受罪，尽献其<term n="6">邑</term>三十六，<term n="7">口</term>三万。秦受其献，归其君於<placeName n="7">周</placeName>。</p>
+            <p><persName n="3">周君</persName>、<persName n="4">王赧</persName>卒，周民遂东亡。秦取<term n="8">九鼎</term>宝器，而迁<persName n="5">西周公</persName>於<placeName n="8">惮狐</placeName>。</p>
+            <p><title>秦本纪</title>：五十一年，将军摎攻韩，取阳城、负黍，<term n="9">斩首</term>四万。攻<placeName n="9">赵</placeName>，取二十余<term n="10">县</term>，<term n="11">首虏</term>九万。西周君背秦，与诸侯约从，将天下锐兵出伊阙攻秦，令秦毋得通阳城。于是秦使将军摎攻西周。西周君走来自归，顿首受罪，尽献其邑三十六<term n="12">城</term>，口三万。秦王受献，归其君于周。</p>
+         </div>
+
+         <div n="2">
+            <head>史记（二：表）</head>
+            <p><placeName n="7">周</placeName>：<persName n="4">赧王</persName>卒。</p>
+            <p><placeName n="10">魏</placeName>：<placeName n="2">韓</placeName>、魏、<placeName n="11">楚</placeName><term n="13">救</term><placeName n="9">趙</placeName><placeName n="12">新中</placeName>，<placeName n="1">秦</placeName>兵罷。</p>
+            <p>韓：秦擊我<placeName n="3">陽城</placeName>。救趙新中。</p>
+            <p>楚：救趙新中。</p>
+         </div>
+
+         <div n="3">
+            <head>史记（三：世家）</head>
+            <p><title>楚世家</title>：六年，<placeName n="1">秦</placeName>围<placeName n="13">邯郸</placeName>，<placeName n="9">赵</placeName>告急<placeName n="11">楚</placeName>，楚遣<term n="4">将军</term><persName n="6">景阳</persName><term n="13">救</term>赵。七年，至<placeName n="12">新中</placeName>。秦兵去。</p>
+            <p><title>赵世家</title>：十年，<placeName n="14">燕</placeName>攻<placeName n="15">昌壮</placeName>，五月拔之。赵将<persName n="7">乐乘</persName>、<persName n="8">庆舍</persName>攻秦<persName n="9">信梁</persName>军，破之。<term n="14">太子</term>死。而秦攻<placeName n="5">西周</placeName>，拔之。<persName n="10">徒父祺</persName>出。</p>
+            <p><title>韩世家</title>：十七年，秦拔我<placeName n="3">阳城</placeName>、<placeName n="4">负黍</placeName>。</p>
+         </div>
+
+         <div n="4">
+            <head>史记（四：列传）</head>
+            <p><title>魏公子列传</title>：<placeName n="10">魏</placeName><term n="15">公子</term><persName n="11">无忌</persName>者，<persName n="12">魏昭王</persName>子少子而<persName n="13">魏安釐王</persName>异母弟也。昭王薨，安釐王即位，封公子为信陵君。是时<persName n="14">范睢</persName>亡魏<term n="24">相</term><placeName n="1">秦</placeName>，以怨<persName n="15">魏齐</persName>故，秦兵围<placeName n="16">大梁</placeName>，破魏<placeName n="17">华阳</placeName>下军，走<persName n="16">芒卯</persName>。魏王及公子患之。</p>
+            <p>公子为人仁而下<term n="17">士</term>，士无贤不肖皆谦而礼交之，不敢以其富贵骄士。士以此方数千里争往归之，致<term n="16">食客</term>三千人。当是时，<term n="1">诸侯</term>以公子贤，多客，不敢加兵谋魏十馀年。</p>
+            <p>公子与魏王博，而北境传举烽，言“<placeName n="9">赵</placeName>寇至，且入界”。魏王释博，欲召大臣谋。公子止王曰：“赵王田猎耳，非为寇也。”复博如故。王恐，心不在博。居顷，复从北方来传言曰：“赵王猎耳，非为寇也。”魏王大惊，曰：“公子何以知之？”公子曰：“臣之客有能深得赵王阴事者，赵王所为，客辄以报臣，臣以此知之。”是後魏王畏公子之贤能，不敢任公子以国政。</p>
+            <p>魏有<term n="18">隐士</term>曰<persName n="17">侯嬴</persName>，年七十，家贫，为大梁<placeName n="20">夷门</placeName>监者。公子闻之，往请，欲厚遗之。不肯受，曰：“臣脩身絜行数十年，终不以监门困故而受公子财。”公子於是乃置酒大会宾客。坐定，公子从车骑，虚左，自迎夷门侯生。侯生摄敝衣冠，直上载公子上坐，不让，欲以观公子。公子执辔愈恭。侯生又谓公子曰：“臣有客在市屠中，原枉车骑过之。”公子引车入巿，侯生下见其客<persName n="18">朱亥</persName>，俾倪故久立，与其客语，微察公子。公子颜色愈和。当是时，魏将相宗室宾客满堂，待公子举酒。巿人皆观公子执辔。从骑皆窃骂侯生。侯生视公子色终不变，乃谢客就车。至家，公子引侯生坐上坐，遍赞宾客，宾客皆惊。酒酣，公子起，为寿侯生前。侯生因谓公子曰：“今日嬴之为公子亦足矣。嬴乃夷门抱关者也，而公子亲枉车骑，自迎嬴於众人广坐之中，不宜有所过，今公子故过之。然嬴欲就公子之名，故久立公子车骑巿中，过客以观公子，公子愈恭。巿人皆以嬴为小人，而以公子为长者能下士也。”於是罢酒，侯生遂为上客。</p>
+            <p>侯生谓公子曰：“臣所过屠者硃亥，此子贤者，世莫能知，故隐屠间耳。”公子往数请之，硃亥故不复谢，公子怪之。</p>
+            <p>魏安釐王二十年，<persName n="1">秦昭王</persName>已破赵<placeName n="18">长平</placeName>军，又进兵围<placeName n="13">邯郸</placeName>。公子姊为<persName n="20">赵惠文王</persName>弟<persName n="19">平原君</persName>夫人，数遗魏王及公子书，请救於魏。魏王使<term n="4">将军</term><persName n="21">晋鄙</persName>将十万众救赵。秦王使使者告魏王曰：“吾攻赵旦暮且下，而诸侯敢救者，已拔赵，必移兵先击之。”魏王恐，使人止晋鄙，留军壁<placeName n="19">鄴</placeName>，名为救赵，实持两端以观望。平原君使者冠盖相属於魏，让魏公子曰：“胜所以自附为婚姻者，以公子之高义，为能急人之困。今邯郸旦暮降秦而魏救不至，安在公子能急人之困也！且公子纵轻胜，弃之降秦，独不怜公子姊邪？”公子患之，数请魏王，及宾客辩士说王万端。魏王畏秦，终不听公子。公子自度终不能得之於王，计不独生而令赵亡，乃请宾客，约车骑百馀乘，欲以客往赴秦军，与赵俱死。</p>
+            <p>行过夷门，见侯生，具告所以欲死秦军状。辞决而行，侯生曰：“公子勉之矣，老臣不能从。”公子行数里，心不快，曰：“吾所以待侯生者备矣，天下莫不闻，今吾且死而侯生曾无一言半辞送我，我岂有所失哉？”复引车还，问侯生。侯生笑曰：“臣固知公子之还也。”曰：“公子喜士，名闻天下。今有难，无他端而欲赴秦军，譬若以肉投馁虎，何功之有哉？尚安事客？然公子遇臣厚，公子往而臣不送，以是知公子恨之复返也。”公子再拜，因问。侯生乃屏人间语，曰：“嬴闻晋鄙之<term n="20">兵符</term>常在王卧内，而<persName n="22">如姬</persName>最幸，出入王卧内，力能窃之。嬴闻如姬父为人所杀，如姬资之三年，自王以下欲求报其父仇，莫能得。如姬为公子泣，公子使客斩其仇头，敬进如姬。如姬之欲为公子死，无所辞，顾未有路耳。公子诚一开口请如姬，如姬必许诺，则得虎符夺晋鄙军，北救赵而西卻秦，此<term n="29">五霸</term>之伐也。”公子从其计，请如姬。如姬果盗晋鄙兵符与公子。</p>
+            <p>公子行，侯生曰：“将在外，主令有所不受，以便国家。公子即合符，而晋鄙不授公子兵而复请之，事必危矣。臣客屠者硃亥可与俱，此人力士。晋鄙听，大善；不听，可使击之。”於是公子泣。侯生曰：“公子畏死邪？何泣也？”公子曰：“晋鄙嚄唶宿将，往恐不听，必当杀之，是以泣耳，岂畏死哉？”於是公子请硃亥。硃亥笑曰：“臣乃市井鼓刀屠者，而公子亲数存之，所以不报谢者，以为小礼无所用。今公子有急，此乃臣效命之秋也。”遂与公子俱。公子过谢侯生。侯生曰：“臣宜从，老不能。请数公子行日，以至晋鄙军之日，北乡自刭，以送公子。”公子遂行。</p>
+            <p>至鄴，矫魏王令代晋鄙。晋鄙合符，疑之，举手视公子曰：“今吾拥十万之众，屯於境上，国之重任，今单车来代之，何如哉？”欲无听。硃亥袖四十斤铁椎，椎杀晋鄙，公子遂将晋鄙军。勒兵下令军中曰：“父子俱在军中，父归；兄弟俱在军中，兄归；独子无兄弟，归养。”得选兵八万人，进兵击秦军。秦军解去，遂救邯郸，存赵。赵王及平原君自迎公子於界，平原君负籣矢为公子先引。赵王再拜曰：“自古贤人未有及公子者也。”当此之时，平原君不敢自比於人。公子与侯生决，至军，侯生果北乡自刭。</p>
+            <p>魏王怒公子之盗其兵符，矫杀晋鄙，公子亦自知也。已卻秦存赵，使将将其军归魏，而公子独与客留赵。<persName n="23">赵孝成王</persName>德公子之矫夺晋鄙兵而存赵，乃与平原君计，以五<term n="12">城</term>封公子。公子闻之，意骄矜而有自功之色。客有说公子曰：“物有不可忘，或有不可不忘。夫人有德於公子，公子不可忘也；公子有德於人，原公子忘之也。且矫魏王令，夺晋鄙兵以救赵，於赵则有功矣，於魏则未为忠臣也。公子乃自骄而功之，窃为公子不取也。”於是公子立自责，似若无所容者。赵王埽除自迎，执主人之礼，引公子就西阶。公子侧行辞让，从东阶上。自言罪过，以负於魏，无功於赵。赵王侍酒至暮，口不忍献五城，以公子退让也。公子竟留赵。赵王以<placeName n="21">鄗</placeName>为公子<term n="22">汤沐邑</term>，魏亦复以<placeName n="22">信陵</placeName>奉公子。公子留赵。</p>
+            <p>公子闻赵有<term n="19">处士</term><persName n="24">毛公</persName>藏於博徒，<persName n="25">薛公</persName>藏於卖浆家，公子欲见两人，两人自匿不肯见公子。公子闻所在，乃间步往从此两人游，甚欢。平原君闻之，谓其夫人曰：“始吾闻夫人弟公子天下无双，今吾闻之，乃妄从博徒卖浆者游，公子妄人耳。”夫人以告公子。公子乃谢夫人去，曰：“始吾闻平原君贤，故负魏王而救赵，以称平原君。平原君之游，徒豪举耳，不求士也。无忌自在大梁时，常闻此两人贤，至赵，恐不得见。以无忌从之游，尚恐其不我欲也，今平原君乃以为羞，其不足从游。”乃装为去。夫人具以语平原君。平原君乃免冠谢，固留公子。平原君门下闻之，半去平原君归公子，天下士复往归公子，公子倾平原君客。</p>
+            <p>公子留赵十年不归。秦闻公子在赵，日夜出兵东伐魏。魏王患之，使使往请公子。公子恐其怒之，乃诫门下：“有敢为魏王使通者，死。”宾客皆背魏之赵，莫敢劝公子归。毛公、薛公两人往见公子曰：“公子所以重於赵，名闻诸侯者，徒以有魏也。今秦攻魏，魏急而公子不恤，使秦破大梁而夷先王之宗庙，公子当何面目立天下乎？”语未及卒，公子立变色，告车趣驾归救魏。</p>
+            <p>魏王见公子，相与泣，而以<term n="21">上将军</term>印授公子，公子遂将。魏安釐王三十年，公子使使遍告诸侯。诸侯闻公子将，各遣将将兵救魏。公子率五国之兵破秦军於<placeName n="23">河外</placeName>，走<persName n="26">蒙骜</persName>。遂乘胜逐秦军至<placeName n="24">函谷关</placeName>，抑秦兵，秦兵不敢出。当是时，公子威振天下，诸侯之客进兵法，公子皆名之，故世俗称魏公子兵法。</p>
+            <p>秦王患之，乃行金万斤於魏，求晋鄙客，令毁公子於魏王曰：“公子亡在外十年矣，今为魏将，诸侯将皆属，诸侯徒闻魏公子，不闻魏王。公子亦欲因此时定南面而王，诸侯畏公子之威，方欲共立之。”秦数使<term n="32">反间</term>，伪贺公子得立为魏王未也。魏王日闻其毁，不能不信，後果使人代公子将。公子自知再以毁废，乃谢病不朝，与宾客为长夜饮，饮醇酒，多近妇女。日夜为乐饮者四岁，竟病酒而卒。其岁，魏安釐王亦薨。</p>
+            <p>秦闻公子死，使蒙骜攻魏，拔二十城，初置<placeName n="25">东郡</placeName>。其後秦稍蚕食魏，十八岁而虏魏王，屠大梁。</p>
+            <p><persName n="27">高祖</persName>始微少时，数闻公子贤。及即<term n="27">天子</term>位，每过大梁，常祠公子。高祖十二年，从击<persName n="28">黥布</persName>还，为公子置<term n="25">守冢</term>五家，世世岁以四时奉祠公子。</p>
+            <p><term n="26">太史公</term>曰：吾过大梁之墟，求问其所谓夷门。夷门者，城之东门也。天下诸公子亦有喜士者矣，然信陵君之接岩穴隐者，不耻下交，有以也。名冠诸侯，不虚耳。高祖每过之而令民奉祠不绝也。</p>
+            <p><title>范雎蔡泽列传</title>：後数日，入朝，言於秦昭王曰：“客新有从<term n="31">山东</term>来者曰<persName n="29">蔡泽</persName>，其人辩士，明於<term n="30">三王</term>之事，五伯之业，世俗之变，足以寄秦国之政。臣之见人甚众，莫及，臣不如也。臣敢以闻。”秦昭王召见，与语，大说之，拜为<term n="23">客卿</term>。应侯因谢病请归相印。昭王彊起应侯，应侯遂称病笃。范雎免相，昭王新说蔡泽计画，遂拜为秦相，东收<placeName n="7">周</placeName>室。</p>
+            <p>蔡泽相秦数月，人或恶之，惧诛，乃谢病归相印，号为纲成君。居秦十馀年，事昭王、<persName n="30">孝文王</persName>、<persName n="31">庄襄王</persName>。卒事<persName n="32">始皇帝</persName>，为秦使於<placeName n="14">燕</placeName>，三年而燕使<persName n="33">太子丹</persName>入<term n="28">质</term>於秦。</p>
+            <p><title>廉颇蔺相如列传</title>：<lb/>明年，秦兵遂围邯郸，岁馀，几不得脱。赖<placeName n="11">楚</placeName>、魏诸侯来救，乃得解邯郸之围。赵王亦以<persName n="34">括母</persName>先言，竟不诛也。</p>
+         </div>
+
+         <div n="5">
+            <head>史记（五：列传）</head>
+            <p><title>吕不韦列传</title>：<persName n="1">秦昭王</persName>五十年，使<persName n="35">王齮</persName>围<placeName n="13">邯郸</placeName>，急，<placeName n="9">赵</placeName>欲杀<persName n="31">子楚</persName>。子楚与<persName n="36">吕不韦</persName>谋，行金六百斤予守者吏，得脱，亡赴<placeName n="1">秦</placeName>军，遂以得归。赵欲杀子楚妻子，<persName n="37">子楚夫人</persName>赵豪家女也，得匿，以故母子竟得活。</p>
+         </div>
+
+         <div n="6">
+            <head>无骨论点补充（以及辨析）一</head>
+            <p><persName n="38">燕孝王</persName>发兵攻打<placeName n="9">赵</placeName>国<placeName n="15">昌城</placeName>(《赵世家》误作“昌壮”，今据校勘更改），五月拔之。</p>
+            <p>辨析：《史記》宋刻本仍作昌壯，是否應改？待考。</p>
+            <p>無骨注:<placeName n="14">燕</placeName>国约于此时夺占了赵国<placeName n="26">河间</placeName>的一部分，所以后来能献出河间十<term n="12">城</term>(事见《战国纵横家书》)</p>
+            <p>辨析：原文附：二十五、<persName n="40">李园</persName>谓<persName n="41">辛梧</persName>章</p>
+            <p><placeName n="1">秦</placeName>使辛梧据<placeName n="27">粱（梁）</placeName>，合秦粱（梁）而攻<placeName n="11">楚</placeName>。李园忧之。兵未出，谓辛梧：“以秦之强，有两端之劲，东面而伐楚。于臣也，楚不侍（待）伐割挚马免而西走，秦余（与）楚为上交，秦祸案环（还）中粱（梁）矣。<term n="4">将军</term>必逐于粱（梁），恐诛于秦。将军不见<persName n="42">井忌</persName>乎？</p>
+            <p>为秦据赵而攻燕，拔二城。燕使<persName n="43">蔡鸟</persName>股符〓去壁，奸（间）赵入秦，以河间十城封秦<term n="24">相</term><persName n="36">文信侯</persName>。</p>
+            <p>文信侯弗敢受，曰：‘我无功。’蔡鸟明日见，带长剑，举其末，视视（示）文信侯曰：‘君曰我无功，君无功，胡不解君之玺，以佩<persName n="26">蒙敖（骜）</persName>、王〓也？秦王以君为贤，故加君二人之上。今燕献地。此非秦之地也。君弗受，不忠。’文信侯敬若（诺）。言之秦王，秦王令受之。余（与）燕为上交，秦祸案环（还）归于赵矣。秦大举兵东面而赍赵，言毋攻燕。以秦之强，有燕之怒，割勺（赵）必深。赵不能听，逐井忌，诛于秦。今臣窃为将军私计，不如少案（按）之，毋庸出兵，秦未得志于楚，必重粱（梁），粱（梁）未得志于楚，必重秦，是将军两重。天下人无不死者，久者寿。愿将军之察之也。粱（梁）兵未出，楚见粱（梁）之未出兵也，走秦必缓。秦王怒于楚之缓也，怨必深。是将军有（又）重矣。”粱（梁）兵果六月乃出。</p>
+            <p><persName n="39">卫怀君</persName>采取<term n="33">连横</term>之策，背叛<placeName n="10">魏</placeName>国。</p>
+            <p>辨析：此條來源《韓非子·五蠹》：故<placeName n="7">周</placeName>去秦为<term n="34">从</term>，期年而举；<placeName n="28">卫</placeName>离魏为衡，半岁而亡。是周灭于从，卫亡于衡也。使周、卫缓其从衡之计，而严其境内之治，明其法禁，必其赏罚，尽其地力以多其积，致其民死以坚其城守，天下得其地则其利少，攻其国则其伤大，万乘之国莫敢自顿于坚城之下，而使强敌裁其弊也，此必不亡之术也。舍必不亡之术而道必灭之事，治国者之过也。智困于内而政乱于外，则亡不可振也。</p>
+         </div>
+
+         <div n="7">
+            <head>无骨论点补充（以及辨析）二</head>
+            <p><persName n="44">韩桓惠王</persName>派军收复<placeName n="29">汝南</placeName>，夺<placeName n="1">秦</placeName><term n="24">相</term><persName n="14">范雎</persName>封地。</p>
+            <p>辨析：吴良寶：戰國晚期韓國疆域變遷新考 <ref target="https://history.sohu.com/a/668355186_121124388">https://history.sohu.com/a/668355186_121124388</ref></p>
+            <p>《韓非子·定法》云：“<persName n="14">應侯</persName>攻<placeName n="2">韓</placeName>，八年，成其汝南之封”。據《范睢列傳》“秦封范睢以<placeName n="30">應</placeName>”，時在<persName n="1">秦昭王</persName>四十一年（前266年）。《戰國策·秦策三》“應侯失韓之汝南”章“秦昭王謂應侯曰：‘君亡汝南國，其憂乎？’”，諸家多定策文年代在公元前257年<persName n="11">信陵君</persName>破秦於<placeName n="13">邯鄲</placeName>之時。這説明桓惠王十六年時韓國重新奪回了今河南魯山縣東的應地。上引“二十三年<placeName n="31">襄城</placeName><term n="37">令</term>矛”、“六年襄城令戈”等器表明韓國一直佔據今襄城、魯山縣一帶，而《秦始皇本紀》“韓<placeName n="32">南陽</placeName><term n="36">假守</term><persName n="48">騰</persName>”的記載，是韓國設置南陽<term n="38">郡</term>（騰暫時代理<term n="39">郡守</term>一職）的最直接證據。</p>
+            <p><persName n="13">魏安僖王</persName>派军进占秦国<placeName n="33">陶</placeName>地，又吞并<placeName n="28">卫</placeName>国。</p>
+            <p>《韩非子·五蠹》:“卫离<placeName n="10">魏</placeName>为<term n="33">衡</term>，半岁而亡。</p>
+            <p>《吕氏春秋·审应览》:“当此时也，两<placeName n="7">周</placeName>全，其北存，魏举陶削卫，地方六百。</p>
+            <p><persName n="39">卫怀君</persName>入魏觐见，被魏安僖王囚杀。</p>
+            <p>無骨注:魏国后来又在<placeName n="34">濮阳</placeName>扶植<persName n="45">卫元君</persName>(魏王之婿)与普通<term n="40">封君</term>无异，卫国实已灭亡。</p>
+            <p>辨析：《史記·衛世家》載懷君三十一年朝魏，又《史記·六國年表（公元對照）》載衛懷君元年為公元前282年，衛懷君三十一年應為公元前252年，同年，魏立衛元君，改元，故衛懷君三十一年為衛元君元年。</p>
+            <p><persName n="23">赵孝成王</persName>大约在这一时期令<persName n="46">李牧</persName>居<placeName n="35">代</placeName>、<placeName n="36">雁门</placeName>，防备<term n="35">匈奴</term>。</p>
+            <p>辨析：時間與本年表觀點不同。</p>
+            <p><placeName n="11">楚</placeName>国<persName n="47">春申君黄歇</persName>北伐，灭<placeName n="37">鲁</placeName>。</p>
+            <p>辨析：與《史記·六國年表（公元對照）》不同。</p>
+         </div>
+
+         <div n="8">
+            <head>其他古籍（史類）</head>
+            <p><title>《陕西长安<placeName n="38">神禾原</placeName>战国秦陵园大墓发掘简报》</title>：【摘 要】2004～2008年发掘的神禾原战国秦陵大墓,为"亚"字形墓,位于陵园中心位置。大墓虽遭严重的盗扰、焚烧,仍出土精美器物数百件。根据大墓形制、随葬器物及其刻铭,并结合文献资料,推定墓主为战国晚期<placeName n="1">秦</placeName>国<persName n="49">夏太后</persName>。该墓的发掘为战国秦汉时期有关帝王陵墓形制、构筑、制度和文化等诸多方面研究提供了丰富的实物资料。</p>
+            <p>大墓从葬坑K8出土的马具上刻有纪年文字“五十九年”[4]，该纪年只有东<placeName n="7">周</placeName>末代<term n="27">天子</term><persName n="4">周赧王</persName>使用过，时为<persName n="1">秦昭襄王</persName>五十一年（公元前256年）。这意味着神禾原大墓营建时代上限不早于周赧王五十九年，即不早于公元前256年。</p>
+            <p>战国晚期处于秦都<placeName n="39">咸阳</placeName>附近<placeName n="40">杜县</placeName>（今长安区沈家桥至杜城村一带）东南的“亚”字形大墓，应是秦国高等级的贵族墓葬。这一时期去世的秦王、<term n="42">后</term>、<term n="14">太子</term>类高等级贵族，葬地多在咸阳或<placeName n="41">芷阳</placeName>陵区[6]。而葬地与杜有关的秦的高等级贵族，只有战国晚期的<persName n="32">秦始皇</persName>的祖母—夏太后[7]。</p>
+            <p>夏太后是<persName n="30">秦孝文王</persName>的<term n="43">如夫人</term>，称夏姬，为<persName n="31">庄襄王</persName>母亲，秦始皇的祖母。庄襄王元年（公元前249年）被尊为夏<term n="41">太后</term>[8]。“始皇七年，庄襄王母夏太后薨。孝文王后曰<persName n="50">华阳太后</persName>，与孝文王会葬<placeName n="42">寿陵</placeName>。夏太后子庄襄王葬芷阳，故夏太后独别葬杜东。”</p>
+         </div>
+
+         <div n="9">
+            <head>史記：補：八書</head>
+            <p><title>封禅书</title>：其後百二十岁而<placeName n="1">秦</placeName>灭<placeName n="7">周</placeName>，周之<term n="8">九鼎</term>入于秦。或曰<placeName n="43">宋</placeName><placeName n="44">太丘</placeName><term n="44">社</term>亡，而鼎没于<placeName n="45">泗水</placeName><placeName n="46">彭城</placeName>下。</p>
+         </div>
+
+      </body>
+   </text>
+</TEI>

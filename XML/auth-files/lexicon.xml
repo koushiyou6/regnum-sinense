@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+  Lexicon (glossary). One <superEntry n="ID"> per term, with a "zho" entry (source forms)
+  and an "eng" entry (English form, part of speech, definition). The eng <note> carries the
+  status in the reviewer's own scheme — Glossary, Ruling, Provisional, Applied — and is
+  shown on the page after the definition. Definitions marked await review.
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Regnum Sinense Lexicon</title>
+            <respStmt><resp>Terminology research and definitions</resp><persName>Kou Shiyou</persName></respStmt>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><p>Song Frontier Translation Glossary , extended for the Warring States chronology.</p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <superEntry n="1">
+            <entry xml:lang="zho"><form><orth>诸侯</orth></form><gramGrp><pos>npl</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Lords</orth></form><gramGrp><pos>npl</pos></gramGrp>
+               <sense n="1"><def>the rulers of the states, collectively; in this period the kings of the warring states and the lesser lords, as distinct from the Zhou king.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="2">
+            <entry xml:lang="zho"><form><orth>约从</orth><orth>约纵</orth></form><gramGrp><pos>v</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>swear the Vertical Alliance</orth></form><gramGrp><pos>v</pos></gramGrp>
+               <sense n="1"><def>to form the 合纵 (hezong) alliance, the north–south ("vertical") league of the eastern states against Qin; 从 stands for 纵.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="3">
+            <entry xml:lang="zho"><form><orth>锐师</orth><orth>锐兵</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>crack troops</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>picked, first-rate soldiers.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="4">
+            <entry xml:lang="zho"><form><orth>将军</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>General</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>commander of an army; used as a title before the name.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="5">
+            <entry xml:lang="zho"><form><orth>顿首</orth></form><gramGrp><pos>v</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>knock the head to the ground</orth></form><gramGrp><pos>v</pos></gramGrp>
+               <sense n="1"><def>the kowtow of submission or apology, touching the forehead to the ground.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="6">
+            <entry xml:lang="zho"><form><orth>邑</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>settlement</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a town or settlement with its lands; the units in which a domain was counted.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="7">
+            <entry xml:lang="zho"><form><orth>口</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>persons</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>"mouths": the registered population, counted by head.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="8">
+            <entry xml:lang="zho"><form><orth>九鼎</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Nine Tripods</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the nine bronze tripod cauldrons held to have been cast by Yu and passed from dynasty to dynasty as the emblem of legitimate rule; their removal to Qin in 256 BC marks the end of Zhou.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="9">
+            <entry xml:lang="zho"><form><orth>斩首</orth></form><gramGrp><pos>v</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>take heads</orth></form><gramGrp><pos>v</pos></gramGrp>
+               <sense n="1"><def>to cut off the heads of enemy soldiers; the Qin annals give battle results as a count of heads taken.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="10">
+            <entry xml:lang="zho"><form><orth>县</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>County</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the basic unit of direct administration, capitalized as an administrative unit.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="11">
+            <entry xml:lang="zho"><form><orth>首虏</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>heads and captives</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>enemy killed (counted by head) and taken prisoner, reported together as one figure.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="12">
+            <entry xml:lang="zho"><form><orth>城</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Fortress</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a walled place.</def></sense><note/></entry>
+         </superEntry>
+         <superEntry n="13">
+            <entry xml:lang="zho"><form><orth>救</orth></form><gramGrp><pos>v</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>go to the relief of</orth></form><gramGrp><pos>v</pos></gramGrp>
+               <sense n="1"><def>to march to the aid of a state or place under attack.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="14">
+            <entry xml:lang="zho"><form><orth>太子</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Heir Apparent</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the designated successor of a king.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="15">
+            <entry xml:lang="zho"><form><orth>公子</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Prince</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a son of a ruling king or lord.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="16">
+            <entry xml:lang="zho"><form><orth>食客</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>retainers</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>guests kept at a lord's table; the clients of a great house.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="17">
+            <entry xml:lang="zho"><form><orth>士</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>gentlemen</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>men of the gentleman class, from whom officers and retainers were drawn.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="18">
+            <entry xml:lang="zho"><form><orth>隐士</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>recluse</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a gentleman who withholds himself from office.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="19">
+            <entry xml:lang="zho"><form><orth>处士</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>gentlemen in retirement</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>gentlemen of worth living in private, without office.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="20">
+            <entry xml:lang="zho"><form><orth>兵符</orth><orth>虎符</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>tally</orth><orth>tiger tally</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the split tally, often in the form of a tiger, of which ruler and general each held a half; a command was valid only when the halves were matched.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="21">
+            <entry xml:lang="zho"><form><orth>上将军</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Supreme General</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the commander-in-chief.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="22">
+            <entry xml:lang="zho"><form><orth>汤沐邑</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>private estate</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>literally a bath-and-ablution town: a town whose revenue was assigned to a person for private expenses.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="23">
+            <entry xml:lang="zho"><form><orth>客卿</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Guest Minister</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a minister of foreign origin at the Qin court.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="24">
+            <entry xml:lang="zho"><form><orth>相</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Chancellor</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the chief minister of a state.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="25">
+            <entry xml:lang="zho"><form><orth>守冢</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>tomb-keeping households</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>households assigned to tend a tomb and keep up its sacrifices.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="26">
+            <entry xml:lang="zho"><form><orth>太史公</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Grand Historian</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>Sima Qian's own title, introducing his appraisal at the end of a chapter.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="27">
+            <entry xml:lang="zho"><form><orth>天子</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Son of Heaven</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the emperor.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="28">
+            <entry xml:lang="zho"><form><orth>质</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>hostage</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a hostage sent to another court as surety.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="29">
+            <entry xml:lang="zho"><form><orth>五霸</orth><orth>五伯</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Five Hegemons</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the five lords who in turn led the states in the Spring and Autumn period.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="30">
+            <entry xml:lang="zho"><form><orth>三王</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Three Kings</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the founders of the Xia, Shang and Zhou.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="31">
+            <entry xml:lang="zho"><form><orth>山东</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>east of the mountains</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the lands east of the Xiao mountains: the states other than Qin.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="32">
+            <entry xml:lang="zho"><form><orth>反间</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>agents of discord</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>agents sent to sow division at an enemy court.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="33">
+            <entry xml:lang="zho"><form><orth>连横</orth><orth>衡</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Horizontal Alliance</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the policy of individual states allying with Qin, east to west; the opposite of the Vertical.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="34">
+            <entry xml:lang="zho"><form><orth>从</orth><orth>纵</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Vertical Alliance</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the north–south league of the eastern states against Qin.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="35">
+            <entry xml:lang="zho"><form><orth>匈奴</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Xiongnu</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the nomadic people of the northern steppe.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="36">
+            <entry xml:lang="zho"><form><orth>假守</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Acting Magistrate</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>one holding a Magistrate's post temporarily.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="37">
+            <entry xml:lang="zho"><form><orth>令</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Sheriff</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the officer in charge of a County.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="38">
+            <entry xml:lang="zho"><form><orth>郡</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Commandery</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the largest territorial unit of a state, above the County.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="39">
+            <entry xml:lang="zho"><form><orth>郡守</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Magistrate of the Commandery</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the governor of a Commandery.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="40">
+            <entry xml:lang="zho"><form><orth>封君</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>enfeoffed lord</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a holder of a fief granted by a king.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="41">
+            <entry xml:lang="zho"><form><orth>太后</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Queen Dowager</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the mother of a reigning king.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="42">
+            <entry xml:lang="zho"><form><orth>后</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Queen</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the principal wife of a king.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="43">
+            <entry xml:lang="zho"><form><orth>如夫人</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>secondary consort</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a consort of a king below the rank of Queen.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="44">
+            <entry xml:lang="zho"><form><orth>社</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>altar of the soil</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the altar of the god of the soil of a state or settlement.</def></sense><note/></entry>
+         </superEntry>
+
+
+      </body>
+   </text>
+</TEI>

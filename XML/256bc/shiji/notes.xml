@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- 256 BC, Shiji — explanatory notes. <div n="N"> matches the bracket; <interp corresp="key"> matches <span corresp="key"> in english.xml. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Shiji 史记 · 周赧王五十九年: notes</title>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><p>Notes written for this edition.</p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="0"/>
+         <div n="1">
+            <interp corresp="fifty-ninth_year">The fifty-ninth and last year of King Nan of Zhou, 256 BC. The Basic Annals of Qin, below, record the same events under the fifty-first year of King Zhaoxiang of Qin; the two counts name the same year.</interp>
+            <interp corresp="fled_to_Qin">The edition reads 饹, equivalent to 奔, "fled to".</interp>
+            <interp corresp="The_Lord_of_Zhou_and_King_Nan_died">周君、王赧卒: two persons, following the punctuation of the edition. The Lord of Zhou here is the Lord of Western Zhou who had surrendered to Qin, Duke Wu 西周武公 (so Song Zhong in the Jijie; the Suoyin: 此时武公与王赧皆卒，故连言也). The Duke of Western Zhou moved to Danhu in the next sentence is therefore his successor, Duke Wen 文公 (Suoyin: 盖武公之太子文公也，武公卒而立，为秦所迁).</interp>
+            <interp corresp="Danhu">惮狐: the edition writes the first character with 单 over 心 (憚); the commentaries place it in the Liang County of the time, near modern Ruzhou, Henan.</interp>
+            <interp corresp="thirty-six_Fortresses">邑三十六城: 城 rendered Fortress.</interp>
+         </div>         <div n="2">
+            <interp corresp="the_Table_of_the_Six_States">The four lines are the entries of the Table of the Six States (六国年表) for this year, one line to a state: Zhou, Wei, Han and Chu; the states without an entry for the year are not given.</interp>
+            <interp corresp="our_Yangcheng">我: the Table speaks from the standpoint of the state whose column it is, so "our Yangcheng" is Han's Yangcheng. The Basic Annals, above, record that Qin took Yangcheng and Fushu from Han in this year. The subject of the following clause, and of the Chu line, is likewise the state of the column.</interp>
+         </div>
+         <div n="3">
+            <interp corresp="sixth_year">The sixth and seventh years of King Kaolie of Chu, 257 and 256 BC; the entry is given from the sixth year because the relief that ends in this year begins there.</interp>
+            <interp corresp="tenth_year">The tenth year of King Xiaocheng of Zhao, 256 BC.</interp>
+            <interp corresp="The_Heir_Apparent_died">The Heir Apparent of Zhao, whose name the history does not record (Suoyin). Xu Guang, noting that King Nan of Zhou died this year, asks whether 太子 may stand for 天子, the Son of Heaven.</interp>
+            <interp corresp="went_out">出: the Zhengyi takes this as leading troops out beyond the border — Zhao, seeing Qin take Western Zhou, sent Tufu Qi out with an army.</interp>
+            <interp corresp="seventeenth_year">The seventeenth year of King Huanhui of Han, 256 BC.</interp>
+         </div>
+         <div n="4">
+            <interp corresp="bo">博: the board game liubo.</interp>
+            <interp corresp="market">巿, for 市 "market", so written here and twice below.</interp>
+            <interp corresp="twentieth_year_of_King_Anxi">257 BC.</interp>
+            <interp corresp="thirtieth_year_of_King_Anxi">247 BC.</interp>
+            <interp corresp="Some_days_later">The chapter is excerpted: the speaker is Fan Ju, and the passage follows his interview with Cai Ze.</interp>
+            <interp corresp="Marquis_Ying">应侯: Fan Ju, by his title as Marquis of Ying.</interp>
+            <interp corresp="The_next_year">The chapter is excerpted: "the next year" counts from the preceding passage of the biography.</interp>
+         </div>
+         <div n="5">
+            <interp corresp="fiftieth_year">257 BC.</interp>
+         </div>
+         <div n="6">
+            <interp corresp="readings">In the appended chapter the characters in parentheses are the editors' readings of the manuscript graphs before them (粱 read 梁, 侍 read 待, and so on); the translation follows the readings.</interp>
+            <interp corresp="cede_land_and_bring_gifts">割挚马免: no published reading of the phrase was found; 挚 is taken as 贽, "gifts", and the rendering is approximate.</interp>
+            <interp corresp="with_a_tally">股符〓去壁: 〓 marks a graph illegible in the manuscript. The Wikisource transcription of the text reads 股符胠壁, 胠 "to break open" and 壁 "rampart"; 股 is unexplained, and the rendering is tentative.</interp>
+            <interp corresp="Wang">王〓: the graph after 王 is illegible in the manuscript.</interp>
+            <interp corresp="bore_down_on_Zhao">赍赵 (齎趙 in the transcription): 齎 is probably a loan for 挤, "to press"; the reading is not settled.</interp>
+         </div>
+         <div n="7">
+            <interp corresp="sixteenth_year_of_Huanhui">257 BC.</interp>
+            <interp corresp="its_north_survived">其北存: rendered literally; the referent of 其 is unclear.</interp>
+         </div>
+         <div n="8">
+            <interp corresp="ya-shaped">亚字形: a tomb whose plan, with a ramp on each of the four sides, has the shape of the character 亚.</interp>
+            <interp corresp="bracketed_numbers">The bracketed numbers are the report's own footnote references.</interp>
+            <interp corresp="the_quotation">The quotation is from the Basic Annals of the First Emperor of Qin.</interp>
+         </div>
+         <div n="9">
+            <interp corresp="One_hundred_and_twenty_years_after_this">The chapter is excerpted: "this" is the event of the Treatise's preceding sentence.</interp>
+         </div>
+
+      </body>
+   </text>
+</TEI>
