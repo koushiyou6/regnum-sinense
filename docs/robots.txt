@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://koushiyou6.github.io/regnum-sinense/sitemap.xml

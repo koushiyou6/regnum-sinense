@@ -100,6 +100,15 @@
                 <meta charset="utf-8"/>
                 <meta name="google" content="notranslate"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                <meta name="description">
+                    <xsl:attribute name="content">
+                        <xsl:choose>
+                            <xsl:when test="$page = 'about'">About Regnum Sinense: the sources behind Atrium Concordiae's historical atlases of China, year by year, in Chinese and English.</xsl:when>
+                            <xsl:when test="$year != ''"><xsl:value-of select="$this-year/@era"/><xsl:text> (</xsl:text><xsl:value-of select="$this-year/@label"/><xsl:if test="$this-year/@en != ''"><xsl:text>, </xsl:text><xsl:value-of select="$this-year/@en"/></xsl:if><xsl:text>): the sources for the year — </xsl:text><xsl:value-of select="string-join($this-year/document/@label, ', ')"/><xsl:text> — with English translation and notes.</xsl:text></xsl:when>
+                            <xsl:otherwise>Regnum Sinense: the sources behind Atrium Concordiae's historical atlases of China, year by year from 256 BC — Chinese text, English translation and notes, side by side.</xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:attribute>
+                </meta>
                 <title><xsl:value-of select="$site-name"/><xsl:choose><xsl:when test="$page = 'about'">: About</xsl:when><xsl:when test="$year != ''"><xsl:text>: </xsl:text><xsl:value-of select="$this-year/@era"/></xsl:when></xsl:choose></title>
                 <style><xsl:value-of select="$css" disable-output-escaping="yes"/><xsl:value-of select="replace(unparsed-text('../css/font-cjk.css'), 'FONTROOT/', $root)" disable-output-escaping="yes"/></style>
             </head>

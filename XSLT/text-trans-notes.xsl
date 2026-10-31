@@ -157,6 +157,14 @@
                 <meta charset="utf-8"/>
                 <meta name="google" content="notranslate"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                <meta name="description">
+                    <xsl:attribute name="content">
+                        <xsl:if test="$this-bracket"><xsl:value-of select="normalize-space($this-bracket)"/><xsl:if test="$this-bracket/@en != ''"><xsl:text> (</xsl:text><xsl:value-of select="$this-bracket/@en"/><xsl:text>)</xsl:text></xsl:if><xsl:text>, </xsl:text></xsl:if>
+                        <xsl:value-of select="$manifest-doc/@label"/><xsl:text>, </xsl:text><xsl:value-of select="$year"/>
+                        <xsl:if test="$manifest-doc/../@label != ''"><xsl:text> (</xsl:text><xsl:value-of select="$manifest-doc/../@label"/><xsl:text>)</xsl:text></xsl:if>
+                        <xsl:text>: Chinese text with English translation and notes on terms, persons and places. Regnum Sinense.</xsl:text>
+                    </xsl:attribute>
+                </meta>
                 <title><xsl:value-of select="$source-title"/><xsl:if test="$this-bracket"> · <xsl:value-of select="normalize-space($this-bracket)"/></xsl:if></title>
                 <style><xsl:value-of select="$css" disable-output-escaping="yes"/><xsl:value-of select="replace(unparsed-text('../css/font-cjk.css'), 'FONTROOT/', $root)" disable-output-escaping="yes"/></style>
             </head>

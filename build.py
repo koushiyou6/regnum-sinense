@@ -17,6 +17,7 @@ from saxonche import PySaxonProcessor
 ROOT = Path(__file__).resolve().parent
 XML = ROOT / "XML"
 SITE = ROOT / "docs"
+SITE_URL = "https://koushiyou6.github.io/regnum-sinense/"   # public address, for sitemap.xml and robots.txt
 MANIFEST = XML / "site.xml"
 
 
@@ -91,6 +92,18 @@ def build():
         index.transform_to_file(source_file=str(MANIFEST), output_file=str(out))
         index.set_parameter("page", proc.make_string_value(""))
         print(f"wrote {out.relative_to(ROOT)}")
+
+    # sitemap.xml and robots.txt for search engines
+    pages = sorted(p for p in SITE.rglob("*.html"))
+    urls = []
+    for p in pages:
+        rel = p.relative_to(SITE).as_posix()
+        urls.append(SITE_URL + ("" if rel == "index.html" else rel[:-len("index.html")] if rel.endswith("/index.html") else rel))
+    (SITE / "sitemap.xml").write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        + "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
+    (SITE / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}sitemap.xml\n", encoding="utf-8")
+    print(f"wrote sitemap.xml ({len(urls)} pages) and robots.txt")
 
 
 if __name__ == "__main__":
