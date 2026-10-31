@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!-- 256 BC, Shiji — introductions. One <div n="N"> per bracket, shown above that bracket's text;
-     <div n="0"> would be a whole-source introduction. Notes for these go in <div n="0"> of notes.xml. -->
+<!-- 256 BC, Shiji — introductions. One <div n="N"> per bracket, shown above that bracket's text. -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -13,10 +12,31 @@
    <text>
       <body>
          <div n="1">
-            <p>The Basic Annals for 256 BC, the year in which <placeName n="1">Qin</placeName> extinguished <placeName n="5">Western Zhou</placeName>: the entry of the Basic Annals of Zhou under the fifty-ninth year of King Nan, and the entry of the Basic Annals of Qin under the fifty-first year of King Zhaoxiang, which record the same events from the two sides.</p>
+            <p>The Basic Annals for 256 BC, the year in which Qin extinguished Western Zhou: the entry of the Basic Annals of Zhou under the fifty-ninth year of King Nan, and the entry of the Basic Annals of Qin under the fifty-first year of King Zhaoxiang, which record the same events from the two sides.</p>
          </div>
          <div n="2">
             <p>The row of the Table of the Six States for this year. The Table runs the states in parallel columns, one line to a state; only the states with an entry for the year appear.</p>
+         </div>
+         <div n="3">
+            <p>The entries of the Hereditary Houses for this year: the houses of Chu, Zhao and Han, each under its own count of years.</p>
+         </div>
+         <div n="4">
+            <p>The Biographies: the biography of the Prince of Wei, Lord Xinling, entire; the passage of the biography of Fan Ju and Cai Ze in which Cai Ze becomes Chancellor and Qin takes in the house of Zhou; and the lines of the biography of Lian Po and Lin Xiangru on the siege of Handan.</p>
+         </div>
+         <div n="5">
+            <p>The Biographies, continued: the passage of the biography of Lü Buwei on Zichu's escape from Handan.</p>
+         </div>
+         <div n="6">
+            <p>Ivar the Boneless' commentary on the year, with his analyses (辨析) and the texts he adduces: chapter 25 of the Zhanguo zonghengjia shu and a passage of the Han Feizi.</p>
+         </div>
+         <div n="7">
+            <p>Ivar the Boneless' commentary, continued: Han's recovery of Runan, Wei's seizure of Tao and Wey, Li Mu's northern command and Chunshen's conquest of Lu, each with its analysis.</p>
+         </div>
+         <div n="8">
+            <p>Other works: the preliminary report on the Shenheyuan tomb at Chang'an, whose dated inscription of the fifty-ninth year ties it to this year.</p>
+         </div>
+         <div n="9">
+            <p>The Eight Treatises: the sentence of the Treatise on the Feng and Shan Sacrifices on the passing of the Nine Tripods to Qin.</p>
          </div>
       </body>
    </text>

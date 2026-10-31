@@ -205,23 +205,10 @@
                         <xsl:variable name="intro-div" select="$intro//body/div[@n = (if ($bracket != '') then $bracket else '0')]"/>
                         <xsl:if test="$intro-div/p[normalize-space()]">
                         <h2 id="introduction">Introduction</h2>
-                        <div class="responsive-two-column-grid-unequal">
-                            <div>
-                                <xsl:for-each select="$intro-div/p">
-                                    <p><xsl:apply-templates/></p>
-                                </xsl:for-each>
-                            </div>
-                            <div>
-                                <h2>Annotations</h2>
-                                <div class="notes">
-                                    <i><a href="#text">Click here to skip down to text and translation</a></i><br/><br/>
-                                    <i>Click each triangle below to expand/collapse note</i><br/>
-                                    <xsl:call-template name="annotation-panel">
-                                        <xsl:with-param name="scope" select="$intro-div"/>
-                                        <xsl:with-param name="note-div" select="$notes//body/div[@n = '0']"/>
-                                    </xsl:call-template>
-                                </div>
-                            </div>
+                        <div class="intro">
+                            <xsl:for-each select="$intro-div/p">
+                                <p><xsl:apply-templates/></p>
+                            </xsl:for-each>
                         </div>
                         <hr/>
                         </xsl:if>

@@ -575,3 +575,7 @@ ul.sections li { padding: .1em .5em; border-left: 2px solid transparent; }
 
 /* long URLs in the text columns wrap instead of overflowing */
 #document a { overflow-wrap: anywhere; }
+
+/* introduction: one plain column */
+.intro { max-width: 46em; margin: 0 auto 1.2em; }
+.intro p { text-align: left; }
