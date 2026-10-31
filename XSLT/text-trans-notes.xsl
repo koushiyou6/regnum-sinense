@@ -157,6 +157,10 @@
                 <meta charset="utf-8"/>
                 <meta name="google" content="notranslate"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                <link rel="icon" href="{$root}favicon.ico" sizes="any"/>
+                <link rel="icon" type="image/png" sizes="32x32" href="{$root}favicon-32.png"/>
+                <link rel="icon" type="image/png" sizes="192x192" href="{$root}favicon-192.png"/>
+                <link rel="apple-touch-icon" href="{$root}apple-touch-icon.png"/>
                 <meta name="description">
                     <xsl:attribute name="content">
                         <xsl:if test="$this-bracket"><xsl:value-of select="normalize-space($this-bracket)"/><xsl:if test="$this-bracket/@en != ''"><xsl:text> (</xsl:text><xsl:value-of select="$this-bracket/@en"/><xsl:text>)</xsl:text></xsl:if><xsl:text>, </xsl:text></xsl:if>
