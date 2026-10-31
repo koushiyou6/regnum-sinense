@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- 256 BC, excavated texts — explanatory notes. <div n="N"> matches the bracket; <interp corresp="key"> matches <span corresp="key"> in english.xml. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Excavated texts 简牍 · 周赧王五十九年: notes</title>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><p>Notes written for this edition.</p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="0"/>
+         <div n="1">
+            <interp corresp="Chronicle">葉書: the year-by-year record on the bamboo slips of Shuihudi tomb 11, Yunmeng, Hubei, which notes Qin's campaigns beside the events of the tomb occupant's family. It was published in 1978 under the editors' title 编年记; the Collected Qin Slips gives it the title written on the slips themselves, 葉書.</interp>
+            <interp corresp="fifty-first_year">The fifty-first year of King Zhaoxiang of Qin, 256 BC. The subject, Qin, is not expressed; the Basic Annals of Qin record the taking of Yangcheng under the same year.</interp>
+         </div>
+      </body>
+   </text>
+</TEI>
