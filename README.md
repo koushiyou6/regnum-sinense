@@ -18,7 +18,7 @@ The site is published from the `docs/` folder with GitHub Pages.
 | `XSLT/` | the stylesheets that turn the XML into pages |
 | `css/style.css` | the stylesheet, adapted from the Parlamentos project |
 | `tools/` | `build-manifest.py` (manifest from the chronology spreadsheet), `build-font.py` (CJK font subset), `calcheck.py` (calendar checks) |
-| `docs/` | the built site |
+| `docs/` | the built site; `docs/google*.html` is the Google Search Console verification file and must stay |
 
 ## Building
 
