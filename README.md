@@ -30,6 +30,10 @@ rebuilds every page under `docs/`, subsetting the Chinese font first. To regener
 
     python3 tools/build-manifest.py path/to/chronology.xlsx
 
+## Working procedure
+
+The rules for translating and encoding each bracket are in [PROCESS.md](PROCESS.md).
+
 ## Credits and licences
 
 See [CREDITS.md](CREDITS.md).
