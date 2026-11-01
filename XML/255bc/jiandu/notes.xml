@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- 255 BC, excavated texts — explanatory notes. <div n="N"> matches the bracket; <interp corresp="key"> matches <span corresp="key"> in english.xml. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Excavated texts 简牍 · 秦昭襄王五十二年: notes</title>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><p>Notes written for this edition.</p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="0"/>
+         <div n="1">
+            <interp corresp="fifty-second_year">The fifty-second year of King Zhaoxiang of Qin, 255 BC. The square brackets are the editors': the graphs are damaged on the slip and restored.</interp>
+            <interp corresp="Zhang_Lu">张禄: the name Fan Ju went by in Qin. The Chronicle gives his death in the same year as Wang Ji's execution, which the Table records.</interp>
+         </div>
+      </body>
+   </text>
+</TEI>
