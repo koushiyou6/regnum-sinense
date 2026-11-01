@@ -110,7 +110,7 @@
          </superEntry>
 
          <superEntry n="16">
-            <entry xml:lang="zho"><form><orth>食客</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="zho"><form><orth>食客</orth><orth>宾客</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
             <entry xml:lang="eng"><form><orth>retainers</orth></form><gramGrp><pos>n</pos></gramGrp>
                <sense n="1"><def>guests kept at a lord's table; the clients of a great house.</def></sense><note/></entry>
          </superEntry>
@@ -287,6 +287,72 @@
             <entry xml:lang="zho"><form><orth>弃市</orth><orth>棄市</orth></form><gramGrp><pos>v</pos></gramGrp><sense n="1"><def/></sense></entry>
             <entry xml:lang="eng"><form><orth>executed in the marketplace</orth></form><gramGrp><pos>v</pos></gramGrp>
                <sense n="1"><def>put to death publicly, the body exposed in the market.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="46">
+            <entry xml:lang="zho"><form><orth>相国</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Chancellor of State</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the chief minister, addressed by his full title.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="47">
+            <entry xml:lang="zho"><form><orth>关内侯</orth><orth>关内之侯</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Marquis within the Passes</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a lord whose land lies inside Qin's passes: a dependant of Qin.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="48">
+            <entry xml:lang="zho"><form><orth>社稷</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>altars of soil and grain</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the altars of a state's gods of soil and grain, standing for the state itself.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="49">
+            <entry xml:lang="zho"><form><orth>宗庙</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>ancestral temple</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the temple of a ruling house's ancestors.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="50">
+            <entry xml:lang="zho"><form><orth>帝</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Emperor</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the title above king, claimed by Qin and Qi in these years.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="51">
+            <entry xml:lang="zho"><form><orth>布衣</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>commoner</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>literally one in hempen clothes: a man without rank.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="52">
+            <entry xml:lang="zho"><form><orth>傅</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Tutor</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the officer in charge of an heir's upbringing.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="53">
+            <entry xml:lang="zho"><form><orth>与国</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>allied state</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a state bound by treaty.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="54">
+            <entry xml:lang="zho"><form><orth>万乘</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>ten thousand chariots</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the measure of a great state's strength; a ruler of ten thousand chariots is a king.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="58">
+            <entry xml:lang="zho"><form><orth>海内</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>within the seas</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the whole inhabited world.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="59">
+            <entry xml:lang="zho"><form><orth>关</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Pass</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a fortified pass; here the Hangu Pass, Qin's eastern gate.</def></sense><note/></entry>
          </superEntry>
 
 

@@ -342,9 +342,9 @@
             </person>
 
             <person n="47">
-               <persName><name>Lord Chunshen 春申君</name><roleName>Chancellor of Chu</roleName><forename/><nameLink/><surname/><addName>黄歇</addName><genName/></persName>
+               <persName><name>Lord Chunshen 春申君</name><roleName>Chancellor of Chu</roleName><forename/><nameLink/><surname/><addName>黄歇; 歇</addName><genName/></persName>
                <nationality>Chu</nationality>
-               <note xml:lang="eng"><p>Huang Xie 黄歇, Chancellor of Chu, enfeoffed as Lord Chunshen.</p></note>
+               <note xml:lang="eng"><p>Huang Xie 黄歇, Chancellor of Chu from 262 BC, enfeoffed as Lord Chunshen.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
 
@@ -394,6 +394,90 @@
                <persName><name>Zheng Anping 郑安平</name><roleName>Lord Wuyang</roleName><forename/><nameLink/><surname/><addName>武阳君</addName><genName/></persName>
                <nationality>Zhao</nationality>
                <note xml:lang="eng"><p>A Qin general who went over to Zhao, enfeoffed there as Lord Wuyang 武阳君.</p></note>
+               <listEvent><event><p>255 BC</p></event></listEvent>
+            </person>
+
+            <person n="55">
+               <persName><name>King Qingxiang of Chu 楚顷襄王</name><roleName>King of Chu</roleName><forename/><nameLink/><surname/><addName>顷襄王</addName><genName/></persName>
+               <nationality>Chu</nationality>
+               <note xml:lang="eng"><p>King of Chu, reigned 298–263 BC.</p></note>
+               <listEvent><event><p>255 BC</p></event></listEvent>
+            </person>
+
+            <person n="56">
+               <persName><name>Bai Qi 白起</name><roleName>General</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>Qin general, Lord Wu'an 武安君.</p></note>
+               <listEvent><event><p>255 BC</p></event></listEvent>
+            </person>
+
+            <person n="57">
+               <persName><name>King Huai of Chu 楚怀王</name><roleName>King of Chu</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Chu</nationality>
+               <note xml:lang="eng"><p>King of Chu, reigned 328–299 BC; died a captive in Qin.</p></note>
+               <listEvent><event><p>255 BC</p></event></listEvent>
+            </person>
+
+            <person n="58">
+               <persName><name>King Huiwen of Qin 秦惠文王</name><roleName>King of Qin</roleName><forename/><nameLink/><surname/><addName>文王</addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>King of Qin, reigned 337–311 BC; called King Wen in the letter.</p></note>
+               <listEvent><event><p>255 BC</p></event></listEvent>
+            </person>
+
+            <person n="59">
+               <persName><name>King Wu of Qin 秦武王</name><roleName>King of Qin</roleName><forename/><nameLink/><surname/><addName>庄王</addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>King of Qin, reigned 310–307 BC; called King Zhuang in the letter.</p></note>
+               <listEvent><event><p>255 BC</p></event></listEvent>
+            </person>
+
+            <person n="60">
+               <persName><name>Sheng Qiao 盛桥</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>A Qin agent placed in office in Han; the Suoyin compares Chu's placing of Zhao Hua as Chancellor in Zhao.</p></note>
+               <listEvent><event><p>255 BC</p></event></listEvent>
+            </person>
+
+            <person n="61">
+               <persName><name>Zhi Bo Yao 智伯瑶</name><roleName></roleName><forename/><nameLink/><surname/><addName>智氏</addName><genName/></persName>
+               <nationality>Jin</nationality>
+               <note xml:lang="eng"><p>Zhi Yao, head of the Zhi clan of Jin, killed at Jinyang in 453 BC.</p></note>
+               <listEvent><event><p>255 BC</p></event></listEvent>
+            </person>
+
+            <person n="62">
+               <persName><name>King Goujian of Yue 越王勾践</name><roleName>King of Yue</roleName><forename/><nameLink/><surname/><addName>越王</addName><genName/></persName>
+               <nationality>Yue</nationality>
+               <note xml:lang="eng"><p>King of Yue, who destroyed Wu in 473 BC.</p></note>
+               <listEvent><event><p>255 BC</p></event></listEvent>
+            </person>
+
+            <person n="63">
+               <persName><name>King Kaolie of Chu 楚考烈王</name><roleName>King of Chu</roleName><forename/><nameLink/><surname/><addName>完; 太子完</addName><genName/></persName>
+               <nationality>Chu</nationality>
+               <note xml:lang="eng"><p>King of Chu, reigned 262–238 BC; personal name Wan, Heir Apparent before his accession.</p></note>
+               <listEvent><event><p>255 BC</p></event></listEvent>
+            </person>
+
+            <person n="64">
+               <persName><name>Lord Yangwen 阳文君</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Chu</nationality>
+               <note xml:lang="eng"><p>A Chu prince, kinsman of King Qingxiang.</p></note>
+               <listEvent><event><p>255 BC</p></event></listEvent>
+            </person>
+
+            <person n="65">
+               <persName><name>Lord Mengchang 孟尝君</name><roleName></roleName><forename/><nameLink/><surname/><addName>田文</addName><genName/></persName>
+               <nationality>Qi</nationality>
+               <note xml:lang="eng"><p>Tian Wen 田文 of Qi.</p></note>
+               <listEvent><event><p>255 BC</p></event></listEvent>
+            </person>
+
+            <person n="66">
+               <persName><name>Xun Qing 荀卿</name><roleName>Sheriff of Lanling</roleName><forename/><nameLink/><surname/><addName>荀况</addName><genName/></persName>
+               <nationality>Zhao</nationality>
+               <note xml:lang="eng"><p>Xun Kuang 荀况, the philosopher Xunzi, a man of Zhao.</p></note>
                <listEvent><event><p>255 BC</p></event></listEvent>
             </person>
 

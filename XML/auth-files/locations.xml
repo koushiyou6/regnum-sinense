@@ -363,6 +363,349 @@
                <note xml:lang="eng">a Zhao place near Yuanshi, made a County in this year; the commentaries give no location.</note>
             </place>
 
+            <place n="50">
+               <placeName><region type="commandery">Wu 巫</region></placeName>
+               <country/><region>Chu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">Chu's Wu Commandery on the Yangzi gorges; around modern Wushan, Chongqing.</note>
+            </place>
+
+            <place n="51">
+               <placeName><region type="commandery">Qianzhong 黔中</region></placeName>
+               <country/><region>Chu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">Chu's Qianzhong Commandery; western Hunan, around modern Yuanling.</note>
+            </place>
+
+            <place n="52">
+               <placeName><settlement type="city">Yan 鄢</settlement></placeName>
+               <country/><region>Chu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Chu city north of Ying; modern Yicheng, Hubei.</note>
+            </place>
+
+            <place n="53">
+               <placeName><settlement type="city">Ying 郢</settlement></placeName>
+               <country/><region>Chu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the capital of Chu; the Jinan city site north of modern Jingzhou, Hubei.</note>
+            </place>
+
+            <place n="54">
+               <placeName><settlement type="town">Jingling 竟陵</settlement></placeName>
+               <country/><region>Chu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">modern Qianjiang, Hubei.</note>
+            </place>
+
+            <place n="55">
+               <placeName><settlement type="county">Chen County 陈县</settlement></placeName>
+               <country/><region>Chu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the former capital of the state of Chen, Chu's seat at this date; modern Huaiyang, Henan.</note>
+            </place>
+
+            <place n="56">
+               <placeName><region type="state">Qi 齐</region></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the state of Qi, with its capital at Linzi; modern Zibo, Shandong.</note>
+            </place>
+
+            <place n="57">
+               <placeName><region type="region">Henei 河内</region></placeName>
+               <country/><region>Wei</region>
+               <location><geo/></location>
+               <note xml:lang="eng">Wei's lands north of the Yellow River; around modern Xinxiang, Henan.</note>
+            </place>
+
+            <place n="58">
+               <placeName><settlement type="town">Yan 燕 (Wei town)</settlement></placeName>
+               <country/><region>Wei</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the southern Yan, a Wei town; modern Yanjin, Henan.</note>
+            </place>
+
+            <place n="59">
+               <placeName><settlement type="town">Suanzao 酸枣</settlement></placeName>
+               <country/><region>Wei</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Wei town; south-west of modern Yanjin, Henan.</note>
+            </place>
+
+            <place n="60">
+               <placeName><settlement type="town">Xu 虚</settlement></placeName>
+               <country/><region>Wei</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Wei town near Suanzao, in the area of modern Yanjin, Henan.</note>
+            </place>
+
+            <place n="61">
+               <placeName><settlement type="town">Tao 桃</settlement></placeName>
+               <country/><region>Wei</region>
+               <location><geo/></location>
+               <note xml:lang="eng">Taocheng in Yan County (Xu Guang); near modern Yanjin, Henan.</note>
+            </place>
+
+            <place n="62">
+               <placeName><settlement type="town">Xing 邢</settlement></placeName>
+               <country/><region>Wei</region>
+               <location><geo/></location>
+               <note xml:lang="eng">Xingqiu, twenty li south-east of Wude County in Huaizhou (Zhengyi); modern Wen County, Henan.</note>
+            </place>
+
+            <place n="63">
+               <placeName><settlement type="town">Pu 蒲</settlement></placeName>
+               <country/><region>Wei</region>
+               <location><geo/></location>
+               <note xml:lang="eng">Pu Township in Changyuan County (Xu Guang); modern Changyuan, Henan.</note>
+            </place>
+
+            <place n="64">
+               <placeName><settlement type="town">Yan 衍</settlement></placeName>
+               <country/><region>Wei</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Wei town north of modern Zhengzhou, Henan.</note>
+            </place>
+
+            <place n="65">
+               <placeName><settlement type="town">Shou 首</settlement></placeName>
+               <country/><region>Wei</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Wei town in the area of modern Changyuan, Henan.</note>
+            </place>
+
+            <place n="66">
+               <placeName><settlement type="town">Yuan 垣</settlement></placeName>
+               <country/><region>Wei</region>
+               <location><geo/></location>
+               <note xml:lang="eng">Changyuan; modern Changyuan, Henan.</note>
+            </place>
+
+            <place n="67">
+               <placeName><settlement type="town">Ren 仁</settlement></placeName>
+               <country/><region>Wei</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Wei town near Pingqiu.</note>
+            </place>
+
+            <place n="68">
+               <placeName><settlement type="town">Pingqiu 平丘</settlement></placeName>
+               <country/><region>Wei</region>
+               <location><geo/></location>
+               <note xml:lang="eng">modern Fengqiu, Henan.</note>
+            </place>
+
+            <place n="69">
+               <placeName><settlement type="town">Huang 黄</settlement></placeName>
+               <country/><region>Wei</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the old Huang city east of Kaocheng County (Zhengyi); modern Minquan, Henan.</note>
+            </place>
+
+            <place n="70">
+               <placeName><settlement type="town">Jiyang 济阳</settlement></placeName>
+               <country/><region>Wei</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the old Jiyang city south-west of Wanju County (Zhengyi); modern Lankao, Henan.</note>
+            </place>
+
+            <place n="71">
+               <placeName type="place">Puli 濮磿</placeName>
+               <country/><region>Wei</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a place near the Pu River (Suoyin), which flows north into the Ji at Juye (Xu Guang); around modern Puyang, Henan.</note>
+            </place>
+
+            <place n="72">
+               <placeName><settlement type="town">Yuci 榆次</settlement></placeName>
+               <country/><region>Zhao</region>
+               <location><geo/></location>
+               <note xml:lang="eng">where Zhi Bo was defeated (Suoyin); modern Yuci, Jinzhong, Shanxi.</note>
+            </place>
+
+            <place n="73">
+               <placeName><region type="state">Wu 吴</region></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the state of Wu and its capital; modern Suzhou, Jiangsu.</note>
+            </place>
+
+            <place n="74">
+               <placeName type="place">Gansui 干隧</placeName>
+               <country/><region>Wu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">in the Wu country, forty li north-west of Suzhou, where King Fuchai of Wu killed himself (Zhengyi).</note>
+            </place>
+
+            <place n="75">
+               <placeName><region type="state">Yue 越</region></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the state of Yue, with its capital at Kuaiji; modern Shaoxing, Zhejiang.</note>
+            </place>
+
+            <place n="76">
+               <placeName type="place">Ailing 艾陵</placeName>
+               <country/><region>Qi</region>
+               <location><geo/></location>
+               <note xml:lang="eng">Ai Mountain, sixty li south of Bo County in Yanzhou (Zhengyi); modern Tai'an, Shandong.</note>
+            </place>
+
+            <place n="77">
+               <placeName type="place">shore of Sanzhu 三渚之浦</placeName>
+               <country/><region>Wu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">in the Wu country near Gusu; the Zhanguo ce has 三江之浦, the shore of the Three Rivers.</note>
+            </place>
+
+            <place n="78">
+               <placeName><settlement type="city">Jinyang 晋阳</settlement></placeName>
+               <country/><region>Zhao</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the Zhao stronghold; modern Taiyuan, Shanxi.</note>
+            </place>
+
+            <place n="79">
+               <placeName type="place">Zao Terrace 凿台</placeName>
+               <country/><region>Zhao</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a terrace at Yuci (Xu Guang), by the Dongguo River (Zhengyi).</note>
+            </place>
+
+            <place n="80">
+               <placeName><geogName type="river">Sui River 随水</geogName></placeName>
+               <country/><region>Chu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the river at Sui; modern Suizhou, Hubei.</note>
+            </place>
+
+            <place n="81">
+               <placeName><settlement type="town">Liu 留</settlement></placeName>
+               <country/><region>Chu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">modern Pei County, Jiangsu.</note>
+            </place>
+
+            <place n="82">
+               <placeName><settlement type="town">Fangyu 方与</settlement></placeName>
+               <country/><region>Chu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">modern Yutai, Shandong.</note>
+            </place>
+
+            <place n="83">
+               <placeName><settlement type="town">Zhi 铚</settlement></placeName>
+               <country/><region>Chu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">modern Suzhou (宿州), Anhui.</note>
+            </place>
+
+            <place n="84">
+               <placeName><settlement type="town">Huling 湖陵</settlement></placeName>
+               <country/><region>Chu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">south-east of modern Yutai, Shandong.</note>
+            </place>
+
+            <place n="85">
+               <placeName><settlement type="town">Dang 砀</settlement></placeName>
+               <country/><region>Chu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">modern Dangshan, Anhui.</note>
+            </place>
+
+            <place n="86">
+               <placeName><settlement type="town">Xiao 萧</settlement></placeName>
+               <country/><region>Chu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">modern Xiao County, Anhui.</note>
+            </place>
+
+            <place n="87">
+               <placeName><settlement type="town">Xiang 相</settlement></placeName>
+               <country/><region>Chu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">modern Suixi, Anhui.</note>
+            </place>
+
+            <place n="88">
+               <placeName><region type="region">the Si country 泗上</region></placeName>
+               <country/><region>Chu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the lands along the Si River, between Lu and Chu.</note>
+            </place>
+
+            <place n="89">
+               <placeName><geogName type="river">the River 河</geogName></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the Yellow River.</note>
+            </place>
+
+            <place n="90">
+               <placeName><geogName type="mountains">the eastern mountains 东山</geogName></placeName>
+               <country/><region>Qin</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the mountains east of Qin's passes, the Xiao range.</note>
+            </place>
+
+            <place n="91">
+               <placeName><settlement type="city">Zheng 郑</settlement></placeName>
+               <country/><region>Han</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the capital of Han; modern Xinzheng, Henan.</note>
+            </place>
+
+            <place n="92">
+               <placeName><settlement type="town">Xu 许</settlement></placeName>
+               <country/><region>Han</region>
+               <location><geo/></location>
+               <note xml:lang="eng">modern Xuchang, Henan.</note>
+            </place>
+
+            <place n="93">
+               <placeName><settlement type="town">Yanling 鄢陵</settlement></placeName>
+               <country/><region>Han</region>
+               <location><geo/></location>
+               <note xml:lang="eng">modern Yanling, Henan.</note>
+            </place>
+
+            <place n="94">
+               <placeName><settlement type="town">Shangcai 上蔡</settlement></placeName>
+               <country/><region>Chu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">modern Shangcai, Henan.</note>
+            </place>
+
+            <place n="95">
+               <placeName><settlement type="town">Shaoling 召陵</settlement></placeName>
+               <country/><region>Chu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">modern Luohe, Henan.</note>
+            </place>
+
+            <place n="96">
+               <placeName><region type="region">the land north of the Huai 淮北</region></placeName>
+               <country/><region>Chu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">Chu's lands north of the Huai River; northern Anhui and Jiangsu.</note>
+            </place>
+
+            <place n="97">
+               <placeName><region type="region">Jiangdong 江东</region></placeName>
+               <country/><region>Chu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the lands east of the lower Yangzi; southern Jiangsu.</note>
+            </place>
+
+            <place n="98">
+               <placeName><settlement type="town">Lanling 兰陵</settlement></placeName>
+               <country/><region>Chu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">modern Lanling County, Shandong.</note>
+            </place>
+
          </listPlace>
       </body>
    </text>
