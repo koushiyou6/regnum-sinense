@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+  255 BC — English translation of the Shiji brackets. <div n="N"> matches source.xml.
+  Terms follow the Song Frontier Translation Glossary where it rules.
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Shiji 史记 · 秦昭襄王五十二年</title>
+            <respStmt><resp>Edited</resp><persName>Kou Shiyou</persName></respStmt>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><listBibl><bibl xml:id="S"><title>无骨者伊瓦尔《战国历史地图·年表》</title></bibl></listBibl></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div n="1">
+            <head>Shiji I: Basic Annals</head>
+            <p><title>Basic Annals of Qin</title>: In the <span corresp="fifty-second_year">fifty-second year</span>, the people of <placeName n="7">Zhou</placeName> fled east, and their vessels, the <term n="8">Nine Tripods</term>, passed into <placeName n="1">Qin</placeName>. <span corresp="Zhou_now_first_perished">Zhou now first perished</span>.</p>
+         </div>
+
+      </body>
+   </text>
+</TEI>

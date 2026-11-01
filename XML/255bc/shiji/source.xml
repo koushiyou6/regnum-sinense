@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+  255 BC (秦昭襄王五十二年) — the Shiji tab of the chronology spreadsheet.
+  One <div n="N"> per bracket (one spreadsheet cell), in column order. <head> is the
+  column heading; each paragraph of the cell is a <p>. Text is kept as it stands in the spreadsheet.
+  Conventions: <term n="ID">, <persName n="ID">, <placeName n="ID">, <title> for a chapter name.
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Shiji 史记 · 秦昭襄王五十二年</title>
+            <respStmt><resp>Compiled</resp><persName>无骨者伊瓦尔</persName></respStmt>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <bibl xml:id="S"><title>无骨者伊瓦尔《战国历史地图·年表》</title><note xml:lang="eng">Chronology spreadsheet 疆域变化年表 (draft 3, patch 2), Shiji tab; the Shiji text follows the edition used by the compiler.</note></bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div n="1">
+            <head>史记（一：本纪）</head>
+            <p><title>秦本纪</title>：五十二年，<placeName n="7">周</placeName>民东亡，其器<term n="8">九鼎</term>入<placeName n="1">秦</placeName>。周初亡。</p>
+         </div>
+
+      </body>
+   </text>
+</TEI>

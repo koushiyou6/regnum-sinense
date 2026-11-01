@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- 255 BC, Shiji — introductions. One <div n="N"> per bracket. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title>Shiji 史记 · 秦昭襄王五十二年: introductions</title></titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><p>Original.</p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1">
+            <p>The Basic Annals for 255 BC: the entry of the Basic Annals of Qin under the fifty-second year of King Zhaoxiang, which records the end of Zhou a year later than the Basic Annals of Zhou.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
