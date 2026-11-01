@@ -361,6 +361,11 @@
                <sense n="1"><def>the chief minister of Chu, the lingyin.</def></sense><note/></entry>
          </superEntry>
 
+         <superEntry n="61">
+            <entry xml:lang="zho"><form><orth>吏</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>officer</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a man in government service below the rank of official; a clerk or functionary.</def></sense><note/></entry>
+         </superEntry>
 
       </body>
    </text>

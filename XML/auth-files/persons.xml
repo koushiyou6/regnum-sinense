@@ -488,6 +488,13 @@
                <listEvent><event><p>255 BC</p></event></listEvent>
             </person>
 
+            <person n="68">
+               <persName><name>Shui 誰</name><roleName>officer</roleName><forename/><nameLink/><surname/><addName>谁</addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>A Qin officer of the family whose affairs the Shuihudi Chronicle records beside the events of the state.</p></note>
+               <listEvent><event><p>254 BC</p></event></listEvent>
+            </person>
+
          </listPerson>
       </body>
    </text>
