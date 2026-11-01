@@ -227,9 +227,10 @@
             </person>
 
             <person n="30">
-               <persName><name>King Xiaowen of Qin 秦孝文王</name><roleName>King of Qin</roleName><forename/><nameLink/><surname/><addName>孝文王</addName><genName/></persName>
+               <persName><name>King Xiaowen of Qin 秦孝文王</name><roleName>King of Qin</roleName><forename/><nameLink/><surname/><addName>孝文王; 安国君</addName><genName/></persName>
                <nationality>Qin</nationality>
                <note xml:lang="eng"><p>King of Qin, reigned 250 BC.</p></note>
+               <note xml:lang="eng" from="-251" seq="5"><p>King of Qin, reigned 250 BC; Lord Anguo 安国君 before his accession.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
 
@@ -242,7 +243,7 @@
             </person>
 
             <person n="32">
-               <persName><name>the First Emperor of Qin 秦始皇帝</name><roleName>King of Qin; Emperor</roleName><forename/><nameLink/><surname/><addName>始皇帝</addName><genName/></persName>
+               <persName><name>the First Emperor of Qin 秦始皇帝</name><roleName>King of Qin; Emperor</roleName><forename/><nameLink/><surname/><addName>始皇帝; 政; 子政</addName><genName/></persName>
                <nationality>Qin</nationality>
                <note xml:lang="eng"><p>Ying Zheng 嬴政, King of Qin from 246 BC and First Emperor from 221 BC.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
@@ -372,9 +373,10 @@
             </person>
 
             <person n="50">
-               <persName><name>Queen Dowager Huayang 华阳太后</name><roleName>Queen Dowager of Qin</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <persName><name>Queen Dowager Huayang 华阳太后</name><roleName>Queen Dowager of Qin</roleName><forename/><nameLink/><surname/><addName>华阳夫人; 华阳后</addName><genName/></persName>
                <nationality>Qin</nationality>
                <note xml:lang="eng"><p>Queen of King Xiaowen of Qin.</p></note>
+               <note xml:lang="eng" from="-251" seq="5"><p>Queen of King Xiaowen of Qin; Lady Huayang 华阳夫人 before he came to the throne.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
 
