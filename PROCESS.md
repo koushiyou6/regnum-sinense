@@ -6,6 +6,7 @@ The rules below govern every bracket. They are the standing instructions of the 
 
 - One bracket (one cell of the chronology: one source column, one year) at a time, in column order within the year, years in chronological order.
 - Each bracket is published for the editor's check and is not pushed to GitHub, and the next bracket is not begun, until the editor approves it ("good", "next", "push").
+- A year ends with a full stop: after the last bracket of a year is approved and pushed, work pauses. The next year is begun only when the editor says so in as many words; "push" on a year's last bracket means push, not continue.
 - Questions are asked in chat, never written onto the page. No "[draft]" or "(provisional)" markers on the page.
 
 ## 2. Before translating
