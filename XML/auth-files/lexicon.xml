@@ -366,6 +366,17 @@
             <entry xml:lang="eng"><form><orth>officer</orth></form><gramGrp><pos>n</pos></gramGrp>
                <sense n="1"><def>a man in government service below the rank of official; a clerk or functionary.</def></sense><note/></entry>
          </superEntry>
+         <superEntry n="62">
+            <entry xml:lang="zho"><form><orth>郊</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>suburban sacrifice</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the sacrifice to Heaven offered by a ruler at an altar outside the city.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="63">
+            <entry xml:lang="zho"><form><orth>上帝</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>High God</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the supreme deity, Shangdi, to whom the suburban sacrifice is made.</def></sense><note/></entry>
+         </superEntry>
 
       </body>
    </text>
