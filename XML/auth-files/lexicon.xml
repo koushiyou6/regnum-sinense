@@ -445,6 +445,11 @@
             <entry xml:lang="eng"><form><orth>smear the blood</orth></form><gramGrp><pos>v</pos></gramGrp>
                <sense n="1"><def>to seal a covenant by smearing the lips with the blood of the victim.</def></sense><note/></entry>
          </superEntry>
+         <superEntry n="76">
+            <entry xml:lang="zho"><form><orth>守相</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Acting Chancellor</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the office of Chancellor held provisionally (守); the Biography of Lian Po writes 假相国.</def></sense><note/></entry>
+         </superEntry>
 
       </body>
    </text>

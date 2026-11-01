@@ -606,6 +606,13 @@
                <listEvent><event><p>251 BC</p></event></listEvent>
             </person>
 
+            <person n="83">
+               <persName><name>Yue Yi 乐毅</name><roleName>General of Yan</roleName><forename/><nameLink/><surname/><addName/><genName/></persName>
+               <nationality>Yan</nationality>
+               <note xml:lang="eng"><p>General of Yan, enfeoffed as Lord Changguo 昌国君; father of Yue Jian.</p></note>
+               <listEvent><event><p>251 BC</p></event></listEvent>
+            </person>
+
 </listPerson>
       </body>
    </text>
