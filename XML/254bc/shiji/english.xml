@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+  254 BC — English translation of the Shiji brackets. <div n="N"> matches source.xml.
+  Terms follow the Song Frontier Translation Glossary where it rules.
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Shiji 史记 · 秦昭襄王五十三年</title>
+            <respStmt><resp>Edited</resp><persName>Kou Shiyou</persName></respStmt>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><listBibl><bibl xml:id="S"><title>无骨者伊瓦尔《战国历史地图·年表》</title></bibl></listBibl></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div n="1">
+            <head>Shiji I: Basic Annals</head>
+            <p><title>Basic Annals of Qin</title>: In the <span corresp="fifty-third_year">fifty-third year</span>, all under Heaven <span corresp="came_to_pay_homage">came to pay homage</span>. <placeName n="10">Wei</placeName> was late; <placeName n="1">Qin</placeName> sent <persName n="2">Jiu</persName> to attack Wei and took <placeName n="100">Wucheng</placeName>. The <persName n="44">King of Han</persName> came to court, and Wei entrusted its state to Qin and took its orders.</p>
+         </div>
+
+      </body>
+   </text>
+</TEI>

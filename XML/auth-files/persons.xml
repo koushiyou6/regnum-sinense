@@ -321,7 +321,7 @@
             </person>
 
             <person n="44">
-               <persName><name>King Huanhui of Han 韩桓惠王</name><roleName>King of Han</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <persName><name>King Huanhui of Han 韩桓惠王</name><roleName>King of Han</roleName><forename/><nameLink/><surname/><addName>韩王</addName><genName/></persName>
                <nationality>Han</nationality>
                <note xml:lang="eng"><p>King of Han, reigned 272–239 BC.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>

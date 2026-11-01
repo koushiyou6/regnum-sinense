@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- 254 BC, Shiji — explanatory notes. <div n="N"> matches the bracket; <interp corresp="key"> matches <span corresp="key"> in english.xml. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Shiji 史记 · 秦昭襄王五十三年: notes</title>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><p>Notes written for this edition.</p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="0"/>
+         <div n="1">
+            <interp corresp="fifty-third_year">The fifty-third year of King Zhaoxiang of Qin, 254 BC.</interp>
+            <interp corresp="came_to_pay_homage">来宾: came as guests, that is, in submission.</interp>
+         </div>
+      </body>
+   </text>
+</TEI>
