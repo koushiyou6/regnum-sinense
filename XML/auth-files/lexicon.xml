@@ -377,6 +377,11 @@
             <entry xml:lang="eng"><form><orth>High God</orth></form><gramGrp><pos>n</pos></gramGrp>
                <sense n="1"><def>the supreme deity, Shangdi, to whom the suburban sacrifice is made.</def></sense><note/></entry>
          </superEntry>
+         <superEntry n="64">
+            <entry xml:lang="zho"><form><orth>八子</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Bazi consort</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a rank of royal consort below the Queen; Xu Guang: the title of a secondary wife.</def></sense><note/></entry>
+         </superEntry>
 
       </body>
    </text>

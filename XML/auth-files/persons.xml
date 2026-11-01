@@ -510,6 +510,13 @@
                <listEvent><event><p>252 BC</p></event></listEvent>
             </person>
 
+            <person n="70">
+               <persName><name>Queen Dowager Tang 唐太后</name><roleName>Queen Dowager of Qin</roleName><forename/><nameLink/><surname/><addName>唐八子</addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>A consort of King Zhaoxiang of the rank bazi, surnamed Tang (Xu Guang); the mother of King Xiaowen, who died before him and was honoured as Queen Dowager after her death (Zhengyi).</p></note>
+               <listEvent><event><p>251 BC</p></event></listEvent>
+            </person>
+
          </listPerson>
       </body>
    </text>
