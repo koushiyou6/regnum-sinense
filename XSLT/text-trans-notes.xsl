@@ -201,6 +201,7 @@
                         <a href="{$root}index.html">Home</a>
                         <a href="{$root}about.html">About</a>
                         <xsl:if test="$year != ''"><a href="{$year-href}"><xsl:value-of select="$year"/></a></xsl:if>
+                        <form class="search" action="{$root}search.html" method="get" role="search"><input type="search" name="q" placeholder="Search" aria-label="Search the site"/></form>
                     </div>
                     <div class="footer"></div>
                 </div>

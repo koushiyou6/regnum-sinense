@@ -56,7 +56,7 @@ The rules below govern every bracket. They are the standing instructions of the 
 
 ## 8. Build and check
 
-1. `python3 build.py` (subsets the CJK font, rebuilds every page, regenerates `sitemap.xml` and `robots.txt`).
+1. `python3 build.py` (subsets the CJK font, rebuilds every page, regenerates `search.html` with `search-index.json`, `sitemap.xml` and `robots.txt`).
 2. Consistency check: the set of tag ids in the Chinese equals the set in the English; every id has an entry; every `corresp` has a note.
 3. Render the page and look at it (paragraph alignment, strip, headers).
 4. Regenerate the artifact's Home (`preview/index.html`: title, style, body of `site/index.html`) and publish the artifact with the changed pages and fonts.
@@ -71,5 +71,6 @@ The rules below govern every bracket. They are the standing instructions of the 
 
 - No credit to Claude anywhere: not on pages, not in TEI headers, not in commits.
 - One page per bracket, linked from the year page and from every sibling bracket's strip; introductions on every bracket; no annotation box beside the introduction.
+- Search is client-side: the navbar box on every page goes to `search.html`, which searches `search-index.json` (every translated bracket, Chinese and English, and every person, place and term entry) in the browser. The index is rebuilt by `build.py`, so a page is searchable as soon as it is built and pushed.
 - The `docs/google*.html` verification file and `.nojekyll` stay.
 - Cultural-region essays and the 戰國縱橫家書 are sidebar sources by era, to be added when the editor says.

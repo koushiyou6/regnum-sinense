@@ -108,12 +108,13 @@
                     <xsl:attribute name="content">
                         <xsl:choose>
                             <xsl:when test="$page = 'about'">About Regnum Sinense: the sources behind Atrium Concordiae's historical atlases of China, year by year, in Chinese and English.</xsl:when>
+                            <xsl:when test="$page = 'search'">Search Regnum Sinense: the texts, translations, persons, places and terms.</xsl:when>
                             <xsl:when test="$year != ''"><xsl:value-of select="$this-year/@era"/><xsl:text> (</xsl:text><xsl:value-of select="$this-year/@label"/><xsl:if test="$this-year/@en != ''"><xsl:text>, </xsl:text><xsl:value-of select="$this-year/@en"/></xsl:if><xsl:text>): the sources for the year — </xsl:text><xsl:value-of select="string-join($this-year/document/@label, ', ')"/><xsl:text> — with English translation and notes.</xsl:text></xsl:when>
                             <xsl:otherwise>Regnum Sinense: the sources behind Atrium Concordiae's historical atlases of China, year by year from 256 BC — Chinese text, English translation and notes, side by side.</xsl:otherwise>
                         </xsl:choose>
                     </xsl:attribute>
                 </meta>
-                <title><xsl:value-of select="$site-name"/><xsl:choose><xsl:when test="$page = 'about'">: About</xsl:when><xsl:when test="$year != ''"><xsl:text>: </xsl:text><xsl:value-of select="$this-year/@era"/></xsl:when></xsl:choose></title>
+                <title><xsl:value-of select="$site-name"/><xsl:choose><xsl:when test="$page = 'about'">: About</xsl:when><xsl:when test="$page = 'search'">: Search</xsl:when><xsl:when test="$year != ''"><xsl:text>: </xsl:text><xsl:value-of select="$this-year/@era"/></xsl:when></xsl:choose></title>
                 <style><xsl:value-of select="$css" disable-output-escaping="yes"/><xsl:value-of select="replace(unparsed-text('../css/font-cjk.css'), 'FONTROOT/', $root)" disable-output-escaping="yes"/></style>
             </head>
             <body>
@@ -125,6 +126,7 @@
                         <a href="{$root}index.html">Home</a>
                         <a href="{$root}about.html">About</a>
                         <xsl:if test="$year != ''"><a href="index.html"><xsl:value-of select="$this-year/@era"/></a></xsl:if>
+                        <form class="search" action="{$root}search.html" method="get" role="search"><input type="search" name="q" placeholder="Search" aria-label="Search the site"/></form>
                     </div>
                     <div class="footer"></div>
                 </div>
@@ -132,6 +134,71 @@
                 <div class="content">
                     <div class="indent">
                         <xsl:choose>
+
+                            <!-- ===== Search ===== -->
+                            <xsl:when test="$page = 'search'">
+                                <div class="about search-page">
+                                    <h1>Search</h1>
+                                    <hr/>
+                                    <form class="search big" action="search.html" method="get" role="search"><input type="search" name="q" id="q" placeholder="A name, a place, a term, a phrase — in Chinese or English" aria-label="Search the site"/><button type="submit">Search</button></form>
+                                    <p class="hint" id="status">Searches the Chinese texts, the English translations, and the entries for persons, places and terms.</p>
+                                    <div id="results"></div>
+                                    <script><xsl:text disable-output-escaping="yes">
+(function () {
+  var q = new URLSearchParams(location.search).get('q') || '';
+  var box = document.getElementById('q'); box.value = q;
+  var status = document.getElementById('status'), out = document.getElementById('results');
+  if (!q.trim()) { box.focus(); return; }
+  var needle = q.trim();
+  var lower = needle.toLowerCase();
+  function esc(s) { return s.replace(/[&amp;&lt;&gt;]/g, function (c) { return {'&amp;':'&amp;amp;','&lt;':'&amp;lt;','&gt;':'&amp;gt;'}[c]; }); }
+  function mark(text) {
+    var i = text.toLowerCase().indexOf(lower); if (i &lt; 0) return esc(text);
+    var out = '', pos = 0;
+    while (i &gt;= 0) { out += esc(text.slice(pos, i)) + '&lt;mark&gt;' + esc(text.slice(i, i + needle.length)) + '&lt;/mark&gt;'; pos = i + needle.length; i = text.toLowerCase().indexOf(lower, pos); }
+    return out + esc(text.slice(pos));
+  }
+  function snippet(text) {
+    var i = text.toLowerCase().indexOf(lower); if (i &lt; 0) return '';
+    var a = Math.max(0, i - 70), b = Math.min(text.length, i + needle.length + 110);
+    return (a &gt; 0 ? '… ' : '') + mark(text.slice(a, b)) + (b &lt; text.length ? ' …' : '');
+  }
+  fetch('search-index.json').then(function (r) { return r.json(); }).then(function (ix) {
+    var hits = { entries: [], passages: [] };
+    ix.entries.forEach(function (e) { if ((e.name + ' ' + e.alt + ' ' + e.note + ' ' + e.more).toLowerCase().indexOf(lower) &gt;= 0) hits.entries.push(e); });
+    ix.passages.forEach(function (p) {
+      var inZh = p.zh.indexOf(needle) &gt;= 0, inEn = p.en.toLowerCase().indexOf(lower) &gt;= 0;
+      if (inZh || inEn || p.title.toLowerCase().indexOf(lower) &gt;= 0) hits.passages.push({ p: p, zh: inZh, en: inEn });
+    });
+    var n = hits.entries.length + hits.passages.length;
+    status.textContent = n ? n + (n === 1 ? ' result for ' : ' results for ') + '“' + needle + '”' : 'Nothing found for “' + needle + '”.';
+    var html = '';
+    if (hits.entries.length) {
+      html += '&lt;h2&gt;Entries&lt;/h2&gt;&lt;ul class="hits"&gt;';
+      hits.entries.forEach(function (e) {
+        html += '&lt;li&gt;&lt;span class="kind"&gt;' + e.kind + '&lt;/span&gt; &lt;b&gt;' + mark(e.name) + '&lt;/b&gt;' + (e.alt ? ' &lt;span class="alt"&gt;' + mark(e.alt) + '&lt;/span&gt;' : '') + '&lt;br/&gt;&lt;span class="snip"&gt;' + mark(e.note) + '&lt;/span&gt;';
+        if (e.pages.length) { html += '&lt;br/&gt;&lt;span class="where"&gt;on: '; html += e.pages.map(function (pg) { return '&lt;a href="' + pg.url + '"&gt;' + esc(pg.label) + '&lt;/a&gt;'; }).join(' · '); html += '&lt;/span&gt;'; }
+        html += '&lt;/li&gt;';
+      });
+      html += '&lt;/ul&gt;';
+    }
+    if (hits.passages.length) {
+      html += '&lt;h2&gt;Passages&lt;/h2&gt;&lt;ul class="hits"&gt;';
+      hits.passages.forEach(function (h) {
+        var p = h.p;
+        html += '&lt;li&gt;&lt;a href="' + p.url + '"&gt;&lt;b&gt;' + esc(p.era) + '&lt;/b&gt; · ' + esc(p.title) + '&lt;/a&gt;';
+        if (h.zh) html += '&lt;br/&gt;&lt;span class="snip" lang="zh"&gt;' + snippet(p.zh) + '&lt;/span&gt;';
+        if (h.en) html += '&lt;br/&gt;&lt;span class="snip"&gt;' + snippet(p.en) + '&lt;/span&gt;';
+        html += '&lt;/li&gt;';
+      });
+      html += '&lt;/ul&gt;';
+    }
+    out.innerHTML = html;
+  }).catch(function () { status.textContent = 'The search index could not be loaded.'; });
+})();
+</xsl:text></script>
+                                </div>
+                            </xsl:when>
 
                             <!-- ===== About ===== -->
                             <xsl:when test="$page = 'about'">
