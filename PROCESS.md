@@ -44,6 +44,7 @@ The rules below govern every bracket. They are the standing instructions of the 
 - Persons: identification only — rank or office, state, reign dates for rulers, personal name, the names the texts call him by, and the commentary a disputed identification rests on. Places: the kind of place, the state, the commentary's placing, the modern location. Terms: a one-line definition.
 - No events from other years in an entry. No "location not established": search the commentaries and the internet first; if nothing is found, say what the commentaries do and do not give ("the commentaries give no location") and, where the text allows, where it sits relative to a known place.
 - Place headwords show the name only; the rest is in the expanded note.
+- One entry per person or place, but its text is never changed retroactively. An entry's note is versioned by the bracket that introduces a change: a new `<note from="-255" seq="7">` (year, BC negative; seq = the bracket's place in that year's reading order, Shiji brackets first, then the excavated texts) is added and shows from that bracket onward, while earlier pages keep the earlier note. This applies to new names, new offices, moved seats and any fact learned from a later bracket; a dated note states the fact as of its bracket and does not recount what went before. Only an outright error is corrected in place, everywhere, and that is said in chat.
 
 ## 7. Encoding
 

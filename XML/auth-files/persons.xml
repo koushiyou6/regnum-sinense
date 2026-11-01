@@ -106,14 +106,16 @@
             <person n="13">
                <persName><name>King Anxi of Wei 魏安釐王</name><roleName>King of Wei</roleName><forename/><nameLink/><surname/><addName>魏安僖王</addName><genName/></persName>
                <nationality>Wei</nationality>
-               <note xml:lang="eng"><p>King of Wei, reigned 276–243 BC; written 安釐王 in the Shiji and 安僖王 in the commentary.</p></note>
+               <note xml:lang="eng"><p>King of Wei, reigned 276–243 BC.</p></note>
+               <note xml:lang="eng" from="-256" seq="7"><p>King of Wei, reigned 276–243 BC; written 安釐王 in the Shiji and 安僖王 in the commentary.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
 
             <person n="14">
                <persName><name>Fan Ju 范睢</name><roleName>Chancellor of Qin</roleName><forename/><nameLink/><surname/><addName>范雎; 应侯; 张禄</addName><genName/></persName>
                <nationality>Qin</nationality>
-               <note xml:lang="eng"><p>Chancellor of Qin, Marquis of Ying 应侯; went by the name Zhang Lu 张禄 in Qin. Written 范睢 in the Biography of the Prince of Wei and 范雎 in the title of his own.</p></note>
+               <note xml:lang="eng"><p>Chancellor of Qin, Marquis of Ying 应侯. Written 范睢 in the Biography of the Prince of Wei and 范雎 in the title of his own.</p></note>
+               <note xml:lang="eng" from="-255" seq="7"><p>Chancellor of Qin, Marquis of Ying 应侯; went by the name Zhang Lu 张禄 in Qin. Written 范睢 in the Biography of the Prince of Wei and 范雎 in the title of his own.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
 
@@ -232,7 +234,8 @@
             <person n="31">
                <persName><name>King Zhuangxiang of Qin 秦庄襄王</name><roleName>King of Qin</roleName><forename/><nameLink/><surname/><addName>庄襄王; 子楚</addName><genName/></persName>
                <nationality>Qin</nationality>
-               <note xml:lang="eng"><p>King of Qin, reigned 249–247 BC; called Zichu 子楚 before his accession, the name under which the Biography of Lü Buwei has him at Handan.</p></note>
+               <note xml:lang="eng"><p>King of Qin, reigned 249–247 BC.</p></note>
+               <note xml:lang="eng" from="-256" seq="5"><p>King of Qin, reigned 249–247 BC; called Zichu 子楚 before his accession, the name under which the Biography of Lü Buwei has him at Handan.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
 
@@ -267,7 +270,8 @@
             <person n="36">
                <persName><name>Lü Buwei 吕不韦</name><roleName>Chancellor of Qin</roleName><forename/><nameLink/><surname/><addName>文信侯</addName><genName/></persName>
                <nationality>Wei</nationality>
-               <note xml:lang="eng"><p>A merchant of Yangdi, later Chancellor of Qin and Marquis Wenxin 文信侯, the name under which the Zhanguo zonghengjia shu has him.</p></note>
+               <note xml:lang="eng"><p>A merchant of Yangdi, later Chancellor of Qin.</p></note>
+               <note xml:lang="eng" from="-256" seq="6"><p>A merchant of Yangdi, later Chancellor of Qin and Marquis Wenxin 文信侯, the name under which the Zhanguo zonghengjia shu has him.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
 
@@ -344,7 +348,8 @@
             <person n="47">
                <persName><name>Lord Chunshen 春申君</name><roleName>Chancellor of Chu</roleName><forename/><nameLink/><surname/><addName>黄歇; 歇</addName><genName/></persName>
                <nationality>Chu</nationality>
-               <note xml:lang="eng"><p>Huang Xie 黄歇, Chancellor of Chu from 262 BC, enfeoffed as Lord Chunshen.</p></note>
+               <note xml:lang="eng"><p>Huang Xie 黄歇, Chancellor of Chu, enfeoffed as Lord Chunshen.</p></note>
+               <note xml:lang="eng" from="-255" seq="4"><p>Huang Xie 黄歇, Chancellor of Chu from 262 BC, enfeoffed as Lord Chunshen.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
 

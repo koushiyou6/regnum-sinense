@@ -52,6 +52,24 @@
     <xsl:variable name="this-bracket" select="if ($bracket != '') then $manifest-doc/*:bracket[position() = xs:integer($bracket)] else ()"/>
     <xsl:variable name="year-href" select="if ($bracket != '') then '../index.html' else 'index.html'"/>
     <xsl:variable name="source-title" select="string($src//titleStmt/title)"/>
+    <!-- the page's year as a number (BC negative), for entries whose notes are dated -->
+    <xsl:variable name="year-n" as="xs:integer?" select="if (matches($year, '^\d+ BC$')) then -xs:integer(replace($year, ' BC', '')) else if (matches($year, '^AD \d+$')) then xs:integer(replace($year, 'AD ', '')) else ()"/>
+    <!-- this page's place in the year's reading order: documents in manifest order, brackets within them -->
+    <xsl:variable name="page-seq" as="xs:integer" select="if ($bracket != '') then count($manifest-doc/preceding-sibling::*:document/*:bracket) + xs:integer($bracket) else 0"/>
+    <!-- the version of an entry's note current as of this page: notes carry from="year" (BC negative) and seq="n"
+         (the bracket, in the year's reading order) of the bracket that introduced them; the latest note at or before
+         this page is shown, else the undated note. Earlier pages therefore keep the earlier text. -->
+    <xsl:function name="local:note-for-year" as="element()?">
+        <xsl:param name="notes" as="element()*"/>
+        <xsl:variable name="dated" select="$notes[@from][xs:integer(@from) lt $year-n or (xs:integer(@from) eq $year-n and (if (@seq) then xs:integer(@seq) else 1) le $page-seq)]"/>
+        <xsl:variable name="sorted" as="element()*">
+            <xsl:perform-sort select="$dated">
+                <xsl:sort select="xs:integer(@from)" order="descending"/>
+                <xsl:sort select="if (@seq) then xs:integer(@seq) else 1" order="descending"/>
+            </xsl:perform-sort>
+        </xsl:variable>
+        <xsl:sequence select="if ($sorted) then $sorted[1] else $notes[not(@from)][1]"/>
+    </xsl:function>
 
     <!-- ===== site settings ===== -->
     <xsl:variable name="site-name"   select="string($site/*:site/*:name)"/>
@@ -118,7 +136,7 @@
                 <xsl:variable name="p" select="$pers//person[data(@n) = current-grouping-key()]"/>
                 <details>
                     <summary><b><span class="pers"><xsl:value-of select="$p/persName/name"/></span></b></summary>
-                    <xsl:apply-templates select="$p/note[@xml:lang = 'eng']/p/node()"/>
+                    <xsl:apply-templates select="local:note-for-year($p/note[@xml:lang = 'eng'])/p/node()"/>
                     <br/>
                 </details>
             </xsl:for-each-group>
@@ -130,7 +148,7 @@
                 <xsl:variable name="pl" select="$places//place[data(@n) = current-grouping-key()]"/>
                 <details>
                     <summary><b><span class="place"><xsl:value-of select="local:place-name($pl)"/></span></b></summary>
-                    <xsl:apply-templates select="$pl/note[@xml:lang = 'eng']/node()"/>
+                    <xsl:apply-templates select="local:note-for-year($pl/note[@xml:lang = 'eng'])/node()"/>
                     <br/>
                 </details>
             </xsl:for-each-group>

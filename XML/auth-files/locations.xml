@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!--
+  Entries are versioned by the bracket that introduces a change: a note with from="year" (BC negative)
+  and seq="n" (the bracket's place in that year's reading order) is shown from that bracket onward;
+  earlier pages show the undated note. Earlier pages are never changed by later knowledge.
   Gazetteer. One <place n="ID"> per place. Display name = <placeName>/<geogName>, then
   <region>, then <country>, skipping empty parts. <geo> holds "lat, lon" for a pin; left
   empty for states and regions. Identifications marked await review.
@@ -94,7 +97,8 @@
                <placeName><region type="state">Chu 楚</region></placeName>
                <country/><region/>
                <location><geo/></location>
-               <note xml:lang="eng">the state of Chu, at this date with its capital at Chen (modern Huaiyang, Henan).</note>
+               <note xml:lang="eng">the state of Chu, with its seat at Chen (modern Huaiyang, Henan).</note>
+               <note xml:lang="eng" from="-253" seq="2">the state of Chu, with its seat at Juyang.</note>
             </place>
 
             <place n="12">
@@ -122,7 +126,8 @@
                <placeName><settlement type="town">Changzhuang 昌壮</settlement></placeName>
                <country/><region>Zhao</region>
                <location><geo/></location>
-               <note xml:lang="eng">a Zhao town. Xu Guang records a reading 昌社; the Zhengyi takes 壮 as an error for 城, Changcheng 昌城, which it places north-west of Xindu County in Jizhou, modern Jizhou, Hebei.</note>
+               <note xml:lang="eng">a Zhao town. Xu Guang records a reading 昌社; the Zhengyi takes 壮 as an error for 城 and places Changcheng north-west of Xindu County in Jizhou, modern Jizhou, Hebei.</note>
+               <note xml:lang="eng" from="-256" seq="6">a Zhao town. Xu Guang records a reading 昌社; the Zhengyi takes 壮 as an error for 城, Changcheng 昌城, which it places north-west of Xindu County in Jizhou, modern Jizhou, Hebei.</note>
             </place>
 
             <place n="16">
@@ -402,7 +407,7 @@
                <placeName><settlement type="county">Chen County 陈县</settlement></placeName>
                <country/><region>Chu</region>
                <location><geo/></location>
-               <note xml:lang="eng">the former capital of the state of Chen, Chu's seat at this date; modern Huaiyang, Henan.</note>
+               <note xml:lang="eng">the former capital of the state of Chen, Chu's seat from 278 to 253 BC; modern Huaiyang, Henan.</note>
             </place>
 
             <place n="56">
@@ -732,6 +737,13 @@
                <country/><region>Qin</region>
                <location><geo/></location>
                <note xml:lang="eng">the old capital of Qin and seat of its altars; modern Fengxiang, Baoji, Shaanxi.</note>
+            </place>
+
+            <place n="103">
+               <placeName><settlement type="city">Juyang 鉅陽</settlement></placeName>
+               <country/><region>Chu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">Chu's seat after Chen; identified with the Diandingzi walled site at Juyang village, Gongji, in Taihe County, Anhui, on the Xifei River.</note>
             </place>
 
          </listPlace>
