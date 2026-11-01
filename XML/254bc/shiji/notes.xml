@@ -17,7 +17,13 @@
          <div n="1">
             <interp corresp="fifty-third_year">The fifty-third year of King Zhaoxiang of Qin, 254 BC.</interp>
             <interp corresp="came_to_pay_homage">来宾: came as guests, that is, in submission.</interp>
+         </div>         <div n="2">
+            <interp corresp="nineteenth_year">The nineteenth year of Duke Qing of Lu, 254 BC.</interp>
+            <interp corresp="Shuzhou">徐州: the Suoyin, citing the Shuowen's 䣄, "a lower town of Zhu, east of Lu", gives the pronunciation of the character as that of 舒, shu; hence Shuzhou.</interp>
+            <interp corresp="twelfth_year">The twelfth year of King Xiaocheng of Zhao, 254 BC.</interp>
+            <interp corresp="fodder-store">廥 is supplied from the three-commentary edition, which reads 邯郸廥烧; Xu Guang: a stable; the Suoyin: a store of hay and straw, destroyed by fire.</interp>
          </div>
+
       </body>
    </text>
 </TEI>

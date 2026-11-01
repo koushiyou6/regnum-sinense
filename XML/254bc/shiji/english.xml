@@ -23,6 +23,12 @@
             <p><title>Basic Annals of Qin</title>: In the <span corresp="fifty-third_year">fifty-third year</span>, all under Heaven <span corresp="came_to_pay_homage">came to pay homage</span>. <placeName n="10">Wei</placeName> was late; <placeName n="1">Qin</placeName> sent <persName n="2">Jiu</persName> to attack Wei and took <placeName n="100">Wucheng</placeName>. The <persName n="44">King of Han</persName> came to court, and Wei entrusted its state to Qin and took its orders.</p>
          </div>
 
+         <div n="2">
+            <head>Shiji III: Hereditary Houses</head>
+            <p><title>Hereditary House of the Duke of Zhou of Lu</title>: In the <span corresp="nineteenth_year">nineteenth year</span>, <placeName n="11">Chu</placeName> attacked us and took <span corresp="Shuzhou"><placeName n="101">Shuzhou</placeName></span>.</p>
+            <p><title>Hereditary House of Zhao</title>: In the <span corresp="twelfth_year">twelfth year</span>, the <span corresp="fodder-store">fodder-store</span> at <placeName n="13">Handan</placeName> burned.</p>
+         </div>
+
       </body>
    </text>
 </TEI>

@@ -720,6 +720,13 @@
                <note xml:lang="eng">a Wei town in Dayang (Xu Guang); the old city of Yu on Yu Mountain, also called Wu Mountain, fifty li north-east of Hebei County in Shanzhou (Zhengyi, citing the Kuodi zhi); modern Pinglu County, Shanxi.</note>
             </place>
 
+            <place n="101">
+               <placeName><settlement type="town">Shuzhou 徐州</settlement></placeName>
+               <country/><region>Lu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">east of Lu, the Xue County of Han times (Xu Guang); the Shuowen writes it 䣄, and the Suoyin gives its pronunciation as that of 舒, shu; modern Tengzhou, Shandong.</note>
+            </place>
+
          </listPlace>
       </body>
    </text>

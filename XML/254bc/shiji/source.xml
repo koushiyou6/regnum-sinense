@@ -29,6 +29,12 @@
             <p><title>秦本纪</title>：五十三年，天下来宾。<placeName n="10">魏</placeName>后，<placeName n="1">秦</placeName>使<persName n="2">摎</persName>伐魏，取<placeName n="100">吴城</placeName>。<persName n="44">韩王</persName>入朝，魏委国听令。</p>
          </div>
 
+         <div n="2">
+            <head>史记（三：世家）</head>
+            <p><title>鲁周公世家</title>：十九年，<placeName n="11">楚</placeName>伐我，取<placeName n="101">徐州</placeName>。</p>
+            <p><title>赵世家</title>：十二年，<placeName n="13">邯郸</placeName>〔廥〕烧。</p>
+         </div>
+
       </body>
    </text>
 </TEI>
