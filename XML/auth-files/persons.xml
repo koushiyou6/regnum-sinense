@@ -613,6 +613,13 @@
                <listEvent><event><p>251 BC</p></event></listEvent>
             </person>
 
+            <person n="84">
+               <persName><name>Su 遬</name><roleName/><forename/><nameLink/><surname/><addName>速</addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>Younger brother of Xi 喜, the occupant of Shuihudi tomb 11, whose family's births and deaths the Chronicle records; born in 251 BC. The graph is also transcribed 速.</p></note>
+               <listEvent><event><p>251 BC</p></event></listEvent>
+            </person>
+
 </listPerson>
       </body>
    </text>
