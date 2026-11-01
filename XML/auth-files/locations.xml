@@ -349,6 +349,20 @@
                <note xml:lang="eng">the former state of Ju, by this date held by Chu; modern Ju County, Shandong.</note>
             </place>
 
+            <place n="48">
+               <placeName><settlement type="town">Yuanshi 元氏</settlement></placeName>
+               <country/><region>Zhao</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Zhao town; modern Yuanshi County, Hebei.</note>
+            </place>
+
+            <place n="49">
+               <placeName><settlement type="town">Shangyuan 上原</settlement></placeName>
+               <country/><region>Zhao</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Zhao place near Yuanshi, made a County in this year; the commentaries give no location.</note>
+            </place>
+
          </listPlace>
       </body>
    </text>

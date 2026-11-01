@@ -29,6 +29,12 @@
             <p><placeName n="11">Chu</placeName>: Took <placeName n="37">Lu</placeName>; the <persName n="52">Lord of Lu</persName> was enfeoffed at <placeName n="47">Ju</placeName>.</p>
          </div>
 
+         <div n="3">
+            <head>Shiji III: Hereditary Houses</head>
+            <p><title>Hereditary House of the Duke of Shao of Yan</title>: In the <span corresp="third_year">third year</span> he died, and his son, <span corresp="the_present_king">the present king</span>, <persName n="53">Xi</persName>, was set up.</p>
+            <p><title>Hereditary House of Zhao</title>: In the <span corresp="eleventh_year">eleventh year</span>, made <placeName n="48">Yuanshi</placeName> a <term n="12">Fortress</term> and <placeName n="49">Shangyuan</placeName> a <term n="10">County</term>. <persName n="54">Lord Wuyang, Zheng Anping</persName>, died, and his lands were taken back.</p>
+         </div>
+
       </body>
    </text>
 </TEI>

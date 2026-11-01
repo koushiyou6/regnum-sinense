@@ -383,6 +383,20 @@
                <listEvent><event><p>255 BC</p></event></listEvent>
             </person>
 
+            <person n="53">
+               <persName><name>King Xi of Yan 燕王喜</name><roleName>King of Yan</roleName><forename/><nameLink/><surname/><addName>喜</addName><genName/></persName>
+               <nationality>Yan</nationality>
+               <note xml:lang="eng"><p>King of Yan from 254 BC; son of King Xiao.</p></note>
+               <listEvent><event><p>255 BC</p></event></listEvent>
+            </person>
+
+            <person n="54">
+               <persName><name>Zheng Anping 郑安平</name><roleName>Lord Wuyang</roleName><forename/><nameLink/><surname/><addName>武阳君</addName><genName/></persName>
+               <nationality>Zhao</nationality>
+               <note xml:lang="eng"><p>A Qin general who went over to Zhao, enfeoffed there as Lord Wuyang 武阳君.</p></note>
+               <listEvent><event><p>255 BC</p></event></listEvent>
+            </person>
+
          </listPerson>
       </body>
    </text>

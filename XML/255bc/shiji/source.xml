@@ -35,6 +35,12 @@
             <p><placeName n="11">楚</placeName>：取<placeName n="37">魯</placeName>，<persName n="52">魯君</persName>封於<placeName n="47">莒</placeName>。</p>
          </div>
 
+         <div n="3">
+            <head>史记（三：世家）</head>
+            <p><title>燕召公世家</title>：三年卒，子今王<persName n="53">喜</persName>立。</p>
+            <p><title>赵世家</title>：十一年，<term n="12">城</term><placeName n="48">元氏</placeName>，<term n="10">县</term><placeName n="49">上原</placeName>。<persName n="54">武阳君郑安平</persName>死，收其地。</p>
+         </div>
+
       </body>
    </text>
 </TEI>
