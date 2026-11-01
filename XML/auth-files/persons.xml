@@ -517,7 +517,21 @@
                <listEvent><event><p>251 BC</p></event></listEvent>
             </person>
 
-         </listPerson>
+                     <person n="71">
+               <persName><name>Jing Bo 景伯</name><roleName>Pillar of the State of Chu</roleName><forename/><nameLink/><surname/><addName/><genName/></persName>
+               <nationality>Chu</nationality>
+               <note xml:lang="eng"><p>Pillar of the State 柱国 of Chu, of the Jing 景 clan, one of the royal clans of Chu; known only from the Table's notice of his death.</p></note>
+               <listEvent><event><p>251 BC</p></event></listEvent>
+            </person>
+
+            <person n="72">
+               <persName><name>Li Fu 栗腹</name><roleName>Chancellor of Yan</roleName><forename/><nameLink/><surname/><addName/><genName/></persName>
+               <nationality>Yan</nationality>
+               <note xml:lang="eng"><p>Chancellor of Yan (the Suoyin: a surname and personal name; the Chancellor of Yan).</p></note>
+               <listEvent><event><p>251 BC</p></event></listEvent>
+            </person>
+
+</listPerson>
       </body>
    </text>
 </TEI>

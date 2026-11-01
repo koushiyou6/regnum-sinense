@@ -382,6 +382,11 @@
             <entry xml:lang="eng"><form><orth>Bazi consort</orth></form><gramGrp><pos>n</pos></gramGrp>
                <sense n="1"><def>a rank of royal consort below the Queen; Xu Guang: the title of a secondary wife.</def></sense><note/></entry>
          </superEntry>
+         <superEntry n="65">
+            <entry xml:lang="zho"><form><orth>柱国</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Pillar of the State</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a high office of Chu, next in rank to the Chief Minister (令尹).</def></sense><note/></entry>
+         </superEntry>
 
       </body>
    </text>
