@@ -152,6 +152,7 @@
                <nationality>Zhao</nationality>
                <note xml:lang="eng"><p>Zhao Sheng 赵胜, younger brother of King Huiwen of Zhao; he names himself Sheng in his message.</p></note>
                <note xml:lang="eng" from="-252" seq="1"><p>Zhao Sheng 赵胜, younger brother of King Huiwen of Zhao; died 252 BC.</p></note>
+               <note xml:lang="eng" from="-251" seq="2"><p>Zhao Sheng 赵胜, younger brother of King Huiwen of Zhao; his death is placed in the fourteenth year of King Xiaocheng (252 BC) by the Hereditary House of Zhao and in the fifteenth (251 BC) by the Table.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
 
@@ -465,6 +466,7 @@
                <persName><name>King Kaolie of Chu 楚考烈王</name><roleName>King of Chu</roleName><forename/><nameLink/><surname/><addName>完; 太子完</addName><genName/></persName>
                <nationality>Chu</nationality>
                <note xml:lang="eng"><p>King of Chu, reigned 262–238 BC; personal name Wan, Heir Apparent before his accession.</p></note>
+               <note xml:lang="eng" from="-251" seq="3"><p>King of Chu, reigned 262–238 BC; personal name Wan.</p></note>
                <listEvent><event><p>255 BC</p></event></listEvent>
             </person>
 
@@ -528,6 +530,41 @@
                <persName><name>Li Fu 栗腹</name><roleName>Chancellor of Yan</roleName><forename/><nameLink/><surname/><addName/><genName/></persName>
                <nationality>Yan</nationality>
                <note xml:lang="eng"><p>Chancellor of Yan (the Suoyin: a surname and personal name; the Chancellor of Yan).</p></note>
+               <listEvent><event><p>251 BC</p></event></listEvent>
+            </person>
+
+            <person n="73">
+               <persName><name>Yue Jian 乐闲</name><roleName>Lord Changguo</roleName><forename/><nameLink/><surname/><addName>昌国君; 乐间</addName><genName/></persName>
+               <nationality>Yan</nationality>
+               <note xml:lang="eng"><p>Lord Changguo 昌国君 of Yan, son of Yue Yi 乐毅, whose title he held; went over to Zhao in 251 BC. Written 乐闲 or 乐间.</p></note>
+               <listEvent><event><p>251 BC</p></event></listEvent>
+            </person>
+
+            <person n="74">
+               <persName><name>Qing Qin 卿秦</name><roleName>General of Yan</roleName><forename/><nameLink/><surname/><addName>爰秦; 庆秦</addName><genName/></persName>
+               <nationality>Yan</nationality>
+               <note xml:lang="eng"><p>A Yan general (the Suoyin: a surname and personal name; or else 卿 is an office and 秦 the name). The Zhanguoce writes 爰秦, Yuan being the surname (Suoyin), or 庆秦 (Zhengyi).</p></note>
+               <listEvent><event><p>251 BC</p></event></listEvent>
+            </person>
+
+            <person n="75">
+               <persName><name>Jiang Qu 将渠</name><roleName>Grand Master of Yan</roleName><forename/><nameLink/><surname/><addName/><genName/></persName>
+               <nationality>Yan</nationality>
+               <note xml:lang="eng"><p>Grand Master 大夫 of Yan, made Chancellor in 251 BC (the Suoyin: a surname and personal name; or else 将 is an office and 渠 the name).</p></note>
+               <listEvent><event><p>251 BC</p></event></listEvent>
+            </person>
+
+            <person n="76">
+               <persName><name>Lian Po 廉颇</name><roleName>General of Zhao</roleName><forename/><nameLink/><surname/><addName>信平君</addName><genName/></persName>
+               <nationality>Zhao</nationality>
+               <note xml:lang="eng"><p>General of Zhao, Chancellor of State; enfeoffed as Lord Xinping 信平君 in 251 BC (the Zhengyi: a title, "steadfast in good faith and peaceable").</p></note>
+               <listEvent><event><p>251 BC</p></event></listEvent>
+            </person>
+
+            <person n="77">
+               <persName><name>Yue Cheng 乐乘</name><roleName>General of Zhao</roleName><forename/><nameLink/><surname/><addName/><genName/></persName>
+               <nationality>Zhao</nationality>
+               <note xml:lang="eng"><p>A general of Zhao.</p></note>
                <listEvent><event><p>251 BC</p></event></listEvent>
             </person>
 

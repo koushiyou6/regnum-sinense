@@ -387,6 +387,29 @@
             <entry xml:lang="eng"><form><orth>Pillar of the State</orth></form><gramGrp><pos>n</pos></gramGrp>
                <sense n="1"><def>a high office of Chu, next in rank to the Chief Minister (令尹).</def></sense><note/></entry>
          </superEntry>
+         <superEntry n="66">
+            <entry xml:lang="zho"><form><orth>金</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>jin of gold</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the unit in which sums of gold are reckoned: a yi 镒 under the Warring States and Qin, a jin 斤 under Han.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="67">
+            <entry xml:lang="zho"><form><orth>大夫</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Grand Master</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a rank of officials below the ministers (卿).</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="68">
+            <entry xml:lang="zho"><form><orth>丞相</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Chancellor</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the head of the administration; the fuller form of the title the texts also write as 相.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="69">
+            <entry xml:lang="zho"><form><orth>绶</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>seal-ribbon</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the silk ribbon by which the seal of office was hung from the belt.</def></sense><note/></entry>
+         </superEntry>
 
       </body>
    </text>

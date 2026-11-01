@@ -746,7 +746,21 @@
                <note xml:lang="eng">Chu's seat after Chen; identified with the Diandingzi walled site at Juyang village, Gongji, in Taihe County, Anhui, on the Xifei River.</note>
             </place>
 
-         </listPlace>
+                     <place n="104">
+               <placeName><settlement type="town">Songzi 宋子</settlement></placeName>
+               <country/><region>Zhao</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Zhao town; Xu Guang: in Julu; north-east of modern Zhao County, Hebei.</note>
+            </place>
+
+            <place n="105">
+               <placeName><settlement type="town">Weiwen 尉文</settlement></placeName>
+               <country/><region>Zhao</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the fief granted to Lian Po; the Suoyin: probably a place name, or else 尉 an office and 文 a name; the Zhengyi: probably land in Weizhou (modern Yu County, Hebei).</note>
+            </place>
+
+</listPlace>
       </body>
    </text>
 </TEI>
