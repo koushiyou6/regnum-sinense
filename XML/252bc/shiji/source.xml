@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+  252 BC (秦昭襄王五十五年) — the Shiji tab of the chronology spreadsheet.
+  One <div n="N"> per bracket (one spreadsheet cell), in column order. <head> is the
+  column heading; each paragraph of the cell is a <p>. Text is kept as it stands in the spreadsheet.
+  Conventions: <term n="ID">, <persName n="ID">, <placeName n="ID">, <title> for a chapter name.
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Shiji 史记 · 秦昭襄王五十五年</title>
+            <respStmt><resp>Compiled</resp><persName>无骨者伊瓦尔</persName></respStmt>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <bibl xml:id="S"><title>无骨者伊瓦尔《战国历史地图·年表》</title><note xml:lang="eng">Chronology spreadsheet 疆域变化年表 (draft 3, patch 2), Shiji tab; the Shiji text follows the edition used by the compiler.</note></bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div n="1">
+            <head>史记（三：世家）</head>
+            <p><title>卫康叔世家</title>：<persName n="39">怀君</persName>三十一年，朝<placeName n="10">魏</placeName>，魏囚杀怀君。魏更立<persName n="69">嗣君</persName>弟，是为<persName n="45">元君</persName>。元君为魏婿，故魏立之。</p>
+            <p><title>赵世家</title>：十四年，<persName n="19">平原君赵胜</persName>死。</p>
+         </div>
+
+      </body>
+   </text>
+</TEI>

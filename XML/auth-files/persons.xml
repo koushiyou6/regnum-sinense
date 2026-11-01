@@ -151,6 +151,7 @@
                <persName><name>Lord Pingyuan 平原君</name><roleName></roleName><forename/><nameLink/><surname/><addName>赵胜; 胜</addName><genName/></persName>
                <nationality>Zhao</nationality>
                <note xml:lang="eng"><p>Zhao Sheng 赵胜, younger brother of King Huiwen of Zhao; he names himself Sheng in his message.</p></note>
+               <note xml:lang="eng" from="-252" seq="1"><p>Zhao Sheng 赵胜, younger brother of King Huiwen of Zhao; died 252 BC.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
 
@@ -293,6 +294,7 @@
                <persName><name>Lord Huai of Wey 卫怀君</name><roleName>Lord of Wey</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
                <nationality>Wey</nationality>
                <note xml:lang="eng"><p>Ruler of Wey, reigned from 282 BC.</p></note>
+               <note xml:lang="eng" from="-252" seq="1"><p>Ruler of Wey, reigned 282–252 BC; son of Lord Si.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
 
@@ -335,6 +337,7 @@
                <persName><name>Lord Yuan of Wey 卫元君</name><roleName>Lord of Wey</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
                <nationality>Wey</nationality>
                <note xml:lang="eng"><p>Ruler of Wey from 252 BC; son-in-law of the King of Wei.</p></note>
+               <note xml:lang="eng" from="-252" seq="1"><p>Ruler of Wey from 252 BC; younger brother of Lord Si, and a son-in-law of the Wei royal house.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
 
@@ -498,6 +501,13 @@
                <nationality>Qin</nationality>
                <note xml:lang="eng"><p>A Qin officer of the family whose affairs the Shuihudi Chronicle records beside the events of the state.</p></note>
                <listEvent><event><p>254 BC</p></event></listEvent>
+            </person>
+
+            <person n="69">
+               <persName><name>Lord Si of Wey 卫嗣君</name><roleName>Lord of Wey</roleName><forename/><nameLink/><surname/><addName>嗣君</addName><genName/></persName>
+               <nationality>Wey</nationality>
+               <note xml:lang="eng"><p>Ruler of Wey, reigned 324–283 BC; father of Lord Huai.</p></note>
+               <listEvent><event><p>252 BC</p></event></listEvent>
             </person>
 
          </listPerson>

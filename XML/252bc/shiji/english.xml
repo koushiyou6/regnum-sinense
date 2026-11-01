@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+  252 BC — English translation of the Shiji brackets. <div n="N"> matches source.xml.
+  Terms follow the Song Frontier Translation Glossary where it rules.
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Shiji 史记 · 秦昭襄王五十五年</title>
+            <respStmt><resp>Edited</resp><persName>Kou Shiyou</persName></respStmt>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><listBibl><bibl xml:id="S"><title>无骨者伊瓦尔《战国历史地图·年表》</title></bibl></listBibl></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div n="1">
+            <head>Shiji III: Hereditary Houses</head>
+            <p><title>Hereditary House of Kang Shu of Wey</title>: In the <span corresp="thirty-first_year_of_Lord_Huai">thirty-first year of <persName n="39">Lord Huai</persName></span>, he went to court in <placeName n="10">Wei</placeName>, and Wei imprisoned and killed Lord Huai. Wei instead set up the younger brother of <persName n="69">Lord Si</persName>: this was <persName n="45">Lord Yuan</persName>. Lord Yuan was a son-in-law of Wei, and so Wei set him up.</p>
+            <p><title>Hereditary House of Zhao</title>: In the <span corresp="fourteenth_year">fourteenth year</span>, <persName n="19">Lord Pingyuan, Zhao Sheng</persName>, died.</p>
+         </div>
+
+      </body>
+   </text>
+</TEI>

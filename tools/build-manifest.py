@@ -62,7 +62,7 @@ RULER_EN = {
     "燕孝王": "King Xiao of Yan", "燕王喜": "King Xi of Yan",
     "齐王建": "King Jian of Qi",
     "鲁顷公": "Duke Qing of Lu",
-    "卫怀君": "Lord Huai of Wey", "卫元君": "Lord Yuan of Wei", "卫君角": "Lord Jiao of Wei",
+    "卫怀君": "Lord Huai of Wey", "卫元君": "Lord Yuan of Wey", "卫君角": "Lord Jiao of Wey",
 }
 OTHER_EN = {
     "西周、东周世系不详": "Western and Eastern Zhou: succession unknown",
