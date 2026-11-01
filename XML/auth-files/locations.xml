@@ -760,6 +760,34 @@
                <note xml:lang="eng">the fief granted to Lian Po; the Suoyin: probably a place name, or else 尉 an office and 文 a name; the Zhengyi: probably land in Weizhou (modern Yu County, Hebei).</note>
             </place>
 
+            <place n="106">
+               <placeName><settlement type="town">Dongwucheng 东武城</settlement></placeName>
+               <country/><region>Zhao</region>
+               <location><geo/></location>
+               <note xml:lang="eng">Lord Pingyuan's fief; Xu Guang: in Qinghe; the Zhengyi: Wucheng County in Beizhou; modern Wucheng, Shandong.</note>
+            </place>
+
+            <place n="107">
+               <placeName><settlement type="town">Yiling 夷陵</settlement></placeName>
+               <country/><region>Chu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the burial ground of the kings of Chu; modern Yichang, Hubei.</note>
+            </place>
+
+            <place n="108">
+               <placeName><settlement type="town">Li 李</settlement></placeName>
+               <country/><region>Wei</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the fief of Li Tong's father; Xu Guang: Li city in Chenggao in Henei; the Zhengyi: Wen County in Huaizhou was originally Li city; modern Wen County, Henan.</note>
+            </place>
+
+            <place n="109">
+               <placeName><settlement type="town">Fanyang 繁阳</settlement></placeName>
+               <country/><region>Wei</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Wei town; Xu Guang: in Wei Commandery; the Zhengyi: north-east of Neihuang County in Xiangzhou; modern Neihuang, Henan.</note>
+            </place>
+
 </listPlace>
       </body>
    </text>

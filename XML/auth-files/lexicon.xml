@@ -410,6 +410,41 @@
             <entry xml:lang="eng"><form><orth>seal-ribbon</orth></form><gramGrp><pos>n</pos></gramGrp>
                <sense n="1"><def>the silk ribbon by which the seal of office was hung from the belt.</def></sense><note/></entry>
          </superEntry>
+         <superEntry n="70">
+            <entry xml:lang="zho"><form><orth>假相国</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Acting Chancellor of State</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the office of Chancellor of State held provisionally.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="71">
+            <entry xml:lang="zho"><form><orth>侯</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Marquis</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the holder of a marquisate, the fief named before the title.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="72">
+            <entry xml:lang="zho"><form><orth>舍人</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>household retainer</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a retainer attached to a lord's household.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="73">
+            <entry xml:lang="zho"><form><orth>传舍</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>post-house</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a lodging on the roads for travellers on official business.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="74">
+            <entry xml:lang="zho"><form><orth>上客</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>guest of the first rank</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the highest grade of a lord's retainers.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="75">
+            <entry xml:lang="zho"><form><orth>歃血</orth></form><gramGrp><pos>v</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>smear the blood</orth></form><gramGrp><pos>v</pos></gramGrp>
+               <sense n="1"><def>to seal a covenant by smearing the lips with the blood of the victim.</def></sense><note/></entry>
+         </superEntry>
 
       </body>
    </text>

@@ -561,10 +561,46 @@
                <listEvent><event><p>251 BC</p></event></listEvent>
             </person>
 
+
             <person n="77">
-               <persName><name>Yue Cheng 乐乘</name><roleName>General of Zhao</roleName><forename/><nameLink/><surname/><addName/><genName/></persName>
+               <persName><name>Mao Sui 毛遂</name><roleName>retainer of Lord Pingyuan</roleName><forename/><nameLink/><surname/><addName>遂; 毛先生</addName><genName/></persName>
                <nationality>Zhao</nationality>
-               <note xml:lang="eng"><p>A general of Zhao.</p></note>
+               <note xml:lang="eng"><p>A retainer under Lord Pingyuan's gate; he names himself Sui, and Lord Pingyuan calls him Master Mao 毛先生.</p></note>
+               <listEvent><event><p>251 BC</p></event></listEvent>
+            </person>
+
+            <person n="78">
+               <persName><name>Tang 汤</name><roleName>King of Shang</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Shang</nationality>
+               <note xml:lang="eng"><p>Founder of the Shang dynasty.</p></note>
+               <listEvent><event><p>251 BC</p></event></listEvent>
+            </person>
+
+            <person n="79">
+               <persName><name>King Wen of Zhou 周文王</name><roleName>King of Zhou</roleName><forename/><nameLink/><surname/><addName>文王</addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>Founder of the Zhou royal house, father of King Wu.</p></note>
+               <listEvent><event><p>251 BC</p></event></listEvent>
+            </person>
+
+            <person n="80">
+               <persName><name>Li Tong 李同</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhao</nationality>
+               <note xml:lang="eng"><p>Son of an officer of the post-house of Handan (the Zhengyi: his name was Tan 谈, changed by the Grand Historian to avoid his father's name).</p></note>
+               <listEvent><event><p>251 BC</p></event></listEvent>
+            </person>
+
+            <person n="81">
+               <persName><name>Yu Qing 虞卿</name><roleName>minister of Zhao</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhao</nationality>
+               <note xml:lang="eng"><p>A minister of Zhao, with whom Lord Pingyuan shares his Biography.</p></note>
+               <listEvent><event><p>251 BC</p></event></listEvent>
+            </person>
+
+            <person n="82">
+               <persName><name>Gongsun Long 公孙龙</name><roleName>retainer of Lord Pingyuan</roleName><forename/><nameLink/><surname/><addName>龙</addName><genName/></persName>
+               <nationality>Zhao</nationality>
+               <note xml:lang="eng"><p>The dialectician, a retainer of Lord Pingyuan; he names himself Long.</p></note>
                <listEvent><event><p>251 BC</p></event></listEvent>
             </person>
 
