@@ -706,6 +706,13 @@
                <note xml:lang="eng">modern Lanling County, Shandong.</note>
             </place>
 
+            <place n="99">
+               <placeName><region type="region">the upper lands 上地</region></placeName>
+               <country/><region>Han</region>
+               <location><geo/></location>
+               <note xml:lang="eng">Han's highland territory towards Shangdang, in south-eastern Shanxi.</note>
+            </place>
+
          </listPlace>
       </body>
    </text>

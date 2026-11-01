@@ -481,6 +481,13 @@
                <listEvent><event><p>255 BC</p></event></listEvent>
             </person>
 
+            <person n="67">
+               <persName><name>Du Cang 杜仓</name><roleName>Chancellor of Qin</roleName><forename/><nameLink/><surname/><addName/><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>Chancellor of Qin after Cai Ze.</p></note>
+               <listEvent><event><p>255 BC</p></event></listEvent>
+            </person>
+
          </listPerson>
       </body>
    </text>

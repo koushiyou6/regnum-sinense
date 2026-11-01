@@ -355,6 +355,12 @@
                <sense n="1"><def>a fortified pass; here the Hangu Pass, Qin's eastern gate.</def></sense><note/></entry>
          </superEntry>
 
+         <superEntry n="60">
+            <entry xml:lang="zho"><form><orth>令尹</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Chief Minister</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the chief minister of Chu, the lingyin.</def></sense><note/></entry>
+         </superEntry>
+
 
       </body>
    </text>
