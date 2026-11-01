@@ -23,6 +23,12 @@
             <p><title>Basic Annals of Qin</title>: In the <span corresp="fifty-second_year">fifty-second year</span>, the people of <placeName n="7">Zhou</placeName> fled east, and their vessels, the <term n="8">Nine Tripods</term>, passed into <placeName n="1">Qin</placeName>. <span corresp="Zhou_now_first_perished">Zhou now first perished</span>.</p>
          </div>
 
+         <div n="2">
+            <head>Shiji II: Tables</head>
+            <p><placeName n="1">Qin</placeName>: Took <placeName n="5">Western Zhou</placeName>. <persName n="51">Wang Ji</persName> was <term n="45">executed in the marketplace</term>.</p>
+            <p><placeName n="11">Chu</placeName>: Took <placeName n="37">Lu</placeName>; the <persName n="52">Lord of Lu</persName> was enfeoffed at <placeName n="47">Ju</placeName>.</p>
+         </div>
+
       </body>
    </text>
 </TEI>

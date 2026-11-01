@@ -342,6 +342,13 @@
                <note xml:lang="eng">modern Xuzhou, Jiangsu.</note>
             </place>
 
+            <place n="47">
+               <placeName><settlement type="town">Ju 莒</settlement></placeName>
+               <country/><region>Chu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the former state of Ju, by this date held by Chu; modern Ju County, Shandong.</note>
+            </place>
+
          </listPlace>
       </body>
    </text>

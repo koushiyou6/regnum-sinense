@@ -29,6 +29,12 @@
             <p><title>秦本纪</title>：五十二年，<placeName n="7">周</placeName>民东亡，其器<term n="8">九鼎</term>入<placeName n="1">秦</placeName>。周初亡。</p>
          </div>
 
+         <div n="2">
+            <head>史记（二：表）</head>
+            <p><placeName n="1">秦</placeName>：取<placeName n="5">西周</placeName>。<persName n="51">王稽</persName><term n="45">棄市</term>。</p>
+            <p><placeName n="11">楚</placeName>：取<placeName n="37">魯</placeName>，<persName n="52">魯君</persName>封於<placeName n="47">莒</placeName>。</p>
+         </div>
+
       </body>
    </text>
 </TEI>

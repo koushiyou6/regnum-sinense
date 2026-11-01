@@ -283,6 +283,12 @@
                <sense n="1"><def>the altar of the god of the soil of a state or settlement.</def></sense><note/></entry>
          </superEntry>
 
+         <superEntry n="45">
+            <entry xml:lang="zho"><form><orth>弃市</orth><orth>棄市</orth></form><gramGrp><pos>v</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>executed in the marketplace</orth></form><gramGrp><pos>v</pos></gramGrp>
+               <sense n="1"><def>put to death publicly, the body exposed in the market.</def></sense><note/></entry>
+         </superEntry>
+
 
       </body>
    </text>

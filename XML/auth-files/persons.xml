@@ -369,6 +369,20 @@
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
 
+            <person n="51">
+               <persName><name>Wang Ji 王稽</name><roleName>Magistrate of Hedong</roleName><forename/><nameLink/><surname/><addName/><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>Qin official, Magistrate of Hedong Commandery.</p></note>
+               <listEvent><event><p>255 BC</p></event></listEvent>
+            </person>
+
+            <person n="52">
+               <persName><name>Duke Qing of Lu 鲁顷公</name><roleName>Lord of Lu</roleName><forename/><nameLink/><surname/><addName>魯君</addName><genName/></persName>
+               <nationality>Lu</nationality>
+               <note xml:lang="eng"><p>The last ruler of Lu, reigned from 272 BC; the Table calls him the Lord of Lu.</p></note>
+               <listEvent><event><p>255 BC</p></event></listEvent>
+            </person>
+
          </listPerson>
       </body>
    </text>
