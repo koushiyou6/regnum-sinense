@@ -372,6 +372,7 @@
                <persName><name>Queen Dowager Xia 夏太后</name><roleName>Queen Dowager of Qin</roleName><forename/><nameLink/><surname/><addName>夏姬</addName><genName/></persName>
                <nationality>Qin</nationality>
                <note xml:lang="eng"><p>Consort of King Xiaowen of Qin, mother of King Zhuangxiang and grandmother of the First Emperor; styled Lady Xia 夏姬.</p></note>
+               <note xml:lang="eng" from="-250" seq="4"><p>Queen Dowager of Qin, consort of King Xiaowen and mother of King Zhuangxiang; Lady Xia 夏姬.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
 
@@ -380,6 +381,7 @@
                <nationality>Qin</nationality>
                <note xml:lang="eng"><p>Queen of King Xiaowen of Qin.</p></note>
                <note xml:lang="eng" from="-251" seq="5"><p>Queen of King Xiaowen of Qin; Lady Huayang 华阳夫人 before he came to the throne.</p></note>
+               <note xml:lang="eng" from="-250" seq="4"><p>Queen Dowager of Qin, Queen of King Xiaowen and mother by adoption of King Zhuangxiang.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
 
