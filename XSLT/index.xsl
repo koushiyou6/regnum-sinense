@@ -54,7 +54,7 @@
                  grouped by the same reign headings so the two align. Entries are added later. -->
             <div class="era-sources">
                 <h2>Sources by era / video</h2>
-                <ul><li><a href="{$root}sources.html">Open the index</a></li></ul>
+                <ul><li><a href="{$root}sources.html">Index of sources</a></li></ul>
             </div>
             <h2>Chronology</h2>
             <xsl:for-each-group select="/site/year" group-adjacent="tei:reign(@label)">
