@@ -993,6 +993,20 @@
                <note xml:lang="eng">Beijing in pinyin, Pekin in Japanese reading; the capital of the Republic in 1924; modern Beijing.</note>
             </place>
 
+            <place n="139">
+               <placeName><settlement type="county">Ju 沮</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a County of Qin in Hanzhong Commandery, on the upper Ju River 沮水 (the Jialing); modern Lueyang 略阳, Shaanxi.</note>
+            </place>
+
+            <place n="140">
+               <placeName><settlement type="county">Nanzheng 南郑</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a County of Qin, the seat of Hanzhong Commandery, in the Han River valley; modern Hanzhong 汉中, Shaanxi.</note>
+            </place>
+
 </listPlace>
       </body>
    </text>

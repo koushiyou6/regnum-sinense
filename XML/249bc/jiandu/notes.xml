@@ -17,6 +17,19 @@
          <div n="1">
             <interp corresp="first_year">The first year of King Zhuangxiang of Qin, 249 BC, whom the Chronicle calls King Zhuang; the year is given with no entry under it.</interp>
          </div>
+         <div n="2">
+            <interp corresp="Grand_Supreme_Emperor">泰上皇, that is 太上皇, the title the First Emperor gave his father King Zhuangxiang after his death; "in the time of" the Grand Supreme Emperor is Zhuangxiang's reign, 249–247 BC, which places the statute here, at the reign's first year; the year within the reign is not given.</interp>
+            <interp corresp="geng_turn">践更: the editors' pause marks make three groups, sikou, yinguan and men on their geng turn; Chen Wei reads 司寇、隐官践更, the sikou and yinguan on their geng turn, as in another Yuelu statute (slip 017). The editors' punctuation is kept.</interp>
+            <interp corresp="Deliberation">议: the ruling that answers the report (言); the form of a Qin statute of this kind.</interp>
+            <interp corresp="deliver_grain">入禾: grain unhusked; the County supplies the grain its sikou will eat at the Workshop.</interp>
+            <interp corresp="to_be_lent">貣, the editors' reading 贷 kept in parentheses: 当貣者, the quantity due to be lent.</interp>
+            <interp corresp="County_of_the_work_site">作所县: the County in which the Workshop's work-site lies.</interp>
+            <interp corresp="for_repayment_and_loan">偿及贷: as read here, the County of the work-site lends the grain and the sikou's own County repays it.</interp>
+            <interp corresp="act_on_its_requisitions">听…致: 致, the note by which an office calls for men or goods to be delivered; 听, to comply with it.</interp>
+            <interp corresp="passed_on">移: the forwarding of men and of the papers that go with them.</interp>
+            <interp corresp="second_year">·二年曰：复用: an annotation after the scribe's dot, recording that the statute was put back in force in a second year; Chen Wei takes it as the second year of King Zheng, 245 BC.</interp>
+         </div>
+
       </body>
    </text>
 </TEI>

@@ -600,6 +600,36 @@
                <sense n="1"><def>the officer in supreme command.</def></sense><note/></entry>
          </superEntry>
 
+         <superEntry n="103">
+            <entry xml:lang="zho"><form><orth>内史</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Clerk of the Capital</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the office governing the home territory of Qin about the capital.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="104">
+            <entry xml:lang="zho"><form><orth>西工室</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Western Workshop</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a state workshop (工室) of Qin, staffed with convicts and men on labour service; the statute does not say where it stood. A Qin Western Workshop (西工) of Shu Commandery is attested on slips excavated at Zikujie, Chengdu.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="105">
+            <entry xml:lang="zho"><form><orth>司寇</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>sikou</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the lightest grade of Qin convict labour, 'robber-guard', ranking between commoners and the lichenqie 隶臣妾 slaves; by Han law a term of two years.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="106">
+            <entry xml:lang="zho"><form><orth>隐官</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>yinguan</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a person pardoned after a mutilating punishment and set to work out of public sight, 'the hidden'; a status ranked with the sikou.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="107">
+            <entry xml:lang="zho"><form><orth>践更</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>serving one's geng turn</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>performing in person one's turn (更) of statutory labour service for the government, as against hiring a substitute.</def></sense><note/></entry>
+         </superEntry>
+
       </body>
    </text>
 </TEI>
