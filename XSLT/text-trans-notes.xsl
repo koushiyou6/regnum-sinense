@@ -201,7 +201,7 @@
                         <a href="{$root}index.html">Home</a>
                         <a href="{$root}about.html">About</a>
                         <xsl:if test="$year != ''"><a href="{$year-href}"><xsl:value-of select="$year"/></a></xsl:if>
-                        <form class="search" action="{$root}search.html" method="get" role="search"><input type="search" name="q" placeholder="Search" aria-label="Search the site"/></form>
+                        <form class="search" action="{$root}search.html" method="get" role="search"><input type="search" name="q" placeholder="Search" aria-label="Search the site"/><label class="whole" title="Match English by whole word only"><input type="checkbox" name="w" value="1"/> Whole words</label></form>
                     </div>
                     <div class="footer"></div>
                 </div>
