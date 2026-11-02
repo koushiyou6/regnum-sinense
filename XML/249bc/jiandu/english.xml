@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+  249 BC — English translation of the excavated-texts brackets. <div n="N"> matches source.xml.
+  Terms follow the Song Frontier Translation Glossary where it rules.
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Excavated texts 简牍 · 秦庄襄王元年</title>
+            <respStmt><resp>Edited</resp><persName>Kou Shiyou</persName></respStmt>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><listBibl><bibl xml:id="S"><title>无骨者伊瓦尔《战国历史地图·年表》</title></bibl></listBibl></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div n="1">
+            <head>Collected Qin Slips I: the Shuihudi bamboo slips</head>
+            <p><title>Chronicle</title>: <span corresp="first_year">First year of <persName n="31">King Zhuang</persName>.</span></p>
+         </div>
+
+      </body>
+   </text>
+</TEI>

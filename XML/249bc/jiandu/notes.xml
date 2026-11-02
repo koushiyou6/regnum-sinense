@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- 249 BC, excavated texts — explanatory notes. <div n="N"> matches the bracket; <interp corresp="key"> matches <span corresp="key"> in english.xml. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Excavated texts 简牍 · 秦庄襄王元年: notes</title>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><p>Notes written for this edition.</p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="0"/>
+         <div n="1">
+            <interp corresp="first_year">The first year of King Zhuangxiang of Qin, 249 BC, whom the Chronicle calls King Zhuang; the year is given with no entry under it.</interp>
+         </div>
+      </body>
+   </text>
+</TEI>
