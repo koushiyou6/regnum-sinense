@@ -18,8 +18,10 @@
     <xsl:output method="xhtml" html-version="5" encoding="utf-8" indent="yes" omit-xml-declaration="yes"/>
 
     <xsl:param name="year" select="''"/>
-    <xsl:param name="page" select="''"/>   <!-- '' = Home or a year page; 'about' = the About page -->
+    <xsl:param name="page" select="''"/>   <!-- '' = Home or a year page; 'about', 'search', 'sources' = those pages -->
     <xsl:variable name="about" select="document('about.xml', /)/about"/>
+    <xsl:variable name="videos" select="document('videos.xml', /)/videos"/>
+    <xsl:variable name="site" select="/site"/>
 
     <xsl:variable name="site-name" select="string(/site/name)"/>
     <xsl:variable name="css" select="unparsed-text('../css/style.css')"/>
@@ -51,23 +53,8 @@
             <!-- sources that belong to an era rather than a single year; listed above the chronology,
                  grouped by the same reign headings so the two align. Entries are added later. -->
             <div class="era-sources">
-                <h2>Sources by era</h2>
-                <xsl:for-each select="/site/side-group">
-                    <h3><span lang="zh"><xsl:value-of select="@label"/></span><xsl:if test="@en != ''"><span class="gloss"><xsl:value-of select="@en"/></span></xsl:if></h3>
-                    <ul>
-                        <xsl:if test="not(side-source)"><li><span class="unbuilt">to be added</span></li></xsl:if>
-                        <xsl:for-each select="side-source">
-                            <xsl:variable name="built" select="doc-available(resolve-uri(concat('../XML/', @id, '/source.xml'), static-base-uri()))"/>
-                            <li>
-                                <xsl:choose>
-                                    <xsl:when test="$built"><a href="{$root}{@id}.html" lang="zh"><xsl:value-of select="@label"/></a></xsl:when>
-                                    <xsl:otherwise><span class="unbuilt" lang="zh"><xsl:value-of select="@label"/></span></xsl:otherwise>
-                                </xsl:choose>
-                                <xsl:if test="@en != ''"><span class="gloss"><xsl:value-of select="@en"/></span></xsl:if>
-                            </li>
-                        </xsl:for-each>
-                    </ul>
-                </xsl:for-each>
+                <h2>Sources by era / video</h2>
+                <p><a class="button" href="{$root}sources.html">Open the index</a></p>
             </div>
             <h2>Chronology</h2>
             <xsl:for-each-group select="/site/year" group-adjacent="tei:reign(@label)">
@@ -109,12 +96,13 @@
                         <xsl:choose>
                             <xsl:when test="$page = 'about'">About Regnum Sinense: the sources behind Atrium Concordiae's historical atlases of China, year by year, in Chinese and English.</xsl:when>
                             <xsl:when test="$page = 'search'">Search Regnum Sinense: the texts, translations, persons, places and terms.</xsl:when>
+                            <xsl:when test="$page = 'sources'">Regnum Sinense sources by era and by video: the Zhanguo zonghengjia shu, the cultural-region essays, and the videos of Atrium Concordiae with the years they cover.</xsl:when>
                             <xsl:when test="$year != ''"><xsl:value-of select="$this-year/@era"/><xsl:text> (</xsl:text><xsl:value-of select="$this-year/@label"/><xsl:if test="$this-year/@en != ''"><xsl:text>, </xsl:text><xsl:value-of select="$this-year/@en"/></xsl:if><xsl:text>): the sources for the year — </xsl:text><xsl:value-of select="string-join($this-year/document/@label, ', ')"/><xsl:text> — with English translation and notes.</xsl:text></xsl:when>
                             <xsl:otherwise>Regnum Sinense: the sources behind Atrium Concordiae's historical atlases of China, year by year from 256 BC — Chinese text, English translation and notes, side by side.</xsl:otherwise>
                         </xsl:choose>
                     </xsl:attribute>
                 </meta>
-                <title><xsl:value-of select="$site-name"/><xsl:choose><xsl:when test="$page = 'about'">: About</xsl:when><xsl:when test="$page = 'search'">: Search</xsl:when><xsl:when test="$year != ''"><xsl:text>: </xsl:text><xsl:value-of select="$this-year/@era"/></xsl:when></xsl:choose></title>
+                <title><xsl:value-of select="$site-name"/><xsl:choose><xsl:when test="$page = 'about'">: About</xsl:when><xsl:when test="$page = 'search'">: Search</xsl:when><xsl:when test="$page = 'sources'">: Sources by era and video</xsl:when><xsl:when test="$year != ''"><xsl:text>: </xsl:text><xsl:value-of select="$this-year/@era"/></xsl:when></xsl:choose></title>
                 <style><xsl:value-of select="$css" disable-output-escaping="yes"/><xsl:value-of select="replace(unparsed-text('../css/font-cjk.css'), 'FONTROOT/', $root)" disable-output-escaping="yes"/></style>
             </head>
             <body>
@@ -217,6 +205,68 @@
   }).catch(function () { status.textContent = 'The search index could not be loaded.'; });
 })();
 </xsl:text></script>
+                                </div>
+                            </xsl:when>
+
+                            <!-- ===== Sources by era / video ===== -->
+                            <xsl:when test="$page = 'sources'">
+                                <div class="about sources-page">
+                                    <h1>Sources by era and by video</h1>
+                                    <hr/>
+                                    <p>Besides the year pages of the <a href="index.html">chronology</a>, the site holds sources that belong to a whole era rather than to one year, and it accompanies the videos of Atrium Concordiae. Both are indexed here.</p>
+                                    <div class="sources-grid">
+                                        <section>
+                                            <h2>By era</h2>
+                                            <xsl:for-each select="/site/side-group">
+                                                <h3><span lang="zh"><xsl:value-of select="@label"/></span><xsl:if test="@en != ''"><span class="gloss"><xsl:value-of select="@en"/></span></xsl:if></h3>
+                                                <ul>
+                                                    <xsl:if test="not(side-source)"><li><span class="unbuilt">to be added</span></li></xsl:if>
+                                                    <xsl:for-each select="side-source">
+                                                        <xsl:variable name="built" select="doc-available(resolve-uri(concat('../XML/', @id, '/source.xml'), static-base-uri()))"/>
+                                                        <li>
+                                                            <xsl:choose>
+                                                                <xsl:when test="$built"><a href="{$root}{@id}.html" lang="zh"><xsl:value-of select="@label"/></a></xsl:when>
+                                                                <xsl:otherwise><span class="unbuilt" lang="zh"><xsl:value-of select="@label"/></span></xsl:otherwise>
+                                                            </xsl:choose>
+                                                            <xsl:if test="@en != ''"><span class="gloss"><xsl:value-of select="@en"/></span></xsl:if>
+                                                        </li>
+                                                    </xsl:for-each>
+                                                </ul>
+                                            </xsl:for-each>
+                                            <p class="hint">Sources in grey are not yet on the site.</p>
+                                        </section>
+                                        <section>
+                                            <h2>By video</h2>
+                                            <xsl:choose>
+                                                <xsl:when test="$videos/video">
+                                                    <ul class="videos">
+                                                        <xsl:for-each select="$videos/video">
+                                                            <li>
+                                                                <a href="{@url}"><xsl:value-of select="@title"/></a>
+                                                                <xsl:variable name="from" select="xs:integer(@from)"/>
+                                                                <xsl:variable name="to" select="xs:integer(@to)"/>
+                                                                <span class="years">
+                                                                    <xsl:for-each select="$site/year[xs:integer(@n) ge $from and xs:integer(@n) le $to]">
+                                                                        <xsl:sort select="xs:integer(@n)"/>
+                                                                        <xsl:variable name="any-built" select="some $d in document satisfies tei:built($d/@dir)"/>
+                                                                        <xsl:if test="position() gt 1"> · </xsl:if>
+                                                                        <xsl:choose>
+                                                                            <xsl:when test="$any-built"><a href="{$root}{tei:year-dir(.)}/index.html"><xsl:value-of select="@era"/></a></xsl:when>
+                                                                            <xsl:otherwise><span class="unbuilt"><xsl:value-of select="@era"/></span></xsl:otherwise>
+                                                                        </xsl:choose>
+                                                                    </xsl:for-each>
+                                                                </span>
+                                                                <xsl:if test="normalize-space(.) != ''"><span class="gloss"><xsl:value-of select="normalize-space(.)"/></span></xsl:if>
+                                                            </li>
+                                                        </xsl:for-each>
+                                                    </ul>
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                    <p>Videos are listed here as they are released, each with the years of the chronology it covers. Until then, the studio's channels: <a href="https://www.youtube.com/@AtriumConcordiae">YouTube</a> · <a href="https://space.bilibili.com/3546780023131053">Bilibili</a>.</p>
+                                                </xsl:otherwise>
+                                            </xsl:choose>
+                                        </section>
+                                    </div>
                                 </div>
                             </xsl:when>
 

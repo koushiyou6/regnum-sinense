@@ -96,6 +96,12 @@ def build():
         out = SITE / "search.html"
         index.set_parameter("page", proc.make_string_value("search"))
         index.transform_to_file(source_file=str(MANIFEST), output_file=str(out))
+        print(f"wrote {out.relative_to(ROOT)}")
+
+        # Sources by era / video (XML/site.xml side-groups and XML/videos.xml)
+        out = SITE / "sources.html"
+        index.set_parameter("page", proc.make_string_value("sources"))
+        index.transform_to_file(source_file=str(MANIFEST), output_file=str(out))
         index.set_parameter("page", proc.make_string_value(""))
         print(f"wrote {out.relative_to(ROOT)}")
 

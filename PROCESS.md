@@ -75,4 +75,4 @@ The rules below govern every bracket. They are the standing instructions of the 
 - One page per bracket, linked from the year page and from every sibling bracket's strip; introductions on every bracket; no annotation box beside the introduction.
 - Search is client-side: the navbar box on every page goes to `search.html`, which searches `search-index.json` (every translated bracket, Chinese and English, and every person, place and term entry) in the browser. The index is rebuilt by `build.py`, so a page is searchable as soon as it is built and pushed.
 - The `docs/google*.html` verification file and `.nojekyll` stay.
-- Cultural-region essays and the 戰國縱橫家書 are sidebar sources by era, to be added when the editor says.
+- Cultural-region essays and the 戰國縱橫家書 are sources by era, listed on `sources.html` (reached from the single "Open the index" button in the Home sidebar) beside the videos; they are added when the editor says. Videos go in `XML/videos.xml` (title, url, from/to year numbers, optional note) and the page lists each with links to the years it covers.
