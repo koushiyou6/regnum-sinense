@@ -172,12 +172,31 @@ def write_search_index(manifest):
                 en = text(orth) if orth is not None else ""
                 defn = " ".join(text(df) for df in e.iter(f"{TEI}def") if text(df))
         entries.append(("term", se.get("n"), f"{zh} {en}".strip(), "", defn, ""))
-    out = {"passages": passages, "entries": [
+    # traditional/simplified: a per-character map (built with OpenCC, one graph to one graph) so a search in
+    # either script finds the other; the page's JS converts the query and the texts with the same map.
+    chars = set()
+    for ps in passages:
+        chars.update(ps["zh"]); chars.update(ps["title"])
+    for k, n, nm, alt, note, more in entries:
+        chars.update(nm); chars.update(alt); chars.update(note); chars.update(more)
+    t2s = {}
+    try:
+        from opencc import OpenCC
+        cc = OpenCC("t2s")
+        for ch in chars:
+            if ord(ch) < 0x2E80:
+                continue
+            sc = cc.convert(ch)
+            if len(sc) == 1 and sc != ch:
+                t2s[ch] = sc
+    except ImportError:
+        print("opencc not installed: traditional/simplified matching left out of the search index")
+    out = {"t2s": t2s, "passages": passages, "entries": [
         {"kind": k, "name": nm, "alt": alt, "note": note, "more": more,
          "pages": [{"url": u, "label": l} for u, l in where.get((k, n), {}).items()]}   # manifest order = chronological
         for k, n, nm, alt, note, more in entries if nm]}
     (SITE / "search-index.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-    print(f"wrote search-index.json ({len(passages)} passages, {len(out['entries'])} entries)")
+    print(f"wrote search-index.json ({len(passages)} passages, {len(out['entries'])} entries, {len(t2s)} t2s chars)")
 
 
 if __name__ == "__main__":

@@ -22,7 +22,7 @@ The site is published from the `docs/` folder with GitHub Pages.
 
 ## Building
 
-Needs Python 3 with `saxonche`, `fonttools` and `openpyxl`, and the Noto Serif CJK fonts installed (`fonts-noto-cjk` on Debian/Ubuntu).
+Needs Python 3 with `saxonche`, `fonttools`, `openpyxl` and `opencc-python-reimplemented` (for the search index's traditional/simplified matching), and the Noto Serif CJK fonts installed (`fonts-noto-cjk` on Debian/Ubuntu).
 
     python3 build.py
 

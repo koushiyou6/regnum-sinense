@@ -151,24 +151,29 @@
   if (!q.trim()) { box.focus(); return; }
   var needle = q.trim();
   var lower = needle.toLowerCase();
+  var t2s = {};
+  function simp(s) { var o = ''; for (var i = 0; i &lt; s.length; i++) { var c = s.charAt(i); o += (t2s[c] || c); } return o; }
   function esc(s) { return s.replace(/[&amp;&lt;&gt;]/g, function (c) { return {'&amp;':'&amp;amp;','&lt;':'&amp;lt;','&gt;':'&amp;gt;'}[c]; }); }
+  function key(text) { return simp(text).toLowerCase(); }
   function mark(text) {
-    var i = text.toLowerCase().indexOf(lower); if (i &lt; 0) return esc(text);
+    var k = key(text), i = k.indexOf(lower); if (i &lt; 0) return esc(text);
     var out = '', pos = 0;
-    while (i &gt;= 0) { out += esc(text.slice(pos, i)) + '&lt;mark&gt;' + esc(text.slice(i, i + needle.length)) + '&lt;/mark&gt;'; pos = i + needle.length; i = text.toLowerCase().indexOf(lower, pos); }
+    while (i &gt;= 0) { out += esc(text.slice(pos, i)) + '&lt;mark&gt;' + esc(text.slice(i, i + needle.length)) + '&lt;/mark&gt;'; pos = i + needle.length; i = k.indexOf(lower, pos); }
     return out + esc(text.slice(pos));
   }
   function snippet(text) {
-    var i = text.toLowerCase().indexOf(lower); if (i &lt; 0) return '';
+    var i = key(text).indexOf(lower); if (i &lt; 0) return '';
     var a = Math.max(0, i - 70), b = Math.min(text.length, i + needle.length + 110);
     return (a &gt; 0 ? '… ' : '') + mark(text.slice(a, b)) + (b &lt; text.length ? ' …' : '');
   }
   fetch('search-index.json').then(function (r) { return r.json(); }).then(function (ix) {
+    t2s = ix.t2s || {};
+    lower = simp(needle).toLowerCase();
     var hits = { entries: [], passages: [] };
-    ix.entries.forEach(function (e) { if ((e.name + ' ' + e.alt + ' ' + e.note + ' ' + e.more).toLowerCase().indexOf(lower) &gt;= 0) hits.entries.push(e); });
+    ix.entries.forEach(function (e) { if (key(e.name + ' ' + e.alt + ' ' + e.note + ' ' + e.more).indexOf(lower) &gt;= 0) hits.entries.push(e); });
     ix.passages.forEach(function (p) {
-      var inZh = p.zh.indexOf(needle) &gt;= 0, inEn = p.en.toLowerCase().indexOf(lower) &gt;= 0;
-      if (inZh || inEn || p.title.toLowerCase().indexOf(lower) &gt;= 0) hits.passages.push({ p: p, zh: inZh, en: inEn });
+      var inZh = key(p.zh).indexOf(lower) &gt;= 0, inEn = key(p.en).indexOf(lower) &gt;= 0;
+      if (inZh || inEn || key(p.title).indexOf(lower) &gt;= 0) hits.passages.push({ p: p, zh: inZh, en: inEn });
     });
     var n = hits.entries.length + hits.passages.length;
     status.textContent = n ? n + (n === 1 ? ' result for ' : ' results for ') + '“' + needle + '”' : 'Nothing found for “' + needle + '”.';
