@@ -840,6 +840,13 @@
                <note xml:lang="eng">a Lu town; east of modern Sishui, Shandong.</note>
             </place>
 
+            <place n="117">
+               <placeName><settlement type="town">Ke 柯</settlement></placeName>
+               <country/><region>Qi</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Qi settlement; the Suoyin cites Du Yu, now Dong'e in Jibei; the old Dong'e city, south-east of modern Yanggu, Shandong.</note>
+            </place>
+
 </listPlace>
       </body>
    </text>

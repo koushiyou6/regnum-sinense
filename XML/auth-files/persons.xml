@@ -642,6 +642,20 @@
                <listEvent><event><p>249 BC</p></event></listEvent>
             </person>
 
+            <person n="87">
+               <persName><name>Duke of Zhou 周公</name><roleName>Duke of Zhou</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>Dan 旦, brother of King Wu of Zhou and founder of the house of Lu.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="88">
+               <persName><name>Queen Jun 君王后</name><roleName>Queen of Qi</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Qi</nationality>
+               <note xml:lang="eng"><p>Consort of King Xiang of Qi and mother of King Jian; daughter of Jiao 敫, the Grand Scribe of Ju; the Shiji calls her Queen Jun 君王后.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
 </listPerson>
       </body>
    </text>
