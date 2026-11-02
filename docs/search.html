@@ -632,7 +632,9 @@ ul.sections li { padding: .1em .5em; border-left: 2px solid transparent; }
                <hr/>
                <form class="search big" action="search.html" method="get" role="search"><input type="search" name="q" id="q" placeholder="A name, a place, a term, a phrase — in Chinese or English" aria-label="Search the site"/><button type="submit">Search</button></form>
                <p class="hint" id="status">Searches the Chinese texts, the English translations, and the entries for persons,
-                  places and terms.</p>
+                  places and terms. English is matched by whole word (Lu does not find Luoyang); end
+                  with * to match the start of a word (Lu*). Traditional and simplified characters find
+                  each other.</p>
                <div id="results"></div><script>
 (function () {
   var q = new URLSearchParams(location.search).get('q') || '';
@@ -645,25 +647,38 @@ ul.sections li { padding: .1em .5em; border-left: 2px solid transparent; }
   function simp(s) { var o = ''; for (var i = 0; i < s.length; i++) { var c = s.charAt(i); o += (t2s[c] || c); } return o; }
   function esc(s) { return s.replace(/[&<>]/g, function (c) { return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c]; }); }
   function key(text) { return simp(text).toLowerCase(); }
+  // English is matched as whole words (Lu does not find Luoyang); a trailing * matches a prefix (Lu* does).
+  // Chinese is matched as a substring. The regex is rebuilt once the index (and its character map) has loaded.
+  var prefix = /\*$/.test(needle); if (prefix) needle = needle.replace(/\*+$/, '');
+  var latin = /[A-Za-z\u00C0-\u024F]/.test(needle);
+  var L = 'A-Za-z\u00C0-\u024F';
+  var rx;
+  function buildRx() {
+    var body = lower.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    rx = latin ? new RegExp('(^|[^' + L + '])(' + body + ')' + (prefix ? '' : '(?![' + L + '])'), 'gi') : new RegExp('()(' + body + ')', 'gi');
+  }
+  function find(k, from) { rx.lastIndex = from || 0; var m = rx.exec(k); return m ? m.index + m[1].length : -1; }
+  function has(text) { return find(key(text)) >= 0; }
   function mark(text) {
-    var k = key(text), i = k.indexOf(lower); if (i < 0) return esc(text);
+    var k = key(text), i = find(k); if (i < 0) return esc(text);
     var out = '', pos = 0;
-    while (i >= 0) { out += esc(text.slice(pos, i)) + '<mark>' + esc(text.slice(i, i + needle.length)) + '</mark>'; pos = i + needle.length; i = k.indexOf(lower, pos); }
+    while (i >= 0) { out += esc(text.slice(pos, i)) + '<mark>' + esc(text.slice(i, i + needle.length)) + '</mark>'; pos = i + needle.length; i = find(k, pos); }
     return out + esc(text.slice(pos));
   }
   function snippet(text) {
-    var i = key(text).indexOf(lower); if (i < 0) return '';
+    var i = find(key(text)); if (i < 0) return '';
     var a = Math.max(0, i - 70), b = Math.min(text.length, i + needle.length + 110);
     return (a > 0 ? '… ' : '') + mark(text.slice(a, b)) + (b < text.length ? ' …' : '');
   }
   fetch('search-index.json').then(function (r) { return r.json(); }).then(function (ix) {
     t2s = ix.t2s || {};
     lower = simp(needle).toLowerCase();
+    buildRx();
     var hits = { entries: [], passages: [] };
-    ix.entries.forEach(function (e) { if (key(e.name + ' ' + e.alt + ' ' + e.note + ' ' + e.more).indexOf(lower) >= 0) hits.entries.push(e); });
+    ix.entries.forEach(function (e) { if (has(e.name + ' ' + e.alt + ' ' + e.note + ' ' + e.more)) hits.entries.push(e); });
     ix.passages.forEach(function (p) {
-      var inZh = key(p.zh).indexOf(lower) >= 0, inEn = key(p.en).indexOf(lower) >= 0;
-      if (inZh || inEn || key(p.title).indexOf(lower) >= 0) hits.passages.push({ p: p, zh: inZh, en: inEn });
+      var inZh = has(p.zh), inEn = has(p.en);
+      if (inZh || inEn || has(p.title)) hits.passages.push({ p: p, zh: inZh, en: inEn });
     });
     var n = hits.entries.length + hits.passages.length;
     status.textContent = n ? n + (n === 1 ? ' result for ' : ' results for ') + '“' + needle + '”' : 'Nothing found for “' + needle + '”.';
