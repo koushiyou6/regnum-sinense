@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+  250 BC (秦孝文王元年) — the excavated-texts (简牍) tab of the chronology spreadsheet.
+  One <div n="N"> per bracket (one spreadsheet cell), in column order. <head> is the
+  column heading; each paragraph of the cell is a <p>. Text is kept as it stands in the spreadsheet.
+  Conventions: <term n="ID">, <persName n="ID">, <placeName n="ID">, <title> for a text's name.
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Excavated texts 简牍 · 秦孝文王元年</title>
+            <respStmt><resp>Compiled</resp><persName>无骨者伊瓦尔</persName></respStmt>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <bibl xml:id="S"><title>无骨者伊瓦尔《战国历史地图·年表》</title><note xml:lang="eng">Chronology spreadsheet 疆域变化年表 (draft 3, patch 2), 简牍 tab; the slip texts follow the editions named in the column headings.</note></bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div n="1">
+            <head>《秦简牍合集》（一）睡虎地竹简</head>
+            <p><title>葉書</title>：<persName n="30">孝文王</persName>元年，立即死。</p>
+         </div>
+
+      </body>
+   </text>
+</TEI>
