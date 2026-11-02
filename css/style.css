@@ -612,9 +612,6 @@ ul.sections li { padding: .1em .5em; border-left: 2px solid transparent; }
 
 /* sources by era / video */
 .era-sources { margin-bottom: 1.2em; }
-.era-sources p { margin: .3em 0 0; }
-a.button { display: inline-block; font-size: .85em; padding: .35em .9em; border: 1px solid var(--accent); border-radius: 3px; background: var(--band); color: var(--ink); text-decoration: none; }
-a.button:hover { background: var(--accent); color: #fff; }
 .sources-page { max-width: 60em; }
 .sources-page > p { text-align: left; }
 .sources-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5em; margin-top: 1.5em; }
