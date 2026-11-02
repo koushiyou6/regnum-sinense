@@ -500,6 +500,17 @@
             <entry xml:lang="eng"><form><orth>household</orth></form><gramGrp><pos>n</pos></gramGrp>
                <sense n="1"><def>the household, the unit by which a fief's population and revenue were reckoned.</def></sense><note/></entry>
          </superEntry>
+         <superEntry n="86">
+            <entry xml:lang="zho"><form><orth>相邦</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Chancellor of State</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the title as written in Warring States inscriptions; Han texts write 相国, avoiding the name of Gaozu, Liu Bang.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="87">
+            <entry xml:lang="zho"><form><orth>鈹</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>pi blade</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a straight double-edged blade mounted on a long haft, often inscribed with the year and the officials who oversaw its making.</def></sense><note/></entry>
+         </superEntry>
 
       </body>
    </text>

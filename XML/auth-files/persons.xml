@@ -664,6 +664,13 @@
                <listEvent><event><p>249 BC</p></event></listEvent>
             </person>
 
+            <person n="90">
+               <persName><name>Marquis Chunping 春平侯</name><roleName>Chancellor of State of Zhao</roleName><forename/><nameLink/><surname/><addName>春平君</addName><genName/></persName>
+               <nationality>Zhao</nationality>
+               <note xml:lang="eng"><p>Chancellor of State of Zhao, known from the inscriptions on excavated pi blades; the Hereditary House of Zhao names him Lord Chunping 春平君.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
 </listPerson>
       </body>
    </text>
