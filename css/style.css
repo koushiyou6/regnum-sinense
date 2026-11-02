@@ -585,11 +585,14 @@ ul.sections li { padding: .1em .5em; border-left: 2px solid transparent; }
 .navbar form.search input[type=search] { font-family: 'Ysabeau Office', serif; font-size: 16px; padding: .3em .6em; border: 1px solid var(--rule); border-radius: 3px; background: var(--cream); color: var(--ink); width: 11em; }
 .navbar form.search input[type=search]:focus { outline: 2px solid var(--accent); }
 .navbar form.search label.whole { display: flex; align-items: center; gap: .3em; margin-left: .6em; font-family: 'Ysabeau Office', serif; font-size: 14px; color: var(--nav-fg); white-space: nowrap; cursor: pointer; }
-.navbar form.search label.whole input { margin: 0; accent-color: var(--accent); }
+.navbar form.search label.whole input, .search-page form.big label.whole input { appearance: none; -webkit-appearance: none; margin: 0; width: 14px; height: 14px; border: 1px solid var(--rule); border-radius: 3px; background: var(--cream); cursor: pointer; display: inline-grid; place-content: center; }
+.navbar form.search label.whole input::before, .search-page form.big label.whole input::before { content: ""; width: 8px; height: 8px; border-radius: 2px; background: var(--accent); transform: scale(0); }
+.navbar form.search label.whole input:checked::before, .search-page form.big label.whole input:checked::before { transform: scale(1); }
+.navbar form.search label.whole input:focus-visible, .search-page form.big label.whole input:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
 .search-page form.big { display: flex; gap: .5em; margin: 1em 0; }
 .search-page form.big input[type=search] { flex: 1; font-family: 'Ysabeau Office', serif; font-size: 18px; padding: .45em .7em; border: 1px solid var(--rule); border-radius: 3px; background: #fff; color: var(--ink); }
 .search-page form.big label.whole { display: flex; align-items: center; gap: .35em; font-size: 16px; white-space: nowrap; color: var(--ink); }
-.search-page form.big label.whole input { margin: 0; accent-color: var(--accent); }
+
 .search-page form.big button { font-family: 'Ysabeau Office', serif; font-size: 17px; padding: .45em 1em; border: 1px solid var(--accent); border-radius: 3px; background: var(--band); color: var(--ink); cursor: pointer; }
 .search-page h2 { font-size: 1.2em; text-align: left; margin-top: 1.4em; }
 .search-page ul.hits { list-style: none; padding: 0; margin: 0; }
