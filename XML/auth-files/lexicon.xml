@@ -511,6 +511,17 @@
             <entry xml:lang="eng"><form><orth>pi blade</orth></form><gramGrp><pos>n</pos></gramGrp>
                <sense n="1"><def>a straight double-edged blade mounted on a long haft, often inscribed with the year and the officials who oversaw its making.</def></sense><note/></entry>
          </superEntry>
+         <superEntry n="88">
+            <entry xml:lang="zho"><form><orth>霸</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>hegemon</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the lord who holds the leadership of the Lords.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="89">
+            <entry xml:lang="zho"><form><orth>君长</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>chieftain</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the head of a small or dependent people, below the rank of king.</def></sense><note/></entry>
+         </superEntry>
 
       </body>
    </text>

@@ -860,6 +860,83 @@
                <note xml:lang="eng">the old Zhou capital on the Luo; modern Luoyang, Henan.</note>
             </place>
 
+            <place n="120">
+               <placeName><settlement type="city">Langya 琅琊</settlement></placeName>
+               <country/><region>Yue</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the seat of the kings of Yue after Goujian; placed by tradition at the Langya of Shandong (modern Jiaonan, Qingdao), and by the report cited here at Jinpingshan, Lianyungang, Jiangsu. Written 瑯琊 and 琅邪 as well.</note>
+            </place>
+
+            <place n="121">
+               <placeName><geogName type="river">Jiang 江</geogName></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the Yangzi.</note>
+            </place>
+
+            <place n="122">
+               <placeName><geogName type="river">Huai 淮</geogName></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the Huai River.</note>
+            </place>
+
+            <place n="123">
+               <placeName><region type="state">Jin 晋</region></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the state of Jin, in modern Shanxi, from which Han, Zhao and Wei were formed.</note>
+            </place>
+
+            <place n="124">
+               <placeName><region type="commandery">Wu Commandery 吴郡</region></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the Han Commandery of Wu, around modern Suzhou, Jiangsu.</note>
+            </place>
+
+            <place n="125">
+               <placeName><settlement type="county">An County 安县</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a County of Wu Commandery under the Han, listed in the Xu Hanshu's Treatise on Commanderies and Kingdoms; north of modern Jiaxing, Zhejiang.</note>
+            </place>
+
+            <place n="126">
+               <placeName><settlement type="site">Xicen tomb 西岑冢</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a tomb in Wu Commandery named in the Yuejue.</note>
+            </place>
+
+            <place n="127">
+               <placeName><geogName type="mountain">Jinpingshan 锦屏山</geogName></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a hill at Lianyungang, Jiangsu, formerly Qushan and Langyashan, with the walled site at Jiulongkou.</note>
+            </place>
+
+            <place n="128">
+               <placeName><geogName type="mountain">Qushan 朐山</geogName></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the earlier name of Jinpingshan at Lianyungang, Jiangsu.</note>
+            </place>
+
+            <place n="129">
+               <placeName><settlement type="county">Qu County 朐县</settlement></placeName>
+               <country/><region>Qin</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the Qin County at Qushan; modern Lianyungang, Jiangsu.</note>
+            </place>
+
+            <place n="130">
+               <placeName><settlement type="site">Langya Terrace 琅琊台</settlement></placeName>
+               <country/><region>Qin</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the terrace raised by the First Emperor of Qin on the coast of Langya; modern Jiaonan, Qingdao, Shandong.</note>
+            </place>
+
 </listPlace>
       </body>
    </text>

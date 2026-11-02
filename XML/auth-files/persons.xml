@@ -671,6 +671,223 @@
                <listEvent><event><p>249 BC</p></event></listEvent>
             </person>
 
+            <person n="91">
+               <persName><name>King Qin of Yue 越王亲</name><roleName>King of Yue</roleName><forename/><nameLink/><surname/><addName>亲; 王亲</addName><genName/></persName>
+               <nationality>Yue</nationality>
+               <note xml:lang="eng"><p>The last ruler of Yue at Langya, son of Zun; eighth from Goujian in the Yuejueshu and the Wu Yue Chunqiu.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="92">
+               <persName><name>Futan 夫镡</name><roleName>King of Yue</roleName><forename/><nameLink/><surname/><addName>夫谭</addName><genName/></persName>
+               <nationality>Yue</nationality>
+               <note xml:lang="eng"><p>King of Yue, father of Yunchang; written 夫镡 in the Yuejueshu and 夫谭 in the Wu Yue Chunqiu.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="93">
+               <persName><name>Wuyu 无余</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Yue</nationality>
+               <note xml:lang="eng"><p>The first lord of Yue, enfeoffed there, from whom the Yuejueshu counts the line.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="94">
+               <persName><name>Yunchang 允常</name><roleName>King of Yue</roleName><forename/><nameLink/><surname/><addName>元常</addName><genName/></persName>
+               <nationality>Yue</nationality>
+               <note xml:lang="eng"><p>King of Yue, father of Goujian; written 允常 in the Yuejueshu and 元常 in the Wu Yue Chunqiu.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="95">
+               <persName><name>Yuyi 与夷</name><roleName>King of Yue</roleName><forename/><nameLink/><surname/><addName>兴夷</addName><genName/></persName>
+               <nationality>Yue</nationality>
+               <note xml:lang="eng"><p>Son and successor of Goujian; written 与夷 in the Yuejueshu and 兴夷 in the Wu Yue Chunqiu.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="96">
+               <persName><name>Ziweng 子翁</name><roleName>King of Yue</roleName><forename/><nameLink/><surname/><addName>翁</addName><genName/></persName>
+               <nationality>Yue</nationality>
+               <note xml:lang="eng"><p>Son and successor of Yuyi.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="97">
+               <persName><name>Buyang 不扬</name><roleName>King of Yue</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Yue</nationality>
+               <note xml:lang="eng"><p>Son and successor of Ziweng.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="98">
+               <persName><name>Wujiang 无彊</name><roleName>King of Yue</roleName><forename/><nameLink/><surname/><addName>无强</addName><genName/></persName>
+               <nationality>Yue</nationality>
+               <note xml:lang="eng"><p>Son and successor of Buyang, the last of the line styled king; written 无彊 in the Yuejueshu and 无强 in the Wu Yue Chunqiu.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="99">
+               <persName><name>King Wei of Chu 楚威王</name><roleName>King of Chu</roleName><forename/><nameLink/><surname/><addName>威王</addName><genName/></persName>
+               <nationality>Chu</nationality>
+               <note xml:lang="eng"><p>King of Chu, reigned 339–329 BC.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="100">
+               <persName><name>Zhihou 之侯</name><roleName>chieftain of Yue</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Yue</nationality>
+               <note xml:lang="eng"><p>Son of Wujiang, the first of the line styled chieftain (Yuejueshu).</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="101">
+               <persName><name>Zun 尊</name><roleName>chieftain of Yue</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Yue</nationality>
+               <note xml:lang="eng"><p>Son of Zhihou and father of Qin.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="102">
+               <persName><name>Yu 禹</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Xia</nationality>
+               <note xml:lang="eng"><p>Founder of the Xia dynasty, from whom the kings of Yue claimed descent.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="103">
+               <persName><name>Yu 玉</name><roleName>King of Yue</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Yue</nationality>
+               <note xml:lang="eng"><p>Son of Wuqiang in the Wu Yue Chunqiu's line, where the Yuejueshu has Zhihou.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="104">
+               <persName><name>the Yellow Emperor 黄帝</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality></nationality>
+               <note xml:lang="eng"><p>The Yellow Emperor, head of the line of descent in the Wu Yue Chunqiu.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="105">
+               <persName><name>Shaokang 少康</name><roleName>King of Xia</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Xia</nationality>
+               <note xml:lang="eng"><p>King of Xia, from whose line Wuyu, the first lord of Yue, descended.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="106">
+               <persName><name>Zhuanxu 颛顼</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality></nationality>
+               <note xml:lang="eng"><p>Grandson of the Yellow Emperor in the traditional line.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="107">
+               <persName><name>Changyi 昌意</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality></nationality>
+               <note xml:lang="eng"><p>Son of the Yellow Emperor and father of Zhuanxu.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="108">
+               <persName><name>Gun 鲧</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality></nationality>
+               <note xml:lang="eng"><p>Father of Yu.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="109">
+               <persName><name>Qi 启</name><roleName>King of Xia</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Xia</nationality>
+               <note xml:lang="eng"><p>Son of Yu, second king of Xia.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="110">
+               <persName><name>Taikang 太康</name><roleName>King of Xia</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Xia</nationality>
+               <note xml:lang="eng"><p>Son of Qi.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="111">
+               <persName><name>Zhonglu 仲庐</name><roleName>King of Xia</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Xia</nationality>
+               <note xml:lang="eng"><p>Successor of Taikang, the Zhongkang 仲康 of the Shiji.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="112">
+               <persName><name>Xiang 相</name><roleName>King of Xia</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Xia</nationality>
+               <note xml:lang="eng"><p>Son of Zhonglu and father of Shaokang.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="113">
+               <persName><name>Wuren 无壬</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Yue</nationality>
+               <note xml:lang="eng"><p>A lord of Yue, ten generations after Wuyu.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="114">
+               <persName><name>Wuyi 无曎</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Yue</nationality>
+               <note xml:lang="eng"><p>A lord of Yue, father of Futan.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="115">
+               <persName><name>Bushou 不寿</name><roleName>King of Yue</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Yue</nationality>
+               <note xml:lang="eng"><p>Son of Xingyi in the Wu Yue Chunqiu's line.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="116">
+               <persName><name>Yushan 余善</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Yue</nationality>
+               <note xml:lang="eng"><p>Ruler of Eastern Yue 东越 under the Han, with whom the Wu Yue Chunqiu ends its count of the state of Yue.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="117">
+               <persName><name>Liu Zhao 刘昭</name><roleName>commentator</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality></nationality>
+               <note xml:lang="eng"><p>Liang-dynasty commentator on the treatises of the Xu Hanshu.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="118">
+               <persName><name>Kai 开</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Yue</nationality>
+               <note xml:lang="eng"><p>A royal descendant of Yue, named in the Yuejue as the builder of the Xicen tomb; the words 越王孙开 can also be read as a king of Yue named Sun Kai.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="119">
+               <persName><name>Du You 杜佑</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality></nationality>
+               <note xml:lang="eng"><p>Tang author of the Tongdian.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="120">
+               <persName><name>Zhang Zhili 张志立</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality></nationality>
+               <note xml:lang="eng"><p>One of the two experts cited in the report on Jinpingshan.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="121">
+               <persName><name>Peng Yun 彭云</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality></nationality>
+               <note xml:lang="eng"><p>One of the two experts cited in the report on Jinpingshan.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
 </listPerson>
       </body>
    </text>
