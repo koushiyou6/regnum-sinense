@@ -62,9 +62,10 @@
             </person>
 
             <person n="7">
-               <persName><name>Yue Cheng 乐乘</name><roleName>General</roleName><forename/><nameLink/><surname/><addName/><genName/></persName>
+               <persName><name>Yue Cheng 乐乘</name><roleName>General</roleName><forename/><nameLink/><surname/><addName>武襄君</addName><genName/></persName>
                <nationality>Zhao</nationality>
                <note xml:lang="eng"><p>Zhao general.</p></note>
+               <note xml:lang="eng" from="-250" seq="2"><p>Zhao general, Lord Wuxiang 武襄君 from 250 BC.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
 
@@ -562,6 +563,7 @@
                <persName><name>Lian Po 廉颇</name><roleName>General of Zhao</roleName><forename/><nameLink/><surname/><addName>信平君</addName><genName/></persName>
                <nationality>Zhao</nationality>
                <note xml:lang="eng"><p>General of Zhao, Chancellor of State; enfeoffed as Lord Xinping 信平君 in 251 BC (the Zhengyi: a title, "steadfast in good faith and peaceable").</p></note>
+               <note xml:lang="eng" from="-250" seq="2"><p>General of Zhao, Lord Xinping 信平君, Acting Chancellor of State.</p></note>
                <listEvent><event><p>251 BC</p></event></listEvent>
             </person>
 
