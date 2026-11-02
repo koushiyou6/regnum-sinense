@@ -102,10 +102,29 @@ def build():
         out = SITE / "sources.html"
         index.set_parameter("page", proc.make_string_value("sources"))
         index.transform_to_file(source_file=str(MANIFEST), output_file=str(out))
-        index.set_parameter("page", proc.make_string_value(""))
         print(f"wrote {out.relative_to(ROOT)}")
 
+        # newspaper pages (XML/newspapers.xml): one page per item, image beside transcription
+        npfile = XML / "newspapers.xml"
+        if npfile.exists():
+            for item in ET.parse(npfile).getroot().findall("newspaper"):
+                out = SITE / "newspapers" / f"{item.get('id')}.html"
+                out.parent.mkdir(parents=True, exist_ok=True)
+                index.set_parameter("page", proc.make_string_value("newspaper"))
+                index.set_parameter("item", proc.make_string_value(item.get("id")))
+                index.set_parameter("root", proc.make_string_value("../"))
+                index.transform_to_file(source_file=str(MANIFEST), output_file=str(out))
+                index.set_parameter("root", proc.make_string_value(""))
+                print(f"wrote {out.relative_to(ROOT)}")
+        index.set_parameter("page", proc.make_string_value(""))
+        index.set_parameter("item", proc.make_string_value(""))
+
     write_search_index(manifest)
+
+    # static assets (newspaper images and the like): assets/<path> -> site/<path>
+    import shutil
+    if (ROOT / "assets").is_dir():
+        shutil.copytree(ROOT / "assets", SITE, dirs_exist_ok=True)
 
     # sitemap.xml and robots.txt for search engines
     pages = sorted(p for p in SITE.rglob("*.html"))

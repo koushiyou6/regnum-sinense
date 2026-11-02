@@ -15,17 +15,20 @@
     xmlns="http://www.w3.org/1999/xhtml"
     version="3.0">
 
-    <xsl:output method="xhtml" html-version="5" encoding="utf-8" indent="yes" omit-xml-declaration="yes"/>
+    <xsl:output method="xhtml" html-version="5" encoding="utf-8" indent="yes" omit-xml-declaration="yes" suppress-indentation="p ruby rt rb h3 h4 span a li"/>
 
     <xsl:param name="year" select="''"/>
     <xsl:param name="page" select="''"/>   <!-- '' = Home or a year page; 'about', 'search', 'sources' = those pages -->
     <xsl:variable name="about" select="document('about.xml', /)/about"/>
     <xsl:variable name="videos" select="document('videos.xml', /)/videos"/>
     <xsl:variable name="site" select="/site"/>
+    <xsl:param name="item" select="''"/>   <!-- newspaper id for page='newspaper' -->
+    <xsl:variable name="newspapers" select="document('newspapers.xml', /)/newspapers"/>
+    <xsl:variable name="np" select="$newspapers/newspaper[@id = $item]"/>
 
     <xsl:variable name="site-name" select="string(/site/name)"/>
     <xsl:variable name="css" select="unparsed-text('../css/style.css')"/>
-    <xsl:variable name="root" select="if ($year = '') then '' else '../'"/>
+    <xsl:variable name="root" select="if ($year = '' and $page != 'newspaper') then '' else '../'"/>
     <xsl:variable name="this-year" select="/site/year[@n = $year]"/>
 
     <!-- is a source page built yet? -->
@@ -81,6 +84,15 @@
         </nav>
     </xsl:template>
 
+    <!-- newspaper transcription -->
+    <xsl:template match="article" mode="np"><div class="article"><xsl:apply-templates mode="np"/></div></xsl:template>
+    <xsl:template match="head" mode="np"><h3><xsl:apply-templates mode="np"/></h3></xsl:template>
+    <xsl:template match="subhead" mode="np"><h4><xsl:apply-templates mode="np"/></h4></xsl:template>
+    <xsl:template match="p" mode="np"><p><xsl:apply-templates mode="np"/></p></xsl:template>
+    <xsl:template match="dateline" mode="np"><span class="dateline">【<xsl:apply-templates mode="np"/>】</span></xsl:template>
+    <xsl:template match="ruby" mode="np"><ruby><xsl:apply-templates mode="np"/></ruby></xsl:template>
+    <xsl:template match="rt" mode="np"><rt><xsl:apply-templates mode="np"/></rt></xsl:template>
+
     <xsl:template match="/">
         <html lang="en" class="notranslate" translate="no">
             <head>
@@ -97,12 +109,13 @@
                             <xsl:when test="$page = 'about'">About Regnum Sinense: the sources behind Atrium Concordiae's historical atlases of China, year by year, in Chinese and English.</xsl:when>
                             <xsl:when test="$page = 'search'">Search Regnum Sinense: the texts, translations, persons, places and terms.</xsl:when>
                             <xsl:when test="$page = 'sources'">Regnum Sinense sources by era and by video: the Zhanguo zonghengjia shu, the cultural-region essays, and the videos of Atrium Concordiae with the years they cover.</xsl:when>
+                            <xsl:when test="$page = 'newspaper'"><xsl:value-of select="$np/@paper"/><xsl:text> (</xsl:text><xsl:value-of select="$np/@paper-en"/><xsl:text>), </xsl:text><xsl:value-of select="$np/@date-en"/><xsl:text>: the clipping with its transcription — </xsl:text><xsl:value-of select="$np/@topic"/><xsl:text>.</xsl:text></xsl:when>
                             <xsl:when test="$year != ''"><xsl:value-of select="$this-year/@era"/><xsl:text> (</xsl:text><xsl:value-of select="$this-year/@label"/><xsl:if test="$this-year/@en != ''"><xsl:text>, </xsl:text><xsl:value-of select="$this-year/@en"/></xsl:if><xsl:text>): the sources for the year — </xsl:text><xsl:value-of select="string-join($this-year/document/@label, ', ')"/><xsl:text> — with English translation and notes.</xsl:text></xsl:when>
                             <xsl:otherwise>Regnum Sinense: the sources behind Atrium Concordiae's historical atlases of China, year by year from 256 BC — Chinese text, English translation and notes, side by side.</xsl:otherwise>
                         </xsl:choose>
                     </xsl:attribute>
                 </meta>
-                <title><xsl:value-of select="$site-name"/><xsl:choose><xsl:when test="$page = 'about'">: About</xsl:when><xsl:when test="$page = 'search'">: Search</xsl:when><xsl:when test="$page = 'sources'">: Sources by era and video</xsl:when><xsl:when test="$year != ''"><xsl:text>: </xsl:text><xsl:value-of select="$this-year/@era"/></xsl:when></xsl:choose></title>
+                <title><xsl:value-of select="$site-name"/><xsl:choose><xsl:when test="$page = 'about'">: About</xsl:when><xsl:when test="$page = 'search'">: Search</xsl:when><xsl:when test="$page = 'sources'">: Sources by era and video</xsl:when><xsl:when test="$page = 'newspaper'"><xsl:text>: </xsl:text><xsl:value-of select="$np/@paper"/><xsl:text> · </xsl:text><xsl:value-of select="$np/@date-en"/></xsl:when><xsl:when test="$year != ''"><xsl:text>: </xsl:text><xsl:value-of select="$this-year/@era"/></xsl:when></xsl:choose></title>
                 <style><xsl:value-of select="$css" disable-output-escaping="yes"/><xsl:value-of select="replace(unparsed-text('../css/font-cjk.css'), 'FONTROOT/', $root)" disable-output-escaping="yes"/></style>
             </head>
             <body>
@@ -236,6 +249,18 @@
                                             <p class="hint">Sources in grey are not yet on the site.</p>
                                         </section>
                                         <section>
+                                            <h2>By newspaper</h2>
+                                            <p class="hint">A trial column.</p>
+                                            <ul class="newspapers">
+                                                <xsl:for-each select="$newspapers/newspaper">
+                                                    <li>
+                                                        <a href="{$root}newspapers/{@id}.html"><span lang="ja"><xsl:value-of select="@paper"/></span><xsl:text> · </xsl:text><xsl:value-of select="@date-en"/></a>
+                                                        <span class="gloss"><xsl:value-of select="@paper-en"/><xsl:text> (</xsl:text><xsl:value-of select="@place"/><xsl:text>) · </xsl:text><xsl:value-of select="@era"/><xsl:text>: </xsl:text><xsl:value-of select="@topic"/></span>
+                                                    </li>
+                                                </xsl:for-each>
+                                            </ul>
+                                        </section>
+                                        <section>
                                             <h2>By video</h2>
                                             <xsl:choose>
                                                 <xsl:when test="$videos/video">
@@ -266,6 +291,25 @@
                                                 </xsl:otherwise>
                                             </xsl:choose>
                                         </section>
+                                    </div>
+                                </div>
+                            </xsl:when>
+
+                            <!-- ===== a newspaper item: clipping beside transcription ===== -->
+                            <xsl:when test="$page = 'newspaper'">
+                                <div class="newspaper">
+                                    <h1><span lang="ja"><xsl:value-of select="$np/@paper"/></span><xsl:text> · </xsl:text><xsl:value-of select="$np/@date-en"/></h1>
+                                    <p class="subtitle"><xsl:value-of select="$np/@paper-en"/><xsl:text> (</xsl:text><xsl:value-of select="$np/@place"/><xsl:text>) · </xsl:text><xsl:value-of select="$np/@era"/><xsl:text> </xsl:text><span lang="zh"><xsl:value-of select="$np/@era-zh"/></span><xsl:text> · </xsl:text><xsl:value-of select="$np/@topic"/></p>
+                                    <hr/>
+                                    <div class="newspaper-grid">
+                                        <figure>
+                                            <a href="{$root}{$np/@image}"><img src="{$root}{$np/@image}" alt="{$np/@paper} {$np/@date-en}"/></a>
+                                            <figcaption>Source: <a href="{$np/@source}"><xsl:value-of select="$np/@source-label"/></a>. Click the image for full size.</figcaption>
+                                        </figure>
+                                        <div class="transcription" lang="ja">
+                                            <h2>Transcription</h2>
+                                            <xsl:apply-templates select="$np/article" mode="np"/>
+                                        </div>
                                     </div>
                                 </div>
                             </xsl:when>
