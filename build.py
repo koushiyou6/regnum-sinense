@@ -182,11 +182,13 @@ def write_search_index(manifest):
         pn = p.find(f"{TEI}persName")
         name = text(pn.find(f"{TEI}name")) if pn is not None and pn.find(f"{TEI}name") is not None else ""
         alt = " ".join(text(x) for x in (pn.findall(f"{TEI}addName") + pn.findall(f"{TEI}roleName")) if text(x)) if pn is not None else ""
+        alt = " ".join([alt] + [text(x) for x in p.findall(f"{TEI}persName")[1:]]).strip()   # Japanese readings and other forms
         entries.append(("person", p.get("n"), name, alt, *notes(p)))
     for pl in ET.parse(auth / "locations.xml").getroot().iter(f"{TEI}place"):
         pn = pl.find(f"{TEI}placeName")
         name = text(pn) if pn is not None else ""
-        entries.append(("place", pl.get("n"), name, "", *notes(pl)))
+        alt = " ".join(text(x) for x in pl.findall(f"{TEI}placeName")[1:])
+        entries.append(("place", pl.get("n"), name, alt, *notes(pl)))
     for se in ET.parse(auth / "lexicon.xml").getroot().iter(f"{TEI}superEntry"):
         zh = en = defn = ""
         for e in se.findall(f"{TEI}entry"):

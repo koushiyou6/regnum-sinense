@@ -456,11 +456,12 @@ span.pers { color: var(--pers); }
    Put it after the Latin face in the body stack so every CJK glyph on the page — in the source column,
    in headwords, in names — falls to the same font, and keep CJK upright even inside italic elements. */
 body { font-family: 'Ysabeau Office', 'RS Serif CJK', 'Noto Serif SC', 'Noto Serif CJK SC', 'Songti SC', 'SimSun', serif; }
-[lang="zh"], [lang="zh"] i, i [lang="zh"] {
+[lang="zh"], [lang="ja"], [lang="zh"] i, [lang="ja"] i, i [lang="zh"], i [lang="ja"] {
     font-style: normal;
     font-family: 'RS Serif CJK', 'Noto Serif SC', 'Noto Serif CJK SC', 'Songti SC', 'SimSun', 'Ysabeau Office', serif;
 }
 #document > div[lang="zh"] p { line-height: 1.8; }
+.bracket-text > div[lang="ja"] p { line-height: 2.1; }
 
 /* text wordmark used instead of the logo images */
 .wordmark { font-family: 'Ysabeau Office'; font-size: 34px; font-weight: bolder; color: var(--ink); text-decoration: none; }
@@ -627,20 +628,18 @@ ul.sections li { padding: .1em .5em; border-left: 2px solid transparent; }
 @media (max-width: 767px) { .sources-grid { grid-template-columns: 1fr; } }
 
 /* newspaper item */
-.newspaper { max-width: 80em; margin: 0 auto; }
-.newspaper h1 { margin-bottom: .2em; }
-.newspaper .subtitle { text-align: center; color: #8a857c; margin-top: 0; }
-.newspaper-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 2.5em; align-items: start; margin-top: 1.5em; }
-.newspaper-grid figure { margin: 0; position: sticky; top: 1em; }
-.newspaper-grid img { width: 100%; height: auto; border: 1px solid var(--rule); background: #fff; }
-.newspaper-grid figcaption { font-size: .85em; color: #8a857c; margin-top: .5em; text-align: left; }
-.transcription { text-align: left; }
-.transcription h2 { font-size: 1.2em; text-align: left; margin: 0 0 .6em; border-bottom: 1px solid var(--rule); padding-bottom: .3em; }
-.transcription .article { margin-bottom: 1.6em; }
-.transcription h3 { font-size: 1.25em; margin: .6em 0 .1em; text-align: left; }
-.transcription h4 { font-size: 1em; font-weight: 600; margin: 0 0 .4em; color: #5a564e; text-align: left; }
-.transcription p { line-height: 2.2; margin: .4em 0; font-size: 1.05em; }
-.transcription .dateline { color: #8a857c; margin-right: .2em; }
-.transcription ruby { ruby-position: over; }
-.transcription rt { font-size: .5em; color: #6f6a62; letter-spacing: 0; }
-@media (max-width: 767px) { .newspaper-grid { grid-template-columns: 1fr; } .newspaper-grid figure { position: static; } }
+figure.clipping { margin: 1.2em 0; }
+figure.clipping img { display: block; width: 100%; height: auto; border: 1px solid var(--rule); background: #fff; cursor: zoom-in; }
+figure.clipping figcaption { font-size: .85em; color: #8a857c; margin-top: .5em; text-align: center; }
+.lightbox { position: fixed; inset: 0; background: rgba(40,36,30,.92); z-index: 1000; display: flex; align-items: flex-start; justify-content: flex-start; cursor: zoom-out; overflow: auto; }
+.lightbox[hidden] { display: none; }
+.lightbox img { flex: none; max-width: none; width: auto; height: auto; min-width: 100%; }
+body.has-lightbox { overflow: hidden; }
+.newspaper-columns .bracket-head { margin-top: .8em; }
+.newspaper-columns .bracket-head p.subhead { margin-top: -.2em; margin-bottom: .6em; }
+.newspaper-columns .dateline { color: #8a857c; margin-right: .2em; }
+.newspaper-columns ruby { ruby-position: over; ruby-align: center; }
+.newspaper-columns rt { font-size: .5em; color: #6f6a62; letter-spacing: 0; }
+@media (min-width: 768px) {
+    #document.newspaper-columns { grid-template-columns: 1.15fr 1.25fr 1fr; }
+}

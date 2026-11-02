@@ -89,7 +89,7 @@
     <!-- display name for a place: the name alone (the state and modern location belong in the expanded note) -->
     <xsl:function name="local:place-name" as="xs:string">
         <xsl:param name="place" as="element()?"/>
-        <xsl:sequence select="normalize-space(string-join(($place/geogName, $place/placeName), ' '))"/>
+        <xsl:sequence select="normalize-space(string-join(($place/geogName, $place/placeName[not(@xml:lang)]), ' '))"/>
     </xsl:function>
 
     <!-- ===== the annotation panel, shared by the intro sidebar and every text section ===== -->
@@ -106,7 +106,7 @@
                 <xsl:variable name="entry-src" select="$lex//superEntry[data(@n) = $id]/entry[not(@xml:lang = 'eng')]"/>
                 <xsl:variable name="entry-eng" select="$lex//superEntry[data(@n) = $id]/entry[@xml:lang = 'eng']"/>
                 <xsl:variable name="orth-src" select="string-join($entry-src/form/orth, '; ')"/>
-                <xsl:variable name="orth-eng" select="string-join($entry-eng/form/orth, '; ')"/>
+                <xsl:variable name="orth-eng" select="string-join($entry-eng/form[not(@type = 'ja-reading')]/orth, '; ')"/>
                 <xsl:variable name="sense-n" select="if (@select) then data(@select) else '1'"/>
                 <details>
                     <summary><b><span class="term">
@@ -135,7 +135,7 @@
             <xsl:for-each-group select="$scope//persName" group-by="data(@n)">
                 <xsl:variable name="p" select="$pers//person[data(@n) = current-grouping-key()]"/>
                 <details>
-                    <summary><b><span class="pers"><xsl:value-of select="$p/persName/name"/></span></b></summary>
+                    <summary><b><span class="pers"><xsl:value-of select="$p/persName[not(@xml:lang)]/name"/></span></b></summary>
                     <xsl:apply-templates select="local:note-for-year($p/note[@xml:lang = 'eng'])/p/node()"/>
                     <br/>
                 </details>

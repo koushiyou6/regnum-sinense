@@ -25,6 +25,9 @@
     <xsl:param name="item" select="''"/>   <!-- newspaper id for page='newspaper' -->
     <xsl:variable name="newspapers" select="document('newspapers.xml', /)/newspapers"/>
     <xsl:variable name="np" select="$newspapers/newspaper[@id = $item]"/>
+    <xsl:variable name="pers" select="document('auth-files/persons.xml', /)"/>
+    <xsl:variable name="places" select="document('auth-files/locations.xml', /)"/>
+    <xsl:variable name="lex" select="document('auth-files/lexicon.xml', /)"/>
 
     <xsl:variable name="site-name" select="string(/site/name)"/>
     <xsl:variable name="css" select="unparsed-text('../css/style.css')"/>
@@ -84,14 +87,77 @@
         </nav>
     </xsl:template>
 
-    <!-- newspaper transcription -->
-    <xsl:template match="article" mode="np"><div class="article"><xsl:apply-templates mode="np"/></div></xsl:template>
+    <!-- newspaper transcription / translation -->
+    <xsl:template match="ja | en" mode="np"><div class="article"><xsl:apply-templates mode="np"/></div></xsl:template>
     <xsl:template match="head" mode="np"><h3><xsl:apply-templates mode="np"/></h3></xsl:template>
     <xsl:template match="subhead" mode="np"><h4><xsl:apply-templates mode="np"/></h4></xsl:template>
     <xsl:template match="p" mode="np"><p><xsl:apply-templates mode="np"/></p></xsl:template>
     <xsl:template match="dateline" mode="np"><span class="dateline">【<xsl:apply-templates mode="np"/>】</span></xsl:template>
+    <xsl:template match="i | b | a" mode="np"><xsl:element name="{local-name()}"><xsl:copy-of select="@*"/><xsl:apply-templates mode="np"/></xsl:element></xsl:template>
     <xsl:template match="ruby" mode="np"><ruby><xsl:apply-templates mode="np"/></ruby></xsl:template>
     <xsl:template match="rt" mode="np"><rt><xsl:apply-templates mode="np"/></rt></xsl:template>
+    <xsl:template match="persName" mode="np"><span class="pers"><xsl:apply-templates mode="np"/></span></xsl:template>
+    <xsl:template match="placeName" mode="np"><span class="place"><xsl:apply-templates mode="np"/></span></xsl:template>
+    <xsl:template match="term" mode="np"><span class="term"><xsl:apply-templates mode="np"/></span></xsl:template>
+    <xsl:template match="span[@corresp]" mode="np">
+        <xsl:variable name="all" select="ancestor::newspaper//en//span[@corresp]"/>
+        <xsl:variable name="me" select="."/>
+        <xsl:apply-templates mode="np"/><sup><xsl:value-of select="count($all[. &lt;&lt; $me]) + 1"/></sup>
+    </xsl:template>
+
+    <!-- the annotation panel of a newspaper item, in the form of the year pages' -->
+    <xsl:template name="np-annotations">
+        <xsl:param name="scope"/>
+        <xsl:param name="notes"/>
+        <xsl:if test="$scope//term">
+            <h3><b>Terms</b></h3>
+            <xsl:for-each-group select="$scope//term" group-by="data(@n)">
+                <xsl:variable name="id" select="current-grouping-key()"/>
+                <xsl:variable name="entry-src" select="$lex//tei:superEntry[data(@n) = $id]/tei:entry[not(@xml:lang = 'eng')]"/>
+                <xsl:variable name="entry-eng" select="$lex//tei:superEntry[data(@n) = $id]/tei:entry[@xml:lang = 'eng']"/>
+                <details>
+                    <summary><b><span class="term"><xsl:value-of select="if ($entry-eng/tei:form[@type = 'ja-reading']) then $entry-eng/tei:form[@type = 'ja-reading']/tei:orth else string-join($entry-eng/tei:form[not(@type)]/tei:orth, '; ')"/><xsl:text> / </xsl:text><i lang="ja"><xsl:value-of select="string-join($entry-src/tei:form/tei:orth, '; ')"/></i></span></b></summary>
+                    <xsl:variable name="pos" select="($entry-eng/tei:gramGrp/tei:pos)[normalize-space(.) != ''][1]"/>
+                    <xsl:if test="$pos"><i><xsl:value-of select="$pos"/></i><xsl:text>. </xsl:text></xsl:if>
+                    <xsl:value-of select="$entry-eng/tei:sense[1]/tei:def"/>
+                    <br/>
+                </details>
+            </xsl:for-each-group>
+        </xsl:if>
+        <xsl:if test="$scope//persName">
+            <h3><b>Persons</b></h3>
+            <xsl:for-each-group select="$scope//persName" group-by="data(@n)">
+                <xsl:variable name="p" select="$pers//tei:person[data(@n) = current-grouping-key()]"/>
+                <details>
+                    <summary><b><span class="pers"><xsl:value-of select="($p/tei:persName[@xml:lang = 'ja']/tei:name, $p/tei:persName[not(@xml:lang)]/tei:name)[1]"/></span></b></summary>
+                    <xsl:value-of select="$p/tei:note[@xml:lang = 'eng'][last()]/tei:p"/>
+                    <br/>
+                </details>
+            </xsl:for-each-group>
+        </xsl:if>
+        <xsl:if test="$scope//placeName">
+            <h3><b>Places</b></h3>
+            <xsl:for-each-group select="$scope//placeName" group-by="data(@n)">
+                <xsl:variable name="pl" select="$places//tei:place[data(@n) = current-grouping-key()]"/>
+                <details>
+                    <summary><b><span class="place"><xsl:value-of select="($pl/tei:placeName[@xml:lang = 'ja'], $pl/tei:placeName[not(@xml:lang)]/*[1], $pl/tei:placeName[not(@xml:lang)])[1]"/></span></b></summary>
+                    <xsl:value-of select="$pl/tei:note[@xml:lang = 'eng'][last()]"/>
+                    <br/>
+                </details>
+            </xsl:for-each-group>
+        </xsl:if>
+        <xsl:if test="$scope//span[@corresp]">
+            <h3><b>Notes</b></h3>
+            <xsl:for-each select="$scope//span[@corresp]">
+                <xsl:variable name="key" select="data(@corresp)"/>
+                <details>
+                    <summary><b><span class="note"><sup><xsl:value-of select="position()"/></sup><xsl:text> </xsl:text><xsl:value-of select="replace($key, '_', ' ')"/></span></b></summary>
+                    <xsl:value-of select="$notes/interp[data(@corresp) = $key]"/>
+                    <br/>
+                </details>
+            </xsl:for-each>
+        </xsl:if>
+    </xsl:template>
 
     <xsl:template match="/">
         <html lang="en" class="notranslate" translate="no">
@@ -295,22 +361,57 @@
                                 </div>
                             </xsl:when>
 
-                            <!-- ===== a newspaper item: clipping beside transcription ===== -->
+                            <!-- ===== a newspaper item: clipping above, then transcription, translation, annotations ===== -->
                             <xsl:when test="$page = 'newspaper'">
                                 <div class="newspaper">
-                                    <h1><span lang="ja"><xsl:value-of select="$np/@paper"/></span><xsl:text> · </xsl:text><xsl:value-of select="$np/@date-en"/></h1>
-                                    <p class="subtitle"><xsl:value-of select="$np/@paper-en"/><xsl:text> (</xsl:text><xsl:value-of select="$np/@place"/><xsl:text>) · </xsl:text><xsl:value-of select="$np/@era"/><xsl:text> </xsl:text><span lang="zh"><xsl:value-of select="$np/@era-zh"/></span><xsl:text> · </xsl:text><xsl:value-of select="$np/@topic"/></p>
+                                    <h1><span lang="ja"><xsl:value-of select="$np/@paper"/></span></h1>
+                                    <p class="era-line"><xsl:value-of select="$np/@paper-en"/><xsl:text> (</xsl:text><xsl:value-of select="$np/@place"/><xsl:text>), </xsl:text><xsl:value-of select="$np/@date-en"/></p>
+                                    <p class="era-line">Newspaper · <a href="{$root}sources.html">Catalogue</a> · <xsl:value-of select="$np/@era"/><xsl:text> </xsl:text><span lang="zh"><xsl:value-of select="$np/@era-zh"/></span> · <xsl:value-of select="$np/@topic"/></p>
                                     <hr/>
-                                    <div class="newspaper-grid">
-                                        <figure>
-                                            <a href="{$root}{$np/@image}"><img src="{$root}{$np/@image}" alt="{$np/@paper} {$np/@date-en}"/></a>
-                                            <figcaption>Source: <a href="{$np/@source}"><xsl:value-of select="$np/@source-label"/></a>. Click the image for full size.</figcaption>
-                                        </figure>
-                                        <div class="transcription" lang="ja">
-                                            <h2>Transcription</h2>
-                                            <xsl:apply-templates select="$np/article" mode="np"/>
+                                    <figure class="clipping">
+                                        <img src="{$root}{$np/@image}" alt="{$np/@paper} {$np/@date-en}" title="Click to enlarge; click again or press Esc to close"/>
+                                        <figcaption>Source: <a href="{$np/@source}"><xsl:value-of select="$np/@source-label"/></a>. Click the clipping to enlarge it; click again, or press Esc, to close.</figcaption>
+                                    </figure>
+                                    <div class="lightbox" hidden="hidden"><img src="{$root}{$np/@image}" alt=""/></div>
+                                    <hr/>
+                                    <h2 id="introduction">Introduction</h2>
+                                    <div class="intro"><xsl:apply-templates select="$np/intro/node()" mode="np"/></div>
+                                    <hr/>
+                                    <h2 id="text">Text and Translation</h2>
+                                    <div id="document" class="responsive-three-column-grid newspaper-columns">
+                                        <div><h2>Text: Japanese source</h2></div>
+                                        <div><h2>Text: English Translation</h2></div>
+                                        <div><h2>Annotations</h2></div>
+                                        <!-- the articles as a subgrid of the first two columns: one row for each heading, one for each
+                                             paragraph, so the Japanese and the English stay level with each other -->
+                                        <div class="bracket-text">
+                                            <xsl:for-each select="$np/article">
+                                                <xsl:variable name="ja" select="ja"/>
+                                                <xsl:variable name="en" select="en"/>
+                                                <div class="cell-src bracket-head" lang="ja"><p class="bracket"><b><xsl:apply-templates select="$ja/head/node()" mode="np"/></b></p><xsl:if test="$ja/subhead"><p class="bracket subhead"><xsl:apply-templates select="$ja/subhead/node()" mode="np"/></p></xsl:if></div>
+                                                <div class="cell-eng bracket-head" lang="en"><p class="bracket"><b><xsl:apply-templates select="$en/head/node()" mode="np"/></b></p><xsl:if test="$en/subhead"><p class="bracket subhead"><xsl:apply-templates select="$en/subhead/node()" mode="np"/></p></xsl:if></div>
+                                                <xsl:for-each select="1 to max((count($ja/p), count($en/p)))">
+                                                    <xsl:variable name="i" select="."/>
+                                                    <div class="cell-src para" lang="ja"><p><xsl:apply-templates select="$ja/p[$i]/node()" mode="np"/></p></div>
+                                                    <div class="cell-eng para" lang="en"><p><xsl:apply-templates select="$en/p[$i]/node()" mode="np"/></p></div>
+                                                </xsl:for-each>
+                                            </xsl:for-each>
+                                        </div>
+                                        <div class="notes cell-notes">
+                                            <p><i>Click each triangle to expand/collapse note</i><br/><a href="#">Top of page</a><xsl:text> | </xsl:text><a href="#document">Top of text</a></p>
+                                            <xsl:call-template name="np-annotations"><xsl:with-param name="scope" select="$np/article/en"/><xsl:with-param name="notes" select="$np/notes"/></xsl:call-template>
                                         </div>
                                     </div>
+                                    <script><xsl:text disable-output-escaping="yes">
+(function () {
+  var fig = document.querySelector('figure.clipping'), box = document.querySelector('.lightbox');
+  if (!fig || !box) return;
+  function close() { box.hidden = true; document.body.classList.remove('has-lightbox'); }
+  fig.querySelector('img').addEventListener('click', function () { box.hidden = false; document.body.classList.add('has-lightbox'); });
+  box.addEventListener('click', close);
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+})();
+</xsl:text></script>
                                 </div>
                             </xsl:when>
 

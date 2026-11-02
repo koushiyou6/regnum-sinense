@@ -1,41 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Newspaper items shown in the Catalogue: the clipping beside its transcription. One <newspaper> per item;
-     the image lives in assets/newspapers/ and is copied to the site by the build. Furigana as <ruby>漢字<rt>かな</rt></ruby>,
-     in the historical kana the paper prints. -->
+<!-- Newspaper items shown in the Catalogue: the clipping above, then transcription, translation and annotations.
+     One <newspaper> per item; the image lives in assets/newspapers/ and is copied to the site by the build.
+     Furigana as <ruby>漢字<rt>かな</rt></ruby>, in the historical kana the paper prints. persName / placeName / term
+     tags point at the authority files as on the year pages; <span corresp> in the English matches <interp corresp>
+     in the notes. Names in a Japanese item are given in their Japanese readings; the pinyin is in the entries. -->
 <newspapers>
    <newspaper id="keijo-nippo-1924-10-14" paper="京城日報" paper-en="Keijō Nippō" place="Seoul" date="1924-10-14" date-en="14 October 1924"
               era="Warlord era" era-zh="北洋軍閥時期" topic="The Second Zhili–Fengtian War"
               image="newspapers/keijo-nippo-1924-10-14.jpg"
               source="https://commons.wikimedia.org/wiki/File:CNTS-00118522579_%E4%BA%AC%E5%9F%8E%E6%97%A5%E5%A0%B1_1924-10-14.pdf"
               source-label="Wikimedia Commons: CNTS-00118522579 京城日報 1924-10-14">
+      <intro>
+         <p>Six items from the war page of the <i>Keijō Nippō</i>, the Japanese-language daily of Seoul, of 14 October 1924: telegrams of 11–12 October from the Shanhai Pass front of the Second Zhili–Fengtian War, on the Fengtian wounded, the wounding of Guo Songling, the Zhili fleet, Wu Peifu's arrival at the front and a plot against his train.</p>
+         <p>The transcription keeps the paper's characters and its furigana, in the historical kana spelling of the time. Chinese names are given in the translation in their Japanese readings, as the paper's readers read them; each Persons and Places entry gives the pinyin.</p>
+      </intro>
       <article>
+         <ja>
          <head>奉天軍の負傷多數</head>
          <subhead>醫師の不足補充準備中</subhead>
-         <p><dateline>奉天電報</dateline><ruby>目下<rt>もくか</rt></ruby><ruby>城內<rt>じゃうない</rt></ruby>の<ruby>衛戍醫院<rt>ゑいじゅいゐん</rt></ruby>に<ruby>收容<rt>しうよう</rt></ruby>され<ruby>居<rt>ゐ</rt></ruby>る<ruby>負傷者<rt>ふしゃうしゃ</rt></ruby>は<ruby>五百六七十名<rt>ごひゃくろくしちじふめい</rt></ruby>で</p>
-         <p><ruby>此外<rt>このほか</rt></ruby><ruby>二百名<rt>にひゃくめい</rt></ruby>あり<ruby>輕傷者<rt>けいしゃうしゃ</rt></ruby>は<ruby>尚<rt>なほ</rt></ruby><ruby>戰線<rt>せんせん</rt></ruby>にある</p>
-         <p><ruby>由<rt>よし</rt></ruby><ruby>今度<rt>こんど</rt></ruby>の<ruby>戰爭<rt>せんさう</rt></ruby>で<ruby>最<rt>もっと</rt></ruby>も<ruby>奮闘<rt>ふんとう</rt></ruby>したのは<ruby>第二<rt>だいに</rt></ruby>、<ruby>六<rt>ろく</rt></ruby>の<ruby>兩旅<rt>りゃうりょ</rt></ruby>にて<ruby>彼等<rt>かれら</rt></ruby>は<ruby>決死隊<rt>けっしたい</rt></ruby>を<ruby>組織<rt>そしき</rt></ruby>して<ruby>手<rt>て</rt></ruby>に<ruby>手榴彈<rt>しゅりうだん</rt></ruby>を<ruby>携<rt>たづさ</rt></ruby>へて<ruby>悲愴<rt>ひさう</rt></ruby>なる<ruby>肉彈戰<rt>にくだんせん</rt></ruby>を<ruby>為<rt>な</rt></ruby>したる<ruby>為<rt>た</rt></ruby>め<ruby>最大多數<rt>さいだいたすう</rt></ruby>の<ruby>負傷者<rt>ふしゃうしゃ</rt></ruby>を<ruby>出<rt>いだ</rt></ruby>し<ruby>城內<rt>じゃうない</rt></ruby><ruby>收容者<rt>しうようしゃ</rt></ruby>は<ruby>殆<rt>ほとん</rt></ruby>どその<ruby>全部<rt>ぜんぶ</rt></ruby>が<ruby>兩旅<rt>りゃうりょ</rt></ruby>の<ruby>兵士<rt>へいし</rt></ruby>である</p>
-         <p><ruby>現在<rt>げんざい</rt></ruby><ruby>戰線<rt>せんせん</rt></ruby>に<ruby>派遣<rt>はけん</rt></ruby>せる<ruby>支那軍醫<rt>しなぐんい</rt></ruby>は<ruby>五百餘名<rt>ごひゃくよめい</rt></ruby>に<ruby>達<rt>たっ</rt></ruby>するも<ruby>尚<rt>なほ</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>にて<ruby>滿鐵<rt>まんてつ</rt></ruby>や<ruby>赤十字<rt>せきじふじ</rt></ruby><ruby>方面<rt>はうめん</rt></ruby>より<ruby>醫師<rt>いし</rt></ruby><ruby>其他<rt>そのた</rt></ruby>の<ruby>材料<rt>ざいれう</rt></ruby>に<ruby>就<rt>つ</rt></ruby>き<ruby>補充<rt>ほじゅう</rt></ruby>の<ruby>準備中<rt>じゅんびちう</rt></ruby>である</p>
+         <p><dateline><placeName n="131">奉天</placeName>電報</dateline><ruby>目下<rt>もくか</rt></ruby><ruby>城內<rt>じゃうない</rt></ruby>の<term n="90"><ruby>衛戍病院<rt>ゑいじゅびゃうゐん</rt></ruby></term>に<ruby>收容<rt>しうよう</rt></ruby>され<ruby>居<rt>ゐ</rt></ruby>る<ruby>負傷者<rt>ふしゃうしゃ</rt></ruby>は<ruby>五百六七十名<rt>ごひゃくろくしちじふめい</rt></ruby>で<ruby>此外<rt>このほか</rt></ruby><ruby>二百名<rt>にひゃくめい</rt></ruby>あり<ruby>輕傷者<rt>けいしゃうしゃ</rt></ruby>は<ruby>尚<rt>なほ</rt></ruby><ruby>戰線<rt>せんせん</rt></ruby>にある<ruby>由<rt>よし</rt></ruby></p>
+         <p><ruby>今度<rt>こんど</rt></ruby>の<ruby>戰爭<rt>せんさう</rt></ruby>で<ruby>最<rt>もっと</rt></ruby>も<ruby>奮鬪<rt>ふんとう</rt></ruby>したのは<ruby>第二<rt>だいに</rt></ruby>、<ruby>六<rt>ろく</rt></ruby>の<ruby>兩<rt>りゃう</rt></ruby><term n="91"><ruby>旅<rt>りょ</rt></ruby></term>にて<ruby>彼等<rt>かれら</rt></ruby>は<term n="92"><ruby>決死隊<rt>けっしたい</rt></ruby></term>を<ruby>組織<rt>そしき</rt></ruby>して<ruby>手<rt>て</rt></ruby>に<ruby>手榴彈<rt>しゅりうだん</rt></ruby>を<ruby>携<rt>たづさ</rt></ruby>へて<ruby>悲愴<rt>ひさう</rt></ruby>なる<ruby>肉彈戰<rt>にくだんせん</rt></ruby>を<ruby>爲<rt>な</rt></ruby>したる<ruby>爲<rt>た</rt></ruby>め<ruby>最大多數<rt>さいだいたすう</rt></ruby>の<ruby>負傷者<rt>ふしゃうしゃ</rt></ruby>を<ruby>出<rt>いだ</rt></ruby>し<ruby>城內<rt>じゃうない</rt></ruby><ruby>收容者<rt>しうようしゃ</rt></ruby>は<ruby>殆<rt>ほとん</rt></ruby>どその<ruby>全部<rt>ぜんぶ</rt></ruby>が<ruby>兩旅<rt>りゃうりょ</rt></ruby>の<ruby>兵士<rt>へいし</rt></ruby>である</p>
+         <p><ruby>現在<rt>げんざい</rt></ruby><ruby>戰線<rt>せんせん</rt></ruby>に<ruby>派遣<rt>はけん</rt></ruby>せる<ruby>支那<rt>しな</rt></ruby><term n="93"><ruby>軍醫<rt>ぐんい</rt></ruby></term>は<ruby>五百餘名<rt>ごひゃくよめい</rt></ruby>に<ruby>達<rt>たっ</rt></ruby>するも<ruby>尚<rt>なほ</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>にて<term n="94"><ruby>滿鐵<rt>まんてつ</rt></ruby></term>や<term n="95"><ruby>赤十字<rt>せきじふじ</rt></ruby></term><ruby>方面<rt>はうめん</rt></ruby>より<ruby>醫師<rt>いし</rt></ruby><ruby>其他<rt>そのた</rt></ruby>の<ruby>材料<rt>ざいれう</rt></ruby>に<ruby>就<rt>つ</rt></ruby>き<ruby>補充<rt>ほじゅう</rt></ruby>の<ruby>準備中<rt>じゅんびちう</rt></ruby>である</p>
+         </ja>
+         <en>
+         <head>Many wounded in the Hōten army</head>
+         <subhead>Shortage of doctors; reinforcements in preparation</subhead>
+         <p><span corresp="Hōten_telegram">【<placeName n="131">Hōten</placeName> telegram】</span>The wounded now housed in the <term n="90">garrison hospital</term> <span corresp="within_the_city_walls">within the city walls</span> number <span corresp="five_hundred_and_sixty_or_seventy">five hundred and sixty or seventy</span>, and there are two hundred more besides; the lightly wounded are <span corresp="reported">reported</span> to be still at the front.</p>
+         <p>In the present war the hardest fighting fell to the Second and Sixth <term n="91">Brigades</term>: they formed <term n="92">death squads</term> and, grenades in hand, fought a grim <span corresp="battle_of_human_bullets">battle of human bullets</span>, and so produced the greatest number of wounded; almost all of those housed in the city are soldiers of these two brigades.</p>
+         <p>The Chinese <term n="93">army doctors</term> now sent to the front number more than five hundred but are still too few, and preparations are being made to bring in doctors and other supplies from the <term n="94">South Manchuria Railway</term> and the <term n="95">Red Cross</term>.</p>
+         </en>
       </article>
       <article>
+         <ja>
          <head>奉軍副司令負傷</head>
-         <p><dateline>奉天十二日發電</dateline><ruby>奉天軍<rt>ほうてんぐん</rt></ruby><ruby>第三軍<rt>だいさんぐん</rt></ruby><ruby>副司令<rt>ふくしれい</rt></ruby><ruby>第二旅長<rt>だいにりょちゃう</rt></ruby><ruby>郭鐘齡<rt>くわくしょうれい</rt></ruby>の<ruby>戰死說<rt>せんしせつ</rt></ruby>あるが<ruby>氏<rt>し</rt></ruby>は<ruby>石門子<rt>せきもんし</rt></ruby>の<ruby>占領戰<rt>せんりゃうせん</rt></ruby>に<ruby>奮戰<rt>ふんせん</rt></ruby>して<ruby>腳部<rt>きゃくぶ</rt></ruby>に<ruby>貫通銃傷<rt>くわんつうじうしゃう</rt></ruby>を<ruby>受<rt>う</rt></ruby>け<ruby>目下<rt>もくか</rt></ruby><ruby>錦州<rt>きんしう</rt></ruby>で<ruby>治療中<rt>ちれうちう</rt></ruby>であると</p>
+         <p><dateline><placeName n="131">奉天</placeName>十二日發電</dateline><term n="98"><ruby>奉天軍<rt>ほうてんぐん</rt></ruby></term><ruby>第三軍<rt>だいさんぐん</rt></ruby><term n="99"><ruby>副司令<rt>ふくしれい</rt></ruby></term><ruby>第二<rt>だいに</rt></ruby><term n="100"><ruby>旅長<rt>りょちゃう</rt></ruby></term><persName n="123"><ruby>郭鐘齡<rt>くわくしょうれい</rt></ruby></persName>の<ruby>戰死說<rt>せんしせつ</rt></ruby>あるが<ruby>氏<rt>し</rt></ruby>は<placeName n="132"><ruby>石門子<rt>せきもんし</rt></ruby></placeName>の<ruby>占領戰<rt>せんりゃうせん</rt></ruby>に<ruby>奮戰<rt>ふんせん</rt></ruby>して<ruby>脚部<rt>きゃくぶ</rt></ruby>に<ruby>貫通銃傷<rt>くわんつうじうしゃう</rt></ruby>を<ruby>受<rt>う</rt></ruby>け<ruby>目下<rt>もくか</rt></ruby><placeName n="133"><ruby>錦州<rt>きんしう</rt></ruby></placeName>で<ruby>治療中<rt>ちれうちう</rt></ruby>であると</p>
+         </ja>
+         <en>
+         <head>Hōten deputy commander wounded</head>
+         <p><span corresp="Hōten,_the_12th">【<placeName n="131">Hōten</placeName>, the 12th】</span>There is a report that <span corresp="Kaku_Shōrei"><persName n="123">Kaku Shōrei</persName></span>, <term n="99">deputy commander</term> of the Third Army of the <term n="98">Hōten army</term> and <term n="100">commander</term> of its Second Brigade, has been killed in action; but he fought hard in the battle for <span corresp="Sekimonshi"><placeName n="132">Sekimonshi</placeName></span>, took a bullet through the leg, and is now under treatment at <placeName n="133">Kinshū</placeName>.</p>
+         </en>
       </article>
       <article>
+         <ja>
          <head>渤海艦隊出動</head>
-         <p><dateline>青島十二日發電</dateline><ruby>渤海艦隊<rt>ぼっかいかんたい</rt></ruby>の<ruby>肇永翔<rt>てうえいしょう</rt></ruby>の<ruby>二隻<rt>にせき</rt></ruby>は<ruby>十日<rt>とをか</rt></ruby><ruby>青島<rt>ちんたう</rt></ruby>を<ruby>拔錨<rt>ばつべう</rt></ruby>した<ruby>一方<rt>いっぱう</rt></ruby><ruby>秦皇島<rt>しんくわうたう</rt></ruby>の<ruby>二艦<rt>にかん</rt></ruby>も<ruby>出動<rt>しゅつどう</rt></ruby>すべく<ruby>陸戰隊<rt>りくせんたい</rt></ruby><ruby>千五百名<rt>せんごひゃくめい</rt></ruby>の<ruby>外出<rt>ぐわいしゅつ</rt></ruby>を<ruby>禁<rt>きん</rt></ruby>じ<ruby>出動命令<rt>しゅつどうめいれい</rt></ruby>を<ruby>俟<rt>ま</rt></ruby>つてゐる</p>
+         <p><dateline><placeName n="134">青島</placeName>十二日發電</dateline><term n="96"><ruby>渤海艦隊<rt>ぼっかいかんたい</rt></ruby></term>の<ruby>肇永翔<rt>てうえいしゃう</rt></ruby>の<ruby>二隻<rt>にせき</rt></ruby>は<ruby>十日<rt>とをか</rt></ruby><placeName n="134"><ruby>青島<rt>ちんたう</rt></ruby></placeName>を<ruby>拔錨<rt>ばつべう</rt></ruby>した<ruby>一方<rt>いっぱう</rt></ruby><placeName n="135"><ruby>秦皇島<rt>しんくわうたう</rt></ruby></placeName>の<ruby>二艦<rt>にかん</rt></ruby>も<ruby>出動<rt>しゅつどう</rt></ruby>すべく<term n="97"><ruby>陸戰隊<rt>りくせんたい</rt></ruby></term><ruby>千五百名<rt>せんごひゃくめい</rt></ruby>の<ruby>外出<rt>ぐわいしゅつ</rt></ruby>を<ruby>禁<rt>きん</rt></ruby>じ<ruby>出動命令<rt>しゅつどうめいれい</rt></ruby>を<ruby>俟<rt>ま</rt></ruby>つてゐる</p>
+         </ja>
+         <en>
+         <head>The Bokkai Fleet puts out</head>
+         <p>【<placeName n="134">Chintao</placeName>, the 12th】Two ships of the <term n="96">Bokkai Fleet</term>, <span corresp="the_Chōwa_and_the_Eishō">the Chōwa and the Eishō</span>, weighed anchor at <placeName n="134">Chintao</placeName> on the 10th; the two ships at <placeName n="135">Shinkōtō</placeName> are also to put out, and with shore leave stopped for their fifteen hundred <term n="97">marines</term> they await the order to sail.</p>
+         </en>
       </article>
       <article>
+         <ja>
          <head>吳佩孚山海關著</head>
-         <p><dateline>天津十二日發電</dateline><ruby>直隸軍總司令<rt>ちょくれいぐんそうしれい</rt></ruby><ruby>吳佩孚<rt>ごはいふ</rt></ruby><ruby>將軍<rt>しゃうぐん</rt></ruby>は<ruby>十二日<rt>じふににち</rt></ruby><ruby>午前六時<rt>ごぜんろくじ</rt></ruby><ruby>山海關<rt>さんかいくわん</rt></ruby>に<ruby>到着<rt>たうちゃく</rt></ruby>した</p>
+         <p><dateline><placeName n="137">天津</placeName>十二日發電</dateline><term n="101"><ruby>直隸軍<rt>ちょくれいぐん</rt></ruby></term><term n="102"><ruby>總司令<rt>そうしれい</rt></ruby></term><persName n="122"><ruby>吳佩孚<rt>ごはいふ</rt></ruby></persName><ruby>將軍<rt>しゃうぐん</rt></ruby>は<ruby>十二日<rt>じふににち</rt></ruby><ruby>午前六時<rt>ごぜんろくじ</rt></ruby><placeName n="136"><ruby>山海關<rt>さんかいくわん</rt></ruby></placeName>に<ruby>到着<rt>たうちゃく</rt></ruby>した</p>
+         </ja>
+         <en>
+         <head>Go Haifu arrives at Sankaikan</head>
+         <p>【<placeName n="137">Tenshin</placeName>, the 12th】General <persName n="122">Go Haifu</persName>, <term n="102">commander-in-chief</term> of the <term n="101">Chokurei army</term>, arrived at <placeName n="136">Sankaikan</placeName> at six in the morning of the 12th.</p>
+         </en>
       </article>
       <article>
+         <ja>
          <head>列車顛覆計畫</head>
-         <p><dateline>北京十一日發電</dateline><ruby>十一日<rt>じふいちにち</rt></ruby><ruby>午前<rt>ごぜん</rt></ruby><ruby>吳佩孚氏<rt>ごはいふし</rt></ruby>の<ruby>搭乘<rt>たふじょう</rt></ruby>せる<ruby>列車<rt>れっしゃ</rt></ruby>が<ruby>天津驛<rt>てんしんえき</rt></ruby>を<ruby>通過<rt>つうくわ</rt></ruby>せんとする<ruby>際<rt>さい</rt></ruby><ruby>前方<rt>ぜんぱう</rt></ruby><ruby>線路上<rt>せんろじゃう</rt></ruby>に<ruby>電氣仕掛<rt>でんきじか</rt></ruby>けの<ruby>爆彈<rt>ばくだん</rt></ruby>が<ruby>裝置<rt>さうち</rt></ruby>してあるのを<ruby>一露西亞人<rt>いちろしあじん</rt></ruby>が<ruby>發見<rt>はっけん</rt></ruby><ruby>急報<rt>きふはう</rt></ruby>したので<ruby>辛<rt>から</rt></ruby>くも<ruby>事<rt>こと</rt></ruby>なきを<ruby>得<rt>え</rt></ruby>た</p>
+         <p><dateline><placeName n="138">北京</placeName>十一日發電</dateline><ruby>十一日<rt>じふいちにち</rt></ruby><ruby>午前<rt>ごぜん</rt></ruby><persName n="122"><ruby>吳佩孚<rt>ごはいふ</rt></ruby></persName><ruby>氏<rt>し</rt></ruby>の<ruby>搭乘<rt>たふじょう</rt></ruby>せる<ruby>列車<rt>れっしゃ</rt></ruby>が<placeName n="137"><ruby>天津<rt>てんしん</rt></ruby></placeName><ruby>驛<rt>えき</rt></ruby>を<ruby>通過<rt>つうくわ</rt></ruby>せんとする<ruby>際<rt>さい</rt></ruby><ruby>前方<rt>ぜんぱう</rt></ruby><ruby>線路上<rt>せんろじゃう</rt></ruby>に<ruby>電氣仕掛<rt>でんきじか</rt></ruby>けの<ruby>爆彈<rt>ばくだん</rt></ruby>が<ruby>裝置<rt>さうち</rt></ruby>してあるのを<ruby>一露西亞人<rt>いちろしあじん</rt></ruby>が<ruby>發見<rt>はっけん</rt></ruby><ruby>急報<rt>きふはう</rt></ruby>したので<ruby>辛<rt>から</rt></ruby>くも<ruby>事<rt>こと</rt></ruby>なきを<ruby>得<rt>え</rt></ruby>た</p>
+         </ja>
+         <en>
+         <head>Plot to derail a train</head>
+         <p>【<placeName n="138">Pekin</placeName>, the 11th】On the morning of the 11th, as the train carrying <persName n="122">Go Haifu</persName> was about to pass through <span corresp="Tenshin_Station"><placeName n="137">Tenshin</placeName> Station</span>, a Russian found an electrically fired bomb planted on the line ahead and gave the alarm, and so a disaster was narrowly avoided.</p>
+         </en>
       </article>
       <article>
+         <ja>
          <head>側面攻擊</head>
          <subhead>直軍死守激戰</subhead>
-         <p><dateline>奉天發電</dateline><ruby>十二日<rt>じふににち</rt></ruby><ruby>朝<rt>あさ</rt></ruby><ruby>著電<rt>ちゃくでん</rt></ruby>に<ruby>依<rt>よ</rt></ruby>れば<ruby>山海關<rt>さんかいくわん</rt></ruby><ruby>第一線<rt>だいいっせん</rt></ruby>は<ruby>皆<rt>みな</rt></ruby><ruby>陷落<rt>かんらく</rt></ruby>したが所</p>
+         <p><dateline><placeName n="131">奉天</placeName>發電</dateline><ruby>十二日<rt>じふににち</rt></ruby><ruby>朝<rt>あさ</rt></ruby><ruby>著電<rt>ちゃくでん</rt></ruby>に<ruby>依<rt>よ</rt></ruby>れば<placeName n="136"><ruby>山海關<rt>さんかいくわん</rt></ruby></placeName><ruby>第一線<rt>だいいっせん</rt></ruby>は<ruby>皆<rt>みな</rt></ruby><ruby>陷落<rt>かんらく</rt></ruby>したが所</p>
+         </ja>
+         <en>
+         <head>Flank attack</head>
+         <subhead>The Chokurei army fights hard to hold on</subhead>
+         <p>【<placeName n="131">Hōten</placeName> telegram】By a telegram received on the morning of the 12th, the whole first line at <placeName n="136">Sankaikan</placeName> has fallen, but <span corresp="breaks_off">—</span></p>
+         </en>
       </article>
+      <notes>
+         <interp corresp="Hōten_telegram">The datelines give the place and the day a telegram was sent; the days are of October 1924. Names are given in their Japanese readings, as the paper's readers read them; the pinyin is in the Persons and Places entries. 奉天 Hōten is Fengtian, the Mukden of the Western press of the day and the seat of the Fengtian clique.</interp>
+         <interp corresp="within_the_city_walls">城內: inside the walled city, that is Hōten (Fengtian), from which the telegram was sent.</interp>
+         <interp corresp="five_hundred_and_sixty_or_seventy">五百六七十名: five hundred and sixty-odd to seventy-odd.</interp>
+         <interp corresp="reported">由: the hearsay marker; the sentence reports what is said of the lightly wounded.</interp>
+         <interp corresp="battle_of_human_bullets">肉彈戰: a close assault in which the men themselves are the projectiles, a phrase of the Japanese press since the Russo-Japanese War.</interp>
+         <interp corresp="Hōten,_the_12th">奉天十二日發電: sent from Hōten (Fengtian) on the 12th.</interp>
+         <interp corresp="Kaku_Shōrei">郭鐘齡: the paper's writing of 郭松齡, Kaku Shōrei (Guo Songling in pinyin).</interp>
+         <interp corresp="Sekimonshi">石門子 Sekimonshi: the Shimenzhai 石門寨 of the Chinese accounts, in the hills north-west of Shanhai Pass.</interp>
+         <interp corresp="the_Chōwa_and_the_Eishō">肇永翔: the cruisers Chōwa 肇和 and Eishō 永翔 (Zhaohe and Yongxiang in pinyin), their names run together.</interp>
+         <interp corresp="Tenshin_Station">天津驛 Tenshin Station: 驛, here the railway station.</interp>
+         <interp corresp="breaks_off">所: the item breaks off at the foot of the column; the clipping ends here.</interp>
+      </notes>
    </newspaper>
 </newspapers>

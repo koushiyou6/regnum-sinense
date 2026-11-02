@@ -522,6 +522,83 @@
             <entry xml:lang="eng"><form><orth>chieftain</orth></form><gramGrp><pos>n</pos></gramGrp>
                <sense n="1"><def>the head of a small or dependent people, below the rank of king.</def></sense><note/></entry>
          </superEntry>
+         <superEntry n="90">
+            <entry xml:lang="zho"><form><orth>衛戍病院</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>garrison hospital</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a military hospital of a garrison town.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="91">
+            <entry xml:lang="zho"><form><orth>旅</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>brigade</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the army unit of the period between regiment and division.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="92">
+            <entry xml:lang="zho"><form><orth>決死隊</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>death squad</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a party of volunteers for an assault from which return is not expected.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="93">
+            <entry xml:lang="zho"><form><orth>軍醫</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>army doctor</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a medical officer of the army.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="94">
+            <entry xml:lang="zho"><form><orth>滿鐵</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the South Manchuria Railway</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the South Manchuria Railway Company (南滿洲鐵道), the Japanese railway concern in Manchuria.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="95">
+            <entry xml:lang="zho"><form><orth>赤十字</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Red Cross</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Red Cross society.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="96">
+            <entry xml:lang="zho"><form><orth>渤海艦隊</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Bohai Fleet</orth></form><form type="ja-reading"><orth>the Bokkai Fleet</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the naval squadron on the Zhili side in 1924, based at Qingdao and Qinhuangdao.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="97">
+            <entry xml:lang="zho"><form><orth>陸戰隊</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>marines</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a navy's landing force.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="98">
+            <entry xml:lang="zho"><form><orth>奉天軍</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Fengtian army</orth></form><form type="ja-reading"><orth>the Hōten army</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the forces of the Fengtian clique; also written 奉軍.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="99">
+            <entry xml:lang="zho"><form><orth>副司令</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>deputy commander</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the second in command of an army.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="100">
+            <entry xml:lang="zho"><form><orth>旅長</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>brigade commander</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the officer commanding a brigade.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="101">
+            <entry xml:lang="zho"><form><orth>直隸軍</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Zhili army</orth></form><form type="ja-reading"><orth>the Chokurei army</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the forces of the Zhili clique; also written 直軍.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="102">
+            <entry xml:lang="zho"><form><orth>總司令</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>commander-in-chief</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the officer in supreme command.</def></sense><note/></entry>
+         </superEntry>
 
       </body>
    </text>

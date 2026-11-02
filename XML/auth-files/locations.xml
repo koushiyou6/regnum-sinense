@@ -937,6 +937,62 @@
                <note xml:lang="eng">the terrace raised by the First Emperor of Qin on the coast of Langya; modern Jiaonan, Qingdao, Shandong.</note>
             </place>
 
+            <place n="131">
+               <placeName><settlement type="city">Fengtian 奉天</settlement></placeName><placeName xml:lang="ja">Hōten 奉天</placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">Fengtian in pinyin, Hōten in Japanese reading; the Mukden of the Western press of the day. The seat of the Fengtian clique; modern Shenyang, Liaoning.</note>
+            </place>
+
+            <place n="132">
+               <placeName><settlement type="town">Shimenzi 石門子</settlement></placeName><placeName xml:lang="ja">Sekimonshi 石門子</placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">Shimenzi in pinyin, Sekimonshi in Japanese reading: the Shimenzhai 石門寨 of the Chinese accounts, in the hills north-west of Shanhai Pass; modern Shimenzhai, Qinhuangdao, Hebei.</note>
+            </place>
+
+            <place n="133">
+               <placeName><settlement type="city">Jinzhou 錦州</settlement></placeName><placeName xml:lang="ja">Kinshū 錦州</placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">Jinzhou in pinyin, Kinshū in Japanese reading; a city of western Fengtian province; modern Jinzhou, Liaoning.</note>
+            </place>
+
+            <place n="134">
+               <placeName><settlement type="city">Qingdao 青島</settlement></placeName><placeName xml:lang="ja">Chintao 青島</placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">Qingdao in pinyin, Chintao in Japanese reading; the port on the Shandong coast; modern Qingdao.</note>
+            </place>
+
+            <place n="135">
+               <placeName><settlement type="city">Qinhuangdao 秦皇島</settlement></placeName><placeName xml:lang="ja">Shinkōtō 秦皇島</placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">Qinhuangdao in pinyin, Shinkōtō in Japanese reading; the port on the Bohai coast west of Shanhai Pass; modern Qinhuangdao, Hebei.</note>
+            </place>
+
+            <place n="136">
+               <placeName><settlement type="pass">Shanhai Pass 山海關</settlement></placeName><placeName xml:lang="ja">Sankaikan 山海關</placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">Shanhaiguan in pinyin, Sankaikan in Japanese reading; the Pass where the Great Wall meets the sea, on the road from Hebei into Manchuria; modern Shanhaiguan, Qinhuangdao, Hebei.</note>
+            </place>
+
+            <place n="137">
+               <placeName><settlement type="city">Tianjin 天津</settlement></placeName><placeName xml:lang="ja">Tenshin 天津</placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">Tianjin in pinyin, Tenshin in Japanese reading; the port city on the Hai River; modern Tianjin.</note>
+            </place>
+
+            <place n="138">
+               <placeName><settlement type="city">Beijing 北京</settlement></placeName><placeName xml:lang="ja">Pekin 北京</placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">Beijing in pinyin, Pekin in Japanese reading; the capital of the Republic in 1924; modern Beijing.</note>
+            </place>
+
 </listPlace>
       </body>
    </text>

@@ -888,6 +888,20 @@
                <listEvent><event><p>249 BC</p></event></listEvent>
             </person>
 
+            <person n="122">
+               <persName><name>Wu Peifu 吳佩孚</name><roleName>Commander-in-chief of the Zhili army</roleName><forename/><nameLink/><surname/><addName>吳佩孚氏</addName><genName/></persName><persName xml:lang="ja"><name>Go Haifu 吳佩孚</name></persName>
+               <nationality>China</nationality>
+               <note xml:lang="eng"><p>Wu Peifu in pinyin, Go Haifu in Japanese reading. General of the Zhili clique, commander-in-chief of its forces in the war of 1924.</p></note>
+               <listEvent><event><p>1924</p></event></listEvent>
+            </person>
+
+            <person n="123">
+               <persName><name>Guo Songling 郭松齡</name><roleName>General of the Fengtian army</roleName><forename/><nameLink/><surname/><addName>郭鐘齡</addName><genName/></persName><persName xml:lang="ja"><name>Kaku Shōrei 郭松齡</name></persName>
+               <nationality>China</nationality>
+               <note xml:lang="eng"><p>Guo Songling in pinyin, Kaku Shōrei in Japanese reading. General of the Fengtian army, deputy commander of its Third Army in 1924; the paper writes 郭鐘齡.</p></note>
+               <listEvent><event><p>1924</p></event></listEvent>
+            </person>
+
 </listPerson>
       </body>
    </text>
