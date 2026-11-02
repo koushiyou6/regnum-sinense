@@ -36,14 +36,14 @@
             <person n="3">
                <persName><name>Duke Wu of Western Zhou 西周武公</name><roleName>Lord of Western Zhou</roleName><forename/><nameLink/><surname/><addName>西周君; 周君</addName><genName/></persName>
                <nationality>Zhou</nationality>
-               <note xml:lang="eng"><p>Ruler of the Western Zhou domain, the fief centred on Wangcheng (modern Luoyang) into which the royal house had been divided. He is the 西周君 of 256 BC who turned against Qin, fled to Qin when General Jiu attacked, and surrendered his thirty-six settlements, and the 周君 who died in the same year as King Nan: Song Zhong (in the Jijie) gives his posthumous title as Duke Wu of Western Zhou, and the Suoyin notes that Duke Wu and King Nan died at this time and are therefore named together.</p></note>
+               <note xml:lang="eng"><p>Ruler of the Western Zhou domain, the fief centred on Wangcheng (modern Luoyang) into which the royal house had been divided; Song Zhong (in the Jijie) gives his posthumous title as Duke Wu.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
 
             <person n="5">
                <persName><name>Duke Wen of Western Zhou 西周文公</name><roleName>Lord of Western Zhou</roleName><forename/><nameLink/><surname/><addName>西周公; 咎</addName><genName/></persName>
                <nationality>Zhou</nationality>
-               <note xml:lang="eng"><p>Son and successor of Duke Wu of Western Zhou, personal name Jiu 咎. The Suoyin identifies him as the 西周公 whom Qin moved to Danhu after Duke Wu's death, and this is the identification followed here.</p></note>
+               <note xml:lang="eng"><p>Son and successor of Duke Wu of Western Zhou, personal name Jiu 咎.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
 
@@ -93,7 +93,7 @@
             <person n="11">
                <persName><name>Prince Wuji of Wei 魏公子无忌</name><roleName>Prince of Wei</roleName><forename/><nameLink/><surname/><addName>信陵君; 公子</addName><genName/></persName>
                <nationality>Wei</nationality>
-               <note xml:lang="eng"><p>Youngest son of King Zhao of Wei, enfeoffed as Lord Xinling 信陵君; called the Prince (公子) throughout his biography.</p></note>
+               <note xml:lang="eng"><p>Youngest son of King Zhao of Wei, enfeoffed as Lord Xinling 信陵君.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
 
@@ -151,7 +151,7 @@
             <person n="19">
                <persName><name>Lord Pingyuan 平原君</name><roleName></roleName><forename/><nameLink/><surname/><addName>赵胜; 胜</addName><genName/></persName>
                <nationality>Zhao</nationality>
-               <note xml:lang="eng"><p>Zhao Sheng 赵胜, younger brother of King Huiwen of Zhao; he names himself Sheng in his message.</p></note>
+               <note xml:lang="eng"><p>Zhao Sheng 赵胜, younger brother of King Huiwen of Zhao.</p></note>
                <note xml:lang="eng" from="-252" seq="1"><p>Zhao Sheng 赵胜, younger brother of King Huiwen of Zhao; died 252 BC.</p></note>
                <note xml:lang="eng" from="-251" seq="2"><p>Zhao Sheng 赵胜, younger brother of King Huiwen of Zhao; his death is placed in the fourteenth year of King Xiaocheng (252 BC) by the Hereditary House of Zhao and in the fifteenth (251 BC) by the Table.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
@@ -203,6 +203,7 @@
                <persName><name>Meng Ao 蒙骜</name><roleName>General</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
                <nationality>Qin</nationality>
                <note xml:lang="eng"><p>Qin general.</p></note>
+               <note xml:lang="eng" from="-249" seq="5"><p>General of Qin, a man of Qi by origin, who served King Zhaoxiang and rose to Senior Minister; grandfather of Meng Tian.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
 
@@ -240,7 +241,7 @@
                <persName><name>King Zhuangxiang of Qin 秦庄襄王</name><roleName>King of Qin</roleName><forename/><nameLink/><surname/><addName>庄襄王; 子楚</addName><genName/></persName>
                <nationality>Qin</nationality>
                <note xml:lang="eng"><p>King of Qin, reigned 249–247 BC.</p></note>
-               <note xml:lang="eng" from="-256" seq="5"><p>King of Qin, reigned 249–247 BC; called Zichu 子楚 before his accession, the name under which the Biography of Lü Buwei has him at Handan.</p></note>
+               <note xml:lang="eng" from="-256" seq="5"><p>King of Qin, reigned 249–247 BC; called Zichu 子楚 before his accession.</p></note>
                <note xml:lang="eng" from="-250" seq="1"><p>King of Qin, reigned 249–247 BC; personal name Zichu 子楚 (Suoyin).</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
@@ -277,7 +278,7 @@
                <persName><name>Lü Buwei 吕不韦</name><roleName>Chancellor of Qin</roleName><forename/><nameLink/><surname/><addName>文信侯</addName><genName/></persName>
                <nationality>Wei</nationality>
                <note xml:lang="eng"><p>A merchant of Yangdi, later Chancellor of Qin.</p></note>
-               <note xml:lang="eng" from="-256" seq="6"><p>A merchant of Yangdi, later Chancellor of Qin and Marquis Wenxin 文信侯, the name under which the Zhanguo zonghengjia shu has him.</p></note>
+               <note xml:lang="eng" from="-256" seq="6"><p>A merchant of Yangdi, later Chancellor of Qin and Marquis Wenxin 文信侯.</p></note>
                <note xml:lang="eng" from="-249" seq="1"><p>Chancellor of State of Qin, Marquis Wenxin 文信侯; by origin a merchant of Yangdi.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
@@ -396,7 +397,7 @@
             <person n="52">
                <persName><name>Duke Qing of Lu 鲁顷公</name><roleName>Lord of Lu</roleName><forename/><nameLink/><surname/><addName>魯君</addName><genName/></persName>
                <nationality>Lu</nationality>
-               <note xml:lang="eng"><p>The last ruler of Lu, reigned from 272 BC; the Table calls him the Lord of Lu.</p></note>
+               <note xml:lang="eng"><p>The last ruler of Lu, reigned from 272 BC.</p></note>
                <note xml:lang="eng" from="-249" seq="2"><p>The last ruler of Lu, reigned 272–249 BC.</p></note>
                <listEvent><event><p>255 BC</p></event></listEvent>
             </person>
@@ -575,7 +576,7 @@
             <person n="77">
                <persName><name>Mao Sui 毛遂</name><roleName>retainer of Lord Pingyuan</roleName><forename/><nameLink/><surname/><addName>遂; 毛先生</addName><genName/></persName>
                <nationality>Zhao</nationality>
-               <note xml:lang="eng"><p>A retainer under Lord Pingyuan's gate; he names himself Sui, and Lord Pingyuan calls him Master Mao 毛先生.</p></note>
+               <note xml:lang="eng"><p>A retainer under Lord Pingyuan's gate, also called Master Mao 毛先生.</p></note>
                <listEvent><event><p>251 BC</p></event></listEvent>
             </person>
 
@@ -610,7 +611,7 @@
             <person n="82">
                <persName><name>Gongsun Long 公孙龙</name><roleName>retainer of Lord Pingyuan</roleName><forename/><nameLink/><surname/><addName>龙</addName><genName/></persName>
                <nationality>Zhao</nationality>
-               <note xml:lang="eng"><p>The dialectician, a retainer of Lord Pingyuan; he names himself Long.</p></note>
+               <note xml:lang="eng"><p>The dialectician, a retainer of Lord Pingyuan.</p></note>
                <listEvent><event><p>251 BC</p></event></listEvent>
             </person>
 
@@ -653,6 +654,13 @@
                <persName><name>Queen Jun 君王后</name><roleName>Queen of Qi</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
                <nationality>Qi</nationality>
                <note xml:lang="eng"><p>Consort of King Xiang of Qi and mother of King Jian; daughter of Jiao 敫, the Grand Scribe of Ju; the Shiji calls her Queen Jun 君王后.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="89">
+               <persName><name>Meng Tian 蒙恬</name><roleName>General of Qin</roleName><forename/><nameLink/><surname/><addName>恬</addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>General of Qin, grandson of Meng Ao.</p></note>
                <listEvent><event><p>249 BC</p></event></listEvent>
             </person>
 

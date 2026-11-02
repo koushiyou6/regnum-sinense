@@ -69,8 +69,7 @@
                <placeName><region type="state">Zhou 周</region></placeName>
                <country/><region/>
                <location><geo/></location>
-               <note xml:lang="eng">the Zhou royal domain around Luoyang; here the remnant to which the Lord of Western Zhou was sent back.</note>
-               <note xml:lang="eng" from="-249" seq="1">the Zhou royal domain around Luoyang.</note>
+               <note xml:lang="eng">the Zhou royal domain around Luoyang.</note>
             </place>
 
             <place n="8">
@@ -219,7 +218,7 @@
                <placeName><region type="state">Wey 卫</region></placeName>
                <country/><region/>
                <location><geo/></location>
-               <note xml:lang="eng">the state of Wey 卫 (distinguished from Wei 魏), by this date confined to Puyang; modern Puyang, Henan.</note>
+               <note xml:lang="eng">the state of Wey 卫 (distinguished from Wei 魏), by 256 BC confined to Puyang; modern Puyang, Henan.</note>
             </place>
 
             <place n="29">
@@ -354,7 +353,7 @@
                <placeName><settlement type="town">Ju 莒</settlement></placeName>
                <country/><region>Chu</region>
                <location><geo/></location>
-               <note xml:lang="eng">the former state of Ju, by this date held by Chu; modern Ju County, Shandong.</note>
+               <note xml:lang="eng">the former state of Ju, by 255 BC held by Chu; modern Ju County, Shandong.</note>
             </place>
 
             <place n="48">
@@ -368,7 +367,7 @@
                <placeName><settlement type="town">Shangyuan 上原</settlement></placeName>
                <country/><region>Zhao</region>
                <location><geo/></location>
-               <note xml:lang="eng">a Zhao place near Yuanshi, made a County in this year; the commentaries give no location.</note>
+               <note xml:lang="eng">a Zhao place near Yuanshi, made a County in 252 BC; the commentaries give no location.</note>
             </place>
 
             <place n="50">
@@ -845,6 +844,20 @@
                <country/><region>Qi</region>
                <location><geo/></location>
                <note xml:lang="eng">a Qi settlement; the Suoyin cites Du Yu, now Dong'e in Jibei; the old Dong'e city, south-east of modern Yanggu, Shandong.</note>
+            </place>
+
+            <place n="118">
+               <placeName><region type="commandery">Henan 河南</region></placeName>
+               <country/><region>Qin</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the Han name of Sanchuan Commandery, the lands around Luoyang; the Shiji uses it of Qin's commandery (Suoyin).</note>
+            </place>
+
+            <place n="119">
+               <placeName><settlement type="city">Luoyang 雒阳</settlement></placeName>
+               <country/><region>Qin</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the old Zhou capital on the Luo; modern Luoyang, Henan.</note>
             </place>
 
 </listPlace>

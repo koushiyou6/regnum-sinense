@@ -352,7 +352,7 @@
          <superEntry n="59">
             <entry xml:lang="zho"><form><orth>关</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
             <entry xml:lang="eng"><form><orth>Pass</orth></form><gramGrp><pos>n</pos></gramGrp>
-               <sense n="1"><def>a fortified pass; here the Hangu Pass, Qin's eastern gate.</def></sense><note/></entry>
+               <sense n="1"><def>a fortified pass.</def></sense><note/></entry>
          </superEntry>
 
          <superEntry n="60">
@@ -488,6 +488,17 @@
             <entry xml:lang="zho"><form><orth>假相</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
             <entry xml:lang="eng"><form><orth>Acting Chancellor</orth></form><gramGrp><pos>n</pos></gramGrp>
                <sense n="1"><def>the office of Chancellor held provisionally (假); the Biography of Lian Po writes 假相国.</def></sense><note/></entry>
+         </superEntry>
+         <superEntry n="84">
+            <entry xml:lang="zho"><form><orth>上卿</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Senior Minister</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the highest rank of minister (卿).</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="85">
+            <entry xml:lang="zho"><form><orth>户</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>household</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the household, the unit by which a fief's population and revenue were reckoned.</def></sense><note/></entry>
          </superEntry>
 
       </body>
