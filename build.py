@@ -17,7 +17,7 @@ from saxonche import PySaxonProcessor
 ROOT = Path(__file__).resolve().parent
 XML = ROOT / "XML"
 SITE = ROOT / "docs"
-SITE_URL = "https://koushiyou6.github.io/regnum-sinense/"   # public address, for sitemap.xml and robots.txt
+SITE_URL = "https://regnumsinense.com/"   # public address, for sitemap.xml and robots.txt
 MANIFEST = XML / "site.xml"
 
 

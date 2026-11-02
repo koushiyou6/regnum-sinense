@@ -1,5 +1,7 @@
 # Regnum Sinense
 
+Live at https://regnumsinense.com/.
+
 The sources behind [Atrium Concordiae](https://www.youtube.com/@AtriumConcordiae)'s historical atlases of China, year by year from 256 BC: Chinese text, English translation and notes, side by side.
 
 The site is published from the `docs/` folder with GitHub Pages.
