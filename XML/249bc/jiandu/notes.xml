@@ -30,6 +30,14 @@
             <interp corresp="second_year">·二年曰：复用: an annotation after the scribe's dot, recording that the statute was put back in force in a second year; Chen Wei takes it as the second year of King Zheng, 245 BC.</interp>
          </div>
 
+         <div n="3">
+            <interp corresp="first_year">泰上皇元年: the Suiji, a Han text, calls King Zhuangxiang by the title given him after his death (see §2); 249 BC.</interp>
+            <interp corresp="three_years">立三年: the reign summed up at its first year, as the Suiji does for each ruler; 249–247 BC.</interp>
+            <interp corresp="fathered">生始皇帝: that the king was the First Emperor's father, not that the First Emperor was born this year (the Shiji puts his birth in 259 BC).</interp>
+            <interp corresp="Chancellor">呂不韋相: his appointment as Chancellor of State is in the Basic Annals for this year, §1.</interp>
+            <interp corresp="ellipsis">The entry goes on; the rest of it is not reproduced here.</interp>
+         </div>
+
       </body>
    </text>
 </TEI>
