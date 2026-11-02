@@ -140,13 +140,16 @@
                                 <div class="about search-page">
                                     <h1>Search</h1>
                                     <hr/>
-                                    <form class="search big" action="search.html" method="get" role="search"><input type="search" name="q" id="q" placeholder="A name, a place, a term, a phrase — in Chinese or English" aria-label="Search the site"/><button type="submit">Search</button></form>
-                                    <p class="hint" id="status">Searches the Chinese texts, the English translations, and the entries for persons, places and terms. English is matched by whole word (Lu does not find Luoyang); end with * to match the start of a word (Lu*). Traditional and simplified characters find each other.</p>
+                                    <form class="search big" action="search.html" method="get" role="search"><input type="search" name="q" id="q" placeholder="A name, a place, a term, a phrase — in Chinese or English" aria-label="Search the site"/><button type="submit">Search</button><label class="whole"><input type="checkbox" name="w" id="w" value="1"/> Whole words only</label></form>
+                                    <p class="hint" id="status">Searches the Chinese texts, the English translations, and the entries for persons, places and terms. Traditional and simplified characters find each other. Unticked, Lu also finds Luoyang; ticked, English is matched by whole word.</p>
                                     <div id="results"></div>
                                     <script><xsl:text disable-output-escaping="yes">
 (function () {
-  var q = new URLSearchParams(location.search).get('q') || '';
+  var params = new URLSearchParams(location.search);
+  var q = params.get('q') || '';
+  var whole = params.get('w') === '1';
   var box = document.getElementById('q'); box.value = q;
+  document.getElementById('w').checked = whole;
   var status = document.getElementById('status'), out = document.getElementById('results');
   if (!q.trim()) { box.focus(); return; }
   var needle = q.trim();
@@ -155,15 +158,14 @@
   function simp(s) { var o = ''; for (var i = 0; i &lt; s.length; i++) { var c = s.charAt(i); o += (t2s[c] || c); } return o; }
   function esc(s) { return s.replace(/[&amp;&lt;&gt;]/g, function (c) { return {'&amp;':'&amp;amp;','&lt;':'&amp;lt;','&gt;':'&amp;gt;'}[c]; }); }
   function key(text) { return simp(text).toLowerCase(); }
-  // English is matched as whole words (Lu does not find Luoyang); a trailing * matches a prefix (Lu* does).
-  // Chinese is matched as a substring. The regex is rebuilt once the index (and its character map) has loaded.
-  var prefix = /\*$/.test(needle); if (prefix) needle = needle.replace(/\*+$/, '');
+  // With "Whole words only" ticked, English is matched as whole words (Lu does not find Luoyang); otherwise as a
+  // substring, as Chinese always is. The regex is built once the index (and its character map) has loaded.
   var latin = /[A-Za-z\u00C0-\u024F]/.test(needle);
   var L = 'A-Za-z\u00C0-\u024F';
   var rx;
   function buildRx() {
     var body = lower.replace(/[.*+?^${}()|[\]\\]/g, '\\$&amp;');
-    rx = latin ? new RegExp('(^|[^' + L + '])(' + body + ')' + (prefix ? '' : '(?![' + L + '])'), 'gi') : new RegExp('()(' + body + ')', 'gi');
+    rx = (latin &amp;&amp; whole) ? new RegExp('(^|[^' + L + '])(' + body + ')(?![' + L + '])', 'gi') : new RegExp('()(' + body + ')', 'gi');
   }
   function find(k, from) { rx.lastIndex = from || 0; var m = rx.exec(k); return m ? m.index + m[1].length : -1; }
   function has(text) { return find(key(text)) &gt;= 0; }
