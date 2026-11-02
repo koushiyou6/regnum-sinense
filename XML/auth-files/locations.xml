@@ -1007,6 +1007,34 @@
                <note xml:lang="eng">a County of Qin, the seat of Hanzhong Commandery, in the Han River valley; modern Hanzhong 汉中, Shaanxi.</note>
             </place>
 
+            <place n="141">
+               <placeName><settlement type="place">Suxu 宿胥</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a place on the Yellow River in Wei, Suxu Mouth 宿胥口, where the river's old course turned north; modern Xun County 浚县, Henan.</note>
+            </place>
+
+            <place n="142">
+               <placeName><settlement type="mountain">Kuaiji 会稽</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the mountain in Yue on which King Goujian was besieged by Wu in 494 BC; modern Shaoxing, Zhejiang.</note>
+            </place>
+
+            <place n="143">
+               <placeName><settlement type="town">Yinjin 阴晋</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a town of Wei on the Qin border east of the Hua mountain, taken by Qin in 332 BC and renamed Ningqin 宁秦; modern Huayin 华阴, Shaanxi.</note>
+            </place>
+
+            <place n="144">
+               <placeName><settlement type="county">Shangluo 上雒</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a County of Qin on the upper Luo River, on the road from the Guanzhong to Nanyang; modern Shangluo 商洛, Shaanxi.</note>
+            </place>
+
 </listPlace>
       </body>
    </text>

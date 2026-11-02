@@ -630,6 +630,30 @@
                <sense n="1"><def>performing in person one's turn (更) of statutory labour service for the government, as against hiring a substitute.</def></sense><note/></entry>
          </superEntry>
 
+         <superEntry n="108">
+            <entry xml:lang="zho"><form><orth>五刑</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the five punishments</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the five mutilating punishments of the ancient codes: tattooing, cutting off the nose, cutting off the feet, castration and death.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="109">
+            <entry xml:lang="zho"><form><orth>干将、莫邪</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Ganjiang and Moye</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the two swords of legend, forged for the King of Wu by the smith Ganjiang and his wife Moye; the type of a fine blade.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="110">
+            <entry xml:lang="zho"><form><orth>騄耳</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Lü'er</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>one of the eight steeds of King Mu of Zhou; the type of a fine horse.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="111">
+            <entry xml:lang="zho"><form><orth>谈说之士</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>persuaders</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the itinerant counsellors who sold rulers plans of war and alliance.</def></sense><note/></entry>
+         </superEntry>
+
       </body>
    </text>
 </TEI>

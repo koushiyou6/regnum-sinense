@@ -904,6 +904,27 @@
                <listEvent><event><p>1924</p></event></listEvent>
             </person>
 
+            <person n="124">
+               <persName><name>Tu 筡</name><roleName></roleName><forename/><nameLink/><surname/><addName>贱臣筡</addName><genName/></persName>
+               <nationality></nationality>
+               <note xml:lang="eng"><p>A persuader known only from the Zhengjiahu tablet, where he calls himself "your humble servant Tu" and addresses a King of Qin.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="125">
+               <persName><name>Jie 桀</name><roleName>King of Xia</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Xia</nationality>
+               <note xml:lang="eng"><p>The last king of Xia, the type of the tyrant.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
+            <person n="126">
+               <persName><name>Zhou 纣</name><roleName>King of Shang</roleName><forename/><nameLink/><surname/><addName>肘</addName><genName/></persName>
+               <nationality>Shang</nationality>
+               <note xml:lang="eng"><p>The last king of Shang, the type of the tyrant.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
+            </person>
+
 </listPerson>
       </body>
    </text>
