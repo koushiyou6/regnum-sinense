@@ -79,7 +79,7 @@
          <en>
          <head>Flank attack</head>
          <subhead>The Chokurei army fights hard to hold on</subhead>
-         <p>【<placeName n="131">Hōten</placeName> telegram】By a telegram received on the morning of the 12th, the whole first line at <placeName n="136">Sankaikan</placeName> has fallen, but <span corresp="breaks_off">—</span></p>
+         <p>【<placeName n="131">Hōten</placeName> telegram】By a telegram received on the morning of the 12th, the whole first line at <placeName n="136">Sankaikan</placeName> <span corresp="has_fallen">has fallen</span>.</p>
          </en>
       </article>
       <notes>
@@ -93,7 +93,7 @@
          <interp corresp="Sekimonshi">石門子 Sekimonshi: the Shimenzhai 石門寨 of the Chinese accounts, in the hills north-west of Shanhai Pass.</interp>
          <interp corresp="the_Chōwa_and_the_Eishō">肇永翔: the cruisers Chōwa 肇和 and Eishō 永翔 (Zhaohe and Yongxiang in pinyin), their names run together.</interp>
          <interp corresp="Tenshin_Station">天津驛 Tenshin Station: 驛, here the railway station.</interp>
-         <interp corresp="breaks_off">所: the item ends here, in mid-sentence; 所 is its last character and nothing follows it in the paper.</interp>
+         <interp corresp="has_fallen">皆陷落したが所: the item ends with 所, as printed; nothing follows it in the paper.</interp>
       </notes>
    </newspaper>
 </newspapers>
