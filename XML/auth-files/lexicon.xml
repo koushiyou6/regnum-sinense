@@ -455,6 +455,35 @@
             <entry xml:lang="eng"><form><orth>posthumous title</orth></form><gramGrp><pos>n</pos></gramGrp>
                <sense n="1"><def>the title conferred on a ruler after his death, by which he is thereafter named.</def></sense><note/></entry>
          </superEntry>
+         <superEntry n="78">
+            <entry xml:lang="zho"><form><orth>单于</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Chanyu</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the title of the ruler of the Xiongnu.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="79">
+            <entry xml:lang="zho"><form><orth>襜褴</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Danlan</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a Hu people north of Dai (Ru Chun).</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="80">
+            <entry xml:lang="zho"><form><orth>东胡</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Donghu</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Hu people east of the Xiongnu, on Yan's and Zhao's northern frontier.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="81">
+            <entry xml:lang="zho"><form><orth>林胡</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Linhu</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Hu people of the forests on Zhao's northern frontier.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="82">
+            <entry xml:lang="zho"><form><orth>莫府</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>headquarters</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the office of a general in the field, under tents (幕); written 莫 for 幕.</def></sense><note/></entry>
+         </superEntry>
 
       </body>
    </text>

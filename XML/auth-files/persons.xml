@@ -626,6 +626,13 @@
                <listEvent><event><p>251 BC</p></event></listEvent>
             </person>
 
+            <person n="85">
+               <persName><name>King Daoxiang of Zhao 赵悼襄王</name><roleName>King of Zhao</roleName><forename/><nameLink/><surname/><addName/><genName/></persName>
+               <nationality>Zhao</nationality>
+               <note xml:lang="eng"><p>King of Zhao, reigned 244–236 BC; son of King Xiaocheng.</p></note>
+               <listEvent><event><p>250 BC</p></event></listEvent>
+            </person>
+
 </listPerson>
       </body>
    </text>
