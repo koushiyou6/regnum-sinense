@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- 249 BC, Shiji — introductions. One <div n="N"> per bracket. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title>Shiji 史记 · 秦庄襄王元年: introductions</title></titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><p>Original.</p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1">
+            <p>The Basic Annals for 249 BC: the Basic Annals of Zhou on the end of Eastern Zhou, and the Basic Annals of Qin under the first year of King Zhuangxiang, with Lü Buwei's suppression of Eastern Zhou, Meng Ao's campaign against Han and the founding of Sanchuan Commandery.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

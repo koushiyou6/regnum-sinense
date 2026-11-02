@@ -70,6 +70,7 @@
                <country/><region/>
                <location><geo/></location>
                <note xml:lang="eng">the Zhou royal domain around Luoyang; here the remnant to which the Lord of Western Zhou was sent back.</note>
+               <note xml:lang="eng" from="-249" seq="1">the Zhou royal domain around Luoyang.</note>
             </place>
 
             <place n="8">
@@ -786,6 +787,41 @@
                <country/><region>Wei</region>
                <location><geo/></location>
                <note xml:lang="eng">a Wei town; Xu Guang: in Wei Commandery; the Zhengyi: north-east of Neihuang County in Xiangzhou; modern Neihuang, Henan.</note>
+            </place>
+
+            <place n="110">
+               <placeName><region type="state">Eastern Zhou 东周</region></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the Eastern Zhou domain, the eastern of the two fiefs into which the Zhou royal house was divided, centred on Gong (modern Gongyi, Henan).</note>
+            </place>
+
+            <place n="111">
+               <placeName><settlement type="town">Chenggao 成皋</settlement></placeName>
+               <country/><region>Han</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Han town; the Zhengyi: the old Eastern Guo, Zheng's town of Zhi, also called Hulao, the Han dynasty's Chenggao; north-west of modern Xingyang, Henan.</note>
+            </place>
+
+            <place n="112">
+               <placeName><settlement type="town">Gong 巩</settlement></placeName>
+               <country/><region>Han</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Han town; the Zhengyi: Gong County in Luozhou; modern Gongyi, Henan.</note>
+            </place>
+
+            <place n="113">
+               <placeName><settlement type="town">Yangren 阳人</settlement></placeName>
+               <country/><region>Qin</region>
+               <location><geo/></location>
+               <note xml:lang="eng">Xu Guang: the Yangren settlement in Liang County of Henan; the Zhengyi: the old Yangren city forty li west of Liang County in Ruzhou; west of modern Ruzhou, Henan.</note>
+            </place>
+
+            <place n="114">
+               <placeName><region type="commandery">Sanchuan Commandery 三川郡</region></placeName>
+               <country/><region>Qin</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Qin Commandery, named for its three rivers, the Yellow River, Luo River and Yi River (Wei Zhao); established in 249 BC on the lands of Zhou and Han around Luoyang; renamed Henan Commandery under the Han (Pei Yin).</note>
             </place>
 
 </listPlace>

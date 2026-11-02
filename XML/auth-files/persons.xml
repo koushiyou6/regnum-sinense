@@ -278,6 +278,7 @@
                <nationality>Wei</nationality>
                <note xml:lang="eng"><p>A merchant of Yangdi, later Chancellor of Qin.</p></note>
                <note xml:lang="eng" from="-256" seq="6"><p>A merchant of Yangdi, later Chancellor of Qin and Marquis Wenxin 文信侯, the name under which the Zhanguo zonghengjia shu has him.</p></note>
+               <note xml:lang="eng" from="-249" seq="1"><p>Chancellor of State of Qin, Marquis Wenxin 文信侯; by origin a merchant of Yangdi.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
 
@@ -631,6 +632,13 @@
                <nationality>Zhao</nationality>
                <note xml:lang="eng"><p>King of Zhao, reigned 244–236 BC; son of King Xiaocheng.</p></note>
                <listEvent><event><p>250 BC</p></event></listEvent>
+            </person>
+
+            <person n="86">
+               <persName><name>Lord of Eastern Zhou 东周君</name><roleName>Lord of Eastern Zhou</roleName><forename/><nameLink/><surname/><addName>周君</addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>Ruler of the Eastern Zhou domain; the Suoyin: his name and title are not known.</p></note>
+               <listEvent><event><p>249 BC</p></event></listEvent>
             </person>
 
 </listPerson>

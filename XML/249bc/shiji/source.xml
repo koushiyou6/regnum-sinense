@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+  249 BC (秦庄襄王元年) — the Shiji tab of the chronology spreadsheet.
+  One <div n="N"> per bracket (one spreadsheet cell), in column order. <head> is the
+  column heading; each paragraph of the cell is a <p>. Text is kept as it stands in the spreadsheet.
+  Conventions: <term n="ID">, <persName n="ID">, <placeName n="ID">, <title> for a chapter name.
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Shiji 史记 · 秦庄襄王元年</title>
+            <respStmt><resp>Compiled</resp><persName>无骨者伊瓦尔</persName></respStmt>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <bibl xml:id="S"><title>无骨者伊瓦尔《战国历史地图·年表》</title><note xml:lang="eng">Chronology spreadsheet 疆域变化年表 (draft 3, patch 2), Shiji tab; the Shiji text follows the edition used by the compiler.</note></bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div n="1">
+            <head>史记（一：本纪）</head>
+            <p><title>周本纪</title>：后七岁，<persName n="31">秦庄襄王</persName>灭<placeName n="110">东周</placeName>。东西周皆入于<placeName n="1">秦</placeName>，<placeName n="7">周</placeName>既不祀。</p>
+            <p><title>秦本纪</title>：庄襄王元年，大赦罪人，修先王功臣，施德厚骨肉而布惠于民。<persName n="86">东周君</persName>与<term n="1">诸侯</term>谋秦，秦使<term n="46">相国</term><persName n="36">吕不韦</persName>诛之，尽入其国。秦不绝其祀，以<placeName n="113">阳人</placeName>地赐周君，奉其祭祀。使<persName n="26">蒙骜</persName>伐<placeName n="2">韩</placeName>，韩献<placeName n="111">成皋</placeName>、<placeName n="112">巩</placeName>。秦界至<placeName n="16">大梁</placeName>，初置<placeName n="114">三川<term n="38">郡</term></placeName>。</p>
+         </div>
+
+      </body>
+   </text>
+</TEI>

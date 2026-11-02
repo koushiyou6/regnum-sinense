@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+  249 BC — English translation of the Shiji brackets. <div n="N"> matches source.xml.
+  Terms follow the Song Frontier Translation Glossary where it rules.
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Shiji 史记 · 秦庄襄王元年</title>
+            <respStmt><resp>Edited</resp><persName>Kou Shiyou</persName></respStmt>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><listBibl><bibl xml:id="S"><title>无骨者伊瓦尔《战国历史地图·年表》</title></bibl></listBibl></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div n="1">
+            <head>Shiji I: Basic Annals</head>
+            <p><title>Basic Annals of Zhou</title>: <span corresp="seven_years">Seven years later</span>, <persName n="31">King Zhuangxiang of Qin</persName> destroyed <span corresp="Eastern_Zhou"><placeName n="110">Eastern Zhou</placeName></span>. Eastern and Western Zhou both passed into <placeName n="1">Qin</placeName>'s hands, and <placeName n="7">Zhou</placeName>'s sacrifices <span corresp="ended">ended altogether</span>.</p>
+            <p><title>Basic Annals of Qin</title>: In the <span corresp="first_year">first year of King Zhuangxiang</span>, he granted a great pardon to offenders, honoured the meritorious servants of the former kings, showed favour and generosity to his kin, and spread his bounty among the people. The <persName n="86">Lord of Eastern Zhou</persName> plotted against Qin with <term n="1">the Lords</term>; Qin sent the <term n="46">Chancellor of State</term> <persName n="36">Lü Buwei</persName> to punish him and took in the whole of his state. Qin did not cut off his sacrifices: it granted the Lord of Zhou the land of <placeName n="113">Yangren</placeName> so that he might keep up his sacrifices. It sent <persName n="26">Meng Ao</persName> to attack <placeName n="2">Han</placeName>, and Han presented <placeName n="111">Chenggao</placeName> and <placeName n="112">Gong</placeName>. Qin's border reached to <placeName n="16">Daliang</placeName>, and for the first time <placeName n="114">Sanchuan <term n="38">Commandery</term></placeName> was established.</p>
+         </div>
+
+      </body>
+   </text>
+</TEI>

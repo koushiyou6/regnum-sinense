@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- 249 BC, Shiji — explanatory notes. <div n="N"> matches the bracket; <interp corresp="key"> matches <span corresp="key"> in english.xml. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Shiji 史记 · 秦庄襄王元年: notes</title>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><p>Notes written for this edition.</p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="0"/>
+         <div n="1">
+            <interp corresp="seven_years">後七歲: seven years on from the Annals' previous entry, the end of Western Zhou in 256 BC.</interp>
+            <interp corresp="Eastern_Zhou">Xu Guang: when Zhou was about to perish it had seven Counties in all, Henan, Luoyang, Gucheng, Pingyin, Yanshi, Gong and Goushi.</interp>
+            <interp corresp="ended">既: the Suoyin: wholly, as of an eclipse that is total; the line of Zhou was extinguished and there was no one to keep its sacrifices. The Jijie cites Huangfu Mi: Zhou had thirty-seven kings and eight hundred and sixty-seven years in all.</interp>
+            <interp corresp="first_year">The first year of King Zhuangxiang of Qin, 249 BC.</interp>
+         </div>
+      </body>
+   </text>
+</TEI>
