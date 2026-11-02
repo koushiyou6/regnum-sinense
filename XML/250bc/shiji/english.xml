@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+  250 BC — English translation of the Shiji brackets. <div n="N"> matches source.xml.
+  Terms follow the Song Frontier Translation Glossary where it rules.
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Shiji 史记 · 秦孝文王元年</title>
+            <respStmt><resp>Edited</resp><persName>Kou Shiyou</persName></respStmt>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><listBibl><bibl xml:id="S"><title>无骨者伊瓦尔《战国历史地图·年表》</title></bibl></listBibl></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div n="1">
+            <head>Shiji I: Basic Annals</head>
+            <p><title>Basic Annals of Qin</title>: In the <span corresp="first_year">first year of <persName n="30">King Xiaowen</persName></span>, he pardoned offenders, <span corresp="honoured">honoured the meritorious servants of the former kings</span>, bestowed generous favour on his kinsmen, and <span corresp="opened">opened the parks and preserves</span>. When King Xiaowen had put off mourning, he came to the throne in <span corresp="October">October</span>, on the day Jihai; <span corresp="third_day">on the third day, Xinchou</span>, he died, and his son <persName n="31">King Zhuangxiang</persName> was set up.</p>
+         </div>
+
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- 250 BC, Shiji — explanatory notes. <div n="N"> matches the bracket; <interp corresp="key"> matches <span corresp="key"> in english.xml. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Shiji 史记 · 秦孝文王元年: notes</title>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><p>Notes written for this edition.</p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="0"/>
+         <div n="1">
+            <interp corresp="first_year">The first and only year of King Xiaowen of Qin, 250 BC.</interp>
+            <interp corresp="honoured">修先王功臣: 修 here is to attend to, to treat well.</interp>
+            <interp corresp="opened">弛苑囿: 弛, to relax; the enclosed parks and preserves of the king were opened.</interp>
+            <interp corresp="October">十月: the Qin year began with the tenth month, so this October stands at the head of the year; the month began in what is, by the Julian reckoning, late October 251 BC.</interp>
+            <interp corresp="third_day">三日: the third day counting from the accession day, Jihai, Gengzi, Xinchou.</interp>
+         </div>
+      </body>
+   </text>
+</TEI>
