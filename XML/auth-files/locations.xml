@@ -283,6 +283,8 @@
                <country/><region></region>
                <location><geo/></location>
                <note xml:lang="eng">the state of Lu, with its capital at Qufu, Shandong.</note>
+               <note xml:lang="eng" from="-255" seq="2">the state of Lu, with its capital at Qufu, Shandong; in 255 BC its lord was enfeoffed at Ju.</note>
+               <note xml:lang="eng" from="-249" seq="2">the state of Lu, seated at Ju since 255 BC; in 249 BC its last duke was moved to Bian.</note>
             </place>
 
             <place n="38">
@@ -822,6 +824,20 @@
                <country/><region>Qin</region>
                <location><geo/></location>
                <note xml:lang="eng">a Qin Commandery, named for its three rivers, the Yellow River, Luo River and Yi River (Wei Zhao); established in 249 BC on the lands of Zhou and Han around Luoyang; renamed Henan Commandery under the Han (Pei Yin).</note>
+            </place>
+
+            <place n="115">
+               <placeName><settlement type="town">Xingyang 荥阳</settlement></placeName>
+               <country/><region>Han</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Han town east of Chenggao; modern Xingyang, Henan.</note>
+            </place>
+
+            <place n="116">
+               <placeName><settlement type="town">Bian 卞</settlement></placeName>
+               <country/><region>Lu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Lu town; east of modern Sishui, Shandong.</note>
             </place>
 
 </listPlace>

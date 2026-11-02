@@ -397,6 +397,7 @@
                <persName><name>Duke Qing of Lu 鲁顷公</name><roleName>Lord of Lu</roleName><forename/><nameLink/><surname/><addName>魯君</addName><genName/></persName>
                <nationality>Lu</nationality>
                <note xml:lang="eng"><p>The last ruler of Lu, reigned from 272 BC; the Table calls him the Lord of Lu.</p></note>
+               <note xml:lang="eng" from="-249" seq="2"><p>The last ruler of Lu, reigned 272–249 BC.</p></note>
                <listEvent><event><p>255 BC</p></event></listEvent>
             </person>
 
