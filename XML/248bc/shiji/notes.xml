@@ -54,6 +54,15 @@
             <interp corresp="bore_down_on_Zhao">赍赵 (齎趙 in the transcription): 齎 is probably a loan for 挤, "to press"; the reading is not settled.</interp>
          </div>
 
+         <div n="7">
+            <interp corresp="at_left">左側: the chapter is appended in the compiler's first column of commentary, §6.</interp>
+            <interp corresp="Qin_summons_Marquis_Chunping">秦召春平侯: a chapter of the Strategies of Qin in the Zhanguoce.</interp>
+            <interp corresp="On_Marquis_Chunping">論春平侯及其相關問題: the modern study the compiler cites, on the Zhao pi-blade inscriptions.</interp>
+            <interp corresp="gong">躬(躬): the inscriptional graph and its reading, as the compiler writes them.</interp>
+            <interp corresp="second_year_of_King_Daoxiang">243 BC.</interp>
+            <interp corresp="fifteenth_year">251 BC; see the Hereditary House of Zhao for that year (251 BC, §3).</interp>
+         </div>
+
       </body>
    </text>
 </TEI>

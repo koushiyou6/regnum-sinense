@@ -243,8 +243,6 @@
                <note xml:lang="eng"><p>King of Qin, reigned 249–247 BC.</p></note>
                <note xml:lang="eng" from="-256" seq="5"><p>King of Qin, reigned 249–247 BC; called Zichu 子楚 before his accession.</p></note>
                <note xml:lang="eng" from="-250" seq="1"><p>King of Qin, reigned 249–247 BC; personal name Zichu 子楚 (Suoyin).</p></note>
-               <note xml:lang="eng" from="-249" seq="9"><p>King of Qin, reigned 249–247 BC; personal name Zichu 子楚 (Suoyin); the Grand Supreme Emperor 泰上皇 (太上皇) of the Yuelu statutes, the title given him after his death.</p></note>
-               <note xml:lang="eng" from="-249" seq="10"><p>King of Qin, reigned 249–247 BC; personal name Zichu 子楚 (Suoyin); the Grand Supreme Emperor 泰上皇 (太上皇) of the Qin and Han slips, the title given him after his death.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
 
@@ -930,6 +928,20 @@
                <persName><name>Yanling Jun 延陵钧</name><roleName>General of Zhao</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
                <nationality>Zhao</nationality>
                <note xml:lang="eng"><p>A general of Zhao under King Xiaocheng.</p></note>
+               <listEvent><event><p>248 BC</p></event></listEvent>
+            </person>
+
+            <person n="128">
+               <persName><name>Lord Pingguo 平国君</name><roleName></roleName><forename/><nameLink/><surname/><addName>平都侯</addName><genName/></persName>
+               <nationality>Zhao</nationality>
+               <note xml:lang="eng"><p>A minister of Zhao named with Marquis Chunping on the inscriptions of Zhao pi blades; the Marquis Pingdu 平都侯 of the Zhanguoce, by the identification the compiler cites.</p></note>
+               <listEvent><event><p>248 BC</p></event></listEvent>
+            </person>
+
+            <person n="129">
+               <persName><name>Lord Jianxin 建信君</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhao</nationality>
+               <note xml:lang="eng"><p>A minister of Zhao under King Xiaocheng, named in the Zhanguoce; the pi inscriptions write the 信 of his title 躬.</p></note>
                <listEvent><event><p>248 BC</p></event></listEvent>
             </person>
 
