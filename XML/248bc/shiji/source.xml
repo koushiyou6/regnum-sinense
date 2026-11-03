@@ -37,6 +37,12 @@
             <p><placeName n="11">楚</placeName>：<persName n="47">春申君</persName>徙封於<placeName n="73">吳</placeName>。</p>
          </div>
 
+         <div n="3">
+            <head>史记（三：世家）</head>
+            <p><title>燕召公世家</title>：七年，<placeName n="1">秦</placeName>拔<placeName n="9">赵</placeName><placeName n="72">榆次</placeName>三十七<term n="12">城</term>，秦置<placeName n="145">大原<term n="38">郡</term></placeName>。</p>
+            <p><title>赵世家</title>：十八年，<persName n="127">延陵钧</persName>率师从<term n="46">相国</term><persName n="76">信平君</persName>助<placeName n="10">魏</placeName>攻<placeName n="14">燕</placeName>。秦拔我榆次三十七城。</p>
+         </div>
+
       </body>
    </text>
 </TEI>
