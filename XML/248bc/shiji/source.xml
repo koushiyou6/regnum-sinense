@@ -29,6 +29,14 @@
             <p><title>秦本纪</title>：二年，使<persName n="26">蒙骜</persName>攻<placeName n="9">赵</placeName>，定<placeName n="145">太原</placeName>。</p>
          </div>
 
+         <div n="2">
+            <head>史记（二：表）</head>
+            <p><placeName n="1">秦</placeName>：<persName n="26">蒙驚</persName>擊<placeName n="9">趙</placeName><placeName n="72">榆次</placeName>、<placeName n="146">新城</placeName>、<placeName n="147">狼孟</placeName>，</p>
+            <p>得三十七<term n="12">城</term>。</p>
+            <p>日蝕。</p>
+            <p><placeName n="11">楚</placeName>：<persName n="47">春申君</persName>徙封於<placeName n="73">吳</placeName>。</p>
+         </div>
+
       </body>
    </text>
 </TEI>

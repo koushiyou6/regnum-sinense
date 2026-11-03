@@ -529,6 +529,7 @@
                <country/><region>Zhao</region>
                <location><geo/></location>
                <note xml:lang="eng">where Zhi Bo was defeated (Suoyin); modern Yuci, Jinzhong, Shanxi.</note>
+               <note xml:lang="eng" from="-248" seq="2">a city of Zhao in the Taiyuan region, south-east of Jinyang; modern Yuci, Jinzhong, Shanxi.</note>
             </place>
 
             <place n="73">
@@ -1040,6 +1041,20 @@
                <country/><region></region>
                <location><geo/></location>
                <note xml:lang="eng">the basin of the middle Fen River, Zhao's north-western region, made a Commandery of Qin; modern Taiyuan, Shanxi.</note>
+            </place>
+
+            <place n="146">
+               <placeName><settlement type="town">Xincheng 新城</settlement></placeName>
+               <country/><region>Zhao</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a city of Zhao taken with Yuci and Langmeng; the commentaries do not place it.</note>
+            </place>
+
+            <place n="147">
+               <placeName><settlement type="town">Langmeng 狼孟</settlement></placeName>
+               <country/><region>Zhao</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a city of Zhao north of Jinyang, later a County of Taiyuan Commandery (Jijie); modern Yangqu 阳曲, Shanxi.</note>
             </place>
 
 </listPlace>

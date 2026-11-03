@@ -23,6 +23,14 @@
             <p><title>Basic Annals of Qin</title>: <span corresp="second_year">In the second year</span> he sent <persName n="26">Meng Ao</persName> to attack <placeName n="9">Zhao</placeName> and <span corresp="settled_Taiyuan">settled <placeName n="145">Taiyuan</placeName></span>.</p>
          </div>
 
+         <div n="2">
+            <head>Shiji II: Tables</head>
+            <p><placeName n="1">Qin</placeName>: <span corresp="Meng_Ao"><persName n="26">Meng Ao</persName></span> struck <placeName n="9">Zhao</placeName>'s <placeName n="72">Yuci</placeName>, <placeName n="146">Xincheng</placeName> and <placeName n="147">Langmeng</placeName>,</p>
+            <p>and took <span corresp="thirty_seven_Fortresses">thirty-seven <term n="12">Fortresses</term></span>.</p>
+            <p><span corresp="Eclipse_of_the_sun">Eclipse of the sun.</span></p>
+            <p><placeName n="11">Chu</placeName>: <persName n="47">Lord Chunshen</persName>'s <span corresp="fief_was_moved_to_Wu">fief was moved to <placeName n="73">Wu</placeName></span>.</p>
+         </div>
+
       </body>
    </text>
 </TEI>
