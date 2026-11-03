@@ -1035,6 +1035,13 @@
                <note xml:lang="eng">a County of Qin on the upper Luo River, on the road from the Guanzhong to Nanyang; modern Shangluo 商洛, Shaanxi.</note>
             </place>
 
+            <place n="145">
+               <placeName><region type="region">Taiyuan 太原</region></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the basin of the middle Fen River, Zhao's north-western region, made a Commandery of Qin; modern Taiyuan, Shanxi.</note>
+            </place>
+
 </listPlace>
       </body>
    </text>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- 248 BC, Shiji — explanatory notes. <div n="N"> matches the bracket; <interp corresp="key"> matches <span corresp="key"> in english.xml. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Shiji 史记 · 秦庄襄王二年: notes</title>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><p>Notes written for this edition.</p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="0"/>
+
+         <div n="1">
+            <interp corresp="second_year">The second year of King Zhuangxiang of Qin, 248 BC; the king is the subject.</interp>
+            <interp corresp="settled_Taiyuan">定太原: the Tables and the Hereditary Houses (§2, §3) give the campaign as the taking of Yuci and thirty-seven cities, and the Hereditary House of Yan adds that Qin set up Taiyuan Commandery.</interp>
+         </div>
+
+      </body>
+   </text>
+</TEI>
