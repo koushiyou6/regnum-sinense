@@ -15,6 +15,10 @@
       <body>
          <div n="0"/>
 
+         <div n="1">
+            <interp corresp="second_year">The second year of King Zhuangxiang of Qin, 248 BC, whom the Chronicle calls King Zhuang; the year is given with no entry under it.</interp>
+         </div>
+
       </body>
    </text>
 </TEI>
