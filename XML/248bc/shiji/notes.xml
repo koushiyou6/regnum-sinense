@@ -44,6 +44,16 @@
             <interp corresp="second_year">The second year of King Zhuangxiang of Qin, 248 BC; the Biography continues the sentence begun under the first year (249 BC, §5).</interp>
          </div>
 
+         <div n="6">
+            <interp corresp="chapter_25">The chapter is the one appended under 256 BC (§6), where its translation and notes first appear; it is repeated here as the compiler adduces it for Jing Ji's campaign. The two graphs the manuscript leaves illegible are given as 〓, as there.</interp>
+            <interp corresp="readings">In the appended chapter the characters in parentheses are the editors' readings of the manuscript graphs before them (粱 read 梁, 侍 read 待, and so on); the translation follows the readings.</interp>
+            <interp corresp="cede_land_and_bring_gifts">割挚马免: no published reading of the phrase was found; 挚 is taken as 贽, "gifts", and the rendering is approximate.</interp>
+            <interp corresp="with_a_tally">股符〓去壁: 〓 marks a graph illegible in the manuscript. The Wikisource transcription of the text reads 股符胠壁, 胠 "to break open" and 壁 "rampart"; 股 is unexplained, and the rendering is tentative.</interp>
+            <interp corresp="Marquis_Wenxin">文信侯: Lü Buwei, under the title the Zhanguo zonghengjia shu gives him.</interp>
+            <interp corresp="Wang">王〓: the graph after 王 is illegible in the manuscript.</interp>
+            <interp corresp="bore_down_on_Zhao">赍赵 (齎趙 in the transcription): 齎 is probably a loan for 挤, "to press"; the reading is not settled.</interp>
+         </div>
+
       </body>
    </text>
 </TEI>
