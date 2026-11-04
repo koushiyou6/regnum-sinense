@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- 247 BC, Shiji — explanatory notes. <div n="N"> matches the bracket; <interp corresp="key"> matches <span corresp="key"> in english.xml. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Shiji 史记 · 秦庄襄王三年: notes</title>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><p>Notes written for this edition.</p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="0"/>
+
+         <div n="1">
+            <interp corresp="third_year">The third year of King Zhuangxiang of Qin, 247 BC.</interp>
+            <interp corresp="Gaodu_and_Ji">The Jijie cites Xu Guang: one text has 波 for 汲, Bo County being also in Henei. The Zhengyi cites the Kuodizhi: the old city of Gaodu is Zezhou; the old city of Ji lies twenty-five li south-west of the Ji County governed from Weizhou.</interp>
+            <interp corresp="Yuci_Xincheng_and_Langmeng">The Zhengyi cites the Kuodizhi: Yuci is a County of Bingzhou, the ancient Yuci; Xincheng, also called Xiaopingcheng, lies forty-seven li south-west of Shanyang County in Shuozhou; the old city of Langmeng twenty-six li north-east of Yangqu County in Bingzhou. The Table and the Hereditary Houses enter the campaign under the previous year (248 BC, §2, §3).</interp>
+            <interp corresp="thirty_seven_Fortresses">The Zhengyi: the thirty-seven Fortresses are the lands of the three States of Bingzhou, Daizhou and Shuozhou, in the names of the Tang.</interp>
+            <interp corresp="eclipse">四月日食: the Table enters an eclipse under the previous year (248 BC, §2).</interp>
+            <interp corresp="Wang_He">王龁: the Basic Annals' writing of the general whom the Table (§2) and the Suiji call 王齮, Wang Yi; the two are taken as one man.</interp>
+            <interp corresp="Shangdang">The Zhengyi: Shangdang had again turned against Qin, hence the attack.</interp>
+            <interp corresp="Taiyuan_Commandery">The Zhengyi: all north of Shangdang is Taiyuan land, that is the thirty-seven Fortresses above. The Hereditary House of Yan puts the founding under the previous year (248 BC, §3).</interp>
+            <interp corresp="the_troops_of_five_states">The Zhengyi: Wuji is Lord Xinling; he led the troops of Yan, Zhao, Han, Chu and Wei against Qin.</interp>
+            <interp corresp="Hewai">The Zhengyi: Meng Ao, beaten by the five states' troops, broke off and fell back to Hewai, the States of Shanzhou and Huazhou in the names of the Tang.</interp>
+            <interp corresp="Zheng">子政: Ying Zheng, King of Qin from this accession; the Basic Annals name him by the imperial title he took later.</interp>
+         </div>
+
+      </body>
+   </text>
+</TEI>

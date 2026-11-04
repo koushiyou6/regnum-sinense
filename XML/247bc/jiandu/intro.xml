@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- 247 BC, excavated texts — introductions. One <div n="N"> per bracket. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title>Excavated texts 简牍 · 秦庄襄王三年: introductions</title></titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><p>Original.</p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+      </body>
+   </text>
+</TEI>

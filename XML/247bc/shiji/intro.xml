@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- 247 BC, Shiji — introductions. One <div n="N"> per bracket. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title>Shiji 史记 · 秦庄襄王三年: introductions</title></titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><p>Original.</p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div n="1">
+            <p>The Basic Annals of Qin for the third and last year of King Zhuangxiang: Meng Ao's campaigns in Wei and Zhao, the founding of Taiyuan Commandery, the five-state army under Lord Xinling that drove Qin back to Hewai, and the king's death in May and the accession of his son Zheng.</p>
+         </div>
+
+      </body>
+   </text>
+</TEI>

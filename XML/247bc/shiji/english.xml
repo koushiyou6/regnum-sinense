@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+  247 BC — English translation of the Shiji brackets. <div n="N"> matches source.xml.
+  Terms follow the Song Frontier Translation Glossary where it rules.
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Shiji 史记 · 秦庄襄王三年</title>
+            <respStmt><resp>Edited</resp><persName>Kou Shiyou</persName></respStmt>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><listBibl><bibl xml:id="S"><title>无骨者伊瓦尔《战国历史地图·年表》</title></bibl></listBibl></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div n="1">
+            <head>Shiji I: Basic Annals</head>
+            <p><title>Basic Annals of Qin</title>: <span corresp="third_year">In the third year</span> <persName n="26">Meng Ao</persName> attacked <placeName n="10">Wei</placeName>'s <span corresp="Gaodu_and_Ji"><placeName n="148">Gaodu</placeName> and <placeName n="149">Ji</placeName></span> and took them. He attacked <placeName n="9">Zhao</placeName>'s <span corresp="Yuci_Xincheng_and_Langmeng"><placeName n="72">Yuci</placeName>, <placeName n="146">Xincheng</placeName> and <placeName n="147">Langmeng</placeName></span> and took <span corresp="thirty_seven_Fortresses">thirty-seven <term n="12">Fortresses</term></span>. <span corresp="eclipse">In April there was an eclipse of the sun.</span> <span corresp="Wang_He"><persName n="35">Wang He</persName></span> attacked <span corresp="Shangdang"><placeName n="150">Shangdang</placeName></span>. <span corresp="Taiyuan_Commandery"><placeName n="145">Taiyuan <term n="38">Commandery</term></placeName> was established for the first time</span>. The Wei general <persName n="11">Wuji</persName> led <span corresp="the_troops_of_five_states">the troops of five states</span> against <placeName n="1">Qin</placeName>, and Qin fell back to <span corresp="Hewai"><placeName n="23">Hewai</placeName></span>. Meng Ao was defeated, broke off and withdrew. In May, on the day Bingwu, <persName n="31">King Zhuangxiang</persName> died, and his son <span corresp="Zheng"><persName n="32">Zheng</persName></span> was set up: this was the First Emperor of Qin.</p>
+         </div>
+
+      </body>
+   </text>
+</TEI>
