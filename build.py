@@ -230,7 +230,26 @@ def write_search_index(manifest):
                 t2s[ch] = sc
     except ImportError:
         print("opencc not installed: traditional/simplified matching left out of the search index")
-    out = {"t2s": t2s, "passages": passages, "entries": [
+    # years: the year page, its reign label and the concurrent reign-years, so "248", "248 BC" or 魏安釐王二十九年 finds it
+    years = []
+    for year in manifest.findall("year"):
+        docs = year.findall("document")
+        if not any((XML / d.get("dir") / "source.xml").exists() for d in docs):
+            continue
+        years.append({"n": year.get("n"), "era": year.get("era", ""), "label": year.get("label", ""), "en": year.get("en", ""),
+                      "url": docs[0].get("dir").split("/")[0] + "/index.html",
+                      "also": [c.text or "" for c in year.findall("concurrent")] + [c.get("en", "") for c in year.findall("concurrent")]})
+    for y in years:
+        chars.update(y["label"]); chars.update("".join(y["also"]))
+    try:
+        for ch in chars:
+            if ord(ch) >= 0x2E80 and ch not in t2s:
+                sc = cc.convert(ch)
+                if len(sc) == 1 and sc != ch:
+                    t2s[ch] = sc
+    except NameError:
+        pass
+    out = {"t2s": t2s, "years": years, "passages": passages, "entries": [
         {"kind": k, "name": nm, "alt": alt, "note": note, "more": more,
          "pages": [{"url": u, "label": l} for u, l in where.get((k, n), {}).items()]}   # manifest order = chronological
         for k, n, nm, alt, note, more in entries if nm]}

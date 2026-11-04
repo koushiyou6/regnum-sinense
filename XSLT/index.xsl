@@ -215,7 +215,7 @@
                                     <h1>Search</h1>
                                     <hr/>
                                     <form class="search big" action="search.html" method="get" role="search"><input type="search" name="q" id="q" placeholder="A name, a place, a term, a phrase — in Chinese or English" aria-label="Search the site"/><button type="submit">Search</button><label class="whole"><input type="checkbox" name="w" id="w" value="1"/> Whole words only</label></form>
-                                    <p class="hint" id="status">Searches the Chinese texts, the English translations, and the entries for persons, places and terms. Traditional and simplified characters find each other. Unticked, Lu also finds Luoyang; ticked, English is matched by whole word.</p>
+                                    <p class="hint" id="status">Searches the years (248, 248 BC or 秦庄襄王二年), the Chinese texts, the English translations, and the entries for persons, places and terms. Traditional and simplified characters find each other. Unticked, Lu also finds Luoyang; ticked, English is matched by whole word.</p>
                                     <div id="results"></div>
                                     <script><xsl:text disable-output-escaping="yes">
 (function () {
@@ -243,6 +243,13 @@
   }
   function find(k, from) { rx.lastIndex = from || 0; var m = rx.exec(k); return m ? m.index + m[1].length : -1; }
   function has(text) { return find(key(text)) &gt;= 0; }
+  // year names are matched by whole word in English whatever the tick, so "Lu" does not find Zhuangxiang
+  var wrx;
+  function hasWord(text) {
+    if (!latin) return has(text);
+    if (!wrx) wrx = new RegExp('(^|[^' + L + '])' + lower.replace(/[.*+?^${}()|[\]\\]/g, '\\$&amp;') + '(?![' + L + '])', 'i');
+    return wrx.test(key(text));
+  }
   function mark(text) {
     var k = key(text), i = find(k); if (i &lt; 0) return esc(text);
     var out = '', pos = 0;
@@ -258,15 +265,31 @@
     t2s = ix.t2s || {};
     lower = simp(needle).toLowerCase();
     buildRx();
-    var hits = { entries: [], passages: [] };
+    var hits = { years: [], entries: [], passages: [] };
+    // a year: "248", "248 BC", "248bc", "-248", "前248", or any of its reign-year names
+    var ym = /^\s*(?:前|-)?\s*(\d{1,4})\s*(?:bc|b\.c\.|年)?\s*$/i.exec(needle);
+    (ix.years || []).forEach(function (y) {
+      if (ym ? (String(-parseInt(y.n, 10)) === ym[1]) : (hasWord(y.label) || hasWord(y.en) || y.also.some(function (a) { return a &amp;&amp; hasWord(a); }))) hits.years.push(y);
+    });
     ix.entries.forEach(function (e) { if (has(e.name + ' ' + e.alt + ' ' + e.note + ' ' + e.more)) hits.entries.push(e); });
     ix.passages.forEach(function (p) {
       var inZh = has(p.zh), inEn = has(p.en);
       if (inZh || inEn || has(p.title)) hits.passages.push({ p: p, zh: inZh, en: inEn });
     });
-    var n = hits.entries.length + hits.passages.length;
+    var n = hits.years.length + hits.entries.length + hits.passages.length;
     status.textContent = n ? n + (n === 1 ? ' result for ' : ' results for ') + '“' + needle + '”' : 'Nothing found for “' + needle + '”.';
     var html = '';
+    if (hits.years.length) {
+      html += '&lt;h2&gt;Years&lt;/h2&gt;&lt;ul class="hits"&gt;';
+      hits.years.forEach(function (y) {
+        html += '&lt;li&gt;&lt;a href="' + y.url + '"&gt;&lt;b&gt;' + esc(y.era) + '&lt;/b&gt; &lt;span lang="zh"&gt;' + esc(y.label) + '&lt;/span&gt;&lt;/a&gt;';
+        if (y.en) html += ' &lt;span class="where"&gt;' + esc(y.en) + '&lt;/span&gt;';
+        var also = y.also.filter(function (a) { return a &amp;&amp; /[\u2E80-\uFFFF]/.test(a); });
+        if (also.length) html += '&lt;br/&gt;&lt;span class="where" lang="zh"&gt;' + also.map(esc).join(' · ') + '&lt;/span&gt;';
+        html += '&lt;/li&gt;';
+      });
+      html += '&lt;/ul&gt;';
+    }
     if (hits.entries.length) {
       html += '&lt;h2&gt;Entries&lt;/h2&gt;&lt;ul class="hits"&gt;';
       hits.entries.forEach(function (e) {
