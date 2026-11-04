@@ -147,10 +147,15 @@ def main(xlsx):
                 out.append(f'         <bracket col="{col}" en="{escape(BRACKET_EN.get(name, ""))}">{escape(name)}</bracket>')
             out.append('      </document>')
         out.append('   </year>')
-    out.append(f'   <side-group label="戰國縱橫家書" en="{escape(SIDE_EN["戰國縱橫家書"])}"/>')
+    out.append('   <side-group label="战国" en="Warring States">')
+    out.append(f'      <side-source id="zonghengjia" label="戰國縱橫家書" en="{escape(SIDE_EN["戰國縱橫家書"])}"/>')
+    out.append('   </side-group>')
     out.append(f'   <side-group label="文化区" en="{escape(SIDE_EN["文化区"])}">')
     for slug, label, tab in era_sources:
         out.append(f'      <side-source id="{slug}" label="{escape(label)}" en="{escape(SIDE_EN.get(label, ""))}" sheet="{escape(tab)}"/>')
+    out.append('      <side-source id="lingnan" label="岭南" en="Lingnan"/>')   # no sheets yet for these
+    for slug, label, en in (("sanhan", "三韩", "Samhan, the Three Han"), ("ordos", "鄂尔多斯-蒙古", "Ordos–Mongolia"), ("bandao-dongying", "半岛-东瀛", "Korean Peninsula and Japan")):
+        out.append(f'      <side-source id="{slug}" foreign="yes" label="{label}" en="{en}"/>')
     out.append('   </side-group>')
     missing = sorted({n for y in years.values() for _, _, b in y["docs"] for _, n in b if n not in BRACKET_EN})
     if missing: print("brackets without an English gloss:", missing)

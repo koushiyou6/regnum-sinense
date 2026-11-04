@@ -104,6 +104,12 @@ def build():
         index.transform_to_file(source_file=str(MANIFEST), output_file=str(out))
         print(f"wrote {out.relative_to(ROOT)}")
 
+        # Gazetteer: the cultural regions (XML/site.xml side-group 文化区)
+        out = SITE / "gazetteer.html"
+        index.set_parameter("page", proc.make_string_value("gazetteer"))
+        index.transform_to_file(source_file=str(MANIFEST), output_file=str(out))
+        print(f"wrote {out.relative_to(ROOT)}")
+
         # Library (XML/works.xml): the works of the scholars, by period
         out = SITE / "library.html"
         index.set_parameter("page", proc.make_string_value("library"))

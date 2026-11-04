@@ -622,7 +622,7 @@ ul.sections li { padding: .1em .5em; border-left: 2px solid transparent; }
 .sources-grid ul { list-style: none; margin: 0; padding: 0; }
 .sources-grid li { padding: .15em 0; line-height: 1.5; }
 .sources-grid .gloss { display: block; font-size: .85em; color: #8a857c; }
-.sources-grid .unbuilt, .library .unbuilt { color: #a8a39a; }
+.sources-grid .unbuilt, .library .unbuilt, .gazetteer .unbuilt { color: #a8a39a; }
 .sources-grid .years { display: block; font-size: .9em; }
 .sources-grid .hint { color: #8a857c; font-size: .85em; margin-top: 1em; }
 @media (max-width: 767px) { .sources-grid { grid-template-columns: 1fr; } }
@@ -646,6 +646,7 @@ body.has-lightbox { overflow: hidden; }
 
 /* Library: the works of the scholars — the Catalogue's form, one column */
 .sources-grid.one { grid-template-columns: minmax(0, 40em); }
+.sources-grid.two { grid-template-columns: minmax(0, 30em) minmax(0, 30em); }
 .library ul.works { margin-bottom: 1em; }
 .library ul.works li { margin-bottom: .5em; }
-.library p.era-line { text-align: center; }
+.library p.era-line, .gazetteer p.era-line { text-align: center; }

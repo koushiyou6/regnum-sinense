@@ -61,7 +61,7 @@
                  grouped by the same reign headings so the two align. Entries are added later. -->
             <div class="era-sources">
                 <h2>Sources by era / video</h2>
-                <ul><li><a href="{$root}sources.html">Catalogue</a></li><li><a href="{$root}library.html">Library</a></li></ul>
+                <ul><li><a href="{$root}sources.html">Catalogue</a></li><li><a href="{$root}gazetteer.html">Gazetteer</a></li><li><a href="{$root}library.html">Library</a></li></ul>
             </div>
             <h2>Chronology</h2>
             <xsl:for-each-group select="/site/year" group-adjacent="tei:reign(@label)">
@@ -176,6 +176,7 @@
                             <xsl:when test="$page = 'about'">About Regnum Sinense: the sources behind Atrium Concordiae's historical atlases of China, year by year, in Chinese and English.</xsl:when>
                             <xsl:when test="$page = 'search'">Search Regnum Sinense: the texts, translations, persons, places and terms.</xsl:when>
                             <xsl:when test="$page = 'sources'">Regnum Sinense sources by era and by video: the Zhanguo zonghengjia shu, the cultural-region essays, and the videos of Atrium Concordiae with the years they cover.</xsl:when>
+                            <xsl:when test="$page = 'gazetteer'">Regnum Sinense gazetteer: the cultural-region essays, Qinghai–Tibet, the Western Regions, the Northeast and Inner Mongolia, by region.</xsl:when>
                             <xsl:when test="$page = 'library'">Regnum Sinense library: the works of the scholars, the later records and compilations drawn on beside the primary sources, by period.</xsl:when>
                             <xsl:when test="$page = 'newspaper'"><xsl:value-of select="$np/@paper"/><xsl:text> (</xsl:text><xsl:value-of select="$np/@paper-en"/><xsl:text>), </xsl:text><xsl:value-of select="$np/@date-en"/><xsl:text>: the clipping with its transcription — </xsl:text><xsl:value-of select="$np/@topic"/><xsl:text>.</xsl:text></xsl:when>
                             <xsl:when test="$year != ''"><xsl:value-of select="$this-year/@era"/><xsl:text> (</xsl:text><xsl:value-of select="$this-year/@label"/><xsl:if test="$this-year/@en != ''"><xsl:text>, </xsl:text><xsl:value-of select="$this-year/@en"/></xsl:if><xsl:text>): the sources for the year — </xsl:text><xsl:value-of select="string-join($this-year/document/@label, ', ')"/><xsl:text> — with English translation and notes.</xsl:text></xsl:when>
@@ -183,7 +184,7 @@
                         </xsl:choose>
                     </xsl:attribute>
                 </meta>
-                <title><xsl:value-of select="$site-name"/><xsl:choose><xsl:when test="$page = 'about'">: About</xsl:when><xsl:when test="$page = 'search'">: Search</xsl:when><xsl:when test="$page = 'sources'">: Sources by era and video</xsl:when><xsl:when test="$page = 'library'">: Library</xsl:when><xsl:when test="$page = 'newspaper'"><xsl:text>: </xsl:text><xsl:value-of select="$np/@paper"/><xsl:text> · </xsl:text><xsl:value-of select="$np/@date-en"/></xsl:when><xsl:when test="$year != ''"><xsl:text>: </xsl:text><xsl:value-of select="$this-year/@era"/></xsl:when></xsl:choose></title>
+                <title><xsl:value-of select="$site-name"/><xsl:choose><xsl:when test="$page = 'about'">: About</xsl:when><xsl:when test="$page = 'search'">: Search</xsl:when><xsl:when test="$page = 'sources'">: Sources by era and video</xsl:when><xsl:when test="$page = 'library'">: Library</xsl:when><xsl:when test="$page = 'gazetteer'">: Gazetteer</xsl:when><xsl:when test="$page = 'newspaper'"><xsl:text>: </xsl:text><xsl:value-of select="$np/@paper"/><xsl:text> · </xsl:text><xsl:value-of select="$np/@date-en"/></xsl:when><xsl:when test="$year != ''"><xsl:text>: </xsl:text><xsl:value-of select="$this-year/@era"/></xsl:when></xsl:choose></title>
                 <style><xsl:value-of select="$css" disable-output-escaping="yes"/><xsl:value-of select="replace(unparsed-text('../css/font-cjk.css'), 'FONTROOT/', $root)" disable-output-escaping="yes"/></style>
             </head>
             <body>
@@ -289,6 +290,37 @@
                                 </div>
                             </xsl:when>
 
+                            <!-- ===== Gazetteer: the cultural regions ===== -->
+                            <xsl:when test="$page = 'gazetteer'">
+                                <div class="about sources-page gazetteer">
+                                    <h1>Gazetteer</h1>
+                                    <p class="era-line">Cultural regions <span lang="zh">文化区</span></p>
+                                    <hr/>
+                                    <p>The regions beyond the states of the chronology, each with its own account across the years: the essays of the cultural-region sheets, indexed here by region.</p>
+                                    <div class="sources-grid two">
+                                        <xsl:for-each select="('home', 'foreign')">
+                                            <xsl:variable name="kind" select="."/>
+                                            <section>
+                                                <h2><xsl:value-of select="if ($kind = 'foreign') then 'By region (foreign)' else 'By region'"/></h2>
+                                                <ul>
+                                                    <xsl:for-each select="$site/side-group[@label = '文化区']/side-source[($kind = 'foreign') = (@foreign = 'yes')]">
+                                                        <xsl:variable name="built" select="doc-available(resolve-uri(concat('../XML/', @id, '/source.xml'), static-base-uri()))"/>
+                                                        <li>
+                                                            <xsl:choose>
+                                                                <xsl:when test="$built"><a href="{$root}{@id}.html" lang="zh"><xsl:value-of select="@label"/></a></xsl:when>
+                                                                <xsl:otherwise><span class="unbuilt" lang="zh"><xsl:value-of select="@label"/></span></xsl:otherwise>
+                                                            </xsl:choose>
+                                                            <xsl:if test="@en != ''"><span class="gloss"><xsl:value-of select="@en"/></span></xsl:if>
+                                                        </li>
+                                                    </xsl:for-each>
+                                                </ul>
+                                                <xsl:if test="$kind = 'home'"><p class="hint">Regions in grey are not yet on the site.</p></xsl:if>
+                                            </section>
+                                        </xsl:for-each>
+                                    </div>
+                                </div>
+                            </xsl:when>
+
                             <!-- ===== Library: works of the scholars ===== -->
                             <xsl:when test="$page = 'library'">
                                 <div class="about sources-page library">
@@ -331,7 +363,7 @@
                                     <div class="sources-grid">
                                         <section>
                                             <h2>By era</h2>
-                                            <xsl:for-each select="/site/side-group">
+                                            <xsl:for-each select="/site/side-group[not(@label = '文化区')]">
                                                 <h3><span lang="zh"><xsl:value-of select="@label"/></span><xsl:if test="@en != ''"><span class="gloss"><xsl:value-of select="@en"/></span></xsl:if></h3>
                                                 <ul>
                                                     <xsl:if test="not(side-source)"><li><span class="unbuilt">to be added</span></li></xsl:if>

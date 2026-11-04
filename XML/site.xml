@@ -821,11 +821,17 @@
          <bracket col="8" en="Appendix: text of the Zhanguo zonghengjia shu">附：《戰國縱橫家書》原文</bracket>
       </document>
    </year>
-   <side-group label="戰國縱橫家書" en="Zhanguo zonghengjia shu (the Mawangdui letters of the Warring States persuaders)"/>
+   <side-group label="战国" en="Warring States">
+      <side-source id="zonghengjia" label="戰國縱橫家書" en="Zhanguo zonghengjia shu (the Mawangdui letters of the Warring States persuaders)"/>
+   </side-group>
    <side-group label="文化区" en="Cultural regions">
       <side-source id="qingzang" label="青藏" en="Qinghai–Tibet" sheet="文化区（青藏）"/>
       <side-source id="xiyu" label="西域" en="Western Regions" sheet="文化区（西域）"/>
       <side-source id="dongbei" label="东北" en="Northeast" sheet="文化区（东北）"/>
       <side-source id="neimeng" label="内蒙" en="Inner Mongolia" sheet="文化区（内蒙）"/>
+      <side-source id="lingnan" label="岭南" en="Lingnan"/>
+      <side-source id="sanhan" foreign="yes" label="三韩" en="Samhan, the Three Han"/>
+      <side-source id="ordos" foreign="yes" label="鄂尔多斯-蒙古" en="Ordos–Mongolia"/>
+      <side-source id="bandao-dongying" foreign="yes" label="半岛-东瀛" en="Korean Peninsula and Japan"/>
    </side-group>
 </site>
