@@ -215,7 +215,7 @@
                                     <h1>Search</h1>
                                     <hr/>
                                     <form class="search big" action="search.html" method="get" role="search"><input type="search" name="q" id="q" placeholder="A name, a place, a term, a phrase — in Chinese or English" aria-label="Search the site"/><button type="submit">Search</button><label class="whole"><input type="checkbox" name="w" id="w" value="1"/> Whole words only</label></form>
-                                    <p class="hint" id="status">Searches the years (248, 248 BC or 秦庄襄王二年), the Chinese texts, the English translations, and the entries for persons, places and terms. Traditional and simplified characters find each other. Unticked, Lu also finds Luoyang; ticked, English is matched by whole word.</p>
+                                    <p class="hint" id="status">Searches the years (248, 248 BC or 秦庄襄王二年; a year beside a word, "248 蒙骜", searches that year alone), the Chinese texts, the English translations, and the entries for persons, places and terms. Traditional and simplified characters find each other. Unticked, Lu also finds Luoyang; ticked, English is matched by whole word.</p>
                                     <div id="results"></div>
                                     <script><xsl:text disable-output-escaping="yes">
 (function () {
@@ -227,6 +227,10 @@
   var status = document.getElementById('status'), out = document.getElementById('results');
   if (!q.trim()) { box.focus(); return; }
   var needle = q.trim();
+  // "248 蒙骜", "蒙骜 248 BC", "前248 Meng Ao": a year beside other words restricts the search to that year
+  var inYear = null;
+  var ytok = /(^|\s)(?:前|-)?(\d{1,4})\s*(?:bc|b\.c\.)?(?=\s|$)/i.exec(needle);
+  if (ytok &amp;&amp; needle.replace(ytok[0], ' ').trim()) { inYear = ytok[2] + ' BC'; needle = needle.replace(ytok[0], ' ').trim(); }
   var lower = needle.toLowerCase();
   var t2s = {};
   function simp(s) { var o = ''; for (var i = 0; i &lt; s.length; i++) { var c = s.charAt(i); o += (t2s[c] || c); } return o; }
@@ -269,15 +273,21 @@
     // a year: "248", "248 BC", "248bc", "-248", "前248", or any of its reign-year names
     var ym = /^\s*(?:前|-)?\s*(\d{1,4})\s*(?:bc|b\.c\.|年)?\s*$/i.exec(needle);
     (ix.years || []).forEach(function (y) {
+      if (inYear) { if (y.era === inYear) hits.years.push(y); return; }
       if (ym ? (String(-parseInt(y.n, 10)) === ym[1]) : (hasWord(y.label) || hasWord(y.en) || y.also.some(function (a) { return a &amp;&amp; hasWord(a); }))) hits.years.push(y);
     });
-    ix.entries.forEach(function (e) { if (has(e.name + ' ' + e.alt + ' ' + e.note + ' ' + e.more)) hits.entries.push(e); });
+    ix.entries.forEach(function (e) {
+      if (!has(e.name + ' ' + e.alt + ' ' + e.note + ' ' + e.more)) return;
+      if (inYear) { var pgs = e.pages.filter(function (pg) { return pg.label.indexOf(inYear + ' ') === 0; }); if (!pgs.length) return; e = { kind: e.kind, name: e.name, alt: e.alt, note: e.note, more: e.more, pages: pgs }; }
+      hits.entries.push(e);
+    });
     ix.passages.forEach(function (p) {
+      if (inYear &amp;&amp; p.era !== inYear) return;
       var inZh = has(p.zh), inEn = has(p.en);
       if (inZh || inEn || has(p.title)) hits.passages.push({ p: p, zh: inZh, en: inEn });
     });
     var n = hits.years.length + hits.entries.length + hits.passages.length;
-    status.textContent = n ? n + (n === 1 ? ' result for ' : ' results for ') + '“' + needle + '”' : 'Nothing found for “' + needle + '”.';
+    status.textContent = (n ? n + (n === 1 ? ' result for ' : ' results for ') + '“' + needle + '”' : 'Nothing found for “' + needle + '”') + (inYear ? ' in ' + inYear : '') + (n ? '' : '.');
     var html = '';
     if (hits.years.length) {
       html += '&lt;h2&gt;Years&lt;/h2&gt;&lt;ul class="hits"&gt;';
