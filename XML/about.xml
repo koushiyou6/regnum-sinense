@@ -23,6 +23,12 @@
       <p><zh>无骨者伊瓦尔</zh> (Ivar the Boneless) is a collaborator on Regnum Sinense: the commentary and analyses that accompany each year's sources are his. He has also contributed to other historical works, among them Histodome.</p>
    </section>
    <section>
+      <head>How to search</head>
+      <p>The box in the bar at the top of every page searches the whole site: the Chinese texts, the English translations, and the entries for persons, places and terms. Chinese may be typed in traditional or simplified characters; either finds the other. By default a word is matched wherever it occurs, so <i>Lu</i> also finds <i>Luoyang</i>; tick <i>Whole words</i> to match English by whole word only.</p>
+      <p>A year can be searched as a number — <i>248</i>, <i>248 BC</i> or <zh>前248</zh> — or by any of its reign-year names, <zh>秦庄襄王二年</zh> or <zh>魏安釐王二十九年</zh>; a ruler's name, such as <i>King Xiaocheng</i>, lists every year of his reign. To look for a word within one year, put the year beside it: <zh>248 蒙骜</zh> or <i>Lian Po 251 BC</i> searches that year alone.</p>
+      <p>The search covers the years of the chronology. The sources by era in the Catalogue, and the Gazetteer and Library, are reached from the Home page's sidebar and are not yet searched by year.</p>
+   </section>
+   <section>
       <head>Design and credits</head>
       <p>The page structure and stylesheet are adapted from the <a href="https://parlamentos.pitt.edu/">Parlamentos</a> project of the University of Pittsburgh at Greensburg (code under CC BY-NC-SA 4.0). Chinese text is set in a subset of Noto Serif CJK (SIL Open Font License) built for the characters the site uses; the Latin text is set in Ysabeau Office.</p>
    </section>
