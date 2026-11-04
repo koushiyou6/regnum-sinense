@@ -25,6 +25,7 @@
     <xsl:param name="item" select="''"/>   <!-- newspaper id for page='newspaper' -->
     <xsl:variable name="newspapers" select="document('newspapers.xml', /)/newspapers"/>
     <xsl:variable name="np" select="$newspapers/newspaper[@id = $item]"/>
+    <xsl:variable name="works" select="document('works.xml', /)/works"/>
     <xsl:variable name="pers" select="document('auth-files/persons.xml', /)"/>
     <xsl:variable name="places" select="document('auth-files/locations.xml', /)"/>
     <xsl:variable name="lex" select="document('auth-files/lexicon.xml', /)"/>
@@ -60,7 +61,7 @@
                  grouped by the same reign headings so the two align. Entries are added later. -->
             <div class="era-sources">
                 <h2>Sources by era / video</h2>
-                <ul><li><a href="{$root}sources.html">Catalogue</a></li></ul>
+                <ul><li><a href="{$root}sources.html">Catalogue</a></li><li><a href="{$root}library.html">Library</a></li></ul>
             </div>
             <h2>Chronology</h2>
             <xsl:for-each-group select="/site/year" group-adjacent="tei:reign(@label)">
@@ -175,13 +176,14 @@
                             <xsl:when test="$page = 'about'">About Regnum Sinense: the sources behind Atrium Concordiae's historical atlases of China, year by year, in Chinese and English.</xsl:when>
                             <xsl:when test="$page = 'search'">Search Regnum Sinense: the texts, translations, persons, places and terms.</xsl:when>
                             <xsl:when test="$page = 'sources'">Regnum Sinense sources by era and by video: the Zhanguo zonghengjia shu, the cultural-region essays, and the videos of Atrium Concordiae with the years they cover.</xsl:when>
+                            <xsl:when test="$page = 'library'">Regnum Sinense library: the works of the scholars, the later records and compilations drawn on beside the primary sources, by period.</xsl:when>
                             <xsl:when test="$page = 'newspaper'"><xsl:value-of select="$np/@paper"/><xsl:text> (</xsl:text><xsl:value-of select="$np/@paper-en"/><xsl:text>), </xsl:text><xsl:value-of select="$np/@date-en"/><xsl:text>: the clipping with its transcription — </xsl:text><xsl:value-of select="$np/@topic"/><xsl:text>.</xsl:text></xsl:when>
                             <xsl:when test="$year != ''"><xsl:value-of select="$this-year/@era"/><xsl:text> (</xsl:text><xsl:value-of select="$this-year/@label"/><xsl:if test="$this-year/@en != ''"><xsl:text>, </xsl:text><xsl:value-of select="$this-year/@en"/></xsl:if><xsl:text>): the sources for the year — </xsl:text><xsl:value-of select="string-join($this-year/document/@label, ', ')"/><xsl:text> — with English translation and notes.</xsl:text></xsl:when>
                             <xsl:otherwise>Regnum Sinense: the sources behind Atrium Concordiae's historical atlases of China, year by year from 256 BC — Chinese text, English translation and notes, side by side.</xsl:otherwise>
                         </xsl:choose>
                     </xsl:attribute>
                 </meta>
-                <title><xsl:value-of select="$site-name"/><xsl:choose><xsl:when test="$page = 'about'">: About</xsl:when><xsl:when test="$page = 'search'">: Search</xsl:when><xsl:when test="$page = 'sources'">: Sources by era and video</xsl:when><xsl:when test="$page = 'newspaper'"><xsl:text>: </xsl:text><xsl:value-of select="$np/@paper"/><xsl:text> · </xsl:text><xsl:value-of select="$np/@date-en"/></xsl:when><xsl:when test="$year != ''"><xsl:text>: </xsl:text><xsl:value-of select="$this-year/@era"/></xsl:when></xsl:choose></title>
+                <title><xsl:value-of select="$site-name"/><xsl:choose><xsl:when test="$page = 'about'">: About</xsl:when><xsl:when test="$page = 'search'">: Search</xsl:when><xsl:when test="$page = 'sources'">: Sources by era and video</xsl:when><xsl:when test="$page = 'library'">: Library</xsl:when><xsl:when test="$page = 'newspaper'"><xsl:text>: </xsl:text><xsl:value-of select="$np/@paper"/><xsl:text> · </xsl:text><xsl:value-of select="$np/@date-en"/></xsl:when><xsl:when test="$year != ''"><xsl:text>: </xsl:text><xsl:value-of select="$this-year/@era"/></xsl:when></xsl:choose></title>
                 <style><xsl:value-of select="$css" disable-output-escaping="yes"/><xsl:value-of select="replace(unparsed-text('../css/font-cjk.css'), 'FONTROOT/', $root)" disable-output-escaping="yes"/></style>
             </head>
             <body>
@@ -284,6 +286,39 @@
   }).catch(function () { status.textContent = 'The search index could not be loaded.'; });
 })();
 </xsl:text></script>
+                                </div>
+                            </xsl:when>
+
+                            <!-- ===== Library: works of the scholars ===== -->
+                            <xsl:when test="$page = 'library'">
+                                <div class="about sources-page library">
+                                    <h1>Library</h1>
+                                    <p class="era-line"><xsl:value-of select="$works/@en"/><xsl:text> </xsl:text><span lang="zh"><xsl:value-of select="$works/@label"/></span></p>
+                                    <hr/>
+                                    <p>The works of the scholars: later records and compilations, not themselves primary sources, drawn on beside the <a href="sources.html">sources</a> of the chronology. Each is listed in the edition used, with its author as the editor gives him.</p>
+                                    <div class="sources-grid one">
+                                        <section>
+                                            <h2>By period</h2>
+                                            <xsl:for-each select="$works/group">
+                                                <h3 id="{@id}"><span lang="zh"><xsl:value-of select="@label"/></span><xsl:if test="@en != ''"><span class="gloss"><xsl:value-of select="@en"/></span></xsl:if></h3>
+                                                <xsl:for-each-group select="work | break" group-starting-with="break">
+                                                    <ul class="works">
+                                                        <xsl:for-each select="current-group()[self::work]">
+                                                            <xsl:variable name="built" select="@id and doc-available(resolve-uri(concat('../XML/', @id, '/source.xml'), static-base-uri()))"/>
+                                                            <li>
+                                                                <xsl:choose>
+                                                                    <xsl:when test="$built"><a href="{$root}{@id}.html" lang="zh"><xsl:value-of select="@title"/>（<xsl:value-of select="@edition"/>）<xsl:if test="@author != ''">——<xsl:value-of select="@author"/></xsl:if></a></xsl:when>
+                                                                    <xsl:otherwise><span class="unbuilt" lang="zh"><xsl:value-of select="@title"/>（<xsl:value-of select="@edition"/>）<xsl:if test="@author != ''">——<xsl:value-of select="@author"/></xsl:if></span></xsl:otherwise>
+                                                                </xsl:choose>
+                                                                <span class="gloss"><i><xsl:value-of select="@roman"/></i><xsl:text>, </xsl:text><xsl:value-of select="@edition-en"/><xsl:if test="@author-en != ''"><xsl:text> — </xsl:text><xsl:value-of select="@author-en"/></xsl:if><xsl:text>: </xsl:text><xsl:value-of select="@en"/></span>
+                                                            </li>
+                                                        </xsl:for-each>
+                                                    </ul>
+                                                </xsl:for-each-group>
+                                            </xsl:for-each>
+                                            <p class="hint">Works in grey are not yet on the site.</p>
+                                        </section>
+                                    </div>
                                 </div>
                             </xsl:when>
 

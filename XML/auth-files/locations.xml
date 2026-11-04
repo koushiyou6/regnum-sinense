@@ -1047,7 +1047,7 @@
                <placeName><settlement type="town">Xincheng 新城</settlement></placeName>
                <country/><region>Zhao</region>
                <location><geo/></location>
-               <note xml:lang="eng">a city of Zhao taken with Yuci and Langmeng; the commentaries do not place it.</note>
+               <note xml:lang="eng">a city of Zhao, also called Xiaopingcheng 小平城; the Zhengyi places it forty-seven li south-west of Shanyang County in Shuozhou; modern Shuozhou 朔州, Shanxi.</note>
             </place>
 
             <place n="147">
@@ -1055,6 +1055,27 @@
                <country/><region>Zhao</region>
                <location><geo/></location>
                <note xml:lang="eng">a city of Zhao north of Jinyang, later a County of Taiyuan Commandery (Jijie); modern Yangqu 阳曲, Shanxi.</note>
+            </place>
+
+            <place n="148">
+               <placeName><settlement type="town">Gaodu 高都</settlement></placeName>
+               <country/><region>Wei</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a city of Wei in the hills south of Shangdang; the Zhengyi: its old city is Zezhou; modern Jincheng 晋城, Shanxi.</note>
+            </place>
+
+            <place n="149">
+               <placeName><settlement type="town">Ji 汲</settlement></placeName>
+               <country/><region>Wei</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a city of Wei in Henei, north of the Yellow River; the Zhengyi: its old city twenty-five li south-west of Ji County in Weizhou; modern Weihui 卫辉, Henan.</note>
+            </place>
+
+            <place n="150">
+               <placeName><settlement type="region">Shangdang 上党</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the upland region between the Taihang and the Fen, held in parts by Han and Zhao and contested with Qin; modern Changzhi 长治, Shanxi.</note>
             </place>
 
 </listPlace>

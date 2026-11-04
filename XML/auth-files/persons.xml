@@ -250,6 +250,7 @@
                <persName><name>the First Emperor of Qin 秦始皇帝</name><roleName>King of Qin; Emperor</roleName><forename/><nameLink/><surname/><addName>始皇帝; 政; 子政</addName><genName/></persName>
                <nationality>Qin</nationality>
                <note xml:lang="eng"><p>Ying Zheng 嬴政, King of Qin from 246 BC and First Emperor from 221 BC.</p></note>
+               <note xml:lang="eng" from="-247" seq="1"><p>Ying Zheng 嬴政, King of Qin from his accession in 247 BC, his first year 246 BC; First Emperor from 221 BC.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
 
@@ -268,7 +269,7 @@
             </person>
 
             <person n="35">
-               <persName><name>Wang Yi 王齮</name><roleName>General</roleName><forename/><nameLink/><surname/><addName/><genName/></persName>
+               <persName><name>Wang Yi 王齮</name><roleName>General</roleName><forename/><nameLink/><surname/><addName>王龁</addName><genName/></persName>
                <nationality>Qin</nationality>
                <note xml:lang="eng"><p>Qin general. The Basic Annals of Qin name the general at Handan 王龁.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>

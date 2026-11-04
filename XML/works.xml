@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The Library (大儒书籍): later works and compilations drawn on beside the primary sources, grouped by the
+     period they record. One <group> per period; one <work> per book, with the edition used and the author
+     as the editor lists them; <break/> separates sets within a group. -->
+<works label="大儒书籍" en="Works of the scholars">
+   <group id="han" label="汉代" en="Han">
+      <work title="风俗通义" edition="今版" author="应劭" roman="Fengsu tongyi" en="Comprehensive Meaning of Customs" edition-en="modern edition" author-en="Ying Shao"/>
+      <work title="华阳国志" edition="明版" author="常璩" roman="Huayang guozhi" en="Records of the States South of Mount Hua" edition-en="Ming edition" author-en="Chang Qu"/>
+      <work title="华阳国志" edition="今版" author="常璩" roman="Huayang guozhi" en="Records of the States South of Mount Hua" edition-en="modern edition" author-en="Chang Qu"/>
+      <work title="三辅黄图" edition="今版" author="佚名" roman="Sanfu huangtu" en="Plans of the Three Districts of the Capital" edition-en="modern edition" author-en="anonymous"/>
+      <work title="通典" edition="今版" author="" roman="Tongdian" en="Comprehensive Institutions" edition-en="modern edition" author-en=""/>
+      <work title="西汉会要" edition="今版" author="" roman="Xi Han huiyao" en="Collected Essentials of the Western Han" edition-en="modern edition" author-en=""/>
+      <work title="册府元龟" edition="今版" author="" roman="Cefu yuangui" en="Prime Tortoise of the Record Bureau" edition-en="modern edition" author-en=""/>
+      <break/>
+      <work title="资治通鉴" edition="宋版" author="司马光" roman="Zizhi tongjian" en="Comprehensive Mirror in Aid of Governance" edition-en="Song edition" author-en="Sima Guang"/>
+      <work title="资治通鉴" edition="四库版" author="司马光、胡三省、纪昀等" roman="Zizhi tongjian" en="Comprehensive Mirror in Aid of Governance" edition-en="Siku quanshu edition" author-en="Sima Guang, Hu Sanxing, Ji Yun and others"/>
+   </group>
+</works>

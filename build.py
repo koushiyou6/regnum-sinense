@@ -104,6 +104,12 @@ def build():
         index.transform_to_file(source_file=str(MANIFEST), output_file=str(out))
         print(f"wrote {out.relative_to(ROOT)}")
 
+        # Library (XML/works.xml): the works of the scholars, by period
+        out = SITE / "library.html"
+        index.set_parameter("page", proc.make_string_value("library"))
+        index.transform_to_file(source_file=str(MANIFEST), output_file=str(out))
+        print(f"wrote {out.relative_to(ROOT)}")
+
         # newspaper pages (XML/newspapers.xml): one page per item, image beside transcription
         npfile = XML / "newspapers.xml"
         if npfile.exists():
