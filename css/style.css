@@ -650,3 +650,8 @@ body.has-lightbox { overflow: hidden; }
 .library ul.works { margin-bottom: 1em; }
 .library ul.works li { margin-bottom: .5em; }
 .library p.era-line, .gazetteer p.era-line { text-align: center; }
+
+/* the Catalogue, Gazetteer and Library keep the chronology sidebar, as the year pages do */
+.nav-grid .sources-page { max-width: none; margin: 0; }
+.era-sources li.current a { font-weight: 600; }
+.nav-grid .sources-page .hint { text-align: left; }

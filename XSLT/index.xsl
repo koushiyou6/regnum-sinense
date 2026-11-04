@@ -61,7 +61,11 @@
                  grouped by the same reign headings so the two align. Entries are added later. -->
             <div class="era-sources">
                 <h2>Sources by era / video</h2>
-                <ul><li><a href="{$root}sources.html">Catalogue</a></li><li><a href="{$root}gazetteer.html">Gazetteer</a></li><li><a href="{$root}library.html">Library</a></li></ul>
+                <ul>
+                    <li><xsl:if test="$page = 'sources'"><xsl:attribute name="class">current</xsl:attribute></xsl:if><a href="{$root}sources.html">Catalogue</a></li>
+                    <li><xsl:if test="$page = 'gazetteer'"><xsl:attribute name="class">current</xsl:attribute></xsl:if><a href="{$root}gazetteer.html">Gazetteer</a></li>
+                    <li><xsl:if test="$page = 'library'"><xsl:attribute name="class">current</xsl:attribute></xsl:if><a href="{$root}library.html">Library</a></li>
+                </ul>
             </div>
             <h2>Chronology</h2>
             <xsl:for-each-group select="/site/year" group-adjacent="tei:reign(@label)">
@@ -292,7 +296,9 @@
 
                             <!-- ===== Gazetteer: the cultural regions ===== -->
                             <xsl:when test="$page = 'gazetteer'">
-                                <div class="about sources-page gazetteer">
+                                <div class="nav-grid">
+                                <xsl:call-template name="year-list"/>
+                                <div class="overview sources-page gazetteer">
                                     <h1>Gazetteer</h1>
                                     <p class="era-line">Cultural regions <span lang="zh">文化区</span></p>
                                     <hr/>
@@ -319,11 +325,14 @@
                                         </xsl:for-each>
                                     </div>
                                 </div>
+                                </div>
                             </xsl:when>
 
                             <!-- ===== Library: works of the scholars ===== -->
                             <xsl:when test="$page = 'library'">
-                                <div class="about sources-page library">
+                                <div class="nav-grid">
+                                <xsl:call-template name="year-list"/>
+                                <div class="overview sources-page library">
                                     <h1>Library</h1>
                                     <p class="era-line"><xsl:value-of select="$works/@en"/><xsl:text> </xsl:text><span lang="zh"><xsl:value-of select="$works/@label"/></span></p>
                                     <hr/>
@@ -352,11 +361,14 @@
                                         </section>
                                     </div>
                                 </div>
+                                </div>
                             </xsl:when>
 
                             <!-- ===== Sources by era / video ===== -->
                             <xsl:when test="$page = 'sources'">
-                                <div class="about sources-page">
+                                <div class="nav-grid">
+                                <xsl:call-template name="year-list"/>
+                                <div class="overview sources-page">
                                     <h1>Sources by era and by video</h1>
                                     <hr/>
                                     <p>Besides the year pages of the <a href="index.html">chronology</a>, the site holds sources that belong to a whole era rather than to one year, and it accompanies the videos of Atrium Concordiae. Both are indexed here.</p>
@@ -425,6 +437,7 @@
                                             </xsl:choose>
                                         </section>
                                     </div>
+                                </div>
                                 </div>
                             </xsl:when>
 
