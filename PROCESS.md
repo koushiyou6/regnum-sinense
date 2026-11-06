@@ -67,8 +67,9 @@ The rules below govern every bracket. They are the standing instructions of the 
 
 ## 9. After approval
 
-1. Copy `XML/` into the repository clone, rebuild there (`docs/`), commit as Kou Shiyou with no co-author line, fetch, rebase, push to `main`. GitHub Pages redeploys itself.
-2. Then the next bracket.
+1. Before every push of a page, point the Home page's "Newest page" button at it: `python3 tools/newest.py <dir> <n>` (writes `XML/newest.xml`), then rebuild. The check script does this for the page it checks; confirm `XML/newest.xml` names the page being pushed, since the newest page is the one going up, not an older one re-checked.
+2. Copy `XML/` into the repository clone, rebuild there (`docs/`), commit as Kou Shiyou with no co-author line, fetch, rebase, push to `main`. GitHub Pages redeploys itself.
+3. Then the next bracket.
 
 ## 10. Site rules
 
