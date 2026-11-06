@@ -233,7 +233,15 @@ def write_search_index(manifest):
                 label = f"{era} · {bracket.get('en') or bracket.text or n}"
                 zh = text(src_divs[n]) if n in src_divs else ""
                 en = text(eng_divs[n])
-                passages.append({"url": url, "era": era, "title": bracket.get("en") or bracket.text or n, "zh": zh, "en": en})
+                # the page's annotations and introduction are searched too (the "no" field)
+                extra = []
+                for fname in ("notes.xml", "intro.xml"):
+                    fp = XML / d / fname
+                    if fp.exists():
+                        for dv in ET.parse(fp).getroot().iter(f"{TEI}div"):
+                            if dv.get("n") == n:
+                                extra.append(text(dv))
+                passages.append({"url": url, "era": era, "title": bracket.get("en") or bracket.text or n, "zh": zh, "en": en, "no": " ".join(x for x in extra if x)})
                 for dv in (src_divs.get(n), eng_divs.get(n)):
                     if dv is None:
                         continue
@@ -243,6 +251,16 @@ def write_search_index(manifest):
                                 where.setdefault((kind, el.get("n")), {})[url] = label
     entries = []
     auth = XML / "auth-files"
+    # newspaper items (XML/newspapers.xml): the transcription, translation, introduction and notes of each item
+    npfile = XML / "newspapers.xml"
+    if npfile.exists():
+        for item in ET.parse(npfile).getroot().findall("newspaper"):
+            ja = " ".join(text(a.find("ja")) for a in item.findall("article") if a.find("ja") is not None)
+            en = " ".join(text(a.find("en")) for a in item.findall("article") if a.find("en") is not None)
+            extra = " ".join(text(x) for x in (item.find("intro"), item.find("notes")) if x is not None)
+            passages.append({"url": f"newspapers/{item.get('id')}.html", "era": item.get("date-en", ""),
+                             "title": f"{item.get('paper', '')} {item.get('paper-en', '')}".strip(), "zh": ja, "en": en, "no": extra})
+
     def notes(el):
         """(latest note, earlier versions joined): the latest is shown, the rest only matched."""
         ns = [text(nt) for nt in el.findall(f"{TEI}note") if text(nt)]
@@ -272,7 +290,7 @@ def write_search_index(manifest):
     # either script finds the other; the page's JS converts the query and the texts with the same map.
     chars = set()
     for ps in passages:
-        chars.update(ps["zh"]); chars.update(ps["title"])
+        chars.update(ps["zh"]); chars.update(ps["title"]); chars.update(ps.get("no", "")); chars.update(ps["en"])
     for k, n, nm, alt, note, more in entries:
         chars.update(nm); chars.update(alt); chars.update(note); chars.update(more)
     t2s = {}

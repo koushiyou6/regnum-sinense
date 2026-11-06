@@ -694,7 +694,7 @@ body.has-lightbox { overflow: hidden; }
                <h1>Search</h1>
                <hr/>
                <form class="search big" action="search.html" method="get" role="search"><input type="search" name="q" id="q" placeholder="A name, a place, a term, a phrase — in Chinese or English" aria-label="Search the site"/><button type="submit">Search</button><label class="whole"><input type="checkbox" name="w" id="w" value="1"/> Whole words only</label></form>
-               <p class="hint" id="status">Searches the years (248, 248 BC or 秦庄襄王二年; a year beside a word, "248 蒙骜", searches that year alone), the Chinese texts, the English translations, and the entries for persons, places and terms. Traditional and simplified characters find each other. Unticked, Lu also finds Luoyang; ticked, English is matched by whole word.</p>
+               <p class="hint" id="status">Searches the years (248, 248 BC or 秦庄襄王二年; a year beside a word, "248 蒙骜", searches that year alone), the Chinese texts, the English translations, the annotations and introductions, the newspaper items, and the entries for persons, places and terms. Traditional and simplified characters find each other. Unticked, Lu also finds Luoyang; ticked, English is matched by whole word.</p>
                <div id="results"></div><script>
 (function () {
   var params = new URLSearchParams(location.search);
@@ -761,8 +761,8 @@ body.has-lightbox { overflow: hidden; }
     });
     ix.passages.forEach(function (p) {
       if (inYear && p.era !== inYear) return;
-      var inZh = has(p.zh), inEn = has(p.en);
-      if (inZh || inEn || has(p.title)) hits.passages.push({ p: p, zh: inZh, en: inEn });
+      var inZh = has(p.zh), inEn = has(p.en), inNo = has(p.no || '');
+      if (inZh || inEn || inNo || has(p.title)) hits.passages.push({ p: p, zh: inZh, en: inEn, no: inNo });
     });
     var n = hits.years.length + hits.entries.length + hits.passages.length;
     status.textContent = (n ? n + (n === 1 ? ' result for ' : ' results for ') + '“' + needle + '”' : 'Nothing found for “' + needle + '”') + (inYear ? ' in ' + inYear : '') + (n ? '' : '.');
@@ -794,6 +794,7 @@ body.has-lightbox { overflow: hidden; }
         html += '<li><a href="' + p.url + '"><b>' + esc(p.era) + '</b> · ' + esc(p.title) + '</a>';
         if (h.zh) html += '<br/><span class="snip" lang="zh">' + snippet(p.zh) + '</span>';
         if (h.en) html += '<br/><span class="snip">' + snippet(p.en) + '</span>';
+        if (h.no && !h.zh && !h.en) html += '<br/><span class="snip"><span class="kind">notes</span> ' + snippet(p.no) + '</span>';
         html += '</li>';
       });
       html += '</ul>';

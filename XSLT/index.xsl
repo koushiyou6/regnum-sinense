@@ -218,7 +218,7 @@
                                     <h1>Search</h1>
                                     <hr/>
                                     <form class="search big" action="search.html" method="get" role="search"><input type="search" name="q" id="q" placeholder="A name, a place, a term, a phrase — in Chinese or English" aria-label="Search the site"/><button type="submit">Search</button><label class="whole"><input type="checkbox" name="w" id="w" value="1"/> Whole words only</label></form>
-                                    <p class="hint" id="status">Searches the years (248, 248 BC or 秦庄襄王二年; a year beside a word, "248 蒙骜", searches that year alone), the Chinese texts, the English translations, and the entries for persons, places and terms. Traditional and simplified characters find each other. Unticked, Lu also finds Luoyang; ticked, English is matched by whole word.</p>
+                                    <p class="hint" id="status">Searches the years (248, 248 BC or 秦庄襄王二年; a year beside a word, "248 蒙骜", searches that year alone), the Chinese texts, the English translations, the annotations and introductions, the newspaper items, and the entries for persons, places and terms. Traditional and simplified characters find each other. Unticked, Lu also finds Luoyang; ticked, English is matched by whole word.</p>
                                     <div id="results"></div>
                                     <script><xsl:text disable-output-escaping="yes">
 (function () {
@@ -286,8 +286,8 @@
     });
     ix.passages.forEach(function (p) {
       if (inYear &amp;&amp; p.era !== inYear) return;
-      var inZh = has(p.zh), inEn = has(p.en);
-      if (inZh || inEn || has(p.title)) hits.passages.push({ p: p, zh: inZh, en: inEn });
+      var inZh = has(p.zh), inEn = has(p.en), inNo = has(p.no || '');
+      if (inZh || inEn || inNo || has(p.title)) hits.passages.push({ p: p, zh: inZh, en: inEn, no: inNo });
     });
     var n = hits.years.length + hits.entries.length + hits.passages.length;
     status.textContent = (n ? n + (n === 1 ? ' result for ' : ' results for ') + '“' + needle + '”' : 'Nothing found for “' + needle + '”') + (inYear ? ' in ' + inYear : '') + (n ? '' : '.');
@@ -319,6 +319,7 @@
         html += '&lt;li&gt;&lt;a href="' + p.url + '"&gt;&lt;b&gt;' + esc(p.era) + '&lt;/b&gt; · ' + esc(p.title) + '&lt;/a&gt;';
         if (h.zh) html += '&lt;br/&gt;&lt;span class="snip" lang="zh"&gt;' + snippet(p.zh) + '&lt;/span&gt;';
         if (h.en) html += '&lt;br/&gt;&lt;span class="snip"&gt;' + snippet(p.en) + '&lt;/span&gt;';
+        if (h.no &amp;&amp; !h.zh &amp;&amp; !h.en) html += '&lt;br/&gt;&lt;span class="snip"&gt;&lt;span class="kind"&gt;notes&lt;/span&gt; ' + snippet(p.no) + '&lt;/span&gt;';
         html += '&lt;/li&gt;';
       });
       html += '&lt;/ul&gt;';

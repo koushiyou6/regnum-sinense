@@ -87,6 +87,10 @@ The rules below govern every bracket. They are the standing instructions of the 
 - A Japanese item renders Chinese names in their Japanese readings (Hōten, Kinshū, Go Haifu …), in the translation, the headlines and the entries' display names; the pinyin goes in the entry note ("Fengtian in pinyin, Hōten in Japanese reading; …"). The entry keeps the pinyin name as its main form (`<persName>`/`<placeName>` without `xml:lang`) and adds `<persName xml:lang="ja">` / `<placeName xml:lang="ja">`; a term that embeds a place name gets `<form type="ja-reading">` in its English entry. Bracket pages ignore the `ja` forms; the newspaper page prefers them; both are searchable. The Introduction and catalogue labels are in the site's own voice (pinyin).
 - Consistency check as for a bracket (ids equal between `ja` and `en`; every id has an entry; every `corresp` a note), and the page is looked at on a desktop width and a phone width (390px) before publishing.
 
+## 11a. Search coverage
+
+- The search index (`search-index.json`) holds the years, every translated bracket (Chinese, English, and its notes and introduction in the `no` field), every newspaper item (transcription, translation, introduction, notes), the video periods' entries, and the authority entries. A period's entries carry the period's name as their era (`Shang`), so "Shang 武丁" searches them alone. The About page's "How to search" must say what is covered; update it when the index grows.
+
 ## 12a. Video pages (History of the Zhou Dynasty)
 
 - A video's periods before 770 BC (商, 西周) are documents in `XML/videos.xml`: `<section id="shang"><document dir="videos/zhou/shang"><bracket en="c. 1260 BC">约公元前1260年</bracket>…`. Each dated entry is a bracket, built as `videos/zhou/shang/<n>.html` on the bracket-page skeleton (`XML/videos/zhou/shang/{source,english,notes,intro}.xml`), filed under the period's name; the video page (`videos/zhou/index.html`) lists the entries under the period, and the search indexes them with the era "Shang".
