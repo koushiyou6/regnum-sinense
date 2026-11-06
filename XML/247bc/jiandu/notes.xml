@@ -20,6 +20,12 @@
             <interp corresp="King_Zhuang_died">The Basic Annals (§1) give the day: Bingwu of the fifth month.</interp>
          </div>
 
+         <div n="2">
+            <interp corresp="Third_year">The third year of King Zhuangxiang, 247 BC.</interp>
+            <interp corresp="Grand_Supreme_Emperor">泰上皇: King Zhuangxiang, under the title given him after his death, which the Suiji uses throughout (see 249 BC, excavated texts §3).</interp>
+            <interp corresp="General_Wang_Yi_returned">王齮將軍歸: Wang Yi, written 王龁 in the Basic Annals, which have him attacking Shangdang this year (§1, §2); his return from the campaign is recorded only here.</interp>
+         </div>
+
       </body>
    </text>
 </TEI>

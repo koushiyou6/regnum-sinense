@@ -23,6 +23,11 @@
             <p><title>Chronicle</title>: <span corresp="Third_year">Third year of <persName n="31">King Zhuang</persName>.</span> <span corresp="King_Zhuang_died">King Zhuang died.</span></p>
          </div>
 
+         <div n="2">
+            <head>Hujiacaochang Western Han slips: the Suiji (Annual Record)</head>
+            <p><span corresp="Third_year">Third year.</span> The <span corresp="Grand_Supreme_Emperor"><persName n="31">Grand Supreme Emperor</persName></span> died. <span corresp="General_Wang_Yi_returned"><term n="4">General</term> <persName n="35">Wang Yi</persName> returned.</span></p>
+         </div>
+
       </body>
    </text>
 </TEI>
