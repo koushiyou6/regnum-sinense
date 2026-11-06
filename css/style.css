@@ -663,3 +663,9 @@ body.has-lightbox { overflow: hidden; }
 /* video page: a period with entries is a bold heading, its dated entries indented beneath it */
 .sources-grid li.period > span[lang] { font-weight: 600; }
 .sources-grid ul.entries { margin: .3em 0 .8em 1.2em; }
+
+/* Home: the newest-page button beneath the introduction */
+.overview .newest { margin: 1.2em 0 1em; display: flex; flex-wrap: wrap; align-items: center; gap: .6em 1em; }
+.overview .newest .button { display: inline-block; font-family: 'Ysabeau Office', serif; font-size: 1em; padding: .4em 1em; border: 1px solid var(--accent); border-radius: 3px; background: var(--band); color: var(--ink); text-decoration: none; }
+.overview .newest .button:hover { background: var(--accent); color: #fff; }
+.overview .newest .where { font-size: .9em; color: #8a857c; }

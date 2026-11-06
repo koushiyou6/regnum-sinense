@@ -26,6 +26,8 @@
     <xsl:variable name="newspapers" select="document('newspapers.xml', /)/newspapers"/>
     <xsl:variable name="np" select="$newspapers/newspaper[@id = $item]"/>
     <xsl:variable name="works" select="document('works.xml', /)/works"/>
+    <!-- the newest page (XML/newest.xml, written by tools/newest.py), for the Home page's button -->
+    <xsl:variable name="newest" select="if (doc-available(resolve-uri('newest.xml', base-uri(/)))) then document('newest.xml', /)/newest else ()"/>
     <xsl:variable name="vid" select="$videos/video[@id = $item]"/>
     <xsl:variable name="pers" select="document('auth-files/persons.xml', /)"/>
     <xsl:variable name="places" select="document('auth-files/locations.xml', /)"/>
@@ -610,6 +612,9 @@
                                         <hr/>
                                         <p>A year-by-year reading of the sources, from <span lang="zh"><xsl:value-of select="/site/year[1]/@label"/></span> (<xsl:value-of select="/site/year[1]/@era"/>) onward. Each year lists its sources; each source page gives the Chinese text, an English translation, and notes on the terms, persons and places.</p>
                                         <p>The site accompanies the historical atlases and videomaps of <a href="https://www.youtube.com/@AtriumConcordiae">Atrium Concordiae</a>; see <a href="about.html">About</a>.</p>
+                                        <xsl:if test="$newest">
+                                            <p class="newest"><a class="button" href="{$newest/@href}">Newest page</a><span class="where"><xsl:value-of select="$newest/@era"/><xsl:text> · </xsl:text><span lang="zh"><xsl:value-of select="$newest/@label"/></span><xsl:if test="$newest/@en != ''"><xsl:text> · </xsl:text><xsl:value-of select="$newest/@en"/></xsl:if><xsl:if test="$newest/@source != ''"><xsl:text> · </xsl:text><xsl:value-of select="$newest/@source"/></xsl:if></span></p>
+                                        </xsl:if>
                                         <p class="hint">Years in grey have no translated sources yet.</p>
                                         <p class="hint"><xsl:value-of select="count(/site/year)"/> years · <xsl:value-of select="count(/site/year/document)"/> source pages · <xsl:value-of select="count(/site/year/document/bracket)"/> brackets</p>
                                     </div>

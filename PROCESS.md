@@ -62,7 +62,7 @@ The rules below govern every bracket. They are the standing instructions of the 
 1. `python3 build.py` (subsets the CJK font, rebuilds every page, regenerates `search.html` with `search-index.json`, `sitemap.xml` and `robots.txt`).
 2. Consistency check: the set of tag ids in the Chinese equals the set in the English; every id has an entry; every `corresp` has a note.
 3. Render the page and look at it (paragraph alignment, strip, headers).
-4. Regenerate the artifact's Home (`preview/index.html`: title, style, body of `site/index.html`) and publish the artifact with the changed pages and fonts.
+4. Record the page as the site's newest (`python3 tools/newest.py <dir> <n>` writes `XML/newest.xml`; the Home page's "Newest page" button links to it) and rebuild. Regenerate the artifact's Home (`preview/index.html`: title, style, body of `site/index.html`) and publish the artifact with the changed pages, Home and fonts.
 5. In chat: a short summary of the renderings and readings worth the editor's eye, and any questions.
 
 ## 9. After approval
