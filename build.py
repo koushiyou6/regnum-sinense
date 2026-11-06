@@ -116,6 +116,23 @@ def build():
         index.transform_to_file(source_file=str(MANIFEST), output_file=str(out))
         print(f"wrote {out.relative_to(ROOT)}")
 
+        # video contents pages (XML/videos.xml, videos with an id)
+        vfile = XML / "videos.xml"
+        if vfile.exists():
+            for item in ET.parse(vfile).getroot().findall("video"):
+                if not item.get("id"):
+                    continue
+                out = SITE / "videos" / f"{item.get('id')}.html"
+                out.parent.mkdir(parents=True, exist_ok=True)
+                index.set_parameter("page", proc.make_string_value("video"))
+                index.set_parameter("item", proc.make_string_value(item.get("id")))
+                index.set_parameter("root", proc.make_string_value("../"))
+                index.transform_to_file(source_file=str(MANIFEST), output_file=str(out))
+                index.set_parameter("root", proc.make_string_value(""))
+                print(f"wrote {out.relative_to(ROOT)}")
+            index.set_parameter("page", proc.make_string_value(""))
+            index.set_parameter("item", proc.make_string_value(""))
+
         # newspaper pages (XML/newspapers.xml): one page per item, image beside transcription
         npfile = XML / "newspapers.xml"
         if npfile.exists():

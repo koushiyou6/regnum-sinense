@@ -655,3 +655,8 @@ body.has-lightbox { overflow: hidden; }
 .nav-grid .sources-page { max-width: none; margin: 0; }
 .era-sources li.current a { font-weight: 600; }
 .nav-grid .sources-page .hint { text-align: left; }
+.video-page h3 { font-size: 1em; margin: .8em 0 .2em; text-align: left; }
+.video-page hr { margin: 1.2em 0 .6em; }
+/* catalogue entries (newspapers, videos, built sources) read like the chronology, in ink */
+.sources-grid li > a { color: var(--ink); text-decoration: none; }
+.sources-grid li > a:hover { color: var(--accent); }

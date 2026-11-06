@@ -2,5 +2,13 @@
 <!-- Videos of Atrium Concordiae and the years of the site they accompany. One <video> per release:
      title, url, and the years covered (from/to as the site's year numbers, BC negative), with an optional note. -->
 <videos>
-   <!-- <video title="…" url="https://www.youtube.com/watch?v=…" from="-256" to="-249">…</video> -->
+   <!-- <video title="…" url="https://www.youtube.com/watch?v=…" from="-256" to="-249">…</video>
+        A video without url is listed in grey; without from/to it lists no years. -->
+   <!-- A video with an id gets a page of its own, videos/<id>.html: a contents page in the Catalogue's form,
+        <section> entries (approximate periods, no years) and a <years from to> span to be built year by year. -->
+   <video id="zhou" title="History of the Zhou Dynasty">
+      <section id="shang" label="商" en="Shang"/>
+      <section id="xizhou" label="西周" en="Western Zhou"/>
+      <years from="-770" to="-256" en="770–256 BC, by year"/>
+   </video>
 </videos>

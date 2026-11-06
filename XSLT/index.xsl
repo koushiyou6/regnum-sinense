@@ -26,13 +26,14 @@
     <xsl:variable name="newspapers" select="document('newspapers.xml', /)/newspapers"/>
     <xsl:variable name="np" select="$newspapers/newspaper[@id = $item]"/>
     <xsl:variable name="works" select="document('works.xml', /)/works"/>
+    <xsl:variable name="vid" select="$videos/video[@id = $item]"/>
     <xsl:variable name="pers" select="document('auth-files/persons.xml', /)"/>
     <xsl:variable name="places" select="document('auth-files/locations.xml', /)"/>
     <xsl:variable name="lex" select="document('auth-files/lexicon.xml', /)"/>
 
     <xsl:variable name="site-name" select="string(/site/name)"/>
     <xsl:variable name="css" select="unparsed-text('../css/style.css')"/>
-    <xsl:variable name="root" select="if ($year = '' and $page != 'newspaper') then '' else '../'"/>
+    <xsl:variable name="root" select="if ($year = '' and not($page = ('newspaper', 'video'))) then '' else '../'"/>
     <xsl:variable name="this-year" select="/site/year[@n = $year]"/>
 
     <!-- is a source page built yet? -->
@@ -180,6 +181,7 @@
                             <xsl:when test="$page = 'about'">About Regnum Sinense: the sources behind Atrium Concordiae's historical atlases of China, year by year, in Chinese and English.</xsl:when>
                             <xsl:when test="$page = 'search'">Search Regnum Sinense: the texts, translations, persons, places and terms.</xsl:when>
                             <xsl:when test="$page = 'sources'">Regnum Sinense sources by era and by video: the Zhanguo zonghengjia shu, the cultural-region essays, and the videos of Atrium Concordiae with the years they cover.</xsl:when>
+                            <xsl:when test="$page = 'video'"><xsl:value-of select="$vid/@title"/>: the sources behind the video, by period.</xsl:when>
                             <xsl:when test="$page = 'gazetteer'">Regnum Sinense gazetteer: the cultural-region essays, Qinghai–Tibet, the Western Regions, the Northeast and Inner Mongolia, by region.</xsl:when>
                             <xsl:when test="$page = 'library'">Regnum Sinense library: the works of the scholars, the later records and compilations drawn on beside the primary sources, by period.</xsl:when>
                             <xsl:when test="$page = 'newspaper'"><xsl:value-of select="$np/@paper"/><xsl:text> (</xsl:text><xsl:value-of select="$np/@paper-en"/><xsl:text>), </xsl:text><xsl:value-of select="$np/@date-en"/><xsl:text>: the clipping with its transcription — </xsl:text><xsl:value-of select="$np/@topic"/><xsl:text>.</xsl:text></xsl:when>
@@ -188,7 +190,7 @@
                         </xsl:choose>
                     </xsl:attribute>
                 </meta>
-                <title><xsl:value-of select="$site-name"/><xsl:choose><xsl:when test="$page = 'about'">: About</xsl:when><xsl:when test="$page = 'search'">: Search</xsl:when><xsl:when test="$page = 'sources'">: Sources by era and video</xsl:when><xsl:when test="$page = 'library'">: Library</xsl:when><xsl:when test="$page = 'gazetteer'">: Gazetteer</xsl:when><xsl:when test="$page = 'newspaper'"><xsl:text>: </xsl:text><xsl:value-of select="$np/@paper"/><xsl:text> · </xsl:text><xsl:value-of select="$np/@date-en"/></xsl:when><xsl:when test="$year != ''"><xsl:text>: </xsl:text><xsl:value-of select="$this-year/@era"/></xsl:when></xsl:choose></title>
+                <title><xsl:value-of select="$site-name"/><xsl:choose><xsl:when test="$page = 'about'">: About</xsl:when><xsl:when test="$page = 'search'">: Search</xsl:when><xsl:when test="$page = 'sources'">: Sources by era and video</xsl:when><xsl:when test="$page = 'library'">: Library</xsl:when><xsl:when test="$page = 'gazetteer'">: Gazetteer</xsl:when><xsl:when test="$page = 'video'"><xsl:text>: </xsl:text><xsl:value-of select="$vid/@title"/></xsl:when><xsl:when test="$page = 'newspaper'"><xsl:text>: </xsl:text><xsl:value-of select="$np/@paper"/><xsl:text> · </xsl:text><xsl:value-of select="$np/@date-en"/></xsl:when><xsl:when test="$year != ''"><xsl:text>: </xsl:text><xsl:value-of select="$this-year/@era"/></xsl:when></xsl:choose></title>
                 <style><xsl:value-of select="$css" disable-output-escaping="yes"/><xsl:value-of select="replace(unparsed-text('../css/font-cjk.css'), 'FONTROOT/', $root)" disable-output-escaping="yes"/></style>
             </head>
             <body>
@@ -327,6 +329,42 @@
                                 </div>
                             </xsl:when>
 
+                            <!-- ===== a video's contents page ===== -->
+                            <xsl:when test="$page = 'video'">
+                                <div class="nav-grid">
+                                <xsl:call-template name="year-list"/>
+                                <div class="overview sources-page video-page">
+                                    <h1><xsl:value-of select="$vid/@title"/></h1>
+                                    <xsl:if test="$vid/@label"><p class="era-line"><span lang="zh"><xsl:value-of select="$vid/@label"/></span><xsl:if test="$vid/@url"><xsl:text> · </xsl:text><a href="{$vid/@url}">watch</a></xsl:if></p></xsl:if>
+                                    <hr/>
+                                    <p>The sources behind the video, by period. Before 770 BC the dating is approximate, so the Shang and Western Zhou sources are given by period rather than by year; from 770 BC the record is read year by year, as in the <a href="{$root}index.html">chronology</a>.</p>
+                                    <div class="sources-grid one">
+                                        <section>
+                                            <h2>By period</h2>
+                                            <ul>
+                                                <xsl:for-each select="$vid/section">
+                                                    <xsl:variable name="built" select="doc-available(resolve-uri(concat('../XML/', @id, '/source.xml'), static-base-uri()))"/>
+                                                    <li>
+                                                        <xsl:choose>
+                                                            <xsl:when test="$built"><a href="{$root}{@id}.html" lang="zh"><xsl:value-of select="@label"/></a></xsl:when>
+                                                            <xsl:otherwise><span class="unbuilt" lang="zh"><xsl:value-of select="@label"/></span></xsl:otherwise>
+                                                        </xsl:choose>
+                                                        <xsl:if test="@en != ''"><span class="gloss"><xsl:value-of select="@en"/></span></xsl:if>
+                                                    </li>
+                                                </xsl:for-each>
+                                            </ul>
+                                            <xsl:for-each select="$vid/years">
+                                                <hr/>
+                                                <h3><span class="unbuilt"><xsl:value-of select="@en"/></span></h3>
+                                                <p class="hint">To be built year by year, in the chronology's form.</p>
+                                            </xsl:for-each>
+                                            <p class="hint">Sources in grey are not yet on the site.</p>
+                                        </section>
+                                    </div>
+                                </div>
+                                </div>
+                            </xsl:when>
+
                             <!-- ===== Gazetteer: the cultural regions ===== -->
                             <xsl:when test="$page = 'gazetteer'">
                                 <div class="nav-grid">
@@ -445,9 +483,13 @@
                                                     <ul class="videos">
                                                         <xsl:for-each select="$videos/video">
                                                             <li>
-                                                                <a href="{@url}"><xsl:value-of select="@title"/></a>
-                                                                <xsl:variable name="from" select="xs:integer(@from)"/>
-                                                                <xsl:variable name="to" select="xs:integer(@to)"/>
+                                                                <xsl:choose>
+                                                                    <xsl:when test="@id"><a href="{$root}videos/{@id}.html"><xsl:value-of select="@title"/></a></xsl:when>
+                                                                    <xsl:when test="@url"><a href="{@url}"><xsl:value-of select="@title"/></a></xsl:when>
+                                                                    <xsl:otherwise><span class="unbuilt"><xsl:value-of select="@title"/></span></xsl:otherwise>
+                                                                </xsl:choose>
+                                                                <xsl:variable name="from" select="if (@from) then xs:integer(@from) else 1"/>
+                                                                <xsl:variable name="to" select="if (@to) then xs:integer(@to) else 0"/>
                                                                 <span class="years">
                                                                     <xsl:for-each select="$site/year[xs:integer(@n) ge $from and xs:integer(@n) le $to]">
                                                                         <xsl:sort select="xs:integer(@n)"/>
