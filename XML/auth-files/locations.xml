@@ -1204,6 +1204,34 @@
                <note xml:lang="eng">a place on the Pu River in Wey, proverbial for its licentious music.</note>
             </place>
 
+            <place n="169">
+               <placeName><settlement type="town">Pinglu 平陆</settlement></placeName>
+               <country/><region>Qi</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a town on Qi's western border (Suoyin), a County of Yanzhou in the names of the Tang (Zhengyi); modern Wenshang, Shandong.</note>
+            </place>
+
+            <place n="170">
+               <placeName><settlement type="city">Liaocheng 聊城</settlement></placeName>
+               <country/><region>Qi</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Qi city on the lower Yellow River; a County of Bozhou in the names of the Tang (Zhengyi); modern Liaocheng, Shandong.</note>
+            </place>
+
+            <place n="171">
+               <placeName><settlement type="region">Nanyang 南阳 (of Qi)</settlement></placeName>
+               <country/><region>Qi</region>
+               <location><geo/></location>
+               <note xml:lang="eng">Qi's southern lands, which the Suoyin takes as its lands north of the Huai and on the Si; distinct from Han's Nanyang.</note>
+            </place>
+
+            <place n="172">
+               <placeName><settlement type="region">Jibei 济北</settlement></placeName>
+               <country/><region>Qi</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the land north of the Ji River, the region of Liaocheng (Suoyin); modern north-western Shandong.</note>
+            </place>
+
 </listPlace>
       </body>
    </text>

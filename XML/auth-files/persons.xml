@@ -1066,6 +1066,69 @@
                <listEvent><event><p>247 BC</p></event></listEvent>
             </person>
 
+            <person n="147">
+               <persName><name>Lu Zhonglian 鲁仲连</name><roleName></roleName><forename/><nameLink/><surname/><addName>鲁连</addName><genName/></persName>
+               <nationality>Qi</nationality>
+               <note xml:lang="eng"><p>A gentleman of Qi, the persuader who refused all reward; the Biography calls him Lu Lian 鲁连.</p></note>
+               <listEvent><event><p>247 BC</p></event></listEvent>
+            </person>
+
+            <person n="148">
+               <persName><name>Tian Dan 田单</name><roleName>Lord Anping; General of Qi</roleName><forename/><nameLink/><surname/><addName>安平君</addName><genName/></persName>
+               <nationality>Qi</nationality>
+               <note xml:lang="eng"><p>General of Qi who recovered the state from Yan from his base at Jimo in 279 BC, enfeoffed as Lord Anping 安平君.</p></note>
+               <listEvent><event><p>247 BC</p></event></listEvent>
+            </person>
+
+            <person n="149">
+               <persName><name>Guan Zhong 管仲</name><roleName>Chancellor of Qi</roleName><forename/><nameLink/><surname/><addName>管夷吾; 管子</addName><genName/></persName>
+               <nationality>Qi</nationality>
+               <note xml:lang="eng"><p>Guan Yiwu 管夷吾, Chancellor to Duke Huan of Qi; formerly Tutor to Prince Jiu.</p></note>
+               <listEvent><event><p>247 BC</p></event></listEvent>
+            </person>
+
+            <person n="150">
+               <persName><name>Duke Huan of Qi 齐桓公</name><roleName>Duke of Qi</roleName><forename/><nameLink/><surname/><addName>桓公; 小白</addName><genName/></persName>
+               <nationality>Qi</nationality>
+               <note xml:lang="eng"><p>Xiaobai 小白, Duke of Qi, reigned 685–643 BC, first of the Five Hegemons.</p></note>
+               <listEvent><event><p>247 BC</p></event></listEvent>
+            </person>
+
+            <person n="151">
+               <persName><name>Prince Jiu of Qi 公子纠</name><roleName></roleName><forename/><nameLink/><surname/><addName>子纠</addName><genName/></persName>
+               <nationality>Qi</nationality>
+               <note xml:lang="eng"><p>Prince of Qi, rival of his brother Xiaobai for the dukedom, killed by Lu in 685 BC; Guan Zhong had been his Tutor.</p></note>
+               <listEvent><event><p>247 BC</p></event></listEvent>
+            </person>
+
+            <person n="152">
+               <persName><name>Cao Mo 曹沫</name><roleName>General of Lu</roleName><forename/><nameLink/><surname/><addName>曹子; 曹昧</addName><genName/></persName>
+               <nationality>Lu</nationality>
+               <note xml:lang="eng"><p>General of Lu under Duke Zhuang, who held Duke Huan of Qi at dagger-point at the covenant of Ke (681 BC) and recovered Lu's lost land; the Suoyin writes 曹昧.</p></note>
+               <listEvent><event><p>247 BC</p></event></listEvent>
+            </person>
+
+            <person n="153">
+               <persName><name>Duke Zhuang of Lu 鲁庄公</name><roleName>Duke of Lu</roleName><forename/><nameLink/><surname/><addName>鲁君</addName><genName/></persName>
+               <nationality>Lu</nationality>
+               <note xml:lang="eng"><p>Duke of Lu, reigned 693–662 BC; the lord of Lu of Cao Mo's story.</p></note>
+               <listEvent><event><p>247 BC</p></event></listEvent>
+            </person>
+
+            <person n="154">
+               <persName><name>Mo Di 墨翟</name><roleName></roleName><forename/><nameLink/><surname/><addName>墨子</addName><genName/></persName>
+               <nationality>Song</nationality>
+               <note xml:lang="eng"><p>Mozi, the philosopher; the Zhengyi recalls his defence of Song against Chu.</p></note>
+               <listEvent><event><p>247 BC</p></event></listEvent>
+            </person>
+
+            <person n="155">
+               <persName><name>Sun Bin 孙膑</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Qi</nationality>
+               <note xml:lang="eng"><p>General and strategist of Qi under King Wei.</p></note>
+               <listEvent><event><p>247 BC</p></event></listEvent>
+            </person>
+
 </listPerson>
       </body>
    </text>
