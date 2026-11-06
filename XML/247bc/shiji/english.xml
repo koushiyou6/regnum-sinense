@@ -31,6 +31,14 @@
             <p><placeName n="2">Han</placeName>: Qin took our Shangdang.</p>
          </div>
 
+         <div n="3">
+            <head>Shiji III: Hereditary Houses</head>
+            <p><title>Hereditary House of Chu</title>: <span corresp="sixteenth_year">In the sixteenth year</span>, <persName n="31">King Zhuangxiang of Qin</persName> died, and the King of <placeName n="1">Qin</placeName>, <span corresp="Zhao_Zheng"><persName n="32">Zhao Zheng</persName></span>, was set up.</p>
+            <p><title>Hereditary House of Zhao</title>: <span corresp="nineteenth_year">In the nineteenth year</span>, <placeName n="9">Zhao</placeName> and <placeName n="14">Yan</placeName> <span corresp="exchanged_land">exchanged land</span>: Zhao gave <placeName n="151">Longdui</placeName>, <placeName n="152">Fenmen</placeName> and <placeName n="153">Linle</placeName> to Yan, and Yan gave <placeName n="154">Ge</placeName>, <placeName n="155">Wuyang</placeName> and <placeName n="156">Pingshu</placeName> to Zhao.</p>
+            <p><title>Hereditary House of Wei</title>: <span corresp="thirtieth_year">In the thirtieth year</span>, <persName n="11">Wuji</persName> returned to <placeName n="10">Wei</placeName>, led the troops of five states to attack Qin, defeated them at <placeName n="23">Hewai</placeName> and put <persName n="26">Meng Ao</persName> to flight. The <term n="14">Heir Apparent</term> of Wei, <persName n="130">Zeng</persName>, was a <term n="28">hostage</term> in Qin; Qin was angered and wished to imprison the Heir Apparent of Wei, Zeng. <span corresp="Someone">Someone</span> said to the King of Qin on Zeng's behalf: "<span corresp="Gongsun_Xi"><persName n="131">Gongsun Xi</persName></span> firmly told the <term n="24">Chancellor</term> of Wei: 'Let Wei attack Qin hard; the King of Qin will be angered and will surely imprison Zeng. The <persName n="13">King of Wei</persName> will be angered in turn and attack Qin, and Qin will surely be hurt.' Now if the King imprisons Zeng, Xi's plan has hit its mark. So it is better to honour Zeng and ally with Wei, so as to make <placeName n="56">Qi</placeName> and <placeName n="2">Han</placeName> suspicious of it." Qin thereupon let Zeng be.</p>
+            <p><title>Hereditary House of Han</title>: <span corresp="twenty_sixth_year">In the twenty-sixth year</span>, Qin took all our <placeName n="150">Shangdang</placeName>.</p>
+         </div>
+
       </body>
    </text>
 </TEI>

@@ -34,6 +34,17 @@
             <interp corresp="five_states">The Zhengyi on the Basic Annals names them: Yan, Zhao, Han, Chu and Wei (§1). The Table's second Qin line and its Wei line record the same battle from the two sides.</interp>
          </div>
 
+         <div n="3">
+            <interp corresp="sixteenth_year">The sixteenth year of King Kaolie of Chu, 247 BC.</interp>
+            <interp corresp="Zhao_Zheng">赵政: the First Emperor by his clan name Zhao, as the Chu house writes him; born in Zhao, he was of the Zhao clan of the Ying line.</interp>
+            <interp corresp="nineteenth_year">The nineteenth year of King Xiaocheng of Zhao, 247 BC.</interp>
+            <interp corresp="exchanged_land">易土: the Suoyin gives the pronunciation of 易 as that of 亦 and glosses it as exchanging Counties with Yan. The commentaries' placing of the six towns is in their entries.</interp>
+            <interp corresp="thirtieth_year">The thirtieth year of King Anxi of Wei, 247 BC. The Prince's return and the battle are told at length in his Biography, 256 BC §4.</interp>
+            <interp corresp="Someone">或: the Suoyin notes that the Zhanguoce has Su Qin speaking for Prince Zeng.</interp>
+            <interp corresp="Gongsun_Xi">公孙喜: the Suoyin notes that the Zhanguoce writes Gongsun Yan 公孙衍.</interp>
+            <interp corresp="twenty_sixth_year">The twenty-sixth year of King Huanhui of Han, 247 BC.</interp>
+         </div>
+
       </body>
    </text>
 </TEI>

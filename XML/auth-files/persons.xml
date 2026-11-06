@@ -247,7 +247,7 @@
             </person>
 
             <person n="32">
-               <persName><name>the First Emperor of Qin 秦始皇帝</name><roleName>King of Qin; Emperor</roleName><forename/><nameLink/><surname/><addName>始皇帝; 政; 子政</addName><genName/></persName>
+               <persName><name>the First Emperor of Qin 秦始皇帝</name><roleName>King of Qin; Emperor</roleName><forename/><nameLink/><surname/><addName>始皇帝; 政; 子政; 赵政</addName><genName/></persName>
                <nationality>Qin</nationality>
                <note xml:lang="eng"><p>Ying Zheng 嬴政, King of Qin from 246 BC and First Emperor from 221 BC.</p></note>
                <note xml:lang="eng" from="-247" seq="1"><p>Ying Zheng 嬴政, King of Qin from his accession in 247 BC, his first year 246 BC; First Emperor from 221 BC.</p></note>
@@ -944,6 +944,20 @@
                <nationality>Zhao</nationality>
                <note xml:lang="eng"><p>A minister of Zhao under King Xiaocheng, named in the Zhanguoce; the pi inscriptions write the 信 of his title 躬.</p></note>
                <listEvent><event><p>248 BC</p></event></listEvent>
+            </person>
+
+            <person n="130">
+               <persName><name>Zeng, Heir Apparent of Wei 魏太子增</name><roleName>Heir Apparent of Wei; King of Wei</roleName><forename/><nameLink/><surname/><addName>增; 景湣王</addName><genName/></persName>
+               <nationality>Wei</nationality>
+               <note xml:lang="eng"><p>Son of King Anxi of Wei and his Heir Apparent, held as a hostage in Qin; the later King Jingmin of Wei 魏景湣王, reigned 242–228 BC.</p></note>
+               <listEvent><event><p>247 BC</p></event></listEvent>
+            </person>
+
+            <person n="131">
+               <persName><name>Gongsun Xi 公孙喜</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Wei</nationality>
+               <note xml:lang="eng"><p>A man of Wei in the Hereditary House of Wei; the Suoyin notes that the Zhanguoce writes Gongsun Yan 公孙衍.</p></note>
+               <listEvent><event><p>247 BC</p></event></listEvent>
             </person>
 
 </listPerson>

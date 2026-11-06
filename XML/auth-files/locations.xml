@@ -1078,6 +1078,48 @@
                <note xml:lang="eng">the upland region between the Taihang and the Fen, held in parts by Han and Zhao and contested with Qin; modern Changzhi 长治, Shanxi.</note>
             </place>
 
+            <place n="151">
+               <placeName><settlement type="town">Longdui 龙兑</settlement></placeName>
+               <country/><region>Zhao</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a town of Zhao on the Yan border; the Zhengyi takes it from the Longshan of the Kuodizhi, twenty-five li south-west of Suicheng County in Yizhou; modern Xushui 徐水, Hebei.</note>
+            </place>
+
+            <place n="152">
+               <placeName><settlement type="town">Fenmen 汾门</settlement></placeName>
+               <country/><region>Zhao</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a town of Zhao on the Yan border; the Jijie (Xu Guang): in Beixincheng; the Zhengyi suspects 汾 an error for the Longmen gorge of the Xu River, in the lands of Suicheng, Yongle, Gu'an and Xincheng; modern Xushui 徐水, Hebei.</note>
+            </place>
+
+            <place n="153">
+               <placeName><settlement type="town">Linle 临乐</settlement></placeName>
+               <country/><region>Zhao</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a town of Zhao on the Yan border; the Jijie: Fangcheng has a Linxiang; the Zhengyi: the old city of Linxiang seventeen li south of Gu'an in Youzhou; modern Gu'an 固安, Hebei.</note>
+            </place>
+
+            <place n="154">
+               <placeName><settlement type="town">Ge 葛</settlement></placeName>
+               <country/><region>Yan</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a town of Yan; the Jijie: Gecheng in Gaoyang; the Zhengyi: also called Xihe city, fifty li north-west of Gaoyang County in Yingzhou; modern Gaoyang 高阳, Hebei.</note>
+            </place>
+
+            <place n="155">
+               <placeName><settlement type="city">Wuyang 武阳</settlement></placeName>
+               <country/><region>Yan</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the lower capital of Yan 燕下都 on the Yi River; modern Yixian 易县, Hebei.</note>
+            </place>
+
+            <place n="156">
+               <placeName><settlement type="town">Pingshu 平舒</settlement></placeName>
+               <country/><region>Yan</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a town of Yan; the Jijie: in Dai Commandery; the Zhengyi: its old city ninety-three li north of Lingqiu County in Weizhou; modern Guangling 广灵, Shanxi.</note>
+            </place>
+
 </listPlace>
       </body>
    </text>

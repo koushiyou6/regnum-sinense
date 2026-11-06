@@ -37,6 +37,14 @@
             <p><placeName n="2">韓</placeName>：秦拔我上黨。</p>
          </div>
 
+         <div n="3">
+            <head>史记（三：世家）</head>
+            <p><title>楚世家</title>：十六年，<persName n="31">秦庄襄王</persName>卒，<placeName n="1">秦</placeName>王<persName n="32">赵政</persName>立。</p>
+            <p><title>赵世家</title>：十九年，<placeName n="9">赵</placeName>与<placeName n="14">燕</placeName>易土：以<placeName n="151">龙兑</placeName>、<placeName n="152">汾门</placeName>、<placeName n="153">临乐</placeName>与燕；燕以<placeName n="154">葛</placeName>、<placeName n="155">武阳</placeName>、<placeName n="156">平舒</placeName>与赵。</p>
+            <p><title>魏世家</title>：三十年，<persName n="11">无忌</persName>归<placeName n="10">魏</placeName>，率五国兵攻秦，败之<placeName n="23">河外</placeName>，走<persName n="26">蒙骜</persName>。魏<term n="14">太子</term><persName n="130">增</persName><term n="28">质</term>於秦，秦怒，欲囚魏太子增。或为增谓秦王曰：“<persName n="131">公孙喜</persName>固谓魏<term n="24">相</term>曰‘请以魏疾击秦，秦王怒，必囚增。<persName n="13">魏王</persName>又怒，击秦，秦必伤’。今王囚增，是喜之计中也。故不若贵增而合魏，以疑之於<placeName n="56">齐</placeName>、<placeName n="2">韩</placeName>。”秦乃止增。</p>
+            <p><title>韩世家</title>：二十六年，秦悉拔我<placeName n="150">上党</placeName>。</p>
+         </div>
+
       </body>
    </text>
 </TEI>
