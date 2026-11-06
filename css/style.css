@@ -660,3 +660,6 @@ body.has-lightbox { overflow: hidden; }
 /* catalogue entries (newspapers, videos, built sources) read like the chronology, in ink */
 .sources-grid li > a { color: var(--ink); text-decoration: none; }
 .sources-grid li > a:hover { color: var(--accent); }
+/* video page: a period with entries is a bold heading, its dated entries indented beneath it */
+.sources-grid li.period > span[lang] { font-weight: 600; }
+.sources-grid ul.entries { margin: .3em 0 .8em 1.2em; }

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+  History of the Zhou Dynasty (video) · Shang 商 — the dated entries of the period, as the compiler supplied them.
+  One <div n="N"> per entry (one date), in order; <head> is the date; each paragraph of the entry is a <p>.
+  Text is kept as it stands in the compiler's text. Conventions: <term n="ID">, <persName n="ID">, <placeName n="ID">.
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>History of the Zhou Dynasty · Shang 商</title>
+            <respStmt><resp>Compiled</resp><persName>无骨者伊瓦尔</persName></respStmt>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <bibl xml:id="S"><title>无骨者伊瓦尔《周朝史》</title><note xml:lang="eng">The compiler's text for the video, by approximate date.</note></bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div n="1">
+            <head>约公元前1260年</head>
+            <p><persName n="156">盘庚</persName>去世后，其弟<persName n="157">小辛</persName>、<persName n="158">小乙</persName>先后即位；到了小乙之子<persName n="159">武丁</persName>即位时，<term n="130">中商</term>文化正式过渡为<term n="131">殷墟一期</term>。</p>
+            <p><term n="132">朱开沟</term>族群的主体离开了<placeName n="176">鄂尔多斯</placeName>地区，南迁<placeName n="177">陕北</placeName>并对<placeName n="178">关中</placeName>地区的<placeName n="175">商</placeName>文化产生了一定影响；朱开沟的典型器物——<term n="133">蛇纹鬲</term>，在<placeName n="179">耀县北村</placeName>、<placeName n="180">扶风壹家堡</placeName>等商文化遗址中均有出土。部分学者视其为<term n="143">方方</term>。</p>
+            <p>武丁在位时期，也对<placeName n="181">渭水</placeName>流域的<term n="134">方</term>国、部族进行了一系列征伐；自中商以来，关中地区的商文化越来越具有地方特色，武丁派遣军队征伐<term n="135">犬方</term>，或是商王朝尝试重新加强对<term n="142">西土</term>控制力的一个缩影。</p>
+            <p><term n="137">甲骨卜辞</term>中的“<term n="136">周方</term>”，常被认为是后来建立周朝的周人；商王武丁在位前期，相当于考古意义上的殷墟一期，<placeName n="182">漆水河</placeName>流域出现了<term n="138">郑家坡文化</term>，其遗址与<placeName n="183">周原</placeName>地区的<term n="139">京当型</term>商文化交错分布。与此同时，<term n="140">孙家类型</term>出现在<placeName n="184">彬州</placeName>、<placeName n="185">旬邑</placeName>一带，其文化面貌近似郑家坡文化，两者均有被学者视为<term n="141">先周文化</term>的说法。</p>
+         </div>
+
+      </body>
+   </text>
+</TEI>

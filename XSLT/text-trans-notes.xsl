@@ -46,9 +46,11 @@
     <xsl:variable name="pers"   select="document('../XML/auth-files/persons.xml')"/>
     <xsl:variable name="places" select="document('../XML/auth-files/locations.xml')"/>
     <xsl:variable name="site"   select="document('../XML/site.xml')"/>
+    <xsl:variable name="videos" select="if (doc-available(resolve-uri('../XML/videos.xml', static-base-uri()))) then document('../XML/videos.xml') else ()"/>
     <xsl:variable name="css"    select="unparsed-text('../css/style.css')"/>
 
-    <xsl:variable name="manifest-doc" select="$site/*:site/*:year/*:document[@dir = $dir]"/>
+    <!-- the document's entry in the manifest: a year's document in site.xml, or a video period's document in videos.xml -->
+    <xsl:variable name="manifest-doc" select="($site/*:site/*:year/*:document[@dir = $dir], $videos/*:videos/*:video/*:section/*:document[@dir = $dir])[1]"/>
     <xsl:variable name="this-bracket" select="if ($bracket != '') then $manifest-doc/*:bracket[position() = xs:integer($bracket)] else ()"/>
     <xsl:variable name="year-href" select="if ($bracket != '') then '../index.html' else 'index.html'"/>
     <xsl:variable name="source-title" select="string($src//titleStmt/title)"/>

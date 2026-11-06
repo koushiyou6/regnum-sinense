@@ -33,7 +33,8 @@
 
     <xsl:variable name="site-name" select="string(/site/name)"/>
     <xsl:variable name="css" select="unparsed-text('../css/style.css')"/>
-    <xsl:variable name="root" select="if ($year = '' and not($page = ('newspaper', 'video'))) then '' else '../'"/>
+    <!-- relative path to the site root: year pages and newspaper pages sit one level down, a video's page two (videos/<id>/index.html) -->
+    <xsl:variable name="root" select="if ($page = 'video') then '../../' else if ($year = '' and $page != 'newspaper') then '' else '../'"/>
     <xsl:variable name="this-year" select="/site/year[@n = $year]"/>
 
     <!-- is a source page built yet? -->
@@ -343,13 +344,33 @@
                                             <h2>By period</h2>
                                             <ul>
                                                 <xsl:for-each select="$vid/section">
-                                                    <xsl:variable name="built" select="doc-available(resolve-uri(concat('../XML/', @id, '/source.xml'), static-base-uri()))"/>
+                                                    <!-- a period is built when its document (videos.xml) has translated entries; each entry is a page, <dir>/<n>.html -->
+                                                    <xsl:variable name="sdoc" select="document"/>
+                                                    <xsl:variable name="eng" select="if ($sdoc and doc-available(resolve-uri(concat('../XML/', $sdoc/@dir, '/english.xml'), static-base-uri()))) then document(concat('../XML/', $sdoc/@dir, '/english.xml')) else ()"/>
+                                                    <xsl:variable name="built" as="xs:string*">
+                                                        <xsl:for-each select="$sdoc/bracket"><xsl:variable name="i" select="position()"/><xsl:if test="$eng//tei:div[@n = string($i)]/tei:p"><xsl:sequence select="string($i)"/></xsl:if></xsl:for-each>
+                                                    </xsl:variable>
                                                     <li>
+                                                        <xsl:if test="exists($built)"><xsl:attribute name="class">period</xsl:attribute></xsl:if>
                                                         <xsl:choose>
-                                                            <xsl:when test="$built"><a href="{$root}{@id}.html" lang="zh"><xsl:value-of select="@label"/></a></xsl:when>
+                                                            <xsl:when test="exists($built)"><span lang="zh"><xsl:value-of select="@label"/></span></xsl:when>
                                                             <xsl:otherwise><span class="unbuilt" lang="zh"><xsl:value-of select="@label"/></span></xsl:otherwise>
                                                         </xsl:choose>
                                                         <xsl:if test="@en != ''"><span class="gloss"><xsl:value-of select="@en"/></span></xsl:if>
+                                                        <xsl:if test="$sdoc/bracket">
+                                                            <ul class="entries">
+                                                                <xsl:for-each select="$sdoc/bracket">
+                                                                    <xsl:variable name="i" select="position()"/>
+                                                                    <li>
+                                                                        <xsl:choose>
+                                                                            <xsl:when test="string($i) = $built"><a href="{tokenize($sdoc/@dir, '/')[last()]}/{$i}.html" lang="zh"><xsl:value-of select="normalize-space(.)"/></a></xsl:when>
+                                                                            <xsl:otherwise><span class="unbuilt" lang="zh"><xsl:value-of select="normalize-space(.)"/></span></xsl:otherwise>
+                                                                        </xsl:choose>
+                                                                        <xsl:if test="@en != ''"><span class="gloss"><xsl:value-of select="@en"/></span></xsl:if>
+                                                                    </li>
+                                                                </xsl:for-each>
+                                                            </ul>
+                                                        </xsl:if>
                                                     </li>
                                                 </xsl:for-each>
                                             </ul>
@@ -484,7 +505,7 @@
                                                         <xsl:for-each select="$videos/video">
                                                             <li>
                                                                 <xsl:choose>
-                                                                    <xsl:when test="@id"><a href="{$root}videos/{@id}.html"><xsl:value-of select="@title"/></a></xsl:when>
+                                                                    <xsl:when test="@id"><a href="{$root}videos/{@id}/index.html"><xsl:value-of select="@title"/></a></xsl:when>
                                                                     <xsl:when test="@url"><a href="{@url}"><xsl:value-of select="@title"/></a></xsl:when>
                                                                     <xsl:otherwise><span class="unbuilt"><xsl:value-of select="@title"/></span></xsl:otherwise>
                                                                 </xsl:choose>
@@ -501,7 +522,7 @@
                                                                         </xsl:choose>
                                                                     </xsl:for-each>
                                                                 </span>
-                                                                <xsl:if test="normalize-space(.) != ''"><span class="gloss"><xsl:value-of select="normalize-space(.)"/></span></xsl:if>
+                                                                <xsl:if test="normalize-space(string-join(text(), '')) != ''"><span class="gloss"><xsl:value-of select="normalize-space(string-join(text(), ''))"/></span></xsl:if>
                                                             </li>
                                                         </xsl:for-each>
                                                     </ul>

@@ -757,6 +757,90 @@
                <sense n="1"><def>the Yi peoples of Chu's lands (Suoyin); a set phrase for the southern peoples.</def></sense><note/></entry>
          </superEntry>
 
+         <superEntry n="130">
+            <entry xml:lang="zho"><form><orth>中商</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Middle Shang</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the middle period of Shang archaeology, between the Erligang and Yinxu periods.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="131">
+            <entry xml:lang="zho"><form><orth>殷墟一期</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Yinxu Phase I</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the first of the four phases of the Yinxu (Anyang) period, corresponding to the reigns of Pan Geng to Wu Ding.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="132">
+            <entry xml:lang="zho"><form><orth>朱开沟</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Zhukaigou</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Bronze Age culture of the Ordos named from the Zhukaigou site, Ejin Horo Banner, and the people who bore it.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="133">
+            <entry xml:lang="zho"><form><orth>蛇纹鬲</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>snake-pattern li</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the li tripod with applied snake-like strips, the type vessel of the Zhukaigou culture.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="134">
+            <entry xml:lang="zho"><form><orth>方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>fang state</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the polities around the Shang, so named in the oracle-bone inscriptions.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="135">
+            <entry xml:lang="zho"><form><orth>犬方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Quanfang</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a fang state of the west against which Wu Ding sent armies.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="136">
+            <entry xml:lang="zho"><form><orth>周方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Zhoufang</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Zhou as a fang state in the oracle-bone inscriptions.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="137">
+            <entry xml:lang="zho"><form><orth>甲骨卜辞</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>oracle-bone inscriptions</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the divination records of the Shang kings on turtle plastron and ox bone.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="138">
+            <entry xml:lang="zho"><form><orth>郑家坡文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Zhengjiapo culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the late Shang-period culture of the Qishui valley named from the Zhengjiapo site, Wugong, Shaanxi.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="139">
+            <entry xml:lang="zho"><form><orth>京当型</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Jingdang type</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the local type of Shang culture in the Zhouyuan region, named from the Jingdang site, Fufeng.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="140">
+            <entry xml:lang="zho"><form><orth>孙家类型</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Sunjia type</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the cultural type of the upper Jing valley named from the Sunjia site, Binzhou.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="141">
+            <entry xml:lang="zho"><form><orth>先周文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Proto-Zhou culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the archaeological culture of the Zhou before the conquest of Shang.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="142">
+            <entry xml:lang="zho"><form><orth>西土</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the western lands</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the lands west of the Shang, as the oracle-bone inscriptions call them.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="143">
+            <entry xml:lang="zho"><form><orth>方方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Fang</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the fang state named Fang 方 in the oracle-bone inscriptions, a people of the north-west under Wu Ding.</def></sense><note/></entry>
+         </superEntry>
+
       </body>
    </text>
 </TEI>

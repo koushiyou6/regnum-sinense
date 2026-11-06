@@ -7,7 +7,12 @@
    <!-- A video with an id gets a page of its own, videos/<id>.html: a contents page in the Catalogue's form,
         <section> entries (approximate periods, no years) and a <years from to> span to be built year by year. -->
    <video id="zhou" title="History of the Zhou Dynasty">
-      <section id="shang" label="商" en="Shang"/>
+      <section id="shang" label="商" en="Shang">
+         <!-- the period's entries, in order: one <bracket> per dated entry, built as videos/zhou/shang/<n>.html -->
+         <document dir="videos/zhou/shang" label="History of the Zhou Dynasty">
+            <bracket en="c. 1260 BC">约公元前1260年</bracket>
+         </document>
+      </section>
       <section id="xizhou" label="西周" en="Western Zhou"/>
       <years from="-770" to="-256" en="770–256 BC, by year"/>
    </video>

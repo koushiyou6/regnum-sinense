@@ -71,6 +71,36 @@ def build():
             if any_built:
                 built_years.append(year)
 
+        # video periods (XML/videos.xml): a section's <document dir="videos/<id>/<section>"> is built like a
+        # year's document, one page per translated entry, <dir>/<n>.html, filed under the period's name
+        vfile = XML / "videos.xml"
+        if vfile.exists():
+            for item in ET.parse(vfile).getroot().findall("video"):
+                for section in item.findall("section"):
+                    doc = section.find("document")
+                    if doc is None:
+                        continue
+                    d = doc.get("dir")
+                    source = XML / d / "source.xml"
+                    eng = XML / d / "english.xml"
+                    if not (source.exists() and eng.exists()):
+                        continue
+                    TEI = "{http://www.tei-c.org/ns/1.0}"
+                    translated = {div.get("n") for div in ET.parse(eng).getroot().iter(f"{TEI}div")
+                                  if div.get("n") and any(div.find(f"{TEI}{t}") is not None for t in ("p", "ab", "head"))}
+                    for i, _bracket in enumerate(doc.findall("bracket"), start=1):
+                        if str(i) not in translated:
+                            continue
+                        out = SITE / d / f"{i}.html"
+                        out.parent.mkdir(parents=True, exist_ok=True)
+                        depth = len(Path(d).parts)
+                        page.set_parameter("root", proc.make_string_value("../" * depth))
+                        page.set_parameter("year", proc.make_string_value(section.get("en", "")))
+                        page.set_parameter("dir", proc.make_string_value(d))
+                        page.set_parameter("bracket", proc.make_string_value(str(i)))
+                        page.transform_to_file(source_file=str(source), output_file=str(out))
+                        print(f"wrote {out.relative_to(ROOT)}")
+
         # year pages, only for years with something to show
         for year in built_years:
             year_dir = year.find("document").get("dir").split("/")[0]
@@ -122,11 +152,14 @@ def build():
             for item in ET.parse(vfile).getroot().findall("video"):
                 if not item.get("id"):
                     continue
-                out = SITE / "videos" / f"{item.get('id')}.html"
+                out = SITE / "videos" / item.get("id") / "index.html"
                 out.parent.mkdir(parents=True, exist_ok=True)
+                old = SITE / "videos" / f"{item.get('id')}.html"
+                if old.exists():
+                    old.unlink()
                 index.set_parameter("page", proc.make_string_value("video"))
                 index.set_parameter("item", proc.make_string_value(item.get("id")))
-                index.set_parameter("root", proc.make_string_value("../"))
+                index.set_parameter("root", proc.make_string_value("../../"))
                 index.transform_to_file(source_file=str(MANIFEST), output_file=str(out))
                 index.set_parameter("root", proc.make_string_value(""))
                 print(f"wrote {out.relative_to(ROOT)}")
@@ -176,9 +209,16 @@ def write_search_index(manifest):
     def text(el):
         return re.sub(r"\s+", " ", "".join(el.itertext())).strip()
     passages, where = [], {}
-    for year in manifest.findall("year"):
-        era = year.get("era", "")
-        for doc in year.findall("document"):
+    # every document with its era: the years' documents (site.xml) and the video periods' (videos.xml)
+    docs = [(year.get("era", ""), doc) for year in manifest.findall("year") for doc in year.findall("document")]
+    vfile = XML / "videos.xml"
+    if vfile.exists():
+        for item in ET.parse(vfile).getroot().findall("video"):
+            for section in item.findall("section"):
+                if section.find("document") is not None:
+                    docs.append((section.get("en", ""), section.find("document")))
+    for era, doc in docs:
+        if True:
             d = doc.get("dir")
             src, eng = XML / d / "source.xml", XML / d / "english.xml"
             if not (src.exists() and eng.exists()):

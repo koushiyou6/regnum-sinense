@@ -1239,6 +1239,83 @@
                <note xml:lang="eng">a Han town east of Zheng, the old Guan of the Zhou fief; modern Zhengzhou, Henan.</note>
             </place>
 
+            <place n="175">
+               <placeName><settlement type="state">Shang 商</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the Shang state and dynasty, with its late capital at Yin, modern Anyang, Henan.</note>
+            </place>
+
+            <place n="176">
+               <placeName><settlement type="region">Ordos 鄂尔多斯</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the Ordos plateau within the great bend of the Yellow River; modern Ordos, Inner Mongolia.</note>
+            </place>
+
+            <place n="177">
+               <placeName><settlement type="region">northern Shaanxi 陕北</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the loess highlands of northern Shaanxi, between the Ordos and the Wei valley.</note>
+            </place>
+
+            <place n="178">
+               <placeName><settlement type="region">Guanzhong 关中</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the Wei River valley "within the passes", the heartland of Qin; modern central Shaanxi.</note>
+            </place>
+
+            <place n="179">
+               <placeName><settlement type="site">Beicun, Yao County 耀县北村</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Shang-culture site at Beicun in the former Yao County 耀县, since 2002 Yaozhou District 耀州区 of Tongchuan, Shaanxi.</note>
+            </place>
+
+            <place n="180">
+               <placeName><settlement type="site">Yijiabu, Fufeng 扶风壹家堡</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Shang-culture site at Yijiabu in Fufeng County, Baoji, Shaanxi.</note>
+            </place>
+
+            <place n="181">
+               <placeName><settlement type="river">Wei River 渭水</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the Wei, the river of the Guanzhong, joining the Yellow River at Tongguan.</note>
+            </place>
+
+            <place n="182">
+               <placeName><settlement type="river">Qishui River 漆水河</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a northern tributary of the Wei in central Shaanxi, flowing past Wugong and Fufeng.</note>
+            </place>
+
+            <place n="183">
+               <placeName><settlement type="region">Zhouyuan 周原</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the Zhou plain north of the Wei, between Qishan and Fufeng, Shaanxi, the early seat of the Zhou.</note>
+            </place>
+
+            <place n="184">
+               <placeName><settlement type="county">Binzhou 彬州</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">Binzhou (formerly Bin County) on the Jing River, Xianyang, Shaanxi.</note>
+            </place>
+
+            <place n="185">
+               <placeName><settlement type="county">Xunyi 旬邑</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">Xunyi County on the upper Jing, Xianyang, Shaanxi, east of Binzhou.</note>
+            </place>
+
 </listPlace>
       </body>
    </text>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+  History of the Zhou Dynasty (video) · Shang 商 — English translation of the entries. <div n="N"> matches source.xml.
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>History of the Zhou Dynasty · Shang 商</title>
+            <respStmt><resp>Edited</resp><persName>Kou Shiyou</persName></respStmt>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><listBibl><bibl xml:id="S"><title>无骨者伊瓦尔《周朝史》</title></bibl></listBibl></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div n="1">
+            <head>c. 1260 BC</head>
+            <p>After <persName n="156">Pan Geng</persName>'s death his younger brothers <persName n="157">Xiao Xin</persName> and <persName n="158">Xiao Yi</persName> succeeded in turn; by the accession of Xiao Yi's son <persName n="159">Wu Ding</persName>, the <term n="130">Middle Shang</term> culture had formally passed into <term n="131">Yinxu Phase I</term>.</p>
+            <p>The main body of the <term n="132">Zhukaigou</term> people left the <placeName n="176">Ordos</placeName> region and moved south into <placeName n="177">northern Shaanxi</placeName>, exerting a certain influence on the <placeName n="175">Shang</placeName> culture of the <placeName n="178">Guanzhong</placeName> region; the characteristic Zhukaigou vessel, the <term n="133">snake-pattern li</term>, has been unearthed at Shang-culture sites such as <placeName n="179">Beicun in Yao County</placeName> and <placeName n="180">Yijiabu in Fufeng</placeName>. Some scholars take them to be <term n="143">the Fang</term>.</p>
+            <p>During Wu Ding's reign a series of campaigns was also made against the <term n="134">fang states</term> and tribes of the <placeName n="181">Wei River</placeName> valley; since the Middle Shang the Shang culture of Guanzhong had taken on an ever more local character, and Wu Ding's dispatch of armies against <term n="135">the Quanfang</term> may be an epitome of the Shang court's attempt to tighten its hold on <term n="142">the western lands</term> once more.</p>
+            <p>The "<term n="136">Zhoufang</term>" of the <term n="137">oracle-bone inscriptions</term> is generally taken to be the Zhou people who later founded the Zhou dynasty. In the earlier part of King Wu Ding's reign, corresponding in archaeological terms to Yinxu Phase I, the <term n="138">Zhengjiapo culture</term> appeared in the valley of the <placeName n="182">Qishui River</placeName>, its sites interspersed with those of the <term n="139">Jingdang-type</term> Shang culture of the <placeName n="183">Zhouyuan</placeName> region. At the same time the <term n="140">Sunjia type</term> appeared around <placeName n="184">Binzhou</placeName> and <placeName n="185">Xunyi</placeName>, close in its cultural character to the Zhengjiapo culture; both have been regarded by scholars as <term n="141">Proto-Zhou culture</term>.</p>
+         </div>
+
+      </body>
+   </text>
+</TEI>

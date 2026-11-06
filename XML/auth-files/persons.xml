@@ -1129,6 +1129,34 @@
                <listEvent><event><p>247 BC</p></event></listEvent>
             </person>
 
+            <person n="156">
+               <persName><name>Pan Geng 盘庚</name><roleName>King of Shang</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Shang</nationality>
+               <note xml:lang="eng"><p>King of Shang, who moved the capital to Yin; elder brother of Xiao Xin and Xiao Yi.</p></note>
+               <listEvent><event><p>c. 1260 BC</p></event></listEvent>
+            </person>
+
+            <person n="157">
+               <persName><name>Xiao Xin 小辛</name><roleName>King of Shang</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Shang</nationality>
+               <note xml:lang="eng"><p>King of Shang, younger brother and successor of Pan Geng.</p></note>
+               <listEvent><event><p>c. 1260 BC</p></event></listEvent>
+            </person>
+
+            <person n="158">
+               <persName><name>Xiao Yi 小乙</name><roleName>King of Shang</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Shang</nationality>
+               <note xml:lang="eng"><p>King of Shang, younger brother and successor of Xiao Xin; father of Wu Ding.</p></note>
+               <listEvent><event><p>c. 1260 BC</p></event></listEvent>
+            </person>
+
+            <person n="159">
+               <persName><name>Wu Ding 武丁</name><roleName>King of Shang</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Shang</nationality>
+               <note xml:lang="eng"><p>King of Shang, son of Xiao Yi, whose reign opens the Yinxu period of the oracle-bone inscriptions.</p></note>
+               <listEvent><event><p>c. 1260 BC</p></event></listEvent>
+            </person>
+
 </listPerson>
       </body>
    </text>

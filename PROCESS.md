@@ -87,6 +87,12 @@ The rules below govern every bracket. They are the standing instructions of the 
 - A Japanese item renders Chinese names in their Japanese readings (Hōten, Kinshū, Go Haifu …), in the translation, the headlines and the entries' display names; the pinyin goes in the entry note ("Fengtian in pinyin, Hōten in Japanese reading; …"). The entry keeps the pinyin name as its main form (`<persName>`/`<placeName>` without `xml:lang`) and adds `<persName xml:lang="ja">` / `<placeName xml:lang="ja">`; a term that embeds a place name gets `<form type="ja-reading">` in its English entry. Bracket pages ignore the `ja` forms; the newspaper page prefers them; both are searchable. The Introduction and catalogue labels are in the site's own voice (pinyin).
 - Consistency check as for a bracket (ids equal between `ja` and `en`; every id has an entry; every `corresp` a note), and the page is looked at on a desktop width and a phone width (390px) before publishing.
 
+## 12a. Video pages (History of the Zhou Dynasty)
+
+- A video's periods before 770 BC (商, 西周) are documents in `XML/videos.xml`: `<section id="shang"><document dir="videos/zhou/shang"><bracket en="c. 1260 BC">约公元前1260年</bracket>…`. Each dated entry is a bracket, built as `videos/zhou/shang/<n>.html` on the bracket-page skeleton (`XML/videos/zhou/shang/{source,english,notes,intro}.xml`), filed under the period's name; the video page (`videos/zhou/index.html`) lists the entries under the period, and the search indexes them with the era "Shang".
+- The compiler's text for the video is modern Chinese; it is translated as such. Where it quotes classical text (the Odes, the Documents, bronze inscriptions, Western Zhou poems), look for a published translation first (Legge, Waley, Karlgren for the Odes; Legge, Shaughnessy for the Documents) and follow it, naming it in a note; translate afresh only where none is found, and say so.
+- Entries for the period's persons, places and terms (archaeological cultures and types are terms; sites are places) are added as for a bracket.
+
 ## 12. Catalogue, Gazetteer, Library
 
 - The Home sidebar's "Sources by era / video" holds three entries: **Catalogue** (`sources.html`: by era — the 戰國縱橫家書 under 战国 — by newspaper, by video), **Gazetteer** (`gazetteer.html`: the cultural regions, "By region" 青藏 · 西域 · 东北 · 内蒙 · 岭南 and "By region (foreign)" 三韩 · 鄂尔多斯-蒙古 · 半岛-东瀛) and **Library** (`library.html`: the works of the scholars 大儒书籍, by period, Han first). All three pages share the Catalogue's form; what is not yet on the site is grey.
