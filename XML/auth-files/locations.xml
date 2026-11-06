@@ -1232,6 +1232,13 @@
                <note xml:lang="eng">the land north of the Ji River, the region of Liaocheng (Suoyin); modern north-western Shandong.</note>
             </place>
 
+            <place n="173">
+               <placeName><settlement type="town">Guan 管</settlement></placeName>
+               <country/><region>Han</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Han town east of Zheng, the old Guan of the Zhou fief; modern Zhengzhou, Henan.</note>
+            </place>
+
 </listPlace>
       </body>
    </text>
