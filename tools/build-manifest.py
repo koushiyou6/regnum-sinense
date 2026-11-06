@@ -49,7 +49,7 @@ BRACKET_EN = {
     "《里耶秦簡牘校釋》(一）（二）": "Liye Qin Slips, Collated and Annotated, I–II",
     "里耶秦簡（其他）": "Liye Qin slips (other)",
     "胡家草场西汉简牍《岁纪》": "Hujiacaochang Western Han slips: the Suiji (Annual Record)",
-    "附：《戰國縱橫家書》原文": "Appendix: text of the Zhanguo zonghengjia shu",
+    "附：《戰國縱橫家書》原文": "Appendix: text of the Zhanguo Zonghengjia Shu",
 }
 RULER_EN = {
     "周赧王": "King Nan of Zhou",
@@ -69,7 +69,7 @@ OTHER_EN = {
     "东周世系不详": "Eastern Zhou: succession unknown",
 }
 SIDE_EN = {
-    "戰國縱橫家書": "Zhanguo zonghengjia shu (the Mawangdui letters of the Warring States persuaders)",
+    "戰國縱橫家書": "Zhanguo Zonghengjia Shu (the Mawangdui letters of the Warring States persuaders)",
     "文化区": "Cultural regions",
     "青藏": "Qinghai–Tibet", "西域": "Western Regions", "东北": "Northeast", "内蒙": "Inner Mongolia",
 }

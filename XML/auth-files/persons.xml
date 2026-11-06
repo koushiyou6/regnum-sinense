@@ -281,6 +281,7 @@
                <note xml:lang="eng"><p>A merchant of Yangdi, later Chancellor of Qin.</p></note>
                <note xml:lang="eng" from="-256" seq="6"><p>A merchant of Yangdi, later Chancellor of Qin and Marquis Wenxin 文信侯.</p></note>
                <note xml:lang="eng" from="-249" seq="1"><p>Chancellor of State of Qin, Marquis Wenxin 文信侯; by origin a merchant of Yangdi.</p></note>
+               <note xml:lang="eng" from="-247" seq="5"><p>Chancellor of State of Qin, Marquis Wenxin 文信侯, styled Second Father 仲父 by King Zheng; by origin a merchant of Yangdi.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
 
@@ -957,6 +958,111 @@
                <persName><name>Gongsun Xi 公孙喜</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
                <nationality>Wei</nationality>
                <note xml:lang="eng"><p>A man of Wei in the Hereditary House of Wei; the Suoyin notes that the Zhanguoce writes Gongsun Yan 公孙衍.</p></note>
+               <listEvent><event><p>247 BC</p></event></listEvent>
+            </person>
+
+            <person n="132">
+               <persName><name>Li Si 李斯</name><roleName></roleName><forename/><nameLink/><surname/><addName>斯</addName><genName/></persName>
+               <nationality>Chu</nationality>
+               <note xml:lang="eng"><p>A man of Shangcai in Chu, pupil of Xun Qing; came to Qin in 247 BC and entered Lü Buwei's household as a Court Gentleman; later Senior Clerk, Guest Minister, Commandant of Justice and Chancellor of Qin.</p></note>
+               <listEvent><event><p>247 BC</p></event></listEvent>
+            </person>
+
+            <person n="133">
+               <persName><name>Lao Ai 嫪毐</name><roleName></roleName><forename/><nameLink/><surname/><addName>毐</addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>Lü Buwei's household retainer, passed by him into the Queen Dowager's service as a feigned eunuch; later Marquis Changxin 长信侯.</p></note>
+               <listEvent><event><p>247 BC</p></event></listEvent>
+            </person>
+
+            <person n="134">
+               <persName><name>the Queen Dowager 太后 (mother of King Zheng)</name><roleName>Queen Dowager of Qin</roleName><forename/><nameLink/><surname/><addName>帝太后; 赵姬</addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>Mother of King Zheng, the First Emperor; a woman of Zhao, Lü Buwei's concubine given by him to Zichu, the later King Zhuangxiang; later the Imperial Queen Dowager 帝太后, and in later tradition Zhao Ji 赵姬.</p></note>
+               <listEvent><event><p>247 BC</p></event></listEvent>
+            </person>
+
+            <person n="135">
+               <persName><name>Zheng Guo 郑国</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Han</nationality>
+               <note xml:lang="eng"><p>A water engineer of Han, sent into Qin, who built the irrigation canal that bears his name.</p></note>
+               <listEvent><event><p>247 BC</p></event></listEvent>
+            </person>
+
+            <person n="136">
+               <persName><name>Duke Mu of Qin 秦穆公</name><roleName>Duke of Qin</roleName><forename/><nameLink/><surname/><addName>缪公</addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>Duke of Qin, reigned 659–621 BC, hegemon over the Western Rong; written 缪公 in Li Si's memorial.</p></note>
+               <listEvent><event><p>247 BC</p></event></listEvent>
+            </person>
+
+            <person n="137">
+               <persName><name>Duke Xiao of Qin 秦孝公</name><roleName>Duke of Qin</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>Duke of Qin, reigned 361–338 BC, who employed Shang Yang.</p></note>
+               <listEvent><event><p>247 BC</p></event></listEvent>
+            </person>
+
+            <person n="138">
+               <persName><name>You Yu 由余</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Rong</nationality>
+               <note xml:lang="eng"><p>A counsellor of the Rong who went over to Duke Mu of Qin.</p></note>
+               <listEvent><event><p>247 BC</p></event></listEvent>
+            </person>
+
+            <person n="139">
+               <persName><name>Baili Xi 百里奚</name><roleName>Grand Master of Qin</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Yu</nationality>
+               <note xml:lang="eng"><p>A man of Wan in Chu, minister of Yu, then Grand Master to Duke Mu of Qin; the Xinxu calls him the Grand Master of the Five Rams' Skins 五羖大夫.</p></note>
+               <listEvent><event><p>247 BC</p></event></listEvent>
+            </person>
+
+            <person n="140">
+               <persName><name>Jian Shu 蹇叔</name><roleName>Senior Grand Master of Qin</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>Friend of Baili Xi, welcomed by Duke Mu of Qin as Senior Grand Master 上大夫.</p></note>
+               <listEvent><event><p>247 BC</p></event></listEvent>
+            </person>
+
+            <person n="141">
+               <persName><name>Pi Bao 丕豹</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Jin</nationality>
+               <note xml:lang="eng"><p>A man of Jin who fled to Qin under Duke Mu.</p></note>
+               <listEvent><event><p>247 BC</p></event></listEvent>
+            </person>
+
+            <person n="142">
+               <persName><name>Gongsun Zhi 公孙支</name><roleName>Grand Master of Qin</roleName><forename/><nameLink/><surname/><addName>子桑</addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>Zi Sang 子桑, a Grand Master of Duke Mu of Qin.</p></note>
+               <listEvent><event><p>247 BC</p></event></listEvent>
+            </person>
+
+            <person n="143">
+               <persName><name>Shang Yang 商鞅</name><roleName>Chancellor of Qin</roleName><forename/><nameLink/><surname/><addName>卫鞅; 公孙鞅</addName><genName/></persName>
+               <nationality>Wey</nationality>
+               <note xml:lang="eng"><p>Wei Yang, Lord Shang 商君, minister of Duke Xiao of Qin and author of its laws.</p></note>
+               <listEvent><event><p>247 BC</p></event></listEvent>
+            </person>
+
+            <person n="144">
+               <persName><name>Zhang Yi 张仪</name><roleName>Chancellor of Qin</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Wei</nationality>
+               <note xml:lang="eng"><p>Chancellor of Qin under King Huiwen, architect of the Horizontal Alliance.</p></note>
+               <listEvent><event><p>247 BC</p></event></listEvent>
+            </person>
+
+            <person n="145">
+               <persName><name>Marquis Rang 穰侯</name><roleName>Chancellor of Qin</roleName><forename/><nameLink/><surname/><addName>魏冉</addName><genName/></persName>
+               <nationality>Chu</nationality>
+               <note xml:lang="eng"><p>Wei Ran 魏冉, maternal uncle of King Zhaoxiang and Chancellor of Qin, deposed in 266 BC.</p></note>
+               <listEvent><event><p>247 BC</p></event></listEvent>
+            </person>
+
+            <person n="146">
+               <persName><name>Lord Huayang 华阳君</name><roleName></roleName><forename/><nameLink/><surname/><addName>芈戎</addName><genName/></persName>
+               <nationality>Chu</nationality>
+               <note xml:lang="eng"><p>Mi Rong 芈戎, brother of Queen Dowager Xuan, expelled from Qin with Marquis Rang; the Jijie: 华 one text 叶.</p></note>
                <listEvent><event><p>247 BC</p></event></listEvent>
             </person>
 

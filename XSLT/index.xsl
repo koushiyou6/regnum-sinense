@@ -180,7 +180,7 @@
                         <xsl:choose>
                             <xsl:when test="$page = 'about'">About Regnum Sinense: the sources behind Atrium Concordiae's historical atlases of China, year by year, in Chinese and English.</xsl:when>
                             <xsl:when test="$page = 'search'">Search Regnum Sinense: the texts, translations, persons, places and terms.</xsl:when>
-                            <xsl:when test="$page = 'sources'">Regnum Sinense sources by era and by video: the Zhanguo zonghengjia shu, the cultural-region essays, and the videos of Atrium Concordiae with the years they cover.</xsl:when>
+                            <xsl:when test="$page = 'sources'">Regnum Sinense sources by era and by video: the Zhanguo Zonghengjia Shu, the cultural-region essays, and the videos of Atrium Concordiae with the years they cover.</xsl:when>
                             <xsl:when test="$page = 'video'"><xsl:value-of select="$vid/@title"/>: the sources behind the video, by period.</xsl:when>
                             <xsl:when test="$page = 'gazetteer'">Regnum Sinense gazetteer: the cultural-region essays, Qinghai–Tibet, the Western Regions, the Northeast and Inner Mongolia, by region.</xsl:when>
                             <xsl:when test="$page = 'library'">Regnum Sinense library: the works of the scholars, the later records and compilations drawn on beside the primary sources, by period.</xsl:when>

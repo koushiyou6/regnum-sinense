@@ -654,6 +654,109 @@
                <sense n="1"><def>the itinerant counsellors who sold rulers plans of war and alliance.</def></sense><note/></entry>
          </superEntry>
 
+         <superEntry n="112">
+            <entry xml:lang="zho"><form><orth>仲父</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Second Father</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the style a ruler gave a minister honoured as a father, after Duke Huan of Qi's for Guan Zhong (Zhengyi).</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="113">
+            <entry xml:lang="zho"><form><orth>家僮</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>household slaves</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the bondsmen of a great house.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="114">
+            <entry xml:lang="zho"><form><orth>辩士</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>disputant</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a master of argument; a travelling rhetorician.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="115">
+            <entry xml:lang="zho"><form><orth>腐</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>castration</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the palace punishment, 宫刑; 腐罪, an offence punished by it.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="116">
+            <entry xml:lang="zho"><form><orth>给事中</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>palace attendant</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>one attending within the palace.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="117">
+            <entry xml:lang="zho"><form><orth>宦者</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>eunuch</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a castrated servant of the palace.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="118">
+            <entry xml:lang="zho"><form><orth>郎</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Court Gentleman</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a court attendant of the king's entourage; the office, as distinct from 士, the gentlemen as a class.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="119">
+            <entry xml:lang="zho"><form><orth>长史</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Senior Clerk</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the chief secretary of a minister or office.</def></sense><note/></entry>
+         </superEntry>
+
+
+         <superEntry n="121">
+            <entry xml:lang="zho"><form><orth>五帝</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Five Emperors</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the sage rulers before the Three Kings.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="122">
+            <entry xml:lang="zho"><form><orth>黔首</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the black-headed people</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the common people, the Qin term.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="123">
+            <entry xml:lang="zho"><form><orth>廷尉</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Commandant of Justice</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the chief judicial officer of Qin.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="124">
+            <entry xml:lang="zho"><form><orth>皇帝</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Emperor</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the title the King of Qin took in 221 BC.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="125">
+            <entry xml:lang="zho"><form><orth>陛下</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Your Majesty</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the address to the ruler, literally "beneath the steps".</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="126">
+            <entry xml:lang="zho"><form><orth>后宫</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>harem</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the women's quarters of the palace, literally the "rear palace".</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="127">
+            <entry xml:lang="zho"><form><orth>六国</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Six States</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>Han, Zhao, Wei, Chu, Yan and Qi, the eastern states facing Qin.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="128">
+            <entry xml:lang="zho"><form><orth>关东</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>east of the Pass</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the lands east of Hangu Pass, the eastern states.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="129">
+            <entry xml:lang="zho"><form><orth>九夷</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Nine Yi</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Yi peoples of Chu's lands (Suoyin); a set phrase for the southern peoples.</def></sense><note/></entry>
+         </superEntry>
+
       </body>
    </text>
 </TEI>

@@ -24,7 +24,8 @@ The rules below govern every bracket. They are the standing instructions of the 
 - Dates: BC/AD; regnal years as the text gives them, with the BC equivalent in a note; months by Western names (五月 → May). Sexagenary days: before Emperor Wu of Han they are kept in sexagenary form, romanised and capitalised (己亥 → Jihai, 辛丑 → Xinchou), since the calendars of the period are not fixed to the day; from Emperor Wu on they are converted to day numbers, computed and checked by two independent tables.
 - Elliptical sources (the Tables, the Chronicle) stay elliptical: no subject is supplied; a note says who it is.
 - Ivar's labels: 辨析 → "Analysis:", 無骨注 → "Ivar's note:", 原文附 → "original text appended", 待考 → "Pending investigation".
-- Chapter and book titles in italics (`<title>`); quoted classics as "The Odes say", "The Changes say".
+- 郎 is Court Gentleman (the office), 士 gentlemen (the class); the glossary's 郎将 Gentleman-General stands.
+- Chapter and book titles in italics (`<title>`); quoted classics as "The Odes say", "The Changes say". 吕氏春秋 named in the translated text is Master Lü's Spring and Autumn Annals (Wikipedia's English name); as a cited source and as a note heading it is Lüshi Chunqiu. Romanised titles capitalise every word and keep their diacritics (Lüshi Chunqiu, Wu Yue Chunqiu, Zhanguo Zonghengjia Shu; Zhanguoce and Yuejueshu as one word).
 
 ## 4. Text
 

@@ -170,7 +170,7 @@
          <bracket col="3" en="Collected Qin Slips I: the Shuihudi bamboo slips">《秦简牍合集》（一）睡虎地竹简</bracket>
          <bracket col="4" en="Qin slips in the Yuelu Academy collection">岳麓书院藏秦简</bracket>
          <bracket col="7" en="Hujiacaochang Western Han slips: the Suiji (Annual Record)">胡家草场西汉简牍《岁纪》</bracket>
-         <bracket col="8" en="Appendix: text of the Zhanguo zonghengjia shu">附：《戰國縱橫家書》原文</bracket>
+         <bracket col="8" en="Appendix: text of the Zhanguo Zonghengjia Shu">附：《戰國縱橫家書》原文</bracket>
       </document>
    </year>
    <year n="-248" era="248 BC" label="秦庄襄王二年" en="2nd year of King Zhuangxiang of Qin" reign-en="King Zhuangxiang of Qin">
@@ -818,11 +818,11 @@
          <bracket col="12" en="Shiji, supplement: the Eight Treatises">史記：補：八書</bracket>
       </document>
       <document dir="210bc/jiandu" label="Excavated texts 简牍">
-         <bracket col="8" en="Appendix: text of the Zhanguo zonghengjia shu">附：《戰國縱橫家書》原文</bracket>
+         <bracket col="8" en="Appendix: text of the Zhanguo Zonghengjia Shu">附：《戰國縱橫家書》原文</bracket>
       </document>
    </year>
    <side-group label="战国" en="Warring States">
-      <side-source id="zonghengjia" label="戰國縱橫家書" en="Zhanguo zonghengjia shu (the Mawangdui letters of the Warring States persuaders)"/>
+      <side-source id="zonghengjia" label="戰國縱橫家書" en="Zhanguo Zonghengjia Shu (the Mawangdui letters of the Warring States persuaders)"/>
    </side-group>
    <side-group label="文化区" en="Cultural regions">
       <side-source id="qingzang" label="青藏" en="Qinghai–Tibet" sheet="文化区（青藏）"/>

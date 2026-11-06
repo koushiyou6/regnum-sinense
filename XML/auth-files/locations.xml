@@ -564,7 +564,7 @@
                <placeName type="place">shore of Sanzhu 三渚之浦</placeName>
                <country/><region>Wu</region>
                <location><geo/></location>
-               <note xml:lang="eng">in the Wu country near Gusu; the Zhanguo ce has 三江之浦, the shore of the Three Rivers.</note>
+               <note xml:lang="eng">in the Wu country near Gusu; the Zhanguoce has 三江之浦, the shore of the Three Rivers.</note>
             </place>
 
             <place n="78">
@@ -1118,6 +1118,90 @@
                <country/><region>Yan</region>
                <location><geo/></location>
                <note xml:lang="eng">a town of Yan; the Jijie: in Dai Commandery; the Zhengyi: its old city ninety-three li north of Lingqiu County in Weizhou; modern Guangling 广灵, Shanxi.</note>
+            </place>
+
+            <place n="157">
+               <placeName><settlement type="region">Rong 戎</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the lands of the Rong peoples west of Qin; the Western Rong 西戎 of Duke Mu's hegemony.</note>
+            </place>
+
+            <place n="158">
+               <placeName><settlement type="city">Wan 宛</settlement></placeName>
+               <country/><region>Chu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a city of Chu on the upper Han; modern Nanyang 南阳, Henan.</note>
+            </place>
+
+            <place n="159">
+               <placeName><settlement type="region">Ba 巴</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the state and region of Ba on the upper Yangzi, taken by Qin in 316 BC; modern Chongqing.</note>
+            </place>
+
+            <place n="160">
+               <placeName><settlement type="region">Shu 蜀</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the state and region of Shu, the Chengdu plain, taken by Qin in 316 BC; the 西蜀 of the memorial.</note>
+            </place>
+
+            <place n="161">
+               <placeName><settlement type="commandery">Shang Commandery 上郡</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the Commandery north of the Wei on the Luo, ceded by Wei to Qin; the Zhengyi: fifteen Counties, in King Huiwen's tenth year; modern northern Shaanxi.</note>
+            </place>
+
+            <place n="162">
+               <placeName><settlement type="region">Hanzhong 汉中</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the upper Han valley, taken from Chu by Qin; the Zhengyi: six hundred li, in King Huiwen's thirteenth year; modern Hanzhong, Shaanxi.</note>
+            </place>
+
+            <place n="163">
+               <placeName><settlement type="region">Jiangnan 江南</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the lands south of the Yangzi.</note>
+            </place>
+
+            <place n="164">
+               <placeName><settlement type="mountain">Taishan 太山</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">Mount Tai 泰山, written 太山; modern Tai'an, Shandong.</note>
+            </place>
+
+            <place n="165">
+               <placeName><settlement type="mountain">Kunshan 昆山</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the jade mountain of the far west; the Zhengyi: Kun'gang, four hundred li north-east of Khotan.</note>
+            </place>
+
+            <place n="166">
+               <placeName><settlement type="state">Sui 随</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the state of Sui on the Han, of the pearl of Marquis Sui; modern Suizhou, Hubei.</note>
+            </place>
+
+            <place n="167">
+               <placeName><settlement type="town">E 阿</settlement></placeName>
+               <country/><region>Qi</region>
+               <location><geo/></location>
+               <note xml:lang="eng">Dong'e 东阿 of Qi, source of fine silk (Jijie); modern Yanggu, Shandong.</note>
+            </place>
+
+            <place n="168">
+               <placeName><settlement type="place">Sangjian 桑间</settlement></placeName>
+               <country/><region>Wey</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a place on the Pu River in Wey, proverbial for its licentious music.</note>
             </place>
 
 </listPlace>
