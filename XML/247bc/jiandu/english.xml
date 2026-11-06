@@ -18,6 +18,11 @@
    <text>
       <body>
 
+         <div n="1">
+            <head>Collected Qin Slips I: the Shuihudi bamboo slips</head>
+            <p><title>Chronicle</title>: <span corresp="Third_year">Third year of <persName n="31">King Zhuang</persName>.</span> <span corresp="King_Zhuang_died">King Zhuang died.</span></p>
+         </div>
+
       </body>
    </text>
 </TEI>

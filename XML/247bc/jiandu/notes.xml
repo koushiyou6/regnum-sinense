@@ -15,6 +15,11 @@
       <body>
          <div n="0"/>
 
+         <div n="1">
+            <interp corresp="Third_year">The third year of King Zhuangxiang of Qin, 247 BC, whom the Chronicle calls King Zhuang.</interp>
+            <interp corresp="King_Zhuang_died">The Basic Annals (§1) give the day: Bingwu of the fifth month.</interp>
+         </div>
+
       </body>
    </text>
 </TEI>
