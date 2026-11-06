@@ -29,6 +29,14 @@
             <p><title>秦本纪</title>：三年，<persName n="26">蒙骜</persName>攻<placeName n="10">魏</placeName><placeName n="148">高都</placeName>、<placeName n="149">汲</placeName>，拔之。攻<placeName n="9">赵</placeName><placeName n="72">榆次</placeName>、<placeName n="146">新城</placeName>、<placeName n="147">狼孟</placeName>，取三十七<term n="12">城</term>。四月日食。<persName n="35">王龁</persName>攻<placeName n="150">上党</placeName>。初置<placeName n="145">太原<term n="38">郡</term></placeName>。魏将<persName n="11">无忌</persName>率五国兵击<placeName n="1">秦</placeName>，秦却于<placeName n="23">河外</placeName>。蒙骜败，解而去。五月丙午，<persName n="31">庄襄王</persName>卒，子<persName n="32">政</persName>立，是为秦始皇帝。</p>
          </div>
 
+         <div n="2">
+            <head>史记（二：表）</head>
+            <p><placeName n="1">秦</placeName>：<persName n="35">王齮</persName>擊<placeName n="150">上黨</placeName>。初置<placeName n="145">太原<term n="38">郡</term></placeName>。</p>
+            <p><placeName n="10">魏</placeName>公子<persName n="11">無忌</persName>率五國卻我軍<placeName n="23">河外</placeName>，<persName n="26">蒙驁</persName>解去。</p>
+            <p>魏：無忌率五國兵敗秦軍河外。</p>
+            <p><placeName n="2">韓</placeName>：秦拔我上黨。</p>
+         </div>
+
       </body>
    </text>
 </TEI>
