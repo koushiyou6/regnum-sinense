@@ -45,6 +45,12 @@
             <interp corresp="twenty_sixth_year">The twenty-sixth year of King Huanhui of Han, 247 BC.</interp>
          </div>
 
+         <div n="4">
+            <interp corresp="the_Prince">公子: the Biography calls Wuji "the Prince" throughout. The passage, from his stay in Zhao to the historian's judgement, is the one already given under 256 BC (§4), repeated here for the year it dates: the thirtieth year of King Anxi, 247 BC, of his return and the victory at Hewai.</interp>
+            <interp corresp="thirtieth_year_of_King_Anxi">247 BC.</interp>
+            <interp corresp="King_of_Qin">The King of Qin of the slander is King Zhuangxiang, in whose last year the Prince took command; the four years of drinking and the Prince's death fall under King Zheng.</interp>
+         </div>
+
       </body>
    </text>
 </TEI>
