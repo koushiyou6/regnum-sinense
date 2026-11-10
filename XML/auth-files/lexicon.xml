@@ -841,6 +841,168 @@
                <sense n="1"><def>the fang state named Fang 方 in the oracle-bone inscriptions, a people of the north-west under Wu Ding.</def></sense><note/></entry>
          </superEntry>
 
+         <superEntry n="144">
+            <entry xml:lang="zho"><form><orth>亘方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Genfang</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a fang state west of Yin, in southern Shanxi, conquered by Wu Ding; written 亙方 in some lists.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="145">
+            <entry xml:lang="zho"><form><orth>缶</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Fou</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the state of Fou (缶方) west of Yin, conquered by Wu Ding.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="146">
+            <entry xml:lang="zho"><form><orth>基方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Jifang</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a fang state west of Yin, placed at modern Puxian, Shanxi, conquered by Wu Ding.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="147">
+            <entry xml:lang="zho"><form><orth>湔方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Jianfang</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a fang state west of Yin, in the Shanxi–Shaanxi uplands, conquered by Wu Ding.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="148">
+            <entry xml:lang="zho"><form><orth>晚商</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Late Shang</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Yinxu period of Shang archaeology, from Pan Geng's move to Yin.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="149">
+            <entry xml:lang="zho"><form><orth>沚方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Zhifang</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a fang state west of Yin, bordering the Gongfang; conquered by Wu Ding, its chief Zhi Guo then his vassal.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="150">
+            <entry xml:lang="zho"><form><orth>辔方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Peifang</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a fang state west of Yin, bordering the Gongfang, attacked by Wu Ding and Que.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="151">
+            <entry xml:lang="zho"><form><orth>𢀛方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Gongfang</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the most persistent enemy of Wu Ding's Shang, north-west of Yin in the Shanxi–Shaanxi uplands, often allied with the Tufang; the graph 𢀛, 工 over 口, is also transcribed 工方.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="152">
+            <entry xml:lang="zho"><form><orth>戉</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Yue</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a polity or leader in the west that revolted early in Wu Ding's reign and was put down by Que.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="153">
+            <entry xml:lang="zho"><form><orth>巴方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Bafang</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a fang state in Shanxi, attacked under Wu Ding.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="154">
+            <entry xml:lang="zho"><form><orth>土方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Tufang</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a fang state north-west of Yin, east of the Gongfang, in the Fen valley of Shanxi; defeated by Wu Ding.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="155">
+            <entry xml:lang="zho"><form><orth>夷方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Yifang</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a fang state of the east, against which Fu Hao campaigned.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="156">
+            <entry xml:lang="zho"><form><orth>龙方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Longfang</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a fang state west of Yin, against which Fu Geng campaigned.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="157">
+            <entry xml:lang="zho"><form><orth>石楼类型</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Shilou type</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the late Shang bronze-bearing remains of the Shanxi–Shaanxi uplands named from Shilou County, Shanxi, which some connect with the Gongfang.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="158">
+            <entry xml:lang="zho"><form><orth>铜路</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the copper road</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the route by which copper and other bronze metals reached Yin from the south.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="159">
+            <entry xml:lang="zho"><form><orth>虎方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Hufang</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a fang state of the south, attacked in Wu Ding's southern expedition; identified by different scholars with the Miaotaizi type, the Dachengdun type or the Wucheng culture.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="160">
+            <entry xml:lang="zho"><form><orth>方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Moufang</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a fang state of the south, attacked by Wu Ding and Wang Cheng and thereafter unrecorded; its graph, 中 with a doubled vertical stroke, has no code point and is drawn.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="161">
+            <entry xml:lang="zho"><form><orth>魏营子文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Weiyingzi culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the late Shang to early Western Zhou culture of the western Liao valley named from the Weiyingzi site, Chaoyang, Liaoning.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="162">
+            <entry xml:lang="zho"><form><orth>夏家店下层文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Lower Xiajiadian culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the early Bronze Age culture of the western Liao valley and the Yan hills, named from the lower stratum of the Xiajiadian site, Chifeng, Inner Mongolia.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="163">
+            <entry xml:lang="zho"><form><orth>围坊三期文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Weifang Phase III culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the culture of the Tianjin–northern Hebei plain named from the third phase of the Weifang site, Jizhou, Tianjin.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="164">
+            <entry xml:lang="zho"><form><orth>围坊类型</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Weifang type</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a type of the Weifang Phase III culture, its late Shang form on the Tianjin–northern Hebei plain.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="165">
+            <entry xml:lang="zho"><form><orth>庙台子类型</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Miaotaizi type</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a late Shang cultural type of the middle Yangtze named from the Miaotaizi site; one of the cultures identified with the Hufang.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="166">
+            <entry xml:lang="zho"><form><orth>大城墩类型</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Dachengdun type</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a Shang-period cultural type of the Jianghuai region named from the Dachengdun site, Hanshan, Anhui.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="167">
+            <entry xml:lang="zho"><form><orth>吴城文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Wucheng culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Shang-period bronze culture of the Gan valley named from the Wucheng site, Zhangshu, Jiangxi.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="168">
+            <entry xml:lang="zho"><form><orth>路家河文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Lujiahe culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Shang-period culture of the Yangtze gorges named from the Lujiahe site, Yichang, Hubei.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="169">
+            <entry xml:lang="zho"><form><orth>石地坝文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Shidiba culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Shang-period culture of the Yangtze above the gorges named from the Shidiba site, Zhongxian, Chongqing.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="170">
+            <entry xml:lang="zho"><form><orth>周梁玉桥文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Zhouliangyuqiao culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Shang-period culture of the Jianghan plain named from the Zhouliangyuqiao site, Shashi, Jingzhou, Hubei.</def></sense><note/></entry>
+         </superEntry>
+
       </body>
    </text>
 </TEI>

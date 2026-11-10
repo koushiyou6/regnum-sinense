@@ -20,6 +20,16 @@
          <div n="1">
          </div>
 
+         <div n="2">
+            <interp corresp="the_Gongfang">𢀛方: the graph is 工 over 口 (𢀛), which the site's font lacks, so it is drawn. The state is transcribed 工方 by some, and read Gongfang.</interp>
+            <interp corresp="calling_on_Fu_Hao_to_attack_the_Tufang">呼妇好伐土方: an oracle-bone formula, 呼 "call on" being the verb by which the king commands a subordinate to act; the inscription is the divination charge, not a narrative.</interp>
+            <interp corresp="the_Moufang">方: the graph, 中 with a doubled vertical stroke, has no Unicode code point and is drawn; read mou.</interp>
+         </div>
+
+
+         <div n="3">
+         </div>
+
       </body>
    </text>
 </TEI>

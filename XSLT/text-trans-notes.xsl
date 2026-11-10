@@ -47,6 +47,20 @@
     <xsl:variable name="places" select="document('../XML/auth-files/locations.xml')"/>
     <xsl:variable name="site"   select="document('../XML/site.xml')"/>
     <xsl:variable name="videos" select="if (doc-available(resolve-uri('../XML/videos.xml', static-base-uri()))) then document('../XML/videos.xml') else ()"/>
+    <!-- graphs drawn as images (XML/glyphs.xml): every text node and entry name containing one is rendered through local:glyphs -->
+    <xsl:variable name="glyphs" select="if (doc-available(resolve-uri('../XML/glyphs.xml', static-base-uri()))) then document('../XML/glyphs.xml')/*:glyphs/*:glyph else ()"/>
+    <xsl:variable name="glyph-regex" select="if ($glyphs) then concat('[', string-join($glyphs/@char, ''), ']') else '(?!)'"/>
+    <xsl:function name="local:glyphs" as="node()*">
+        <xsl:param name="s" as="xs:string"/>
+        <xsl:analyze-string select="$s" regex="{$glyph-regex}">
+            <xsl:matching-substring>
+                <xsl:variable name="m" select="."/>
+                <xsl:variable name="g" select="$glyphs[@char = $m]"/>
+                <img class="glyph" src="{$root}glyphs/{$g/@id}.svg" alt="{$g/@alt}" title="{$g/@alt}"/>
+            </xsl:matching-substring>
+            <xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring>
+        </xsl:analyze-string>
+    </xsl:function>
     <xsl:variable name="css"    select="unparsed-text('../css/style.css')"/>
 
     <!-- the document's entry in the manifest: a year's document in site.xml, or a video period's document in videos.xml -->
@@ -114,12 +128,12 @@
                     <summary><b><span class="term">
                         <xsl:choose>
                             <xsl:when test="@type = 'untrans' or $orth-eng = '' or $orth-eng = $orth-src">
-                                <i lang="{$source-lang}"><xsl:value-of select="$orth-src"/></i>
+                                <i lang="{$source-lang}"><xsl:sequence select="local:glyphs($orth-src)"/></i>
                             </xsl:when>
                             <xsl:otherwise>
                                 <xsl:value-of select="$orth-eng"/>
                                 <xsl:text> / </xsl:text>
-                                <i lang="{$source-lang}"><xsl:value-of select="$orth-src"/></i>
+                                <i lang="{$source-lang}"><xsl:sequence select="local:glyphs($orth-src)"/></i>
                             </xsl:otherwise>
                         </xsl:choose>
                     </span></b></summary>
@@ -137,7 +151,7 @@
             <xsl:for-each-group select="$scope//persName" group-by="data(@n)">
                 <xsl:variable name="p" select="$pers//person[data(@n) = current-grouping-key()]"/>
                 <details>
-                    <summary><b><span class="pers"><xsl:value-of select="$p/persName[not(@xml:lang)]/name"/></span></b></summary>
+                    <summary><b><span class="pers"><xsl:sequence select="local:glyphs(string($p/persName[not(@xml:lang)]/name))"/></span></b></summary>
                     <xsl:apply-templates select="local:note-for-year($p/note[@xml:lang = 'eng'])/p/node()"/>
                     <br/>
                 </details>
@@ -149,7 +163,7 @@
             <xsl:for-each-group select="$scope//placeName" group-by="data(@n)">
                 <xsl:variable name="pl" select="$places//place[data(@n) = current-grouping-key()]"/>
                 <details>
-                    <summary><b><span class="place"><xsl:value-of select="local:place-name($pl)"/></span></b></summary>
+                    <summary><b><span class="place"><xsl:sequence select="local:glyphs(string(local:place-name($pl)))"/></span></b></summary>
                     <xsl:apply-templates select="local:note-for-year($pl/note[@xml:lang = 'eng'])/node()"/>
                     <br/>
                 </details>
@@ -373,6 +387,7 @@
     </xsl:template>
 
     <!-- ===== inline entity rendering (same classes as Parlamentos) ===== -->
+    <xsl:template match="text()[matches(., $glyph-regex)]"><xsl:sequence select="local:glyphs(.)"/></xsl:template>
     <xsl:template match="body//persName"><span class="pers"><xsl:apply-templates/></span></xsl:template>
     <xsl:template match="body//placeName"><span class="place"><xsl:apply-templates/></span></xsl:template>
     <xsl:template match="body//term[not(@type = 'untrans')]"><span class="term"><xsl:apply-templates/></span></xsl:template>

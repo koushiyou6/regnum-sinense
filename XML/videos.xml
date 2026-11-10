@@ -11,6 +11,8 @@
          <!-- the period's entries, in order: one <bracket> per dated entry, built as videos/zhou/shang/<n>.html -->
          <document dir="videos/zhou/shang" label="History of the Zhou Dynasty">
             <bracket en="c. 1260 BC">约公元前1260年</bracket>
+            <bracket en="c. 1260–1235 BC">约公元前1260年—公元前1235年</bracket>
+            <bracket en="c. 1260–1235 BC (archaeological appearances)">约公元前1260年—公元前1235年</bracket>
          </document>
       </section>
       <section id="xizhou" label="西周" en="Western Zhou"/>

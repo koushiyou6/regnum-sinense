@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Graphs the site's font cannot show, drawn as images (assets/glyphs/<id>.svg) and shown wherever
+     the character occurs. A graph with no Unicode code point is written in the XML with a
+     private-use character (U+E001 onward), listed here with its drawing and reading. -->
+<glyphs>
+   <glyph char="𢀛" id="gong" reading="gong" alt="𢀛 (工 over 口)"/>
+   <glyph char="&#xE001;" id="mou" reading="mou" alt="the graph of the Moufang, 中 with a doubled vertical stroke"/>
+</glyphs>

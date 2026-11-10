@@ -1157,6 +1157,48 @@
                <listEvent><event><p>c. 1260 BC</p></event></listEvent>
             </person>
 
+            <person n="160">
+               <persName><name>Zi Hua 子画</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Shang</nationality>
+               <note xml:lang="eng"><p>A member of the Shang royal clan in the oracle-bone inscriptions, enfeoffed in the east at Hua in Wu Ding's first years.</p></note>
+               <listEvent><event><p>c. 1260–1235 BC</p></event></listEvent>
+            </person>
+
+            <person n="161">
+               <persName><name>Que 雀</name><roleName>General of Shang</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Shang</nationality>
+               <note xml:lang="eng"><p>A commander of Wu Ding's campaigns in the west, against the Zhifang, the Peifang and Yue.</p></note>
+               <listEvent><event><p>c. 1260–1235 BC</p></event></listEvent>
+            </person>
+
+            <person n="162">
+               <persName><name>Zhi Guo 沚馘</name><roleName></roleName><forename/><nameLink/><surname/><addName>馘</addName><genName/></persName>
+               <nationality>Zhifang</nationality>
+               <note xml:lang="eng"><p>Chief of the Zhifang after its conquest, Wu Ding's vassal on the western frontier.</p></note>
+               <listEvent><event><p>c. 1260–1235 BC</p></event></listEvent>
+            </person>
+
+            <person n="163">
+               <persName><name>Fu Hao 妇好</name><roleName>Consort of Wu Ding</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Shang</nationality>
+               <note xml:lang="eng"><p>Consort of Wu Ding and commander of his campaigns, against the Tufang among others; her tomb at Yinxu was found intact in 1976.</p></note>
+               <listEvent><event><p>c. 1260–1235 BC</p></event></listEvent>
+            </person>
+
+            <person n="164">
+               <persName><name>Fu Geng 妇耕</name><roleName>Consort of Wu Ding</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Shang</nationality>
+               <note xml:lang="eng"><p>A consort of Wu Ding who campaigned against the Longfang.</p></note>
+               <listEvent><event><p>c. 1260–1235 BC</p></event></listEvent>
+            </person>
+
+            <person n="165">
+               <persName><name>Wang Cheng 望乘</name><roleName>General of Shang</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Shang</nationality>
+               <note xml:lang="eng"><p>A commander of Wu Ding, who campaigned with him against the Moufang.</p></note>
+               <listEvent><event><p>c. 1260–1235 BC</p></event></listEvent>
+            </person>
+
 </listPerson>
       </body>
    </text>

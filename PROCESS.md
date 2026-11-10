@@ -25,6 +25,7 @@ The rules below govern every bracket. They are the standing instructions of the 
 - Elliptical sources (the Tables, the Chronicle) stay elliptical: no subject is supplied; a note says who it is.
 - Ivar's labels: 辨析 → "Analysis:", 無骨注 → "Ivar's note:", 原文附 → "original text appended", 待考 → "Pending investigation".
 - 郎 is Court Gentleman (the office), 士 gentlemen (the class); the glossary's 郎将 Gentleman-General stands.
+- The 长江 is the Yangtze in notes and entries (never Yangzi); in a translated text 江 is rendered by its entry.
 - Chapter and book titles in italics (`<title>`); quoted classics as "The Odes say", "The Changes say". 吕氏春秋 named in the translated text is Master Lü's Spring and Autumn Annals (Wikipedia's English name); as a cited source and as a note heading it is Lüshi Chunqiu. Romanised titles capitalise every word and keep their diacritics (Lüshi Chunqiu, Wu Yue Chunqiu, Zhanguo Zonghengjia Shu; Zhanguoce and Yuejueshu as one word).
 
 ## 4. Text
@@ -72,6 +73,9 @@ The rules below govern every bracket. They are the standing instructions of the 
 3. Then the next bracket.
 
 ## 10. Site rules
+
+- The editor's questions ("what is X", "are you sure", "why Y") are questions: answer them and change nothing until told to. A change is made only on an instruction.
+
 
 - No credit to Claude anywhere: not on pages, not in TEI headers, not in commits.
 - One page per bracket, linked from the year page and from every sibling bracket's strip; introductions on every bracket; no annotation box beside the introduction.

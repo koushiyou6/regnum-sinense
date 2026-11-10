@@ -207,7 +207,7 @@ def write_search_index(manifest):
     import json, re
     TEI = "{http://www.tei-c.org/ns/1.0}"
     def text(el):
-        return re.sub(r"\s+", " ", "".join(el.itertext())).strip()
+        return re.sub(r"\s+", " ", "".join(el.itertext())).strip().replace("\ue001", "")
     passages, where = [], {}
     # every document with its era: the years' documents (site.xml) and the video periods' (videos.xml)
     docs = [(year.get("era", ""), doc) for year in manifest.findall("year") for doc in year.findall("document")]

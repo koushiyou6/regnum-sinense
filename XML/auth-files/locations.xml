@@ -374,7 +374,7 @@
                <placeName><region type="commandery">Wu 巫</region></placeName>
                <country/><region>Chu</region>
                <location><geo/></location>
-               <note xml:lang="eng">Chu's Wu Commandery on the Yangzi gorges; around modern Wushan, Chongqing.</note>
+               <note xml:lang="eng">Chu's Wu Commandery on the Yangtze gorges; around modern Wushan, Chongqing.</note>
             </place>
 
             <place n="51">
@@ -704,7 +704,7 @@
                <placeName><region type="region">Jiangdong 江东</region></placeName>
                <country/><region>Chu</region>
                <location><geo/></location>
-               <note xml:lang="eng">the lands east of the lower Yangzi; southern Jiangsu.</note>
+               <note xml:lang="eng">the lands east of the lower Yangtze; southern Jiangsu.</note>
             </place>
 
             <place n="98">
@@ -872,7 +872,7 @@
                <placeName><geogName type="river">Jiang 江</geogName></placeName>
                <country/><region></region>
                <location><geo/></location>
-               <note xml:lang="eng">the Yangzi.</note>
+               <note xml:lang="eng">the Yangtze.</note>
             </place>
 
             <place n="122">
@@ -1138,7 +1138,7 @@
                <placeName><settlement type="region">Ba 巴</settlement></placeName>
                <country/><region></region>
                <location><geo/></location>
-               <note xml:lang="eng">the state and region of Ba on the upper Yangzi, taken by Qin in 316 BC; modern Chongqing.</note>
+               <note xml:lang="eng">the state and region of Ba on the upper Yangtze, taken by Qin in 316 BC; modern Chongqing.</note>
             </place>
 
             <place n="160">
@@ -1166,7 +1166,7 @@
                <placeName><settlement type="region">Jiangnan 江南</settlement></placeName>
                <country/><region></region>
                <location><geo/></location>
-               <note xml:lang="eng">the lands south of the Yangzi.</note>
+               <note xml:lang="eng">the lands south of the Yangtze.</note>
             </place>
 
             <place n="164">
@@ -1314,6 +1314,48 @@
                <country/><region></region>
                <location><geo/></location>
                <note xml:lang="eng">Xunyi County on the upper Jing, Xianyang, Shaanxi, east of Binzhou.</note>
+            </place>
+
+            <place n="186">
+               <placeName><settlement type="region">southern Shanxi 晋南</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the Fen and lower Qin valleys of southern Shanxi, west of the Taihang.</note>
+            </place>
+
+            <place n="187">
+               <placeName><settlement type="site">Shijia site, Huantai 桓台史家遗址</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Shang-period site at Shijia in Huantai County, Zibo, Shandong.</note>
+            </place>
+
+            <place n="188">
+               <placeName><settlement type="fief">Hua 画</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the fief of Zi Hua in the east, in modern Shandong.</note>
+            </place>
+
+            <place n="189">
+               <placeName><settlement type="state">Tan 谭</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the state of Tan in the east; modern Zhangqiu, Jinan, Shandong.</note>
+            </place>
+
+            <place n="190">
+               <placeName><settlement type="region">central Shanxi 晋中</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the Taiyuan basin and the uplands about it.</note>
+            </place>
+
+            <place n="191">
+               <placeName><settlement type="river">Han River 汉江</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the Han, the great northern tributary of the Yangtze, joining it at modern Wuhan.</note>
             </place>
 
 </listPlace>

@@ -669,3 +669,6 @@ body.has-lightbox { overflow: hidden; }
 .overview .newest .button { display: inline-block; font-family: 'Ysabeau Office', serif; font-size: 1em; padding: .4em 1em; border: 1px solid var(--accent); border-radius: 3px; background: var(--band); color: var(--ink); text-decoration: none; }
 .overview .newest .button:hover { background: var(--accent); color: #fff; }
 .overview .newest .where { font-size: .9em; color: #8a857c; }
+
+/* graphs the font lacks, drawn as inline images (XML/glyphs.xml) */
+img.glyph { height: 1em; width: 1em; vertical-align: -0.1em; }
