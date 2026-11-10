@@ -1358,6 +1358,20 @@
                <note xml:lang="eng">the Han, the great northern tributary of the Yangtze, joining it at modern Wuhan.</note>
             </place>
 
+            <place n="192">
+               <placeName><region type="commandery">Nan Commandery 南郡</region></placeName>
+               <country/><region>Qin</region>
+               <location><geo/></location>
+               <note xml:lang="eng">Qin's Commandery on the old Chu capital region about Ying, set up in 278 BC; modern Jingzhou, Hubei.</note>
+            </place>
+
+            <place n="193">
+               <placeName><region type="commandery">Hedong Commandery 河东郡</region></placeName>
+               <country/><region>Qin</region>
+               <location><geo/></location>
+               <note xml:lang="eng">Qin's Commandery east of the Yellow River's southward course, the old Wei lands of south-western Shanxi; modern Yuncheng.</note>
+            </place>
+
 </listPlace>
       </body>
    </text>

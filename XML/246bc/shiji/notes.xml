@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- 246 BC, Shiji — explanatory notes. <div n="N"> matches the bracket; <interp corresp="key"> matches <span corresp="key"> in english.xml. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Shiji 史记 · 秦王政元年: notes</title>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><p>Notes written for this edition.</p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div n="1">
+            <interp corresp="When_he_was_thirteen">年十三岁: King Zhuangxiang died in 247 BC; Zheng's first year as king is this year, 246 BC.</interp>
+            <interp corresp="the_two_Zhou">二周: the Western and Eastern Zhou domains, extinguished in 256 and 249 BC (see those years).</interp>
+            <interp corresp="household_retainer">舍人: the Jijie cites Wen Ying: the title of a petty officer in charge of the stables; or, retainers in attendance are called sheren.</interp>
+            <interp corresp="Wang_Yi">王齮: the Jijie cites Xu Guang, one text 齕. The Suoyin: Meng Ao was a man of Qi, father of Meng Wu and grandfather of Meng Tian; Wang Yi is Wang He 王齕, who in King Zhao's forty-ninth year replaced the Grand Master Ling in attacking Zhao. The Zhengyi gives the reading of 齮 as yi (魚綺反); Liu Bozhuang reads it qi.</interp>
+            <interp corresp="Lord_Biao">麃公: the Jijie cites Ying Shao, Biao is a Qin town; the Suoyin: probably the lord of the town of Biao, his surname and name lost to history; the Zhengyi: 麃 read biao (彼苗反), probably a County town of Qin, and a Grand Master is called 公 as in the Chu system.</interp>
+            <interp corresp="in_the_first_year">246 BC. The Table (§2) and the Hereditary House of Zhao (§3) record the taking of Jinyang.</interp>
+         </div>
+
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+  246 BC — English translation of the Shiji brackets. <div n="N"> matches source.xml.
+  Terms follow the Song Frontier Translation Glossary where it rules.
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Shiji 史记 · 秦王政元年</title>
+            <respStmt><resp>Edited</resp><persName>Kou Shiyou</persName></respStmt>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><listBibl><bibl xml:id="S"><title>无骨者伊瓦尔《战国历史地图·年表》</title></bibl></listBibl></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div n="1">
+            <head>Shiji I: Basic Annals</head>
+            <p><title>Basic Annals of the First Emperor of Qin</title>: <span corresp="When_he_was_thirteen">When he was thirteen</span>, <persName n="31">King Zhuangxiang</persName> died, and <persName n="32">Zheng</persName> took his place as King of <placeName n="1">Qin</placeName>. At this time Qin's territory had already annexed <placeName n="159">Ba</placeName>, <placeName n="160">Shu</placeName> and <placeName n="162">Hanzhong</placeName>, and, passing beyond <placeName n="158">Wan</placeName>, held <placeName n="53">Ying</placeName>, where <placeName n="192">Nan Commandery</placeName> had been set up; in the north it had taken in <placeName n="161">Shang Commandery</placeName> and the lands east of it, and held the <term n="38">Commanderies</term> of <placeName n="193">Hedong</placeName>, <placeName n="145">Taiyuan</placeName> and <placeName n="150">Shangdang</placeName>; in the east it reached <placeName n="115">Xingyang</placeName>, having wiped out <span corresp="the_two_Zhou">the two Zhou</span> and set up <placeName n="114">Sanchuan Commandery</placeName>. <persName n="36">Lü Buwei</persName> was <term n="24">Chancellor</term>, enfeoffed with a hundred thousand <term n="85">households</term> and styled Marquis Wenxin. He drew <term n="16">retainers</term> and travelling gentlemen to him, meaning by them to annex all under Heaven. <persName n="132">Li Si</persName> was a <span corresp="household_retainer"><term n="72">household retainer</term></span>. <persName n="26">Meng Ao</persName>, <span corresp="Wang_Yi"><persName n="35">Wang Yi</persName></span>, <span corresp="Lord_Biao"><persName n="166">Lord Biao</persName></span> and others were <term n="4">Generals</term>. The king was young and newly on the throne, and left the affairs of state to the great ministers.</p>
+            <p><placeName n="78">Jinyang</placeName> revolted; <span corresp="in_the_first_year">in the first year</span> the General Meng Ao attacked and settled it.</p>
+         </div>
+
+      </body>
+   </text>
+</TEI>

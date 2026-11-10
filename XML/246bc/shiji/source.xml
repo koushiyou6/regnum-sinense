@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+  246 BC (秦王政元年) — the Shiji tab of the chronology spreadsheet.
+  One <div n="N"> per bracket (one spreadsheet cell), in column order. <head> is the
+  column heading; each paragraph of the cell is a <p>. Text is kept as it stands in the spreadsheet.
+  Conventions: <term n="ID">, <persName n="ID">, <placeName n="ID">, <title> for a chapter name.
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Shiji 史记 · 秦王政元年</title>
+            <respStmt><resp>Compiled</resp><persName>无骨者伊瓦尔</persName></respStmt>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <bibl xml:id="S"><title>无骨者伊瓦尔《战国历史地图·年表》</title><note xml:lang="eng">Chronology spreadsheet 疆域变化年表 (draft 3, patch 2), Shiji tab; the Shiji text follows the edition used by the compiler.</note></bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div n="1">
+            <head>史记（一：本纪）</head>
+            <p><title>秦始皇本纪</title>：年十三岁，<persName n="31">庄襄王</persName>死，<persName n="32">政</persName>代立为<placeName n="1">秦</placeName>王。当是之时，秦地已并<placeName n="159">巴</placeName>、<placeName n="160">蜀</placeName>、<placeName n="162">汉中</placeName>，越<placeName n="158">宛</placeName>有<placeName n="53">郢</placeName>，置<placeName n="192">南郡</placeName>矣；北收<placeName n="161">上郡</placeName>以东，有<placeName n="193">河东</placeName>、<placeName n="145">太原</placeName>、<placeName n="150">上党</placeName><term n="38">郡</term>；东至<placeName n="115">荥阳</placeName>，灭二周，置<placeName n="114">三川郡</placeName>。<persName n="36">吕不韦</persName>为<term n="24">相</term>，封十万<term n="85">户</term>，号曰文信侯。招致<term n="16">宾客</term>游士，欲以并天下。<persName n="132">李斯</persName>为<term n="72">舍人</term>。<persName n="26">蒙骜</persName>、<persName n="35">王齮</persName>、<persName n="166">麃公</persName>等为<term n="4">将军</term>。王年少，初即位，委国事大臣。</p>
+            <p><placeName n="78">晋阳</placeName>反，元年，将军蒙骜击定之。</p>
+         </div>
+
+      </body>
+   </text>
+</TEI>

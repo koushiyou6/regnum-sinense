@@ -204,6 +204,7 @@
                <nationality>Qin</nationality>
                <note xml:lang="eng"><p>Qin general.</p></note>
                <note xml:lang="eng" from="-249" seq="5"><p>General of Qin, a man of Qi by origin, who served King Zhaoxiang and rose to Senior Minister; grandfather of Meng Tian.</p></note>
+               <note xml:lang="eng" from="-246" seq="1"><p>General of Qin; a man of Qi, father of Meng Wu and grandfather of Meng Tian (Suoyin).</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
 
@@ -272,6 +273,7 @@
                <persName><name>Wang Yi 王齮</name><roleName>General</roleName><forename/><nameLink/><surname/><addName>王龁</addName><genName/></persName>
                <nationality>Qin</nationality>
                <note xml:lang="eng"><p>Qin general. The Basic Annals of Qin name the general at Handan 王龁.</p></note>
+               <note xml:lang="eng" from="-246" seq="1"><p>General of Qin; the Suoyin identifies him with Wang He 王龁, who in King Zhaoxiang's forty-ninth year replaced the Grand Master Ling in the attack on Zhao.</p></note>
                <listEvent><event><p>256 BC</p></event></listEvent>
             </person>
 
@@ -1197,6 +1199,13 @@
                <nationality>Shang</nationality>
                <note xml:lang="eng"><p>A commander of Wu Ding, who campaigned with him against the Moufang.</p></note>
                <listEvent><event><p>c. 1260–1235 BC</p></event></listEvent>
+            </person>
+
+            <person n="166">
+               <persName><name>Lord Biao 麃公</name><roleName>General of Qin</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>A general of Qin under King Zheng; the Suoyin: the lord of the town of Biao, his surname and name lost; the Zhengyi: Biao is probably a County town of Qin, and a Grand Master is called 公 as in the Chu system.</p></note>
+               <listEvent><event><p>246 BC</p></event></listEvent>
             </person>
 
 </listPerson>

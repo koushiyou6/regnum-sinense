@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- 246 BC, Shiji — introductions. One <div n="N"> per bracket. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title>Shiji 史记 · 秦王政元年: introductions</title></titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><p>Original.</p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div n="1">
+            <p>The Basic Annals of the First Emperor at his accession: the extent of Qin at the start of the reign, Lü Buwei as Chancellor and Marquis Wenxin with Li Si in his household, the generals Meng Ao, Wang Yi and Lord Biao, and in the first year the revolt of Jinyang and Meng Ao's settling of it.</p>
+         </div>
+
+      </body>
+   </text>
+</TEI>
