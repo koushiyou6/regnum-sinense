@@ -1003,6 +1003,66 @@
                <sense n="1"><def>the Shang-period culture of the Jianghan plain named from the Zhouliangyuqiao site, Shashi, Jingzhou, Hubei.</def></sense><note/></entry>
          </superEntry>
 
+         <superEntry n="171">
+            <entry xml:lang="zho"><form><orth>殷墟二期</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Yinxu Phase II</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the second of the four phases of the Yinxu (Anyang) period, its early stage corresponding to the middle and later part of Wu Ding's reign.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="172">
+            <entry xml:lang="zho"><form><orth>羌方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Qiangfang</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Qiang as a fang state of the west in the oracle-bone inscriptions.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="173">
+            <entry xml:lang="zho"><form><orth>刘家文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Liujia culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Late Shang-period culture of the western Guanzhong named from the Liujia cemetery, Fufeng, Shaanxi; regarded by many scholars as the culture of the Qiangfang.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="174">
+            <entry xml:lang="zho"><form><orth>李家崖文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Lijiaya culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Late Shang-period culture of northern Shaanxi and the facing bank of the Yellow River, named from the Lijiaya site, Qingjian, Shaanxi.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="175">
+            <entry xml:lang="zho"><form><orth>西岔文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Xicha culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a culture of the Late Shang period named from the Xicha site, Qingshuihe County, Inner Mongolia.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="176">
+            <entry xml:lang="zho"><form><orth>陶文</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>pottery inscriptions</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>graphs incised or written on pottery.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="177">
+            <entry xml:lang="zho"><form><orth>鬼方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Guifang</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a people of the north-west in the oracle-bone inscriptions and the Zhouyi, attacked by Gaozong (Wu Ding).</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="178">
+            <entry xml:lang="zho"><form><orth>大城墩四期文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Dachengdun Phase IV culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the culture named from the fourth phase of the Dachengdun site, Hanshan, Anhui.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="179">
+            <entry xml:lang="zho"><form><orth>小白阳类型</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Xiaobaiyang type</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a type of the Weiyingzi culture, named from the Xiaobaiyang site.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="180">
+            <entry xml:lang="zho"><form><orth>石灰山文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Shihuishan culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a culture that existed beside the Wucheng culture and then merged into it, named from the Shihuishan site.</def></sense><note/></entry>
+         </superEntry>
+
       </body>
    </text>
 </TEI>

@@ -1372,6 +1372,20 @@
                <note xml:lang="eng">Qin's Commandery east of the Yellow River's southward course, the old Wei lands of south-western Shanxi; modern Yuncheng.</note>
             </place>
 
+            <place n="194">
+               <placeName><settlement type="site">Lijiaya site, Qingjian 清涧李家崖遗址</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a walled site of the Late Shang period at Lijiaya, Qingjian County, Yulin, Shaanxi; the type site of the Lijiaya culture.</note>
+            </place>
+
+            <place n="195">
+               <placeName><settlement type="city">Yin 殷</settlement></placeName>
+               <country/><region>Shang</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the last capital of the Shang, to which Pan Geng moved; the site of Yinxu, at modern Anyang, Henan.</note>
+            </place>
+
 </listPlace>
       </body>
    </text>
