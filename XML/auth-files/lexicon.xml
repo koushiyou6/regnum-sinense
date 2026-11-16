@@ -843,7 +843,7 @@
 
          <superEntry n="144">
             <entry xml:lang="zho"><form><orth>亘方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
-            <entry xml:lang="eng"><form><orth>the Genfang</orth></form><gramGrp><pos>n</pos></gramGrp>
+            <entry xml:lang="eng"><form><orth>the Gengfang</orth></form><gramGrp><pos>n</pos></gramGrp>
                <sense n="1"><def>a fang state west of Yin, in southern Shanxi, conquered by Wu Ding; written 亙方 in some lists.</def></sense><note/></entry>
          </superEntry>
 
@@ -874,18 +874,18 @@
          <superEntry n="149">
             <entry xml:lang="zho"><form><orth>沚方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
             <entry xml:lang="eng"><form><orth>the Zhifang</orth></form><gramGrp><pos>n</pos></gramGrp>
-               <sense n="1"><def>a fang state west of Yin, bordering the Gongfang; conquered by Wu Ding, its chief Zhi Guo then his vassal.</def></sense><note/></entry>
+               <sense n="1"><def>a fang state west of Yin, bordering the Qiongfang; conquered by Wu Ding, its chief Zhi Guo then his vassal.</def></sense><note/></entry>
          </superEntry>
 
          <superEntry n="150">
             <entry xml:lang="zho"><form><orth>辔方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
             <entry xml:lang="eng"><form><orth>the Peifang</orth></form><gramGrp><pos>n</pos></gramGrp>
-               <sense n="1"><def>a fang state west of Yin, bordering the Gongfang, attacked by Wu Ding and Que.</def></sense><note/></entry>
+               <sense n="1"><def>a fang state west of Yin, bordering the Qiongfang, attacked by Wu Ding and Que.</def></sense><note/></entry>
          </superEntry>
 
          <superEntry n="151">
             <entry xml:lang="zho"><form><orth>𢀛方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
-            <entry xml:lang="eng"><form><orth>the Gongfang</orth></form><gramGrp><pos>n</pos></gramGrp>
+            <entry xml:lang="eng"><form><orth>the Qiongfang</orth></form><gramGrp><pos>n</pos></gramGrp>
                <sense n="1"><def>the most persistent enemy of Wu Ding's Shang, north-west of Yin in the Shanxi–Shaanxi uplands, often allied with the Tufang; the graph 𢀛, 工 over 口, is also transcribed 工方.</def></sense><note/></entry>
          </superEntry>
 
@@ -904,13 +904,13 @@
          <superEntry n="154">
             <entry xml:lang="zho"><form><orth>土方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
             <entry xml:lang="eng"><form><orth>the Tufang</orth></form><gramGrp><pos>n</pos></gramGrp>
-               <sense n="1"><def>a fang state north-west of Yin, east of the Gongfang, in the Fen valley of Shanxi; defeated by Wu Ding.</def></sense><note/></entry>
+               <sense n="1"><def>a fang state north-west of Yin, east of the Qiongfang, in the Fen valley of Shanxi; defeated by Wu Ding.</def></sense><note/></entry>
          </superEntry>
 
          <superEntry n="155">
             <entry xml:lang="zho"><form><orth>夷方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
             <entry xml:lang="eng"><form><orth>the Yifang</orth></form><gramGrp><pos>n</pos></gramGrp>
-               <sense n="1"><def>a fang state of the east, against which Fu Hao campaigned.</def></sense><note/></entry>
+               <sense n="1"><def>a fang state of the east, against which Fu Zi campaigned.</def></sense><note/></entry>
          </superEntry>
 
          <superEntry n="156">
@@ -922,7 +922,7 @@
          <superEntry n="157">
             <entry xml:lang="zho"><form><orth>石楼类型</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
             <entry xml:lang="eng"><form><orth>Shilou type</orth></form><gramGrp><pos>n</pos></gramGrp>
-               <sense n="1"><def>the late Shang bronze-bearing remains of the Shanxi–Shaanxi uplands named from Shilou County, Shanxi, which some connect with the Gongfang.</def></sense><note/></entry>
+               <sense n="1"><def>the late Shang bronze-bearing remains of the Shanxi–Shaanxi uplands named from Shilou County, Shanxi, which some connect with the Qiongfang.</def></sense><note/></entry>
          </superEntry>
 
          <superEntry n="158">
