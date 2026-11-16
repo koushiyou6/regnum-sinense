@@ -1386,6 +1386,76 @@
                <note xml:lang="eng">the last capital of the Shang, to which Pan Geng moved; the site of Yinxu, at modern Anyang, Henan.</note>
             </place>
 
+            <place n="196">
+               <placeName><settlement type="site">Gaohong site, Liulin 柳林高红遗址</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Late Shang-period site with large rammed-earth buildings at Gaohong, Liulin County, Lüliang, Shanxi.</note>
+            </place>
+
+            <place n="197">
+               <placeName><settlement type="site">Jingjie, Lingshi 灵石旌介</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the Shang tombs at Jingjie, Lingshi County, Jinzhong, Shanxi.</note>
+            </place>
+
+            <place n="198">
+               <placeName><settlement type="site">Qiaobei, Fushan 浮山桥北</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the Shang tombs at Qiaobei, Fushan County, Linfen, Shanxi.</note>
+            </place>
+
+            <place n="199">
+               <placeName><settlement type="state">Bing 丙</settlement></placeName>
+               <country/><region>Shang</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a state under the Shang king in central Shanxi, known from the bronze inscriptions of the Jingjie tombs at Lingshi.</note>
+            </place>
+
+            <place n="200">
+               <placeName><settlement type="state">Xian 先</settlement></placeName>
+               <country/><region>Shang</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a state under the Shang king in central Shanxi, known from the bronze inscriptions of the Qiaobei tombs at Fushan.</note>
+            </place>
+
+            <place n="201">
+               <placeName><settlement type="region">South Korea 韩国</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the southern part of the Korean peninsula, the modern Republic of Korea.</note>
+            </place>
+
+            <place n="202">
+               <placeName><settlement type="site">Xujianian site 徐家碾遗址</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a cemetery site of the Siwa culture at Xujianian, Zhuanglang County, Pingliang, Gansu.</note>
+            </place>
+
+            <place n="203">
+               <placeName><settlement type="county">Chunhua 淳化</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">Chunhua County, Xianyang, Shaanxi, on the northern edge of the Guanzhong.</note>
+            </place>
+
+            <place n="204">
+               <placeName><settlement type="place">Bin 豳</settlement></placeName>
+               <country/><region>Zhou</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the seat of the Zhou before King Tai's move; traditionally placed about Xunyi and Binzhou, Shaanxi.</note>
+            </place>
+
+            <place n="205">
+               <placeName><settlement type="place">Qi Zhou 岐周</settlement></placeName>
+               <country/><region>Zhou</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the seat of the Zhou at the foot of Mount Qi, in the Zhouyuan, from King Tai's move.</note>
+            </place>
+
 </listPlace>
       </body>
    </text>

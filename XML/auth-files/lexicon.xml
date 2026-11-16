@@ -800,7 +800,7 @@
          </superEntry>
 
          <superEntry n="137">
-            <entry xml:lang="zho"><form><orth>甲骨卜辞</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="zho"><form><orth>甲骨卜辞</orth><orth>卜辞</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
             <entry xml:lang="eng"><form><orth>oracle-bone inscriptions</orth></form><gramGrp><pos>n</pos></gramGrp>
                <sense n="1"><def>the divination records of the Shang kings on turtle plastron and ox bone.</def></sense><note/></entry>
          </superEntry>
@@ -1061,6 +1061,90 @@
             <entry xml:lang="zho"><form><orth>石灰山文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
             <entry xml:lang="eng"><form><orth>Shihuishan culture</orth></form><gramGrp><pos>n</pos></gramGrp>
                <sense n="1"><def>a culture that existed beside the Wucheng culture and then merged into it, named from the Shihuishan site.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="181">
+            <entry xml:lang="zho"><form><orth>日名</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>temple name</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the heavenly-stem name (甲, 乙 … 癸) by which a Shang royal ancestor is called in sacrifice.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="182">
+            <entry xml:lang="zho"><form><orth>周祭制度</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>cyclical sacrifice system</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the fixed round of sacrifices offered in turn to the royal ancestors of the Shang, each on the day of his or her stem name.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="183">
+            <entry xml:lang="zho"><form><orth>贞人</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>diviners</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the officers who put the charge to the oracle in the divination inscriptions.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="184">
+            <entry xml:lang="zho"><form><orth>美沙里类型</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Misa-ri type</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the earliest Bronze Age pottery type of central-western Korea, named from the site of Misa-ri (美沙里, Meishali in pinyin), Hanam, Gyeonggi.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="185">
+            <entry xml:lang="zho"><form><orth>可乐洞</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Garak-dong</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the pottery type and stage of the Korean Early Bronze Age named from Garak-dong (可乐洞, Keledong in pinyin), Seoul.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="186">
+            <entry xml:lang="zho"><form><orth>欣岩里</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Heunam-ri</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the pottery type and stage of the Korean Early Bronze Age named from Heunam-ri (欣岩里, Xinyanli in pinyin), Yeoju, Gyeonggi.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="187">
+            <entry xml:lang="zho"><form><orth>驿三洞</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Yeoksam-dong</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the pottery type and stage of the Korean Early Bronze Age named from Yeoksam-dong (驿三洞, Yisandong in pinyin), Seoul.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="188">
+            <entry xml:lang="zho"><form><orth>虎谷洞二期文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Beomui-guseok Phase II culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the culture named from the second phase of the Beomui-guseok site (虎谷洞, Hugudong in pinyin), Musan, North Hamgyong.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="189">
+            <entry xml:lang="zho"><form><orth>寺洼文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Siwa culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Bronze Age culture of eastern Gansu named from Siwashan, Lintao, Gansu.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="190">
+            <entry xml:lang="zho"><form><orth>枣树沟脑类型</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Zaoshugounao type</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a type of remains in the Chunhua region named from the Zaoshugounao site, formed as late Zhukaigou and Lijiaya elements blended with the cultures of Guanzhong.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="191">
+            <entry xml:lang="zho"><form><orth>黑豆嘴类型</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Heidouzui type</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a type of remains in the Chunhua region named from the Heidouzui site, formed as late Zhukaigou and Lijiaya elements blended with the cultures of Guanzhong.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="192">
+            <entry xml:lang="zho"><form><orth>薰鬻戎狄</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Xunyu Rong and Di</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Xunyu, the northern people who in the transmitted texts pressed on the Zhou under King Tai; written 薰育 in the Basic Annals of Zhou and 獯鬻 in the Mencius.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="193">
+            <entry xml:lang="zho"><form><orth>青海青铜文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Qinghai Bronze culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Bronze Age culture of Qinghai.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="194">
+            <entry xml:lang="zho"><form><orth>张家园上层文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Upper Zhangjiayuan culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the culture named from the upper stratum of the Zhangjiayuan site, Jizhou, Tianjin.</def></sense><note/></entry>
          </superEntry>
 
       </body>

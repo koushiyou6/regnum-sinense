@@ -1208,6 +1208,48 @@
                <listEvent><event><p>246 BC</p></event></listEvent>
             </person>
 
+            <person n="167">
+               <persName><name>Xiao Ji 孝己</name><roleName>Heir Apparent of Shang</roleName><forename/><nameLink/><surname/><addName>小王; 小王己</addName><genName/></persName>
+               <nationality>Shang</nationality>
+               <note xml:lang="eng"><p>Heir Apparent of Wu Ding, who died before his father; called the Junior King 小王 in the oracle-bone inscriptions, and in sacrifice Junior King Ji 小王己.</p></note>
+               <listEvent><event><p>c. 1230–1150 BC</p></event></listEvent>
+            </person>
+
+            <person n="168">
+               <persName><name>Zu Jia 祖甲</name><roleName>King of Shang</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Shang</nationality>
+               <note xml:lang="eng"><p>King of Shang, youngest son of Wu Ding and successor of his brother Zu Geng.</p></note>
+               <listEvent><event><p>c. 1230–1150 BC</p></event></listEvent>
+            </person>
+
+            <person n="169">
+               <persName><name>Zu Geng 祖庚</name><roleName>King of Shang</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Shang</nationality>
+               <note xml:lang="eng"><p>King of Shang, son and successor of Wu Ding.</p></note>
+               <listEvent><event><p>c. 1230–1150 BC</p></event></listEvent>
+            </person>
+
+            <person n="170">
+               <persName><name>Lin Xin 廪辛</name><roleName>King of Shang</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Shang</nationality>
+               <note xml:lang="eng"><p>King of Shang, son and successor of Zu Jia.</p></note>
+               <listEvent><event><p>c. 1150 BC</p></event></listEvent>
+            </person>
+
+            <person n="171">
+               <persName><name>Kang Ding 康丁</name><roleName>King of Shang</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Shang</nationality>
+               <note xml:lang="eng"><p>King of Shang, son of Zu Jia and successor of his brother Lin Xin.</p></note>
+               <listEvent><event><p>c. 1150 BC</p></event></listEvent>
+            </person>
+
+            <person n="172">
+               <persName><name>King Tai of Zhou 周太王</name><roleName></roleName><forename/><nameLink/><surname/><addName>古公亶父</addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>Gugong Danfu 古公亶父, ancestor of the Zhou kings, who moved the Zhou from Bin to the foot of Mount Qi.</p></note>
+               <listEvent><event><p>c. 1150 BC</p></event></listEvent>
+            </person>
+
 </listPerson>
       </body>
    </text>
