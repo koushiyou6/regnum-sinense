@@ -1147,6 +1147,180 @@
                <sense n="1"><def>the culture named from the upper stratum of the Zhangjiayuan site, Jizhou, Tianjin.</def></sense><note/></entry>
          </superEntry>
 
+         <superEntry n="195">
+            <entry xml:lang="zho"><form><orth>戍</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Base</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>shu, the garrison units of the Shang army in the oracle-bone inscriptions.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="196">
+            <entry xml:lang="zho"><form><orth>行</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Column</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>hang, a formation of the Shang army in the oracle-bone inscriptions.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="197">
+            <entry xml:lang="zho"><form><orth>危方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Weifang</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a fang state of the south-east, attacked by Kang Ding.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="198">
+            <entry xml:lang="zho"><form><orth>虘方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Cuofang</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a fang state of the west, friendly after Wu Ding's campaigns and hostile again under Kang Ding.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="199">
+            <entry xml:lang="zho"><form><orth>絴方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Xiangfang</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a fang state of the west, hostile under Kang Ding, which submitted under Wu Yi.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="200">
+            <entry xml:lang="zho"><form><orth>兹方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Zifang</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a fang state of the west, friendly after Wu Ding's campaigns and hostile again under Kang Ding.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="201">
+            <entry xml:lang="zho"><form><orth>碾子坡类型</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Nianzipo type</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a type of remains on the middle and upper Jing River named from the Nianzipo site, Changwu, Shaanxi.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="202">
+            <entry xml:lang="zho"><form><orth>断泾二期</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Duanjing Phase II</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the remains named from the second phase of the Duanjing site, Binzhou, Shaanxi.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="203">
+            <entry xml:lang="zho"><form><orth>召方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Shaofang</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a fang state of the west attacked by Wu Yi.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="204">
+            <entry xml:lang="zho"><form><orth>殷墟三期</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Yinxu Phase III</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the third of the four phases of the Yinxu (Anyang) period.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="205">
+            <entry xml:lang="zho"><form><orth>珍珠门文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Zhenzhumen culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the native culture of northern Shandong in the Late Shang period, named from the Zhenzhumen site, Changdao, Shandong.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="206">
+            <entry xml:lang="zho"><form><orth>毕程氏</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Bicheng clan</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a people on Wei River destroyed by Jili, in the transmitted texts.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="207">
+            <entry xml:lang="zho"><form><orth>戎狄</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Rong and Di</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the non-Zhou peoples of the west and north in the transmitted texts.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="208">
+            <entry xml:lang="zho"><form><orth>鬼戎</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Gui Rong</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a Rong people attacked by Jili; the 西落鬼戎 of the Bamboo Annals.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="209">
+            <entry xml:lang="zho"><form><orth>燕京戎</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Yanjing Rong</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a Rong people against whom Jili was defeated; the 燕京之戎 of the Bamboo Annals.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="210">
+            <entry xml:lang="zho"><form><orth>余无之戎</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Rong of Yuwu</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a Rong people defeated by Jili.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="211">
+            <entry xml:lang="zho"><form><orth>牧师</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>mushi</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the title conferred on Jili by Wen Ding, in the Bamboo Annals.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="212">
+            <entry xml:lang="zho"><form><orth>九站类型</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Jiuzhan type</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a type of the Siwa culture, named from the Jiuzhan site, Heshui, Gansu.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="213">
+            <entry xml:lang="zho"><form><orth>寺洼山类型</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Siwashan type</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a type of the Siwa culture, named from Siwashan, Lintao, Gansu.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="214">
+            <entry xml:lang="zho"><form><orth>双房文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Shuangfang culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Bronze Age culture of the Liaodong peninsula named from the Shuangfang site, Pulandian, Liaoning.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="215">
+            <entry xml:lang="zho"><form><orth>新城子文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Xinchengzi culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Bronze Age culture named from the Xinchengzi site, Benxi, Liaoning.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="216">
+            <entry xml:lang="zho"><form><orth>于家上层文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Upper Yujia culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the culture named from the upper stratum of the Yujiacun site, Lüshun, Liaoning.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="217">
+            <entry xml:lang="zho"><form><orth>马城子文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Machengzi culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Bronze Age culture named from the Machengzi caves, Benxi, Liaoning.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="218">
+            <entry xml:lang="zho"><form><orth>新岩里二期文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Sinam-ri Phase II culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the culture named from the second phase of the Sinam-ri site (新岩里, Xinyanli in pinyin), in north-western Korea.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="219">
+            <entry xml:lang="zho"><form><orth>金滩里青铜时代一期文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Geumtan-ri Bronze Age Phase I culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the culture named from the first Bronze Age phase of the Geumtan-ri site (金滩里, Jintanli in pinyin), at Pyongyang.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="220">
+            <entry xml:lang="zho"><form><orth>虎谷洞三期文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Beomui-guseok Phase III culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the culture named from the third phase of the Beomui-guseok site (虎谷洞, Hugudong in pinyin), Musan, North Hamgyong.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="221">
+            <entry xml:lang="zho"><form><orth>三星堆四期文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Sanxingdui Phase IV culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the culture named from the fourth phase of the Sanxingdui site.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="222">
+            <entry xml:lang="zho"><form><orth>三星堆文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Sanxingdui culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Bronze Age culture of the Chengdu plain named from the Sanxingdui site, Guanghan, Sichuan.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="223">
+            <entry xml:lang="zho"><form><orth>辛店文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Xindian culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Bronze Age culture of the upper Yellow River in Gansu and Qinghai named from the Xindian site, Lintao, Gansu.</def></sense><note/></entry>
+         </superEntry>
+
       </body>
    </text>
 </TEI>

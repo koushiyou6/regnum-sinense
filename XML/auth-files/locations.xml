@@ -1456,6 +1456,111 @@
                <note xml:lang="eng">the seat of the Zhou at the foot of Mount Qi, in the Zhouyuan, from King Tai's move.</note>
             </place>
 
+            <place n="206">
+               <placeName><settlement type="mountain">Qishan 岐山</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the mountain north of the Zhouyuan; in Qishan County, Baoji, Shaanxi.</note>
+            </place>
+
+            <place n="207">
+               <placeName><settlement type="river">Jing River 泾河</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a northern tributary of Wei River, joining it east of Xi'an.</note>
+            </place>
+
+            <place n="208">
+               <placeName><settlement type="state">Yu 虞</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Zhou state at Pinglu in southern Shanxi.</note>
+            </place>
+
+            <place n="209">
+               <placeName><settlement type="county">Pinglu 平陆</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">Pinglu County, Yuncheng, Shanxi, on the north bank of the Yellow River; not the Pinglu of Qi.</note>
+            </place>
+
+            <place n="210">
+               <placeName><settlement type="river">Ganjiang 赣江</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the main river of Jiangxi, flowing north into Poyang Lake.</note>
+            </place>
+
+            <place n="211">
+               <placeName><settlement type="region">Ning–Zhen region 宁镇地区</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the Nanjing–Zhenjiang area of south-western Jiangsu.</note>
+            </place>
+
+            <place n="212">
+               <placeName><settlement type="fief">Shao Fortress 召城</settlement></placeName>
+               <country/><region>Zhou</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the fief of Shi, Duke of Shao, in the first years of the Western Zhou; traditionally placed south-west of Qishan County, Shaanxi.</note>
+            </place>
+
+            <place n="213">
+               <placeName><settlement type="region">northern Shandong 鲁北</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the plain of Shandong north of its central hills, along the Bohai.</note>
+            </place>
+
+            <place n="214">
+               <placeName><settlement type="river">Mi River 弥河</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a river of north-central Shandong, flowing north past Qingzhou into the Bohai.</note>
+            </place>
+
+            <place n="215">
+               <placeName><settlement type="site">Subutun cemetery, Qingzhou 青州苏埠屯墓葬群</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the Late Shang cemetery at Subutun, Qingzhou, Weifang, Shandong.</note>
+            </place>
+
+            <place n="216">
+               <placeName><settlement type="state">Pugu 蒲姑</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a state of the east in the transmitted texts, also written 薄姑.</note>
+            </place>
+
+            <place n="217">
+               <placeName><settlement type="sea">Bohai 渤海</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the gulf enclosed by the Liaodong and Shandong peninsulas.</note>
+            </place>
+
+            <place n="218">
+               <placeName><settlement type="region">Cangzhou 沧州</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">Cangzhou, on the Bohai coast of south-eastern Hebei.</note>
+            </place>
+
+            <place n="219">
+               <placeName><settlement type="city">Xi'an 西安</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the modern city of Xi'an, Shaanxi, in the middle of the Guanzhong.</note>
+            </place>
+
+            <place n="220">
+               <placeName><settlement type="region">Shanxi–Shaanxi plateau 晋陕高原</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the loess uplands on both sides of the Yellow River between Shanxi and Shaanxi.</note>
+            </place>
+
 </listPlace>
       </body>
    </text>
