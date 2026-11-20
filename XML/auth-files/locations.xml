@@ -1561,6 +1561,160 @@
                <note xml:lang="eng">the loess uplands on both sides of the Yellow River between Shanxi and Shaanxi.</note>
             </place>
 
+            <place n="221">
+               <placeName><settlement type="settlement">Feng 丰</settlement></placeName>
+               <country/><region>Zhou</region>
+               <location><geo/></location>
+               <note xml:lang="eng">Feng, named by the Rongchengshi among the states King Wen subdued; the settlement of Feng 丰邑 on Feng River 沣河, to which King Wen moved his capital, south-west of modern Xi'an, Shaanxi.</note>
+            </place>
+
+            <place n="222">
+               <placeName><settlement type="state">You 攸</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a state lying close to the Yifang, in the oracle-bone inscriptions.</note>
+            </place>
+
+            <place n="223">
+               <placeName><settlement type="place">Great Settlement Shang 大邑商</settlement></placeName>
+               <country/><region>Shang</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the name the oracle-bone inscriptions give to the Shang king's seat in the royal domain.</note>
+            </place>
+
+            <place n="224">
+               <placeName><settlement type="place">Wei 危</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a place reached by Di Xin on his march against the Yifang, in the oracle-bone inscriptions.</note>
+            </place>
+
+            <place n="225">
+               <placeName><settlement type="place">Youli 羑里</settlement></placeName>
+               <country/><region>Shang</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the place where King Wen was imprisoned; traditionally placed at Tangyin, Anyang, Henan.</note>
+            </place>
+
+            <place n="226">
+               <placeName><settlement type="state">Rui 芮</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a small state neighbouring Yu; traditionally placed at Ruicheng, Shanxi, or at Dali, Shaanxi.</note>
+            </place>
+
+            <place n="227">
+               <placeName><settlement type="state">Mixu 密须</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a state attacked and destroyed by King Wen; traditionally placed at Lingtai, Pingliang, Gansu.</note>
+            </place>
+
+            <place n="228">
+               <placeName><settlement type="state">Qi 耆</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the state written 耆 in the Basic Annals of Zhou and the Qiye and 黎, Li, in the Documents and the Zuozhuan; traditionally placed about Licheng and Changzhi, Shanxi.</note>
+            </place>
+
+            <place n="229">
+               <placeName><settlement type="state">Yu 邘</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a state attacked by King Wen; traditionally placed at Qinyang, Jiaozuo, Henan.</note>
+            </place>
+
+            <place n="230">
+               <placeName><settlement type="state">Lü 吕</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a dependent state of Yin Shang in the Shanxi region.</note>
+            </place>
+
+            <place n="231">
+               <placeName><settlement type="state">Chong 崇</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the state of Hu, Marquis of Chong, destroyed by King Wen; some scholars identify the Laoniupo site with it.</note>
+            </place>
+
+            <place n="232">
+               <placeName><settlement type="site">Laoniupo site 老牛坡遗址</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a Shang-period site at Laoniupo, Baqiao District, Xi'an, Shaanxi.</note>
+            </place>
+
+            <place n="233">
+               <placeName><settlement type="settlement">Hao 镐</settlement></placeName>
+               <country/><region>Zhou</region>
+               <location><geo/></location>
+               <note xml:lang="eng">Hao, named by the Rongchengshi among the states King Wen subdued; Haojing 镐京, built under King Wu on Feng River opposite Feng, south-west of modern Xi'an, Shaanxi.</note>
+            </place>
+
+            <place n="234">
+               <placeName><settlement type="state">Nuo 郍</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">named by the Rongchengshi among the states King Wen subdued.</note>
+            </place>
+
+            <place n="235">
+               <placeName><settlement type="state">Lu 鹿</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">named by the Rongchengshi among the states King Wen subdued.</note>
+            </place>
+
+            <place n="236">
+               <placeName><settlement type="river">Yi River 伊</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a tributary of Luo River in western Henan, flowing through Yique south of Luoyang.</note>
+            </place>
+
+            <place n="237">
+               <placeName><settlement type="river">Luo River 洛</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a southern tributary of the Yellow River in western Henan, flowing past Luoyang.</note>
+            </place>
+
+            <place n="238">
+               <placeName><settlement type="ford">Meng Ford 盟津</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the ford of the Yellow River north of Luoyang, also written 孟津; modern Mengjin, Luoyang, Henan.</note>
+            </place>
+
+            <place n="239">
+               <placeName><settlement type="place">Luoshi 洛师</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the land on Luo River about modern Luoyang, Henan; the 洛师 of the Documents.</note>
+            </place>
+
+            <place n="240">
+               <placeName><settlement type="city">Zhaoge 朝歌</settlement></placeName>
+               <country/><region>Shang</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the secondary capital of Yin Shang; modern Qi County 淇县, Hebi, Henan.</note>
+            </place>
+
+            <place n="241">
+               <placeName><settlement type="place">Muye 牧野</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the ground outside Zhaoge where King Wu defeated Di Xin; south of modern Qi County, towards Xinxiang, Henan.</note>
+            </place>
+
+            <place n="242">
+               <placeName><settlement type="site">Lu Terrace 鹿台</settlement></placeName>
+               <country/><region>Shang</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the terrace of Di Xin at Zhaoge.</note>
+            </place>
+
 </listPlace>
       </body>
    </text>

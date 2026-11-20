@@ -593,7 +593,7 @@
             </person>
 
             <person n="79">
-               <persName><name>King Wen of Zhou 周文王</name><roleName>King of Zhou</roleName><forename/><nameLink/><surname/><addName>文王</addName><genName/></persName>
+               <persName><name>King Wen of Zhou 周文王</name><roleName>King of Zhou</roleName><forename/><nameLink/><surname/><addName>文王; 昌</addName><genName/></persName>
                <nationality>Zhou</nationality>
                <note xml:lang="eng"><p>Founder of the Zhou royal house, father of King Wu.</p></note>
                <listEvent><event><p>251 BC</p></event></listEvent>
@@ -1299,18 +1299,81 @@
                <listEvent><event><p>c. 1150–1088 BC</p></event></listEvent>
             </person>
 
-            <person n="180">
-               <persName><name>King Wen of Zhou 周文王</name><roleName></roleName><forename/><nameLink/><surname/><addName>昌</addName><genName/></persName>
-               <nationality>Zhou</nationality>
-               <note xml:lang="eng"><p>Chang 昌, son of Jili and Tai Ren.</p></note>
-               <listEvent><event><p>c. 1150–1088 BC</p></event></listEvent>
-            </person>
-
             <person n="181">
                <persName><name>Shi, Duke of Shao 召公奭</name><roleName>Duke of Shao</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
                <nationality>Zhou</nationality>
                <note xml:lang="eng"><p>Shi 奭, Duke of Shao in the first years of the Western Zhou, whose fief was Shao.</p></note>
                <listEvent><event><p>c. 1150–1088 BC</p></event></listEvent>
+            </person>
+
+            <person n="182">
+               <persName><name>Di Yi 帝乙</name><roleName>King of Shang</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Shang</nationality>
+               <note xml:lang="eng"><p>King of Shang, son and successor of Wen Ding.</p></note>
+               <listEvent><event><p>c. 1088–1046 BC</p></event></listEvent>
+            </person>
+
+            <person n="183">
+               <persName><name>Xi, Marquis of You 攸侯喜</name><roleName>Marquis of You</roleName><forename/><nameLink/><surname/><addName>侯喜</addName><genName/></persName>
+               <nationality></nationality>
+               <note xml:lang="eng"><p>Xi 喜, Marquis of the state of You, with whom Di Xin campaigned against the Yifang in the oracle-bone inscriptions.</p></note>
+               <listEvent><event><p>c. 1088–1046 BC</p></event></listEvent>
+            </person>
+
+            <person n="184">
+               <persName><name>Yu 艅</name><roleName>Lesser Minister</roleName><forename/><nameLink/><surname/><addName>小臣艅</addName><genName/></persName>
+               <nationality>Shang</nationality>
+               <note xml:lang="eng"><p>A Lesser Minister of the end of Shang, for whom the rhinoceros zun was made.</p></note>
+               <listEvent><event><p>c. 1088–1046 BC</p></event></listEvent>
+            </person>
+
+            <person n="185">
+               <persName><name>Tai Si 太姒</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>Consort of King Wen of Zhou and mother of Fa, King Wu.</p></note>
+               <listEvent><event><p>c. 1088–1046 BC</p></event></listEvent>
+            </person>
+
+            <person n="186">
+               <persName><name>King Wu of Zhou 周武王</name><roleName>King of Zhou</roleName><forename/><nameLink/><surname/><addName>发; 太子发; 武王</addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>King of Zhou, son and successor of King Wen, born of Tai Si; personal name Fa 发.</p></note>
+               <listEvent><event><p>c. 1088–1046 BC</p></event></listEvent>
+            </person>
+
+            <person n="187">
+               <persName><name>Hu, Marquis of Chong 崇侯虎</name><roleName>Marquis of Chong</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality></nationality>
+               <note xml:lang="eng"><p>Hu 虎, Marquis of the state of Chong.</p></note>
+               <listEvent><event><p>c. 1088–1046 BC</p></event></listEvent>
+            </person>
+
+            <person n="188">
+               <persName><name>Bigan 比干</name><roleName>Prince</roleName><forename/><nameLink/><surname/><addName>王子比干</addName><genName/></persName>
+               <nationality>Shang</nationality>
+               <note xml:lang="eng"><p>A prince of the Shang royal house, killed by Di Xin.</p></note>
+               <listEvent><event><p>c. 1088–1046 BC</p></event></listEvent>
+            </person>
+
+            <person n="189">
+               <persName><name>Jizi 箕子</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Shang</nationality>
+               <note xml:lang="eng"><p>A noble of the Shang royal house, imprisoned by Di Xin.</p></note>
+               <listEvent><event><p>c. 1088–1046 BC</p></event></listEvent>
+            </person>
+
+            <person n="190">
+               <persName><name>Ci, Grand Preceptor 太师疵</name><roleName>Grand Preceptor</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Shang</nationality>
+               <note xml:lang="eng"><p>Ci 疵, Grand Preceptor of Shang, who went over to Zhou.</p></note>
+               <listEvent><event><p>c. 1088–1046 BC</p></event></listEvent>
+            </person>
+
+            <person n="191">
+               <persName><name>Qiang, Junior Preceptor 少师彊</name><roleName>Junior Preceptor</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Shang</nationality>
+               <note xml:lang="eng"><p>Qiang 彊, Junior Preceptor of Shang, who went over to Zhou.</p></note>
+               <listEvent><event><p>c. 1088–1046 BC</p></event></listEvent>
             </person>
 
 </listPerson>
