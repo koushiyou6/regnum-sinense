@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+  History of the Zhou Dynasty (video) · Western Zhou 西周 — one-paragraph introductions. <div n="N"> matches source.xml.
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>History of the Zhou Dynasty · Western Zhou 西周</title>
+            <respStmt><resp>Edited</resp><persName>Kou Shiyou</persName></respStmt>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><listBibl><bibl xml:id="S"><title>无骨者伊瓦尔《周朝史》</title></bibl></listBibl></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div n="1">
+            <p>The first years after the conquest of Shang, about 1046 to 1036 BC: King Wu's settlement of the royal domain of Yin Shang and his enfeoffments; the Duke of Zhou's regency, the rising of Guan, Cai and Wu Geng and the three years of the eastern campaign; the founding of Yan (燕) and the fall of Yan (奄) and Pugu; and the moving of the people of Yin to Luoyi, the Zhouyuan and Feng and Hao.</p>
+         </div>
+
+         <div n="2">
+            <p>The cultures appearing in the same span, about the beginning of the Western Zhou: the Upper Xiajiadian and Shi'ertaiyingzi cultures; the Baode type; the Lanqiao–Xujianian type of the Siwa culture; and the Xituanshan, Baoshan and Tanheli cultures and the Wanfabozi remains.</p>
+         </div>
+
+      </body>
+   </text>
+</TEI>

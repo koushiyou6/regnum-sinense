@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+  History of the Zhou Dynasty (video) · Western Zhou 西周 — notes on the entries, keyed by @corresp. <div n="N"> matches source.xml.
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>History of the Zhou Dynasty · Western Zhou 西周</title>
+            <respStmt><resp>Edited</resp><persName>Kou Shiyou</persName></respStmt>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc><listBibl><bibl xml:id="S"><title>无骨者伊瓦尔《周朝史》</title></bibl></listBibl></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div n="1">
+            <interp corresp="the_Duke_will_do_no_good_to_the_young_son">公将不利于孺子: the Metal-bound Coffer of the Documents, after Legge, "the duke would do no good to the (king's) young son".</interp>
+            <interp corresp="Marquis_of_Yan">匽: the form of 燕, Yan, in the bronze inscriptions.</interp>
+            <interp corresp="refractory_people">顽民: Legge's rendering in the Charge to the Duke of Bi of the Documents, 毖殷顽民，迁于洛邑, "Cautiously did he deal with the refractory people of Yin, and removed them to the city of Lo".</interp>
+         </div>
+
+         <div n="2">
+         </div>
+
+      </body>
+   </text>
+</TEI>

@@ -1715,6 +1715,272 @@
                <note xml:lang="eng">the terrace of Di Xin at Zhaoge.</note>
             </place>
 
+            <place n="243">
+               <placeName><settlement type="fief">Wei 微</settlement></placeName>
+               <country/><region>Shang</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the fief of Weizi Qi; traditionally placed at Lucheng, Changzhi, Shanxi.</note>
+            </place>
+
+            <place n="244">
+               <placeName><settlement type="place">Lanshi 阑师</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the place where King Wu was on the day Xinwei, seven days after the conquest, in the inscription of the Li gui.</note>
+            </place>
+
+            <place n="245">
+               <placeName><settlement type="state">Chen 陈</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the state of the descendants of Shun; modern Huaiyang, Zhoukou, Henan.</note>
+            </place>
+
+            <place n="246">
+               <placeName><settlement type="state">Qi 杞</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the state of the descendants of Xia; first at modern Qi County 杞县, Kaifeng, Henan.</note>
+            </place>
+
+            <place n="247">
+               <placeName><settlement type="place">Bei 邶</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the land north of the Shang capital where Wu Geng was enfeoffed; traditionally placed at Tangyin, Anyang, Henan.</note>
+            </place>
+
+            <place n="248">
+               <placeName><settlement type="state">Cao 曹</settlement></placeName>
+               <country/><region>Zhou</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a state of a brother of King Wu; modern Dingtao, Heze, Shandong.</note>
+            </place>
+
+            <place n="249">
+               <placeName><settlement type="state">Gao 郜</settlement></placeName>
+               <country/><region>Zhou</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a state of a brother of King Wu; modern Chengwu, Heze, Shandong.</note>
+            </place>
+
+            <place n="250">
+               <placeName><settlement type="state">Cheng 郕</settlement></placeName>
+               <country/><region>Zhou</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a state of a brother of King Wu; traditionally placed about Ningyang, Tai'an, Shandong.</note>
+            </place>
+
+            <place n="251">
+               <placeName><settlement type="settlement">Yingqiu 营丘</settlement></placeName>
+               <country/><region>Qi</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the first seat of the state of Qi, where Taigong was enfeoffed; traditionally placed at Linzi, Zibo, or at Changle, Weifang, Shandong.</note>
+            </place>
+
+            <place n="252">
+               <placeName><settlement type="river">Malian River 马莲河</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a northern tributary of Jing River in eastern Gansu, flowing through Huan County, Heshui and Ning County.</note>
+            </place>
+
+            <place n="253">
+               <placeName><settlement type="county">Lingtai 灵台</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">Lingtai County, Pingliang, Gansu.</note>
+            </place>
+
+            <place n="254">
+               <placeName><settlement type="county">Chongxin 崇信</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">Chongxin County, Pingliang, Gansu.</note>
+            </place>
+
+            <place n="255">
+               <placeName><settlement type="county">Ning County 宁县</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">Ning County, Qingyang, Gansu.</note>
+            </place>
+
+            <place n="256">
+               <placeName><settlement type="county">Heshui 合水</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">Heshui County, Qingyang, Gansu.</note>
+            </place>
+
+            <place n="257">
+               <placeName><settlement type="county">Huan County 环县</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">Huan County, Qingyang, Gansu.</note>
+            </place>
+
+            <place n="258">
+               <placeName><settlement type="state">Yan 奄</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a state of the east that sided with Wu Geng, also called Shang Yan 商奄; traditionally placed at Qufu, Jining, Shandong.</note>
+            </place>
+
+            <place n="259">
+               <placeName><settlement type="state">Wen 温</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a state on the road south from the old Shang royal domain; modern Wen County, Jiaozuo, Henan.</note>
+            </place>
+
+            <place n="260">
+               <placeName><settlement type="state">Tan 檀</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a state which, with Wen, held the road south from the old Shang royal domain to the Yi and Luo region.</note>
+            </place>
+
+            <place n="261">
+               <placeName><settlement type="state">Yuan 原</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a state at the southern foot of Taihangshan; modern Jiyuan, Henan.</note>
+            </place>
+
+            <place n="262">
+               <placeName><settlement type="state">Yong 雍</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a state at the southern foot of Taihangshan, about modern Jiaozuo, Henan; not the Yong of Qin.</note>
+            </place>
+
+            <place n="263">
+               <placeName><settlement type="mountain">Taihangshan 太行山</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the range between the Shanxi plateau and the North China plain.</note>
+            </place>
+
+            <place n="264">
+               <placeName><settlement type="river">Ji River 济水</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the old river that ran from the Yellow River about Xingyang east across western Shandong to the sea.</note>
+            </place>
+
+            <place n="265">
+               <placeName><settlement type="site">Xiaotun 小屯</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the village at Anyang, Henan, at the centre of the Yinxu site, where the palace and temple foundations were excavated.</note>
+            </place>
+
+            <place n="266">
+               <placeName><settlement type="state">Ji 㠱</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a state of the Beijing region in the bronze inscriptions, founded by Jizi's clan after its move north.</note>
+            </place>
+
+            <place n="267">
+               <placeName><settlement type="state">Guzhu 孤竹</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a state north of Yan; traditionally placed about Lulong, Qinhuangdao, Hebei.</note>
+            </place>
+
+            <place n="268">
+               <placeName><settlement type="mountain">Zhuyushan 朱圉山</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a mountain of eastern Gansu, in Gangu County, Tianshui.</note>
+            </place>
+
+            <place n="269">
+               <placeName><settlement type="state">Feng 丰</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the Dongyi state of the Earl of Feng 丰伯, destroyed by the Duke of Zhou; not the Feng of King Wen.</note>
+            </place>
+
+            <place n="270">
+               <placeName><settlement type="state">Ji 纪</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a state of the east; modern Shouguang, Weifang, Shandong.</note>
+            </place>
+
+            <place n="271">
+               <placeName><settlement type="state">Xue 薛</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a state of the east; modern Tengzhou, Zaozhuang, Shandong.</note>
+            </place>
+
+            <place n="272">
+               <placeName><settlement type="state">Xu 徐</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the great state of the Dongyi on the lower Huai; about modern Sihong, Suqian, Jiangsu.</note>
+            </place>
+
+            <place n="273">
+               <placeName><settlement type="place">Jiubi 九毕</settlement></placeName>
+               <country/><region>Zhou</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the place near Luo, held by a strong force, to which the Duke of Zhou moved the old nobility of Yin Shang who had risen with Wu Geng.</note>
+            </place>
+
+            <place n="274">
+               <placeName><settlement type="city">Luoyi 洛邑</settlement></placeName>
+               <country/><region>Zhou</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the new capital built by the Duke of Zhou on Luo River, called Chengzhou 成周; modern Luoyang, Henan.</note>
+            </place>
+
+            <place n="275">
+               <placeName><settlement type="place">Xutian 许田</settlement></placeName>
+               <country/><region>Lu</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a holding of the state of Lu near the capital of the state of Xu 许, the lodging of the rulers of Lu on their way to court.</note>
+            </place>
+
+            <place n="276">
+               <placeName><settlement type="district">Lintong 临潼</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">Lintong District, Xi'an, Shaanxi.</note>
+            </place>
+
+            <place n="277">
+               <placeName><settlement type="place">Miji 靡集</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a place in the land of Chen attacked by Hou Lai after the conquest, in the Great Capture chapter of the Yi Zhou Shu.</note>
+            </place>
+
+            <place n="278">
+               <placeName><settlement type="place">Wei 韦</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a place attacked by one of King Wu's commanders after the conquest, in the Great Capture chapter of the Yi Zhou Shu.</note>
+            </place>
+
+            <place n="279">
+               <placeName><settlement type="place">Li 磿</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a place attacked by one of King Wu's commanders after the conquest, in the Great Capture chapter of the Yi Zhou Shu.</note>
+            </place>
+
+            <place n="280">
+               <placeName><settlement type="place">Shu 蜀</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a place attacked by one of King Wu's commanders after the conquest, in the Great Capture chapter of the Yi Zhou Shu.</note>
+            </place>
+
 </listPlace>
       </body>
    </text>

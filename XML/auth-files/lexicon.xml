@@ -1435,6 +1435,138 @@
                <sense n="1"><def>huben, the picked warriors of the king's guard.</def></sense><note/></entry>
          </superEntry>
 
+         <superEntry n="243">
+            <entry xml:lang="zho"><form><orth>利簋</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Li gui</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a bronze gui of the first years of the Western Zhou, unearthed at Lintong, Shaanxi, in 1976; its inscription dates the conquest of Shang to the morning of the day Jiazi.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="244">
+            <entry xml:lang="zho"><form><orth>越戏方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Yuexifang</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a fang state attacked by Lü Ta on King Wu's orders, in the Great Capture chapter of the Yi Zhou Shu.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="245">
+            <entry xml:lang="zho"><form><orth>宣方</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Xuanfang</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a fang state attacked by Bai Wei on King Wu's orders, in the Great Capture chapter of the Yi Zhou Shu.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="246">
+            <entry xml:lang="zho"><form><orth>先代之后</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>descendants of the former dynasties</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the heirs of earlier ruling houses, enfeoffed by King Wu.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="247">
+            <entry xml:lang="zho"><form><orth>三恪</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Three Ke</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the three houses of former dynasties enfeoffed and honoured by the Zhou: the descendants of Shun, of Xia and of Yin.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="248">
+            <entry xml:lang="zho"><form><orth>三监</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Three Guards</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the three brothers of King Wu set to watch over the people of Yin: Guanshu, Caishu and Huoshu.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="249">
+            <entry xml:lang="zho"><form><orth>莱夷</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Laiyi</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Yi people of the Shandong peninsula.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="250">
+            <entry xml:lang="zho"><form><orth>东土</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the eastern lands</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the lands east of the Zhou homeland.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="251">
+            <entry xml:lang="zho"><form><orth>太保</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Grand Guardian</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>one of the highest offices of the early Zhou court, held by the Duke of Shao.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="252">
+            <entry xml:lang="zho"><form><orth>顽民</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>refractory people</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the people of Yin who had resisted the rule of Zhou and were moved to Luoyi.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="253">
+            <entry xml:lang="zho"><form><orth>司寇</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Minister of Justice</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Zhou office in charge of punishments.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="254">
+            <entry xml:lang="zho"><form><orth>奴虘之戎</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Rong of Nucuo</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a Rong people of the west, in the Xinian.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="255">
+            <entry xml:lang="zho"><form><orth>熊盈族</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Xiong and Ying clans</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>peoples of the Dongyi conquered by the Duke of Zhou, in the Yi Zhou Shu.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="256">
+            <entry xml:lang="zho"><form><orth>夏家店上层文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Upper Xiajiadian culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Bronze Age culture of the western Liao valley named from the upper stratum of the Xiajiadian site, Chifeng, Inner Mongolia.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="257">
+            <entry xml:lang="zho"><form><orth>高台山文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Gaotaishan culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Bronze Age culture of the lower Liao valley named from the Gaotaishan site, Xinmin, Liaoning.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="258">
+            <entry xml:lang="zho"><form><orth>十二台营子文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Shi'ertaiyingzi culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Bronze Age culture named from the Shi'ertaiyingzi tombs, Chaoyang, Liaoning.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="259">
+            <entry xml:lang="zho"><form><orth>保德类型</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Baode type</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the bronze-bearing remains of the Shanxi–Shaanxi uplands named from Baode County, Shanxi.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="260">
+            <entry xml:lang="zho"><form><orth>栏桥-徐家碾类型</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Lanqiao–Xujianian type</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a type of the Siwa culture, named from the Lanqiao site, Xihe, and the Xujianian site, Zhuanglang, Gansu.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="261">
+            <entry xml:lang="zho"><form><orth>西团山文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Xituanshan culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Bronze Age culture of central Jilin named from the Xituanshan site, Jilin City.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="262">
+            <entry xml:lang="zho"><form><orth>宝山文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Baoshan culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Bronze Age culture of the upper Hanjiang valley named from the Baoshan site, Chenggu, Shaanxi.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="263">
+            <entry xml:lang="zho"><form><orth>炭河里文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Tanheli culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Bronze Age culture of the Xiang valley named from the Tanheli site, Ningxiang, Hunan.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="264">
+            <entry xml:lang="zho"><form><orth>万发拨子遗存</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Wanfabozi remains</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the remains named from the Wanfabozi site, Tonghua, Jilin.</def></sense><note/></entry>
+         </superEntry>
+
       </body>
    </text>
 </TEI>

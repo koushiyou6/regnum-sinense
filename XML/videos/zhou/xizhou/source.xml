@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+  History of the Zhou Dynasty (video) · Western Zhou 西周 — the dated entries of the period, as the compiler supplied them.
+  One <div n="N"> per entry (one date), in order; <head> is the date; each paragraph of the entry is a <p>.
+  Text is kept as it stands in the compiler's text. Conventions: <term n="ID">, <persName n="ID">, <placeName n="ID">.
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>History of the Zhou Dynasty · Western Zhou 西周</title>
+            <respStmt><resp>Compiled</resp><persName>无骨者伊瓦尔</persName></respStmt>
+         </titleStmt>
+         <publicationStmt><p/></publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <bibl xml:id="S"><title>无骨者伊瓦尔《周朝史》</title><note xml:lang="eng">The compiler's text for the video, by approximate date.</note></bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div n="1">
+            <head>约公元前1046年—公元前1036年</head>
+            <p><persName n="126">帝辛</persName>死后，<persName n="186">武王</persName>的下一步行动是实现对殷商<term n="231">王畿</term>的彻底控制；据《<title>逸周书</title>》记载，武王在甲子日傍晚进入<placeName n="240">朝歌</placeName>后，就派遣<persName n="192">太公</persName>率军抵御帝辛的臣子<persName n="193">方来</persName>。三天后的丁卯日，太公得胜归来，基本扑灭了殷商王畿的残余抵抗势力。</p>
+            <p>在<placeName n="195">殷墟</placeName>王畿，除方来等残存抵抗势力，殷商的宗亲旧族，多无心与周军对抗；据《<title>左传</title>》记载，帝辛的庶兄<persName n="194">微子启</persName>主动向武王请降，武王亲自替微子启松绑，收下他含着的玉璧，随后命他返回封邑<placeName n="243">微</placeName>地。</p>
+            <p>据《<title>逸周书·克殷</title>》所载，武王在殷商王畿举行了<term n="44">社</term>祭，把帝辛子<persName n="195">武庚</persName>封在殷邑，命三弟<persName n="196">管叔鲜</persName>辅佐；武王安排<persName n="181">召公</persName>去释放被囚禁的<persName n="189">箕子</persName>，又安排<persName n="197">毕叔</persName>与<persName n="198">康叔</persName>去释放了被帝辛囚禁的宗族族人，并命<persName n="199">闳夭</persName>封<persName n="188">比干</persName>之墓。武王征召殷商王畿的大小贵族，在殷邑郊外会面，武王对他们发表训诫，即《<title>商誓</title>》。</p>
+            <p>陕西<placeName n="276">临潼</placeName>出土的西周青铜器<term n="243">利簋</term>铭文表明，武王在辛未日，也就是克商的七天后已经离开了殷商王畿，抵达<placeName n="244">阑师</placeName>；据《<title>逸周书·世俘</title>》记载，武王令<persName n="200">吕他</persName>征伐<term n="244">越戏方</term>、<persName n="201">侯来</persName>伐陈地的<placeName n="277">靡集</placeName>、<persName n="202">百弇</persName>伐<placeName n="278">韦</placeName>、<persName n="203">陈本</persName>伐<placeName n="279">磿</placeName>、<persName n="204">百韦</persName>伐<term n="245">宣方</term>，<persName n="205">新荒</persName>伐<placeName n="280">蜀</placeName>，六路皆捷。在取得胜利后，武王率军返回<placeName n="233">镐京</placeName>，于四月庚戌日举行了献俘仪式。辛亥日，祭祀上天，伐纣战争至此完成。</p>
+            <p>武王克商后的统治较为短暂，至多三年。在此期间，武王对“<term n="246">先代之后</term>”以及宗亲功臣进行了分封。</p>
+            <p>在“先代之后”中，夏、殷两代王族后裔，共三国受封，合称为“<term n="247">三恪</term>”；此“三恪”的“<persName n="212">舜</persName>后”是<placeName n="245">陈</placeName>国，“夏后”是<placeName n="246">杞</placeName>国，至于“殷后”，初为受封于<placeName n="247">邶</placeName>的帝辛子武庚。后武庚作乱被讨平，<persName n="87">周公</persName>又命帝辛庶兄微子启“代殷后”，<placeName n="43">宋</placeName>国便成为了“三恪”之一。除此之外，亦有如炎黄之后、<persName n="213">尧</persName>后等受封。</p>
+            <p>除管叔鲜在克商之初被派辅佐武庚之外，武王亦增派了另外两位胞弟，<persName n="206">蔡叔度</persName>和<persName n="207">霍叔处</persName>，设置“<term n="248">三监</term>”以对殷民进行监督，并拆分了殷商王畿；周武王还把几位胞弟分封在<placeName n="248">曹</placeName>、<placeName n="249">郜</placeName>、<placeName n="250">郕</placeName>等地，又封太公吕尚于<placeName n="251">营丘</placeName>，讨平<term n="249">莱夷</term>并建立<placeName n="56">齐</placeName>国，在<term n="250">东土</term>立足。</p>
+            <p>至周初，姜姓人群成规模地进入<placeName n="207">泾河</placeName>中、上游，与来自西周王畿腹地的周人在泾河干流与支流<placeName n="252">马莲河</placeName>的甘肃<placeName n="253">灵台</placeName>、<placeName n="254">崇信</placeName>与<placeName n="255">宁县</placeName>、<placeName n="256">合水</placeName>、<placeName n="257">环县</placeName>地区共存。</p>
+            <p>武王去世后，其子<persName n="208">成王</persName>即位，周公姬旦承武王遗命而“代行<term n="27">天子</term>事”，发布命令皆称“王命”；正在东方监管殷民的管叔、蔡叔极其不满，随即展开了对抗。</p>
+            <p>至于霍叔，部分学者认为可能只是被两位兄长裹挟，并非动乱的主要发起者，所以早期的文献大多加以忽略；随着管蔡二人公然对抗周公，帝辛之子武庚也在殷邑起兵。</p>
+            <p>传统说法大多认为管蔡与武庚联合作乱，但部分的学者根据<term n="241">清华简</term>《<title>系年</title>》的记载推断管蔡起初或只单纯反对周公，并未勾结武庚，原殷商王畿地区的贵族、遗民看到周国宗室内讧，便杀死了留在殷邑的周人属吏、军士，拥戴武庚叛乱。</p>
+            <p>据《<title>尚书大传</title>》记载，<placeName n="258">奄</placeName>国和<placeName n="216">蒲姑</placeName>的君主亦有派人通告武庚举事。</p>
+            <p>管、蔡宣称“公将不利于孺子”，让周朝其他重臣乃至成王本人，对周公摄政心生怀疑；周公一方面极力陈述自己的用心良苦，另一方面表示绝不姑息作乱之人。</p>
+            <p>周公东征的第一年，主要是在遏制管、蔡以及殷商旧族的攻势；周公坐镇<placeName n="239">洛</placeName>地，其子<persName n="209">伯禽</persName>则率军插入管叔封国的后方，而其他邦君<term n="1">诸侯</term>也配合了周公的行动：<placeName n="259">温</placeName>、<placeName n="260">檀</placeName>两国扼控着从殷商王畿南下<placeName n="236">伊</placeName><placeName n="237">洛</placeName>地区的交通要道，<placeName n="261">原</placeName>、<placeName n="262">雍</placeName>两国扼控着<placeName n="263">太行山</placeName>南麓的隘口，姬姓<placeName n="228">黎</placeName>国则镇守着太行山西侧的<placeName n="150">上党</placeName>台地，在它们的封锁之下，殷商王畿的叛军也是一筹莫展。</p>
+            <p>在<placeName n="264">济水</placeName>沿线，先前周军东拓的产物——齐、郕、曹、郜等国更是牵制了以奄国、蒲姑为代表的亲商<term n="134">方</term>国，使它们无法有效支援殷商王畿。</p>
+            <p>在东征的第二年，周公彻底击败管、蔡，管叔或被处死、或自杀，蔡叔或被囚，或与霍叔同遭流放。</p>
+            <p>在管、蔡败亡后，周公继而挥师攻克了殷邑，武庚向北逃窜；根据安阳<placeName n="265">小屯</placeName>发掘所见的柱烬以及基址的红烧土，可以得知殷都在最终废弃时经历了火灾。殷墟王陵以及王陵区以外的绝大多数贵族墓葬也在周公东征的期间集体遭到了破坏性盗掘，<term n="148">晚商</term><term n="224">殷墟四期</term>彻底结束。</p>
+            <p>成王对周公的误会消除后，到东征的第三年便亲自参与了“践奄”的重大战役。另一方面，成王派遣<term n="251">太保</term>召公奭率军讨伐北逃的武庚；尽管武庚被追上杀死，但仍然有一部分残党继续北逃，召公率军队追击，直抵<placeName n="14">燕</placeName>地，经营据点。后来召公班师，成王就封召公之子<persName n="210">克</persName>为匽侯。</p>
+            <p>先前北京地区已有箕子宗族北迁建立的<placeName n="266">㠱</placeName>国，根据考古铭文中匽侯赏赐㠱侯族人的内容来看，这一支殷商遗民与匽国的关系较为融洽；至于武庚之乱的残党，或许逃到了更靠北一点的地方，例如<placeName n="267">孤竹</placeName>国，而西周初辽西遗存中的殷商式器物可能与其有关。</p>
+            <p>奄国被攻破后，原本避难于此的帝辛之臣<persName n="211">飞廉</persName>继续向东逃窜，周军追击到海边，将他杀死；成王又把包括飞廉族人在内的奄国遗民西迁到<placeName n="268">朱圉山</placeName>，命令他们抵御“<term n="254">奴虘之戎</term>”。</p>
+            <p>消灭奄国以后，周公又率军征伐了<term n="228">东夷</term><placeName n="269">丰</placeName>伯之国与蒲姑国；这两国应是在太公的配合下消灭的，所以后来都被成王增封给齐国。此后，周公广伐南国。</p>
+            <p>几个主要的亲商方国覆亡后，东部地区的<placeName n="270">纪</placeName>、<placeName n="271">薛</placeName>等国也倒向了周人；据《<title>逸周书</title>》记载，周公还征服了东夷的“<term n="255">熊盈族</term>十有七国”，不过，东夷的大国<placeName n="272">徐</placeName>国似乎并未受到重创，后来周公之子伯禽迁封于东方，依然要和徐国斗争。</p>
+            <p>东征胜利后，周公把一批拥戴武庚叛乱的殷商旧贵迁往<placeName n="273">九毕</placeName>，即有重兵屯驻的洛地附近，以便在新都<placeName n="274">洛邑</placeName>建成后可以就近管控；因为他们先前反抗周人的统治，也被称为“<term n="252">顽民</term>”。</p>
+            <p>周公于摄政的第五年营建成周洛邑，其后有更多的殷商旧族被迁到附近安置。周公还重申了安抚政策，使有德之人会被选入王廷供职，而其他迁居洛邑的殷民，也能分到田地。</p>
+            <p>除了成周洛邑以外，还有部分殷商旧族被迁往<placeName n="183">周原</placeName>、<placeName n="221">丰</placeName>镐安置；与洛邑的“顽民”不同，这些旧族大多是愿意与周人合作的一派，早在武王克商之初，他们就被陆续迁往<term n="142">西土</term>。</p>
+            <p>至于殷商王畿，仍有众多未被迁徙的遗民。周公让胞弟康叔封去管辖居留原地的殷商遗民，成王亲政后，嘉奖康叔的功劳，召他回朝担任<term n="253">司寇</term>。</p>
+            <p>与殷商王畿情况有些类似，商奄的故地后来迁走了一批“顽民”后，还是有众多遗民居留原地，于是令伯禽迁居东方以巩固周公东征的胜利结果。但在<placeName n="92">许</placeName>国都城附近，仍然留有一块<placeName n="37">鲁</placeName>国的“飞地”<placeName n="275">许田</placeName>，作为鲁国君主至洛朝觐时的临时驻地。</p>
+         </div>
+
+         <div n="2">
+            <head>约公元前1046年—公元前1036年</head>
+            <p>约西周初：</p>
+            <p><term n="256">夏家店上层文化</term>承接<term n="257">高台山文化</term>发展；<term n="258">十二台营子文化</term>承接<term n="161">魏营子文化</term>发展。</p>
+            <p>周代北方的青铜文化逐渐过渡至空白期；<term n="259">保德类型</term>承接<term n="157">石楼类型</term>发展。</p>
+            <p><term n="189">寺洼文化</term>进入中期二段，发展形成了<term n="260">栏桥-徐家碾类型</term>。</p>
+            <p><term n="261">西团山</term>、<term n="262">宝山</term>、<term n="263">炭河里文化</term>与<term n="264">万发拨子遗存</term>兴起。</p>
+         </div>
+
+      </body>
+   </text>
+</TEI>

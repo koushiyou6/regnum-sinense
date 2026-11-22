@@ -22,7 +22,12 @@
             <bracket en="c. 1088–1046 BC">约公元前1088年—公元前1046年</bracket>
          </document>
       </section>
-      <section id="xizhou" label="西周" en="Western Zhou"/>
+      <section id="xizhou" label="西周" en="Western Zhou">
+         <document dir="videos/zhou/xizhou" label="History of the Zhou Dynasty">
+            <bracket en="c. 1046–1036 BC">约公元前1046年—公元前1036年</bracket>
+            <bracket en="c. 1046–1036 BC (archaeological appearances)">约公元前1046年—公元前1036年</bracket>
+         </document>
+      </section>
       <years from="-770" to="-256" en="770–256 BC, by year"/>
    </video>
 </videos>
