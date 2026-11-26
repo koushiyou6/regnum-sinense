@@ -1586,6 +1586,34 @@
                <listEvent><event><p>c. 1000–950 BC</p></event></listEvent>
             </person>
 
+            <person n="222">
+               <persName><name>King Gong of Zhou 周共王</name><roleName>King of Zhou</roleName><forename/><nameLink/><surname/><addName>繄扈; 共王</addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>King of Zhou, son and successor of King Mu; personal name Yihu 繄扈.</p></note>
+               <listEvent><event><p>c. 950–900 BC</p></event></listEvent>
+            </person>
+
+            <person n="223">
+               <persName><name>King Yi of Zhou 周懿王</name><roleName>King of Zhou</roleName><forename/><nameLink/><surname/><addName>囏; 懿王</addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>King of Zhou, son and successor of King Gong; personal name Jian 囏.</p></note>
+               <listEvent><event><p>c. 950–900 BC</p></event></listEvent>
+            </person>
+
+            <person n="224">
+               <persName><name>Dong 𰒦</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>A commander of King Mu, who fought the Huaiyi at Hu; the maker of the Dong gui. The name is also read Zhong.</p></note>
+               <listEvent><event><p>c. 950–900 BC</p></event></listEvent>
+            </person>
+
+            <person n="225">
+               <persName><name>Yu 盂</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>The maker of the Da Yu ding and the Xiao Yu ding, who twice campaigned against the Guifang at the King's command.</p></note>
+               <listEvent><event><p>c. 950–900 BC</p></event></listEvent>
+            </person>
+
 </listPerson>
       </body>
    </text>

@@ -40,6 +40,11 @@
          <div n="5">
          </div>
 
+         <div n="6">
+            <interp corresp="Ban_gui">班簋: translated after Robert Eno (Inscriptional Records of the Western Zhou, no. 46), who has "bring peace to the eastern lands" and "none do not submit".</interp>
+            <interp corresp="Mi">密: the state of Mi, traditionally placed at Lingtai, Gansu, on the land of the former Mixu.</interp>
+         </div>
+
       </body>
    </text>
 </TEI>

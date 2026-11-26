@@ -5,4 +5,5 @@
 <glyphs>
    <glyph char="𢀛" id="qiong" reading="qiong" alt="𢀛 (工 over 口)"/>
    <glyph char="&#xE001;" id="mou" reading="mou" alt="the graph of the Moufang, 中 with a doubled vertical stroke"/>
+   <glyph char="𰒦" id="dong" reading="dong" alt="𰒦 (戈 enclosing 冬)"/>
 </glyphs>

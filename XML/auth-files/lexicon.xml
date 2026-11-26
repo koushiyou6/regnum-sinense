@@ -1609,6 +1609,18 @@
                <sense n="1"><def>the Bronze Age culture named from the Geumtan-ri site (金滩里, Jintanli in pinyin), at Pyongyang.</def></sense><note/></entry>
          </superEntry>
 
+         <superEntry n="272">
+            <entry xml:lang="zho"><form><orth>班簋</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Ban gui</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a bronze gui of the reign of King Mu, cast by Ban, whose inscription records three years of campaigning in the eastern states.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="273">
+            <entry xml:lang="zho"><form><orth>大小盂鼎</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Da Yu ding and Xiao Yu ding</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>two bronze ding cast by Yu; the Xiao Yu ding records his campaigns against the Guifang and the presentation of the captives.</def></sense><note/></entry>
+         </superEntry>
+
       </body>
    </text>
 </TEI>
