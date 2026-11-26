@@ -1981,6 +1981,27 @@
                <note xml:lang="eng">a place attacked by one of King Wu's commanders after the conquest, in the Great Capture chapter of the Yi Zhou Shu.</note>
             </place>
 
+            <place n="281">
+               <placeName><settlement type="place">Bi 毕</settlement></placeName>
+               <country/><region>Zhou</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the burial place of the Duke of Zhou, beside King Wen; traditionally placed south-west of Xi'an, near Feng and Hao, or on the upland north of Xianyang, Shaanxi.</note>
+            </place>
+
+            <place n="282">
+               <placeName><settlement type="fief">Yang 昜</settlement></placeName>
+               <country/><region>Jin</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the first fief of Tangshu Yu as a bronze inscription writes it, the Tang 唐 of the transmitted texts; in southern Shanxi, traditionally placed at Yicheng, Linfen.</note>
+            </place>
+
+            <place n="283">
+               <placeName><settlement type="site">Machanggou, Kazuo 喀左马厂沟村</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a village in Kazuo County, Chaoyang, Liaoning, where a hoard of early Western Zhou bronzes was found in 1955, among them the yu of the Marquis of Yan.</note>
+            </place>
+
 </listPlace>
       </body>
    </text>

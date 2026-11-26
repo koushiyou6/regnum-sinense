@@ -1530,6 +1530,34 @@
                <listEvent><event><p>c. 1046–1036 BC</p></event></listEvent>
             </person>
 
+            <person n="214">
+               <persName><name>Tangshu Yu 唐叔虞</name><roleName></roleName><forename/><nameLink/><surname/><addName>叔虞</addName><genName/></persName>
+               <nationality>Jin</nationality>
+               <note xml:lang="eng"><p>Yu 虞, Tangshu, full brother of King Cheng, enfeoffed at Tang; the founder of the house of Jin.</p></note>
+               <listEvent><event><p>c. 1036–1000 BC</p></event></listEvent>
+            </person>
+
+            <person n="215">
+               <persName><name>Xiefu 燮父</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Jin</nationality>
+               <note xml:lang="eng"><p>Son and successor of Tangshu Yu, who moved from Tang to Jin.</p></note>
+               <listEvent><event><p>c. 1036–1000 BC</p></event></listEvent>
+            </person>
+
+            <person n="216">
+               <persName><name>King Kang of Zhou 周康王</name><roleName>King of Zhou</roleName><forename/><nameLink/><surname/><addName>钊; 太子钊; 康王</addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>King of Zhou, son and successor of King Cheng; personal name Zhao 钊.</p></note>
+               <listEvent><event><p>c. 1036–1000 BC</p></event></listEvent>
+            </person>
+
+            <person n="217">
+               <persName><name>Sima Qian 司马迁</name><roleName>Grand Historian</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Han</nationality>
+               <note xml:lang="eng"><p>The author of the Shiji, Grand Historian under Emperor Wu of Han.</p></note>
+               <listEvent><event><p>c. 1036–1000 BC</p></event></listEvent>
+            </person>
+
 </listPerson>
       </body>
    </text>
