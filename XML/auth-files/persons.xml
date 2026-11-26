@@ -1558,6 +1558,34 @@
                <listEvent><event><p>c. 1036–1000 BC</p></event></listEvent>
             </person>
 
+            <person n="218">
+               <persName><name>King Zhao of Zhou 周昭王</name><roleName>King of Zhou</roleName><forename/><nameLink/><surname/><addName>瑕; 昭王</addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>King of Zhou, son and successor of King Kang; personal name Xia 瑕.</p></note>
+               <listEvent><event><p>c. 1000–950 BC</p></event></listEvent>
+            </person>
+
+            <person n="219">
+               <persName><name>King Mu of Zhou 周穆王</name><roleName>King of Zhou</roleName><forename/><nameLink/><surname/><addName>满; 穆王</addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>King of Zhou, son and successor of King Zhao; personal name Man 满.</p></note>
+               <listEvent><event><p>c. 1000–950 BC</p></event></listEvent>
+            </person>
+
+            <person n="220">
+               <persName><name>Earl of Guo 过伯</name><roleName></roleName><forename/><nameLink/><surname/><addName>过白</addName><genName/></persName>
+               <nationality></nationality>
+               <note xml:lang="eng"><p>The maker of the Guo Bo gui, who followed King Zhao against Jing; 伯 is written 白 in the inscription.</p></note>
+               <listEvent><event><p>c. 1000–950 BC</p></event></listEvent>
+            </person>
+
+            <person n="221">
+               <persName><name>Queen Mother of the West 西王母</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality></nationality>
+               <note xml:lang="eng"><p>Xiwangmu, the divine queen of the far west whom King Mu meets in the Mu Tianzi Zhuan.</p></note>
+               <listEvent><event><p>c. 1000–950 BC</p></event></listEvent>
+            </person>
+
 </listPerson>
       </body>
    </text>

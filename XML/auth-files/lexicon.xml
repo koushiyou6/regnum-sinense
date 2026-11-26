@@ -1567,6 +1567,48 @@
                <sense n="1"><def>the remains named from the Wanfabozi site, Tonghua, Jilin.</def></sense><note/></entry>
          </superEntry>
 
+         <superEntry n="265">
+            <entry xml:lang="zho"><form><orth>过伯簋</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Guo Bo gui</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a bronze gui of the reign of King Zhao, cast by the Earl of Guo after following the King against Jing.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="266">
+            <entry xml:lang="zho"><form><orth>六师</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>six armies</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the royal army of the Zhou king.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="267">
+            <entry xml:lang="zho"><form><orth>淮夷</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Huaiyi</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Yi peoples of the Huai region.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="268">
+            <entry xml:lang="zho"><form><orth>南夷</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Nanyi</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Yi peoples of the south, in the bronze inscriptions.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="269">
+            <entry xml:lang="zho"><form><orth>卡约文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Kayue culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Bronze Age culture of eastern Qinghai named from the Kayue site, Huangzhong, Xining.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="270">
+            <entry xml:lang="zho"><form><orth>美松里上层文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Upper Misong-ri culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the culture named from the upper stratum of the Misong-ri cave site (美松里, Meisongli in pinyin), Uiju, North Pyongan.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="271">
+            <entry xml:lang="zho"><form><orth>金滩里青铜文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Geumtan-ri Bronze Age culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Bronze Age culture named from the Geumtan-ri site (金滩里, Jintanli in pinyin), at Pyongyang.</def></sense><note/></entry>
+         </superEntry>
+
       </body>
    </text>
 </TEI>

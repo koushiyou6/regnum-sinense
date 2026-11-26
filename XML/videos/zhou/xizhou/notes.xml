@@ -31,6 +31,15 @@
             <interp corresp="punishments_were_laid_aside">刑错: 错 is read as 措, to lay aside (Ying Shao, in the Jijie).</interp>
          </div>
 
+         <div n="4">
+            <interp corresp="Jing">荆: Jing, the name by which the inscriptions and the old texts call Chu.</interp>
+            <interp corresp="Guo_Bo_gui">过伯簋: translated with Robert Eno's version at hand (Inscriptional Records of the Western Zhou, no. 39), which has "Elder of Guo" and "clan shrine". 白 and 乍 are the inscription's forms of 伯 and 作.</interp>
+            <interp corresp="the_six_armies_perished_in_the_Han">丧六师于汉: after Legge's translation of the Bamboo Annals, "The king's six armies perished in the Han".</interp>
+         </div>
+
+         <div n="5">
+         </div>
+
       </body>
    </text>
 </TEI>

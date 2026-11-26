@@ -2002,6 +2002,34 @@
                <note xml:lang="eng">a village in Kazuo County, Chaoyang, Liaoning, where a hoard of early Western Zhou bronzes was found in 1955, among them the yu of the Marquis of Yan.</note>
             </place>
 
+            <place n="284">
+               <placeName><settlement type="state">Kuai 桧</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a state attacked in King Zhao's time, in the bronze inscriptions; taken as the Kuai of the transmitted texts, also written 郐, about Xinmi, Zhengzhou, Henan.</note>
+            </place>
+
+            <place n="285">
+               <placeName><settlement type="river">Ru River 汝水</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a northern tributary of the Huai in central Henan.</note>
+            </place>
+
+            <place n="286">
+               <placeName><settlement type="river">Ying River 颍水</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a northern tributary of the Huai, rising about Dengfeng, Henan, and joining the Huai in Anhui.</note>
+            </place>
+
+            <place n="287">
+               <placeName><settlement type="river">Sha River 沙水</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a river of eastern Henan, a branch of the Ying; the modern Shahe joins Ying River at Zhoukou.</note>
+            </place>
+
 </listPlace>
       </body>
    </text>
