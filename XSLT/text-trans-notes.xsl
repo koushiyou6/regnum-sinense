@@ -229,6 +229,10 @@
                                 <!-- one bracket: its name is the title; the source and year sit beneath -->
                                 <h1><span lang="{$source-lang}"><xsl:value-of select="normalize-space($this-bracket)"/></span></h1>
                                 <xsl:if test="$this-bracket/@en != ''"><p class="era-line"><xsl:value-of select="$this-bracket/@en"/></p></xsl:if>
+                                <!-- a video entry's regnal years (videos.xml <regnal n="N">), as a year's are given in the chronology -->
+                                <xsl:for-each select="$manifest-doc/*:regnal[@n = $bracket]">
+                                    <p class="era-line"><span lang="{$source-lang}"><xsl:value-of select="normalize-space(.)"/></span><xsl:if test="@en != ''"><xsl:text> · </xsl:text><xsl:value-of select="@en"/></xsl:if></p>
+                                </xsl:for-each>
                                 <p class="era-line"><xsl:value-of select="$manifest-doc/@label"/><xsl:text> · </xsl:text><a href="{$year-href}"><xsl:value-of select="$year"/></a><xsl:if test="$manifest-doc/../@label != ''"><xsl:text> · </xsl:text><span lang="{$source-lang}"><xsl:value-of select="$manifest-doc/../@label"/></span></xsl:if></p>
                             </xsl:when>
                             <xsl:otherwise>

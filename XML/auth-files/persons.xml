@@ -1832,10 +1832,101 @@
             </person>
 
             <person n="257">
-               <persName><name>Yijiu 宜臼</name><roleName></roleName><forename/><nameLink/><surname/><addName>太子宜臼</addName><genName/></persName>
+               <persName><name>King Ping of Zhou 周平王</name><roleName>King of Zhou</roleName><forename/><nameLink/><surname/><addName>宜臼; 太子宜臼; 平王</addName><genName/></persName>
                <nationality>Zhou</nationality>
-               <note xml:lang="eng"><p>Son of King You and his Heir Apparent, deposed in favour of Bofu.</p></note>
+               <note xml:lang="eng"><p>King of Zhou, son of King You; personal name Yijiu 宜臼. As Heir Apparent he was deposed in favour of Bofu.</p></note>
                <listEvent><event><p>c. 780–770 BC</p></event></listEvent>
+            </person>
+
+            <person n="258">
+               <persName><name>Han, Duke of Guo 虢公翰</name><roleName>Duke of Guo</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>The Duke of Guo 虢 who set up Yuchen as king, in the Bamboo Annals.</p></note>
+               <listEvent><event><p>770–751 BC</p></event></listEvent>
+            </person>
+
+            <person n="259">
+               <persName><name>King Hui of Xie 携惠王</name><roleName>King</roleName><forename/><nameLink/><surname/><addName>余臣; 携王; 惠王</addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>A king of the house of Zhou set up after King You's death; younger brother of King You, personal name Yuchen 余臣; the King of Xie 携王 of the Bamboo Annals.</p></note>
+               <listEvent><event><p>770–751 BC</p></event></listEvent>
+            </person>
+
+            <person n="260">
+               <persName><name>Marquis of Xing 邢侯</name><roleName>Marquis of Xing</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Xing</nationality>
+               <note xml:lang="eng"><p>A lord of Xing 邢, the state at modern Xingtai, Hebei; his name is not given.</p></note>
+               <listEvent><event><p>770–751 BC</p></event></listEvent>
+            </person>
+
+            <person n="261">
+               <persName><name>Duke Wu of Song 宋武公</name><roleName>Duke of Song</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Song</nationality>
+               <note xml:lang="eng"><p>Duke of Song, son and successor of Duke Dai; personal name Sikong 司空.</p></note>
+               <listEvent><event><p>770–751 BC</p></event></listEvent>
+            </person>
+
+            <person n="262">
+               <persName><name>Yuansi 缘斯</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Di</nationality>
+               <note xml:lang="eng"><p>A chief of the Chang Di of Souman, in the Zuozhuan.</p></note>
+               <listEvent><event><p>770–751 BC</p></event></listEvent>
+            </person>
+
+            <person n="263">
+               <persName><name>Duke Xiang of Qin 秦襄公</name><roleName>Duke of Qin</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>Duke of Qin, grandson of Qin Zhong; under him Qin was first ranked among the Lords.</p></note>
+               <listEvent><event><p>770–751 BC</p></event></listEvent>
+            </person>
+
+            <person n="264">
+               <persName><name>Duke Wen of Qin 秦文公</name><roleName>Duke of Qin</roleName><forename/><nameLink/><surname/><addName>文公</addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>Duke of Qin, son and successor of Duke Xiang.</p></note>
+               <listEvent><event><p>770–751 BC</p></event></listEvent>
+            </person>
+
+            <person n="265">
+               <persName><name>Marquis Wen of Jin 晋文侯</name><roleName>Marquis of Jin</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Jin</nationality>
+               <note xml:lang="eng"><p>Marquis of Jin; personal name Chou 仇.</p></note>
+               <listEvent><event><p>770–751 BC</p></event></listEvent>
+            </person>
+
+            <person n="266">
+               <persName><name>Duke Wu of Wey 卫武公</name><roleName>Duke of Wey</roleName><forename/><nameLink/><surname/><addName>武公</addName><genName/></persName>
+               <nationality>Wey</nationality>
+               <note xml:lang="eng"><p>Duke of Wey; personal name He 和.</p></note>
+               <listEvent><event><p>770–751 BC</p></event></listEvent>
+            </person>
+
+            <person n="267">
+               <persName><name>Duke Zhuang of Wey 卫庄公</name><roleName>Duke of Wey</roleName><forename/><nameLink/><surname/><addName>扬; 庄公</addName><genName/></persName>
+               <nationality>Wey</nationality>
+               <note xml:lang="eng"><p>Duke of Wey, son and successor of Duke Wu; personal name Yang 扬.</p></note>
+               <listEvent><event><p>770–751 BC</p></event></listEvent>
+            </person>
+
+            <person n="268">
+               <persName><name>Duke Wu of Zheng 郑武公</name><roleName>Duke of Zheng</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zheng</nationality>
+               <note xml:lang="eng"><p>Duke of Zheng, son and successor of Duke Huan.</p></note>
+               <listEvent><event><p>770–751 BC</p></event></listEvent>
+            </person>
+
+            <person n="269">
+               <persName><name>Marquis Gong of Cai 蔡共侯</name><roleName>Marquis of Cai</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Cai</nationality>
+               <note xml:lang="eng"><p>Marquis of Cai; personal name Xing 兴.</p></note>
+               <listEvent><event><p>770–751 BC</p></event></listEvent>
+            </person>
+
+            <person n="270">
+               <persName><name>Marquis Dai of Cai 蔡戴侯</name><roleName>Marquis of Cai</roleName><forename/><nameLink/><surname/><addName>戴侯</addName><genName/></persName>
+               <nationality>Cai</nationality>
+               <note xml:lang="eng"><p>Marquis of Cai, son and successor of Marquis Gong.</p></note>
+               <listEvent><event><p>770–751 BC</p></event></listEvent>
             </person>
 
 </listPerson>

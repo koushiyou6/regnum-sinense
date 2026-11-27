@@ -370,6 +370,7 @@
                                                                             <xsl:otherwise><span class="unbuilt" lang="zh"><xsl:value-of select="normalize-space(.)"/></span></xsl:otherwise>
                                                                         </xsl:choose>
                                                                         <xsl:if test="@en != ''"><span class="gloss"><xsl:value-of select="@en"/></span></xsl:if>
+                                                                        <xsl:for-each select="$sdoc/regnal[@n = string($i)]"><span class="gloss"><span lang="zh"><xsl:value-of select="normalize-space(.)"/></span><xsl:if test="@en != ''"><xsl:text> · </xsl:text><xsl:value-of select="@en"/></xsl:if></span></xsl:for-each>
                                                                     </li>
                                                                 </xsl:for-each>
                                                             </ul>

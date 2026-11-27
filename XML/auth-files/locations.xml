@@ -2142,6 +2142,55 @@
                <note xml:lang="eng">the mountain east of Haojing, in Lintong District, Xi'an, Shaanxi.</note>
             </place>
 
+            <place n="304">
+               <placeName><settlement type="place">Xie 携</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the place where the Bamboo Annals has Yuchen set up as king; the commentaries give no site for it.</note>
+            </place>
+
+            <place n="305">
+               <placeName><settlement type="state">Eastern Guo 东虢</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the state of the house of Guo at Xingyang, Zhengzhou, Henan.</note>
+            </place>
+
+            <place n="306">
+               <placeName><settlement type="state">Yan 鄢</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a state on the land that became Zheng's Yan, which Du Yu places at Yanling County in Yingchuan; modern Yanling, Xuchang, Henan.</note>
+            </place>
+
+            <place n="307">
+               <placeName><settlement type="state">Dan 聃</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a state of the Ji surname, the fief of Danji, son of King Wen (Wei Zhao on the Guoyu); Du Yu gives no site for it.</note>
+            </place>
+
+            <place n="308">
+               <placeName><settlement type="place">Changqiu 长丘</settlement></placeName>
+               <country/><region>Song</region>
+               <location><geo/></location>
+               <note xml:lang="eng">a place in Song (Du Yu), put by Meng Kang in Fengqiu County; modern Fengqiu, Xinxiang, Henan.</note>
+            </place>
+
+            <place n="309">
+               <placeName><settlement type="place">Shao'e 少鄂</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the place where Marquis Wen of Jin met King Ping, in the Xinian of the Tsinghua slips; it is not named in the transmitted texts.</note>
+            </place>
+
+            <place n="310">
+               <placeName><settlement type="place">Jingshi 京师</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the place where King Ping was set up, in the Xinian of the Tsinghua slips; taken by some as the Zhou capital and by others as a place of that name in Jin.</note>
+            </place>
+
 </listPlace>
       </body>
    </text>

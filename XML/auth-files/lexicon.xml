@@ -1753,6 +1753,30 @@
                <sense n="1"><def>a Rong people attacked by Duke Xian of Jin.</def></sense><note/></entry>
          </superEntry>
 
+         <superEntry n="296">
+            <entry xml:lang="zho"><form><orth>北戎</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Northern Rong</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Rong peoples north of the Zhou states.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="297">
+            <entry xml:lang="zho"><form><orth>长狄</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Chang Di</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the "Tall Di", a Di people of the north.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="298">
+            <entry xml:lang="zho"><form><orth>鄋瞒</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Souman</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the state of the Chang Di (Du Yu).</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="299">
+            <entry xml:lang="zho"><form><orth>蛮</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Man</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the non-Zhou peoples of the south in the transmitted texts.</def></sense><note/></entry>
+         </superEntry>
+
       </body>
    </text>
 </TEI>

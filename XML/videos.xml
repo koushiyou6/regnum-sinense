@@ -38,6 +38,10 @@
             <bracket en="c. 800–781 BC">约公元前800年—公元前781年</bracket>
             <bracket en="c. 800–781 BC (archaeological appearances)">约公元前800年—公元前781年</bracket>
             <bracket en="c. 780–770 BC">约公元前780年—公元前770年</bracket>
+            <bracket en="770–751 BC">公元前770年—公元前751年</bracket>
+            <!-- the regnal years of an entry (n = the entry's number), shown under its heading as a year's are in the chronology -->
+            <regnal n="15" en="1st to 20th year of King Ping of Zhou">周平王元年 — 二十年</regnal>
+            <regnal n="15" en="1st to 20th year of King Hui of Xie">携惠王元年 — 二十年</regnal>
          </document>
       </section>
       <years from="-770" to="-256" en="770–256 BC, by year"/>

@@ -234,7 +234,7 @@ def write_search_index(manifest):
                 zh = text(src_divs[n]) if n in src_divs else ""
                 en = text(eng_divs[n])
                 # the page's annotations and introduction are searched too (the "no" field)
-                extra = []
+                extra = [f"{r.text or ''} {r.get('en', '')}".strip() for r in doc.findall("regnal") if r.get("n") == n]
                 for fname in ("notes.xml", "intro.xml"):
                     fp = XML / d / fname
                     if fp.exists():
