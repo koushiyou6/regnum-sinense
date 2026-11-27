@@ -2079,6 +2079,69 @@
                <note xml:lang="eng">the place of King Li's exile; modern Huozhou, Linfen, Shanxi.</note>
             </place>
 
+            <place n="295">
+               <placeName><settlement type="region">Xichui 西垂</settlement></placeName>
+               <country/><region>Qin</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the western marches, the land of the lords of Qin in eastern Gansu, about Lixian, Longnan.</note>
+            </place>
+
+            <place n="296">
+               <placeName><settlement type="place">Qianmu 千亩</settlement></placeName>
+               <country/><region>Zhou</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the field of a thousand mu where the king ploughed the sacred field; also the place of the royal army's defeat by the Rong of the Jiang clan.</note>
+            </place>
+
+            <place n="297">
+               <placeName><settlement type="state">Zhu 邾</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a state of southern Shandong, written 邾娄, Zhulou, in the Gongyang Zhuan; modern Zoucheng, Jining, Shandong.</note>
+            </place>
+
+            <place n="298">
+               <placeName><settlement type="state">Shen 申</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the state of the Jiang surname to which the Heir Apparent Yijiu fled, the Western Shen 西申, as distinct from the Shen settled at Nanyang under King Xuan.</note>
+            </place>
+
+            <place n="299">
+               <placeName><settlement type="state">Zeng 曾</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a state that joined Shen and the Rong against King You, written 曾, 缯 and 鄫; the Western Zeng 西曾.</note>
+            </place>
+
+            <place n="300">
+               <placeName><settlement type="state">Guo 虢</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the state of the house of Guo, which moved east in King You's time; its later seat was at Sanmenxia, Henan.</note>
+            </place>
+
+            <place n="301">
+               <placeName><settlement type="state">Zheng 郑</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the state of Zheng, which moved east at the end of the Western Zhou to the country about Xinzheng, Henan.</note>
+            </place>
+
+            <place n="302">
+               <placeName><settlement type="state">Bao 褒</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the state from which Bao Si came; traditionally placed about Hanzhong, Shaanxi.</note>
+            </place>
+
+            <place n="303">
+               <placeName><settlement type="mountain">Lishan 骊山</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the mountain east of Haojing, in Lintong District, Xi'an, Shaanxi.</note>
+            </place>
+
 </listPlace>
       </body>
    </text>

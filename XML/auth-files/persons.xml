@@ -1706,7 +1706,7 @@
             </person>
 
             <person n="239">
-               <persName><name>Duke of Shao 召公</name><roleName>Duke of Shao</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <persName><name>Duke of Shao 召公</name><roleName>Duke of Shao</roleName><forename/><nameLink/><surname/><addName>召伯虎; 召虎</addName><genName/></persName>
                <nationality>Zhou</nationality>
                <note xml:lang="eng"><p>The Duke of Shao of King Li's time, a descendant of Shi, Duke of Shao; one of the two Chancellors of the Gonghe years, in whose house the Heir Apparent Jing grew up.</p></note>
                <listEvent><event><p>c. 841–827 BC</p></event></listEvent>
@@ -1745,6 +1745,97 @@
                <nationality>Zhou</nationality>
                <note xml:lang="eng"><p>King of Zhou, son and successor of King Li; personal name Jing 静.</p></note>
                <listEvent><event><p>c. 841–827 BC</p></event></listEvent>
+            </person>
+
+            <person n="245">
+               <persName><name>Huangfu 皇父</name><roleName>Grand Preceptor</roleName><forename/><nameLink/><surname/><addName>南仲皇父</addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>The Grand Preceptor of King Xuan in the Chang Wu, of the line of Nanzhong.</p></note>
+               <listEvent><event><p>c. 827–800 BC</p></event></listEvent>
+            </person>
+
+            <person n="246">
+               <persName><name>Fangshu 方叔</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>A minister of King Xuan, the commander praised in the Cai Qi.</p></note>
+               <listEvent><event><p>c. 827–800 BC</p></event></listEvent>
+            </person>
+
+            <person n="247">
+               <persName><name>Duke Wen of Guo 虢文公</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>A minister of King Xuan, who remonstrated when the King did not plough the sacred field.</p></note>
+               <listEvent><event><p>c. 800–781 BC</p></event></listEvent>
+            </person>
+
+            <person n="248">
+               <persName><name>Duke Xiao of Lu 鲁孝公</name><roleName>Duke of Lu</roleName><forename/><nameLink/><surname/><addName>孝公</addName><genName/></persName>
+               <nationality>Lu</nationality>
+               <note xml:lang="eng"><p>Duke of Lu, set up by King Xuan.</p></note>
+               <listEvent><event><p>c. 800–781 BC</p></event></listEvent>
+            </person>
+
+            <person n="249">
+               <persName><name>King You of Zhou 周幽王</name><roleName>King of Zhou</roleName><forename/><nameLink/><surname/><addName>宫湦; 幽王</addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>King of Zhou, son and successor of King Xuan; personal name Gongsheng 宫湦.</p></note>
+               <listEvent><event><p>c. 800–781 BC</p></event></listEvent>
+            </person>
+
+            <person n="250">
+               <persName><name>Boshi 伯士</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>A commander of King You, who died in the defeat by the Rong of Liuji.</p></note>
+               <listEvent><event><p>c. 780–770 BC</p></event></listEvent>
+            </person>
+
+            <person n="251">
+               <persName><name>Shi Bo 史伯</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>The scribe (史) Bo of the Zhou court, whose words at the end of the Western Zhou are recorded in the Guoyu.</p></note>
+               <listEvent><event><p>c. 780–770 BC</p></event></listEvent>
+            </person>
+
+            <person n="252">
+               <persName><name>Bofu 伯服</name><roleName></roleName><forename/><nameLink/><surname/><addName>伯盘</addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>Son of King You and Bao Si, set up as Heir Apparent in place of Yijiu; also written Bopan 伯盘.</p></note>
+               <listEvent><event><p>c. 780–770 BC</p></event></listEvent>
+            </person>
+
+            <person n="253">
+               <persName><name>Duke Xian of Jin 晋献公</name><roleName>Duke of Jin</roleName><forename/><nameLink/><surname/><addName>献公</addName><genName/></persName>
+               <nationality>Jin</nationality>
+               <note xml:lang="eng"><p>Duke of Jin, to whom Shi Su spoke of the fall of King You.</p></note>
+               <listEvent><event><p>c. 780–770 BC</p></event></listEvent>
+            </person>
+
+            <person n="254">
+               <persName><name>Shi Su 史苏</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Jin</nationality>
+               <note xml:lang="eng"><p>A scribe (史) and diviner of Duke Xian of Jin.</p></note>
+               <listEvent><event><p>c. 780–770 BC</p></event></listEvent>
+            </person>
+
+            <person n="255">
+               <persName><name>Bao Si 褒姒</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>The woman of Bao given to King You, the mother of Bofu.</p></note>
+               <listEvent><event><p>c. 780–770 BC</p></event></listEvent>
+            </person>
+
+            <person n="256">
+               <persName><name>Guo Shifu 虢石甫</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>A minister of King You, of the house of Guo, in league with Bao Si.</p></note>
+               <listEvent><event><p>c. 780–770 BC</p></event></listEvent>
+            </person>
+
+            <person n="257">
+               <persName><name>Yijiu 宜臼</name><roleName></roleName><forename/><nameLink/><surname/><addName>太子宜臼</addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>Son of King You and his Heir Apparent, deposed in favour of Bofu.</p></note>
+               <listEvent><event><p>c. 780–770 BC</p></event></listEvent>
             </person>
 
 </listPerson>

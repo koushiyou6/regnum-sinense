@@ -65,6 +65,29 @@
             <interp corresp="In_the_fourteenth_year_of_Gonghe">共和十四年: 827 BC.</interp>
          </div>
 
+         <div n="11">
+            <interp corresp="When_King_Xuan_came_to_the_throne">宣王即位…: the first sentence is the text of the Shiji, Basic Annals of Zhou; what follows is drawn from the Basic Annals of Qin.</interp>
+            <interp corresp="Jiang_Han">江汉: Legge's translation, with the names in pinyin: the first stanza, and from the third the King's charge.</interp>
+            <interp corresp="Chang_Wu">常武: Legge's translation of the last stanza, with the names in pinyin.</interp>
+            <interp corresp="Cai_Qi">采芑: Legge's translation of the last stanza, with the names in pinyin.</interp>
+         </div>
+
+         <div n="12">
+            <interp corresp="thirty-second_year">三十二年: 795 BC, with King Xuan's first year at 826 BC.</interp>
+            <interp corresp="thirty-ninth_year">三十九年: 788 BC.</interp>
+            <interp corresp="forty-sixth_year">四十六年: 781 BC.</interp>
+         </div>
+
+         <div n="13">
+         </div>
+
+         <div n="14">
+            <interp corresp="Ten_years_after">宣王征申戎后十年…伯士死焉: the text of the Hou Hanshu, Account of the Western Qiang.</interp>
+            <interp corresp="Zhulou">邾娄: the Gongyang Zhuan's form of 邾, Zhu.</interp>
+            <interp corresp="Shao_Min">召旻: the first two stanzas are Legge's translation; the last is rendered with his notes on it, which give "to open up", "contracted" and "men of the old virtue".</interp>
+            <interp corresp="Zeng">曾, 缯, 鄫: three ways of writing the one name, Zeng.</interp>
+         </div>
+
       </body>
    </text>
 </TEI>

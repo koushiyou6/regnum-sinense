@@ -1717,6 +1717,42 @@
                <sense n="1"><def>the Rong peoples west of the Zhou.</def></sense><note/></entry>
          </superEntry>
 
+         <superEntry n="290">
+            <entry xml:lang="zho"><form><orth>籍田</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>sacred field</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>jitian, the field ploughed by the king in person at the opening of the farming year.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="291">
+            <entry xml:lang="zho"><form><orth>姜氏之戎</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Rong of the Jiang clan</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a Rong people who routed the royal army at Qianmu.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="292">
+            <entry xml:lang="zho"><form><orth>沙井文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Shajing culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the culture of the Hexi corridor named from the Shajing site, Minqin, Gansu.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="293">
+            <entry xml:lang="zho"><form><orth>申戎</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Shen Rong</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a Rong people attacked by King Xuan.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="294">
+            <entry xml:lang="zho"><form><orth>六济之戎</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Rong of Liuji</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a Rong people who defeated King You's commander Boshi.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="295">
+            <entry xml:lang="zho"><form><orth>骊戎</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Li Rong</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a Rong people attacked by Duke Xian of Jin.</def></sense><note/></entry>
+         </superEntry>
+
       </body>
    </text>
 </TEI>
