@@ -1670,6 +1670,83 @@
                <listEvent><event><p>c. 900–860 BC</p></event></listEvent>
             </person>
 
+            <person n="234">
+               <persName><name>Guo Zhong 虢仲</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>Zhong of Guo 虢, the commander King Li sent against the Huaiyi.</p></note>
+               <listEvent><event><p>c. 860–841 BC</p></event></listEvent>
+            </person>
+
+            <person n="235">
+               <persName><name>Xiong Qu 熊渠</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Chu</nationality>
+               <note xml:lang="eng"><p>Ruler of Chu in the time of King Yi 夷 and King Li, who took the title of king and then gave it up.</p></note>
+               <listEvent><event><p>c. 860–841 BC</p></event></listEvent>
+            </person>
+
+            <person n="236">
+               <persName><name>Yufang, Marquis of E 噩侯驭方</name><roleName>Marquis of E</roleName><forename/><nameLink/><surname/><addName>鄂侯驭方; 驭方</addName><genName/></persName>
+               <nationality>E</nationality>
+               <note xml:lang="eng"><p>Yufang 驭方, Marquis of E, who led the Huaiyi against Zhou under King Li and was taken in Duke Wu's campaign; 噩 is the bronze inscriptions' form of 鄂.</p></note>
+               <listEvent><event><p>c. 860–841 BC</p></event></listEvent>
+            </person>
+
+            <person n="237">
+               <persName><name>Duke Wu 武公</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>The chief commander of the Zhou court under King Li, in the Yu ding.</p></note>
+               <listEvent><event><p>c. 860–841 BC</p></event></listEvent>
+            </person>
+
+            <person n="238">
+               <persName><name>Fuzi 服子</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality></nationality>
+               <note xml:lang="eng"><p>The ruler of the southern lands in the Zongzhou zhong, whose capital was broken by King Li.</p></note>
+               <listEvent><event><p>c. 860–841 BC</p></event></listEvent>
+            </person>
+
+            <person n="239">
+               <persName><name>Duke of Shao 召公</name><roleName>Duke of Shao</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>The Duke of Shao of King Li's time, a descendant of Shi, Duke of Shao; one of the two Chancellors of the Gonghe years, in whose house the Heir Apparent Jing grew up.</p></note>
+               <listEvent><event><p>c. 841–827 BC</p></event></listEvent>
+            </person>
+
+            <person n="240">
+               <persName><name>Duke of Zhou 周公</name><roleName>Duke of Zhou</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>The Duke of Zhou of King Li's time, a descendant of Dan, Duke of Zhou; one of the two Chancellors of the Gonghe years.</p></note>
+               <listEvent><event><p>c. 841–827 BC</p></event></listEvent>
+            </person>
+
+            <person n="241">
+               <persName><name>He, Earl of Gong 共伯和</name><roleName>Earl of Gong</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>He 和, Earl of Gong, who by the Bamboo Annals conducted the affairs of the Son of Heaven after King Li's flight.</p></note>
+               <listEvent><event><p>c. 841–827 BC</p></event></listEvent>
+            </person>
+
+            <person n="242">
+               <persName><name>Qin Zhong 秦仲</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>Ruler of Qin, reigned 844–822 BC, great-grandson of Feizi.</p></note>
+               <listEvent><event><p>c. 841–827 BC</p></event></listEvent>
+            </person>
+
+            <person n="243">
+               <persName><name>Daluo 大骆</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>Father of Feizi, whose clan held Quanqiu.</p></note>
+               <listEvent><event><p>c. 841–827 BC</p></event></listEvent>
+            </person>
+
+            <person n="244">
+               <persName><name>King Xuan of Zhou 周宣王</name><roleName>King of Zhou</roleName><forename/><nameLink/><surname/><addName>静; 太子静; 宣王</addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>King of Zhou, son and successor of King Li; personal name Jing 静.</p></note>
+               <listEvent><event><p>c. 841–827 BC</p></event></listEvent>
+            </person>
+
 </listPerson>
       </body>
    </text>

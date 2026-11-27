@@ -2058,6 +2058,27 @@
                <note xml:lang="eng">the settlement given to Feizi by King Xiao of Zhou, from which the house of Qin took its name; traditionally placed about Qingshui and Zhangjiachuan, Tianshui, Gansu.</note>
             </place>
 
+            <place n="292">
+               <placeName><settlement type="state">E 噩</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">a state of the south, written 噩 in the bronze inscriptions and 鄂 in the transmitted texts; its early Western Zhou cemetery lies at Yangzishan, Suizhou, Hubei.</note>
+            </place>
+
+            <place n="293">
+               <placeName><settlement type="site">Xiaquan village 下泉村</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">Xiaquan village, Chang'an District, Xi'an, Shaanxi, where the Duo You ding was found in 1980.</note>
+            </place>
+
+            <place n="294">
+               <placeName><settlement type="place">Zhi 彘</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the place of King Li's exile; modern Huozhou, Linfen, Shanxi.</note>
+            </place>
+
 </listPlace>
       </body>
    </text>

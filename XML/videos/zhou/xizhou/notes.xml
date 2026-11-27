@@ -54,6 +54,17 @@
          <div n="8">
          </div>
 
+         <div n="9">
+            <interp corresp="King_Li_was_without_the_Way">厉王无道，淮夷入寇，王命虢仲征之，不克: the words of the Hou Hanshu, Account of the Eastern Yi; 熊渠畏其伐楚，亦去其王 are those of the Shiji, Hereditary House of Chu.</interp>
+            <interp corresp="Wild_Domain">荒服: the outermost of the five domains in the Tribute of Yu of the Documents, in Legge "the Wild domain".</interp>
+         </div>
+
+         <div n="10">
+            <interp corresp="When_King_Li_had_fled">厉王既亡，有共伯和者摄行天子事: the Bamboo Annals as the Jinshu, Biography of Shu Xi, reports it, where the received text has 幽王 for 厉王.</interp>
+            <interp corresp="In_the_third_year">秦仲立三年: 842 BC; the paragraph is the text of the Shiji, Basic Annals of Qin.</interp>
+            <interp corresp="In_the_fourteenth_year_of_Gonghe">共和十四年: 828 BC.</interp>
+         </div>
+
       </body>
    </text>
 </TEI>

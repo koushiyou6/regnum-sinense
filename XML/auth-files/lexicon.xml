@@ -1669,6 +1669,54 @@
                <sense n="1"><def>the area of the Songguk-ri culture, named from the Songguk-ri site (松菊里, Songjuli in pinyin), Buyeo, South Chungcheong.</def></sense><note/></entry>
          </superEntry>
 
+         <superEntry n="282">
+            <entry xml:lang="zho"><form><orth>禹鼎</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Yu ding</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a bronze ding cast by Yu 禹, recording Duke Wu's campaign against Yufang, Marquis of E, and his capture.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="283">
+            <entry xml:lang="zho"><form><orth>宗周钟</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Zongzhou zhong</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a bronze bell of King Li, recording his campaign against Fuzi of the southern lands and the audience of the Nanyi and the Dongyi.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="284">
+            <entry xml:lang="zho"><form><orth>多友鼎</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Duo You ding</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a bronze ding cast by Duo You, recording the pursuit of the Xianyun who had raided towards the capital.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="285">
+            <entry xml:lang="zho"><form><orth>玁狁</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Xianyun</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a people of the north-west who raided the Zhou in the later Western Zhou.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="286">
+            <entry xml:lang="zho"><form><orth>荒服</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Wild Domain</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the outermost of the five domains of submission, whose peoples owed the king tribute.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="287">
+            <entry xml:lang="zho"><form><orth>国人</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>people of the capital</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>guoren, the free inhabitants of the capital, who paid the military levy, served as soldiers and were consulted on great matters of state.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="288">
+            <entry xml:lang="zho"><form><orth>共和</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Gonghe</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the name of the fourteen years between King Li's flight and King Xuan's accession, 841–828 BC.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="289">
+            <entry xml:lang="zho"><form><orth>西戎</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Western Rong</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Rong peoples west of the Zhou.</def></sense><note/></entry>
+         </superEntry>
+
       </body>
    </text>
 </TEI>
