@@ -23,7 +23,7 @@ MANIFEST = XML / "site.xml"
 
 def build():
     import subprocess, sys
-    subprocess.run([sys.executable, "-I", str(ROOT / "tools" / "build-font.py")], check=True)   # subset CJK font for the current texts
+    subprocess.run([sys.executable, "-I", str(ROOT / "tools" / "build-font.py"), str(SITE)], check=True)   # subset CJK font for the current texts
     manifest = ET.parse(MANIFEST).getroot()
     with PySaxonProcessor(license=False) as proc:
         page_xslt = proc.new_xslt30_processor()
