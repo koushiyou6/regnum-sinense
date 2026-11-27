@@ -1614,6 +1614,62 @@
                <listEvent><event><p>c. 950–900 BC</p></event></listEvent>
             </person>
 
+            <person n="226">
+               <persName><name>Shi Su 师俗</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>An officer (师) of the King, sent with Shi Mi against the Nanyi, in the Shi Mi gui.</p></note>
+               <listEvent><event><p>c. 900–860 BC</p></event></listEvent>
+            </person>
+
+            <person n="227">
+               <persName><name>Shi Mi 史密</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>A scribe (史) of the King, the maker of the Shi Mi gui, sent with Shi Su against the Nanyi at the head of the army of Qi.</p></note>
+               <listEvent><event><p>c. 900–860 BC</p></event></listEvent>
+            </person>
+
+            <person n="228">
+               <persName><name>King Xiao of Zhou 周孝王</name><roleName>King of Zhou</roleName><forename/><nameLink/><surname/><addName>辟方; 孝王</addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>King of Zhou, younger brother of King Gong and successor of King Yi 懿; personal name Pifang 辟方.</p></note>
+               <listEvent><event><p>c. 900–860 BC</p></event></listEvent>
+            </person>
+
+            <person n="229">
+               <persName><name>Feizi of Qin 秦非子</name><roleName></roleName><forename/><nameLink/><surname/><addName>非子; 秦嬴</addName><genName/></persName>
+               <nationality>Qin</nationality>
+               <note xml:lang="eng"><p>Feizi, a man of Quanqiu who reared horses for King Xiao of Zhou, was given Qin as his settlement and was styled Qin Ying 秦嬴; the founder of the house of Qin.</p></note>
+               <listEvent><event><p>c. 900–860 BC</p></event></listEvent>
+            </person>
+
+            <person n="230">
+               <persName><name>King Yi of Zhou 周夷王</name><roleName>King of Zhou</roleName><forename/><nameLink/><surname/><addName>燮; 夷王</addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>King of Zhou, son of King Yi 懿 and successor of King Xiao; personal name Xie 燮.</p></note>
+               <listEvent><event><p>c. 900–860 BC</p></event></listEvent>
+            </person>
+
+            <person n="231">
+               <persName><name>King Li of Zhou 周厉王</name><roleName>King of Zhou</roleName><forename/><nameLink/><surname/><addName>胡; 厉王</addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>King of Zhou, son and successor of King Yi 夷; personal name Hu 胡.</p></note>
+               <listEvent><event><p>c. 900–860 BC</p></event></listEvent>
+            </person>
+
+            <person n="232">
+               <persName><name>Duke of Guo 虢公</name><roleName>Duke of Guo</roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>The Duke of Guo 虢 whom King Yi 夷 ordered to lead the six armies against the Quan Rong of Taiyuan, in the Bamboo Annals.</p></note>
+               <listEvent><event><p>c. 900–860 BC</p></event></listEvent>
+            </person>
+
+            <person n="233">
+               <persName><name>Yu 敔</name><roleName></roleName><forename/><nameLink/><surname/><addName></addName><genName/></persName>
+               <nationality>Zhou</nationality>
+               <note xml:lang="eng"><p>The maker of the Yu gui, ordered to pursue the Southern Huaiyi.</p></note>
+               <listEvent><event><p>c. 900–860 BC</p></event></listEvent>
+            </person>
+
 </listPerson>
       </body>
    </text>

@@ -2037,6 +2037,27 @@
                <note xml:lang="eng">a state of the Ying and Huai country where Dong fought the Huaiyi; traditionally placed at Yancheng, Luohe, Henan, or at Fuyang, Anhui.</note>
             </place>
 
+            <place n="289">
+               <placeName><settlement type="city">Quanqiu 犬丘</settlement></placeName>
+               <country/><region>Zhou</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the Zhou name of the Huaili 槐里 of Right Fufeng under the Han, the capital of King Yi 懿; modern Xingping, Xianyang, Shaanxi.</note>
+            </place>
+
+            <place n="290">
+               <placeName><settlement type="region">Taiyuan 太原</settlement></placeName>
+               <country/><region></region>
+               <location><geo/></location>
+               <note xml:lang="eng">the Taiyuan to which King Mu moved the Quan Rong, in the Bamboo Annals; generally placed on the upper Jing River about Pingliang, Gansu, and Guyuan, Ningxia, not at the Taiyuan of Shanxi.</note>
+            </place>
+
+            <place n="291">
+               <placeName><settlement type="settlement">Qin 秦</settlement></placeName>
+               <country/><region>Qin</region>
+               <location><geo/></location>
+               <note xml:lang="eng">the settlement given to Feizi by King Xiao of Zhou, from which the house of Qin took its name; traditionally placed about Qingshui and Zhangjiachuan, Tianshui, Gansu.</note>
+            </place>
+
 </listPlace>
       </body>
    </text>

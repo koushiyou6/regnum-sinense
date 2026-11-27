@@ -1621,6 +1621,54 @@
                <sense n="1"><def>two bronze ding cast by Yu; the Xiao Yu ding records his campaigns against the Guifang and the presentation of the captives.</def></sense><note/></entry>
          </superEntry>
 
+         <superEntry n="274">
+            <entry xml:lang="zho"><form><orth>史密簋</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Shi Mi gui</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a bronze gui cast by Shi Mi, recording an eastern campaign with the army of Qi against the Nanyi and their allies; found at Ankang, Shaanxi, in 1986.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="275">
+            <entry xml:lang="zho"><form><orth>南淮夷</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>the Southern Huaiyi</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the Huaiyi of the south, in the bronze inscriptions, where 夷 is written 尸.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="276">
+            <entry xml:lang="zho"><form><orth>敔簋</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Yu gui</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a bronze gui cast by Yu, recording his pursuit of the Southern Huaiyi.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="277">
+            <entry xml:lang="zho"><form><orth>鄂侯驭方鼎</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>E Hou Yufang ding</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>a bronze ding cast by Yufang, Marquis of E, recording his reception by the King on the return from a southern campaign.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="278">
+            <entry xml:lang="zho"><form><orth>南京青铜时代二期文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Namgyeong Bronze Age Phase II culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the culture named from the second Bronze Age phase of the Namgyeong site (南京, Nanjing in pinyin), at Pyongyang.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="279">
+            <entry xml:lang="zho"><form><orth>金滩里青铜时代二期文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Geumtan-ri Bronze Age Phase II culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the culture named from the second Bronze Age phase of the Geumtan-ri site (金滩里, Jintanli in pinyin), at Pyongyang.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="280">
+            <entry xml:lang="zho"><form><orth>虎骨洞四期文化</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Beomui-guseok Phase IV culture</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the culture named from the fourth phase of the Beomui-guseok site (虎谷洞, Hugudong in pinyin), Musan, North Hamgyong.</def></sense><note/></entry>
+         </superEntry>
+
+         <superEntry n="281">
+            <entry xml:lang="zho"><form><orth>松菊里文化区</orth></form><gramGrp><pos>n</pos></gramGrp><sense n="1"><def/></sense></entry>
+            <entry xml:lang="eng"><form><orth>Songguk-ri culture area</orth></form><gramGrp><pos>n</pos></gramGrp>
+               <sense n="1"><def>the area of the Songguk-ri culture, named from the Songguk-ri site (松菊里, Songjuli in pinyin), Buyeo, South Chungcheong.</def></sense><note/></entry>
+         </superEntry>
+
       </body>
    </text>
 </TEI>
